@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人间无尽途</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="game-container">
+    <!-- 标题屏 -->
+    <div id="title-screen" class="screen">
+      <h1 class="game-title">人间无尽途</h1>
+      <p class="game-subtitle">独行长路 · 人间百态 · 浮生过客 · 无尽行途</p>
+      <div class="title-actions">
+        <button id="btn-new-game" class="btn-choice">踏入人间</button>
+        <button id="btn-continue" class="btn-choice" style="display:none;">继续旅途</button>
+        <button id="btn-load" class="btn-choice" style="display:none;">读取存档</button>
+      </div>
+    </div>
+
+    <!-- 游戏屏 -->
+    <div id="game-screen" class="screen" style="display:none;">
+      <div id="scene-title" class="scene-title"></div>
+      <div id="story-text" class="story-text"></div>
+      <div id="choices-container" class="choices-container"></div>
+      <div id="status-bar" class="status-bar">
+        <span id="stat-experience">阅历: 0</span>
+        <span id="stat-mood">心境: 迷茫</span>
+      </div>
+    </div>
+
+    <!-- 存档屏 -->
+    <div id="save-screen" class="screen" style="display:none;">
+      <h2 class="save-title">存档</h2>
+      <div id="save-slots" class="save-slots"></div>
+      <button id="btn-back" class="btn-choice">返回</button>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

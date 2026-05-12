@@ -1,0 +1,211 @@
+/* css/style.css */
+
+:root {
+  --bg: #0a0a0a;
+  --text: #e0e0e0;
+  --text-dim: #666666;
+  --text-muted: #444444;
+  --border: #333333;
+  --border-hover: #666666;
+  --font-main: -apple-system, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-main);
+  font-size: 18px;
+  line-height: 1.8;
+  overflow: hidden;
+}
+
+#game-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen {
+  width: 100%;
+  max-width: 680px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 标题屏 */
+.game-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.5em;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.game-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  letter-spacing: 0.3em;
+  margin-bottom: 3rem;
+}
+
+.title-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* 游戏屏 */
+.scene-title {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  letter-spacing: 0.2em;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.story-text {
+  width: 100%;
+  margin-bottom: 2rem;
+  min-height: 200px;
+}
+
+.story-text p {
+  margin-bottom: 1em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.story-text p.visible {
+  opacity: 1;
+}
+
+.choices-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* 选项按钮 */
+.btn-choice {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+  text-align: left;
+  width: 100%;
+}
+
+.btn-choice:hover {
+  border-color: var(--border-hover);
+}
+
+.btn-choice:active {
+  opacity: 0.8;
+}
+
+/* 状态栏 */
+.status-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: var(--bg);
+}
+
+/* 存档屏 */
+.save-title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--text-dim);
+  margin-bottom: 2rem;
+  letter-spacing: 0.3em;
+}
+
+.save-slots {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.save-slot {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.save-slot:hover {
+  border-color: var(--border-hover);
+}
+
+.save-slot-title {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-bottom: 0.25rem;
+}
+
+.save-slot-info {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* 打字机光标 */
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: var(--text-dim);
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  .screen {
+    padding: 1.5rem;
+  }
+
+  .game-title {
+    font-size: 1.8rem;
+  }
+
+  .status-bar {
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+  }
+}
