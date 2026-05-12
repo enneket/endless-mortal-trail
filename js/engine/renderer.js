@@ -14,16 +14,15 @@ const FADE_IN_MS = 200;
 
 export class Renderer {
   constructor() {
-    /** @type {HTMLElement} */
     this.storyEl = document.getElementById('story-text');
-    /** @type {HTMLElement} */
     this.titleEl = document.getElementById('scene-title');
-    /** @type {HTMLElement} */
     this.choicesEl = document.getElementById('choices-container');
-    /** @type {HTMLElement} */
     this.statExpEl = document.getElementById('stat-experience');
-    /** @type {HTMLElement} */
     this.statMoodEl = document.getElementById('stat-mood');
+
+    if (!this.storyEl || !this.titleEl || !this.choicesEl) {
+      throw new Error('[Renderer] Missing required DOM elements');
+    }
 
     /** @type {boolean} */
     this.isTyping = false;
@@ -189,6 +188,11 @@ export class Renderer {
    * 淡出故事区域，清空内容，再淡入。
    */
   async transitionToScene() {
+    this.skipRequested = true;
+    if (this.currentTimeout !== null) {
+      clearTimeout(this.currentTimeout);
+      this.currentTimeout = null;
+    }
     this.storyEl.style.opacity = '0';
     await this.wait(FADE_OUT_MS);
 
