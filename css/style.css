@@ -79,6 +79,7 @@ html, body {
   width: 100%;
   margin-bottom: 2rem;
   min-height: 200px;
+  transition: opacity 0.3s ease;
 }
 
 .story-text p {
@@ -211,10 +212,43 @@ html, body {
 
   .game-title {
     font-size: 1.8rem;
+    letter-spacing: 0.3em;
+  }
+
+  .game-subtitle {
+    letter-spacing: 0.15em;
+    font-size: 0.75rem;
+  }
+
+  .btn-choice {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .story-text p {
+    margin-bottom: 0.8em;
+  }
+
+  .choices-container {
+    gap: 0.5rem;
   }
 
   .status-bar {
     padding: 0.5rem 1rem;
     gap: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  html, body {
+    font-size: 15px;
+  }
+
+  .screen {
+    padding: 1rem;
+  }
+
+  .game-title {
+    font-size: 1.5rem;
   }
 }

@@ -32,7 +32,7 @@ export class Renderer {
     this.currentTimeout = null;
 
     this._handleClickBound = this.handleClick.bind(this);
-    document.addEventListener('click', this._handleClickBound);
+    this.storyEl.addEventListener('click', this._handleClickBound);
   }
 
   // ---------------------------------------------------------------------------
@@ -94,6 +94,16 @@ export class Renderer {
         p.classList.add('visible');
       } else {
         await this.typewriteParagraph(p, texts[i]);
+      }
+
+      if (this.skipRequested) {
+        for (let j = i + 1; j < texts.length; j++) {
+          const p2 = document.createElement('p');
+          p2.textContent = texts[j];
+          p2.classList.add('visible');
+          this.storyEl.appendChild(p2);
+        }
+        break;
       }
     }
 
@@ -247,7 +257,7 @@ export class Renderer {
    * 移除事件监听器，清理定时器。
    */
   destroy() {
-    document.removeEventListener('click', this._handleClickBound);
+    this.storyEl.removeEventListener('click', this._handleClickBound);
     if (this.currentTimeout !== null) {
       clearTimeout(this.currentTimeout);
       this.currentTimeout = null;

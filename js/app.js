@@ -80,9 +80,10 @@ export class App {
    * 根据存档状态显示/隐藏"继续旅途"和"读取存档"按钮。
    */
   updateTitleScreen() {
-    const hasSave = this.saveManager.hasSave();
-    document.getElementById('btn-continue').classList.toggle('hidden', !hasSave);
-    document.getElementById('btn-load').classList.toggle('hidden', !hasSave);
+    const hasSlot1 = this.saveManager.getSaveInfo(1) !== null;
+    const hasAnySave = this.saveManager.hasSave();
+    document.getElementById('btn-continue').classList.toggle('hidden', !hasSlot1);
+    document.getElementById('btn-load').classList.toggle('hidden', !hasAnySave);
   }
 
   // ---------------------------------------------------------------------------
@@ -146,16 +147,21 @@ export class App {
       el.appendChild(title);
       el.appendChild(infoEl);
 
-      el.addEventListener('click', async () => {
-        const loaded = this.saveManager.load(slot);
-        if (!loaded) {
-          return;
-        }
+      if (info) {
+        el.addEventListener('click', async () => {
+          const loaded = this.saveManager.load(slot);
+          if (!loaded) {
+            return;
+          }
 
-        this.renderer.showScreen('game-screen');
-        this._startPlayTimeTracker();
-        await this._playCurrentScene();
-      });
+          this.renderer.showScreen('game-screen');
+          this._startPlayTimeTracker();
+          await this._playCurrentScene();
+        });
+      } else {
+        el.style.cursor = 'default';
+        el.style.opacity = '0.4';
+      }
 
       container.appendChild(el);
     }
