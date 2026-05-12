@@ -1,0 +1,51 @@
+{
+  "id": "12_departure",
+  "title": "踏上下一程",
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "微光",
+    "mood": "平静"
+  },
+  "texts": [
+    {
+      "content": "你回到了那道裂缝前。",
+      "delay": 0
+    },
+    {
+      "content": "老者已经不在了。只有那道裂缝还在，透着不同的光。",
+      "delay": 800
+    },
+    {
+      "content": "你没有犹豫。你迈步走了进去。",
+      "delay": 1000
+    },
+    {
+      "content": "身后，裂缝缓缓合拢。",
+      "delay": 800
+    },
+    {
+      "content": "前方，是另一个人间。",
+      "delay": 1000
+    },
+    {
+      "content": "你继续走着。不问来路，不问归途。",
+      "delay": 1200
+    },
+    {
+      "content": "——第一章·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "01_awakening",
+      "effects": {
+        "experience": 3
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

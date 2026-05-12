@@ -1,0 +1,80 @@
+{
+  "id": "10_hermit",
+  "title": "山中隐者",
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "山雾",
+    "mood": "宁静"
+  },
+  "texts": [
+    {
+      "content": "古道的尽头，是一间茅屋。",
+      "delay": 0
+    },
+    {
+      "content": "茅屋前坐着一位老者，正在煮茶。他没有看你，只是专注地看着壶中的水沸腾。",
+      "delay": 800
+    },
+    {
+      "content": "“坐。”他说。只有一个字。",
+      "delay": 1000
+    },
+    {
+      "content": "你坐下。他给你倒了一杯茶。",
+      "delay": 600
+    },
+    {
+      "content": "茶很苦，但苦之后，有一丝回甘。",
+      "delay": 800
+    },
+    {
+      "content": "“你从哪里来？”他问。",
+      "delay": 1000
+    },
+    {
+      "content": "你沉默。你不知道答案。",
+      "delay": 800
+    },
+    {
+      "content": "“你要到哪里去？”他又问。",
+      "delay": 1000
+    },
+    {
+      "content": "你依然沉默。",
+      "delay": 800
+    },
+    {
+      "content": "“很好。”他说。“不知道来路，不知道归途，才能真正地走。”",
+      "delay": 1000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“您在这里多久了？”",
+      "target": "11_mountain_peak",
+      "effects": {
+        "setFlag": "asked_hermit_time"
+      },
+      "condition": null
+    },
+    {
+      "text": "“您也是渡途人吗？”",
+      "target": "11_mountain_peak",
+      "effects": {
+        "wisdom": 1,
+        "setFlag": "asked_hermit_identity"
+      },
+      "condition": null
+    },
+    {
+      "text": "喝完茶，起身道谢",
+      "target": "11_mountain_peak",
+      "effects": {
+        "mood": "淡然"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,83 @@
+{
+  "id": "08_tavern",
+  "title": "酒肆夜话",
+  "atmosphere": {
+    "time": "深夜",
+    "weather": "薄雾",
+    "mood": "忧郁"
+  },
+  "texts": [
+    {
+      "content": "酒肆不大，只有三四张桌子。角落里坐着一个人，正对着一壶酒发呆。",
+      "delay": 0
+    },
+    {
+      "content": "他穿着一身洗得发白的青衫，面容清瘦，眉宇间有几分书卷气，又有几分落魄。看见你进来，他抬起头，苦笑了一下。",
+      "delay": 1000
+    },
+    {
+      "content": "“又来一个。”他说，声音有些沙哑。“坐吧，反正这酒我也喝不完。”",
+      "delay": 800
+    },
+    {
+      "content": "你坐下。他给你倒了一杯酒。",
+      "delay": 500
+    },
+    {
+      "content": "“我叫什么？不记得了。来这里多久了？也不记得了。只记得我本来是个读书人，考了三次科举，三次落榜。后来就到了这里。”",
+      "delay": 1000
+    },
+    {
+      "content": "他喝了一口酒。",
+      "delay": 600
+    },
+    {
+      "content": "“这村子很奇怪。外面的人进不来，里面的人出不去。或者说……没人想出去。”",
+      "delay": 1000
+    },
+    {
+      "content": "他从怀里掏出一卷书册，递给你。",
+      "delay": 800
+    },
+    {
+      "content": "“这是我在村子里找到的。残破得厉害，但里面记着一些……有意思的事。你拿着吧，我留着也没用。”",
+      "delay": 1000
+    },
+    {
+      "content": "得到：残破古籍",
+      "delay": 500
+    }
+  ],
+  "choices": [
+    {
+      "text": "“你为什么不离开这里？”",
+      "target": "12_departure",
+      "effects": {
+        "addItem": "old_book",
+        "setFlag": "asked_scholar_stay"
+      },
+      "condition": null
+    },
+    {
+      "text": "“这村子有什么秘密？”",
+      "target": "12_departure",
+      "effects": {
+        "addItem": "old_book",
+        "wisdom": 1,
+        "setFlag": "asked_scholar_secret"
+      },
+      "condition": null
+    },
+    {
+      "text": "接过书册，沉默地喝完那杯酒",
+      "target": "12_departure",
+      "effects": {
+        "addItem": "old_book",
+        "mood": "淡然"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
