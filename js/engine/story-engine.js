@@ -40,8 +40,8 @@ export class StoryEngine {
 
     const [meta, npcs, items] = await Promise.all([
       this._fetchJSON(`${base}/meta.json`),
-      this._fetchJSON(`${base}/npcs.json`),
-      this._fetchJSON(`${base}/items.json`),
+      this._fetchJSON('story/shared/npcs.json'),
+      this._fetchJSON('story/shared/items.json'),
     ]);
 
     this.chapterMeta = meta;
