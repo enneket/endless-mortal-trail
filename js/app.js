@@ -11,7 +11,6 @@ import { Renderer } from './engine/renderer.js';
 import { SaveManager } from './engine/save-manager.js';
 import { StoryEngine } from './engine/story-engine.js';
 
-const MAX_SLOTS = 3;
 const SAVE_WATCH_INTERVAL = 5000;
 
 export class App {
