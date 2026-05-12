@@ -28,8 +28,7 @@ export class SaveManager {
     if (slot < 1 || slot > MAX_SLOTS) return false;
 
     try {
-      const data = this._gameState.toJSON();
-      data.savedAt = Date.now();
+      const data = { ...this._gameState.toJSON(), savedAt: Date.now() };
       localStorage.setItem(SAVE_PREFIX + slot, JSON.stringify(data));
       return true;
     } catch (err) {
@@ -51,6 +50,7 @@ export class SaveManager {
       if (!raw) return false;
 
       const data = JSON.parse(raw);
+      if (!data || typeof data !== 'object') return false;
       this._gameState.load(data);
       return true;
     } catch (err) {
