@@ -115,7 +115,9 @@ export class StoryEngine {
     }
 
     this.renderer.showChoices(available, (index) => {
-      this._handleChoice(available[index], sceneId);
+      this._handleChoice(available[index]).catch((err) => {
+        console.error('[StoryEngine] Choice handling failed:', err);
+      });
     });
   }
 
@@ -174,9 +176,8 @@ export class StoryEngine {
   /**
    * 处理玩家选择：应用效果 → 更新状态栏 → 自动存档 → 播放下一场景。
    * @param {object} choice - 选项数据
-   * @param {string} _currentSceneId - 当前场景 ID（保留供未来使用）
    */
-  async _handleChoice(choice, _currentSceneId) {
+  async _handleChoice(choice) {
     // 应用效果
     if (choice.effects) {
       this.gameState.applyEffects(choice.effects);
