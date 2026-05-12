@@ -1,0 +1,23 @@
+{
+  "nameless_elder": {
+    "id": "nameless_elder",
+    "name": "无名老者",
+    "identity": "裂隙中的引路人",
+    "personality": "淡然、温和、话语不多但字字珠玑",
+    "role": "揭示世界观，引导玩家理解渡途人身份"
+  },
+  "scholar": {
+    "id": "scholar",
+    "name": "落魄书生",
+    "identity": "困在雾中古村的旅人",
+    "personality": "忧郁、善谈、有些自嘲",
+    "role": "展示NPC有独立人格和执念"
+  },
+  "hermit": {
+    "id": "hermit",
+    "name": "隐世老者",
+    "identity": "山中修行多年的隐者",
+    "personality": "沉默寡言，偶尔发问直击内心",
+    "role": "心境试炼，影响玩家的命格倾向"
+  }
+}
