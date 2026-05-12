@@ -116,6 +116,11 @@ html, body {
   border-color: var(--border-hover);
 }
 
+.btn-choice:focus-visible {
+  outline: 1px solid var(--border-hover);
+  outline-offset: 2px;
+}
+
 .btn-choice:active {
   opacity: 0.8;
 }
@@ -188,6 +193,10 @@ html, body {
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
+}
+
+.hidden {
+  display: none !important;
 }
 
 /* 响应式 */
