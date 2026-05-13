@@ -1,0 +1,43 @@
+{
+  "id": "02_ghost_market",
+  "title": "鬼市",
+  "atmosphere": { "time": "深夜", "weather": "幽光", "mood": "诡异" },
+  "texts": [
+    {
+      "content": "你走进一片集市。摊位上摆满了奇怪的东西：玻璃瓶里装着发着微光的雾气，铜镜里映出别人的面容，还有一本本没有字的书。摊主们都是半透明的，他们看着你，眼神里有惊讶，也有贪婪。",
+      "delay": 0
+    },
+    {
+      "content": "你在集市中穿行，忽然一个声音叫住了你。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_1:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_1:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“我想了解更多。”",
+      "target": "05_yellow_spring_road",
+      "effects": { "wisdom": 1, "setFlag": "sympathized" },
+      "condition": null
+    },
+    {
+      "text": "“这不关我的事。”",
+      "target": "05_yellow_spring_road",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

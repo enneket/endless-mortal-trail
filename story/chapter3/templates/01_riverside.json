@@ -1,0 +1,45 @@
+{
+  "id": "01_riverside",
+  "title": "忘川河畔",
+  "atmosphere": { "time": "永恒黄昏", "weather": "薄雾", "mood": "幽寂" },
+  "texts": [
+    {
+      "content": "裂缝在身后合拢。你站在一条河边。河水漆黑如墨，却异常平静，没有一丝波纹。河面上漂浮着点点幽蓝的光，像是萤火虫，又像是魂魄。",
+      "delay": 0
+    },
+    {
+      "content": "河岸上开满了花，红色的，像血一样鲜艳。你从没见过这种花。它们没有叶子，只有茎和花，在风中轻轻摇曳，却闻不到任何气味。",
+      "delay": 3000
+    },
+    {
+      "content": "远处有一座桥，桥上灯火通明。桥的那边，影影绰绰，像是有很多人在走动。你听不见声音，但你能感觉到——那里很热闹，也很悲伤。",
+      "delay": 3500
+    },
+    {
+      "content": "你沿着河岸走着。脚下的土地是灰色的，软绵绵的，像是踩在云上。你不害怕。你只是觉得，这里很熟悉。",
+      "delay": 3000
+    }
+  ],
+  "choices": [
+    {
+      "text": "走向那片灯火",
+      "target": "02_ghost_market",
+      "effects": { "experience": 1 },
+      "condition": null
+    },
+    {
+      "text": "沿着河岸向上游走",
+      "target": "03_judge_hall",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "向河的深处走去",
+      "target": "04_reincarnation_well",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

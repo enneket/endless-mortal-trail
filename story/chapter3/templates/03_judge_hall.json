@@ -1,0 +1,43 @@
+{
+  "id": "03_judge_hall",
+  "title": "判官殿",
+  "atmosphere": { "time": "永恒深夜", "weather": "烛火", "mood": "肃穆" },
+  "texts": [
+    {
+      "content": "你走进一座大殿。殿内烛火通明，却照不到角落。案几上堆满了簿册，纸页泛黄，字迹密密麻麻。殿中央坐着一个人，身穿官服，面容威严，却掩不住疲惫。",
+      "delay": 0
+    },
+    {
+      "content": "他抬起头，看着你。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_2:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_2:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“我是谁？”",
+      "target": "06_wronged_city",
+      "effects": { "setFlag": "defied", "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "默默行礼，转身离开",
+      "target": "06_wronged_city",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
