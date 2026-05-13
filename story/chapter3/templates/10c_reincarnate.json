@@ -1,0 +1,53 @@
+{
+  "id": "10c_reincarnate",
+  "title": "跳入轮回",
+  "atmosphere": { "time": "黎明", "weather": "狂风", "mood": "壮烈" },
+  "texts": [
+    {
+      "content": "“我不想喝汤。”你说。“我要自己选。”",
+      "delay": 0
+    },
+    {
+      "content": "孟婆看着你，眼里有泪光闪过。",
+      "delay": 1500
+    },
+    {
+      "content": "“你疯了。”她说。“轮回井里，没有人知道你会去哪里。”",
+      "delay": 1000
+    },
+    {
+      "content": "“那又怎样？”你说。",
+      "delay": 800
+    },
+    {
+      "content": "她沉默了很久。",
+      "delay": 1000
+    },
+    {
+      "content": "“好。”她终于说。“你去吧。愿你来世，不再做渡途人。”",
+      "delay": 1500
+    },
+    {
+      "content": "你转身走向轮回井。井口的风很大，吹得你睁不开眼。你没有犹豫，纵身跳了下去。",
+      "delay": 2000
+    },
+    {
+      "content": "你听见风声，听见低语声，听见有人在叫你的名字。你闭上眼睛。",
+      "delay": 1500
+    },
+    {
+      "content": "——第三章·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "01_riverside",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

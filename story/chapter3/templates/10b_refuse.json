@@ -1,0 +1,53 @@
+{
+  "id": "10b_refuse",
+  "title": "拒绝喝汤",
+  "atmosphere": { "time": "黄昏", "weather": "余晖", "mood": "温暖" },
+  "texts": [
+    {
+      "content": "“我不喝。”你说。",
+      "delay": 0
+    },
+    {
+      "content": "孟婆看着你，眼里闪过一丝惊讶。",
+      "delay": 1500
+    },
+    {
+      "content": "“你不喝，就过不了桥。”她说。",
+      "delay": 1000
+    },
+    {
+      "content": "“那我就不过了。”你说。",
+      "delay": 800
+    },
+    {
+      "content": "她沉默了很久。",
+      "delay": 1000
+    },
+    {
+      "content": "“好。”她终于说。“那你留在这里吧。忘川河畔，总需要有人守着。”",
+      "delay": 1500
+    },
+    {
+      "content": "你坐在桥头，看着来来往往的亡魂。他们喝了汤，过了桥，走向新的开始。而你，记着一切，守在这里。",
+      "delay": 2000
+    },
+    {
+      "content": "也许有一天，你也会忘记。但不是今天。",
+      "delay": 1500
+    },
+    {
+      "content": "——第三章·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "01_riverside",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
