@@ -1,0 +1,49 @@
+{
+  "id": "03_medicine_shop",
+  "title": "药铺",
+  "atmosphere": {
+    "time": "黄昏",
+    "weather": "细雨",
+    "mood": "沉静"
+  },
+  "texts": [
+    {
+      "content": "药铺的门半掩着，你推开的时候，一股苦涩的药香扑面而来。铺子不大，四面墙上都是药柜，密密麻麻的小抽屉上贴着发黄的标签，写着各种你认得和不认得的药材名字。柜台后面坐着一个人，正在低头称药，铜秤杆细细的，被手指捏得微微颤动。听见门响，他抬起头来，看了你一眼，又低下头去，像是对外来的客人早已习惯，不惊不喜。",
+      "delay": 0
+    },
+    {
+      "content": "{{NPC_SLOT_2:greeting}}",
+      "delay": 2500
+    },
+    {
+      "content": "你看着眼前这个人。{{NPC_SLOT_2:name}}，{{NPC_SLOT_2:identity}}。他的手指修长而稳定，指甲缝里嵌着褐色的药渍。说话的时候目光偶尔闪烁，像是在衡量什么该说、什么不该说。",
+      "delay": 4000
+    },
+    {
+      "content": "{{NPC_SLOT_2:reveal}}",
+      "delay": 5500
+    }
+  ],
+  "choices": [
+    {
+      "text": "接过话头，追问下去，替对方分担这份秘密",
+      "target": "05_teahouse",
+      "effects": {
+        "experience": 1,
+        "karma": 1,
+        "setFlag": "sided"
+      },
+      "condition": null
+    },
+    {
+      "text": "不接话，只问路，然后告辞",
+      "target": "05_teahouse",
+      "effects": {
+        "experience": 1
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

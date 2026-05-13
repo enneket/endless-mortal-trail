@@ -1,0 +1,53 @@
+{
+  "id": "04_riverside",
+  "title": "河畔",
+  "atmosphere": {
+    "time": "黄昏",
+    "weather": "薄雾",
+    "mood": "宁静"
+  },
+  "texts": [
+    {
+      "content": "河畔很安静。雨在这里变成了雾，薄薄地浮在水面上，把对岸的房屋和树木都模糊成了一片淡墨色的剪影。河水缓缓地流，水面上偶尔飘过一片落叶，打着旋儿往下游去了。河埠头的石阶上坐着一个人，裤腿挽到膝盖，赤脚踩在水里。",
+      "delay": 0
+    },
+    {
+      "content": "你走近的时候，那个人转过头来。她年纪不大，脸上带着被风吹日晒后特有的红润，眼睛很亮，像是河面上跳动的光。她打量了你一下，没有站起来，只是把脚从水里提出来，甩了甩水珠。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_3:greeting}}",
+      "delay": 4000
+    },
+    {
+      "content": "你看着眼前这个人。{{NPC_SLOT_3:name}}，{{NPC_SLOT_3:identity}}。她说话的时候带着一种直率的生气，像是河水一样没有弯弯绕绕，但你隐约觉得在那份爽利底下，藏着一些不太愿意被人看见的东西。",
+      "delay": 5500
+    },
+    {
+      "content": "{{NPC_SLOT_3:reveal}}",
+      "delay": 7000
+    }
+  ],
+  "choices": [
+    {
+      "text": "在她身边坐下，听她把话说完",
+      "target": "05_teahouse",
+      "effects": {
+        "experience": 1,
+        "karma": 1,
+        "setFlag": "sided"
+      },
+      "condition": null
+    },
+    {
+      "text": "点点头，沿着河岸继续走",
+      "target": "05_teahouse",
+      "effects": {
+        "experience": 1
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

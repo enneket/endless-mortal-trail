@@ -1,0 +1,53 @@
+{
+  "id": "02_old_street",
+  "title": "老街",
+  "atmosphere": {
+    "time": "黄昏",
+    "weather": "细雨",
+    "mood": "古朴"
+  },
+  "texts": [
+    {
+      "content": "老街不长，却像是走不到尽头。两边是低矮的旧屋，黛瓦粉墙，墙根处长着青苔和蕨草。屋檐下挂着一串串红灯笼，被雨水打湿后颜色变得更深，像一串串凝固的血珠。灯笼的光照不远，只在脚下投出一小圈暖色，其余的地方都是昏暗的。",
+      "delay": 0
+    },
+    {
+      "content": "街上有个人站在屋檐下躲雨。他看见你走过来，微微抬起头，目光在你脸上停留了一瞬，然后移开了。他没有说话，但你总觉得他在等什么——或者说，在等什么人。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_1:greeting}}",
+      "delay": 4000
+    },
+    {
+      "content": "你打量着眼前这个人。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。对方的神情里有一种复杂的意味，像是认识你，又像是在辨认一个很久以前的影子。",
+      "delay": 5500
+    },
+    {
+      "content": "{{NPC_SLOT_1:reveal}}",
+      "delay": 7000
+    }
+  ],
+  "choices": [
+    {
+      "text": "认真听完对方的话，试着化解这段旧怨",
+      "target": "05_teahouse",
+      "effects": {
+        "experience": 1,
+        "karma": 1,
+        "setFlag": "reconciled"
+      },
+      "condition": null
+    },
+    {
+      "text": "沉默片刻，转身继续往前走",
+      "target": "05_teahouse",
+      "effects": {
+        "experience": 1
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
