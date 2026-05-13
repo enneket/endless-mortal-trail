@@ -1,0 +1,53 @@
+{
+  "id": "09_revelation",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "晴", "mood": "肃杀" },
+  "texts": [
+    {
+      "content": "将军遗孀从怀里掏出一封信，递给你。",
+      "delay": 0
+    },
+    {
+      "content": "“这是将军临死前写的。他知道自己会死，但他没有逃。”",
+      "delay": 1500
+    },
+    {
+      "content": "你打开信。信上只有几行字：'吾一生征战，杀人无数。今日被人所杀，亦是因果。唯愿后人记住——战争没有赢家。'",
+      "delay": 2000
+    },
+    {
+      "content": "“将军是被朝廷的人害死的。”她说，声音很平静。“因为他主张议和。”",
+      "delay": 2000
+    },
+    {
+      "content": "你沉默了。风吹过祠堂，油灯摇曳了一下。",
+      "delay": 1500
+    },
+    {
+      "content": "“现在你知道了。”她看着你。“你想怎么做？”",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "离开这里，继续我的旅途",
+      "target": "10a_departure",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    },
+    {
+      "text": "留下来，试着做些什么",
+      "target": "10b_stay",
+      "effects": { "karma": 2, "setFlag": "sympathized" },
+      "condition": { "hasFlag": "sympathized" }
+    },
+    {
+      "text": "我要让真相大白于天下",
+      "target": "10c_resist",
+      "effects": { "courage": 2, "setFlag": "defied" },
+      "condition": { "hasFlag": "defied" }
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
