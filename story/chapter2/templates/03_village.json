@@ -1,0 +1,43 @@
+{
+  "id": "03_village",
+  "title": "战后荒村",
+  "atmosphere": { "time": "黄昏", "weather": "薄雾", "mood": "诡异" },
+  "texts": [
+    {
+      "content": "你沿着岔路走进一个村庄。或者说，曾经是一个村庄。现在只剩下断壁残垣和满地的瓦砾。墙上有箭矢留下的孔洞，地上有被踩碎的陶罐和散落的衣物。",
+      "delay": 0
+    },
+    {
+      "content": "雾气从废墟间升起，带着一种潮湿的腐朽气味。你在废墟中走着，忽然看见一个人影。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_2:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_2:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“你还好吗？”",
+      "target": "06_path_b",
+      "effects": { "karma": 1, "setFlag": "sympathized" },
+      "condition": null
+    },
+    {
+      "text": "默默离开",
+      "target": "06_path_b",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
