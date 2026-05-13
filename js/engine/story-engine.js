@@ -6,6 +6,8 @@
  * 协调 GameState、Renderer 和 SaveManager 完成故事推进。
  */
 
+import { SceneAssembler } from './scene-assembler.js';
+
 export class StoryEngine {
   /**
    * @param {import('./state.js').GameState} gameState
@@ -25,6 +27,8 @@ export class StoryEngine {
     this.itemData = {};
     /** @type {object | null} */
     this.chapterMeta = null;
+    /** @type {import('./scene-assembler.js').SceneAssembler | null} */
+    this.assembler = null;
   }
 
   // ---------------------------------------------------------------------------
@@ -38,15 +42,31 @@ export class StoryEngine {
   async loadChapter(chapterId) {
     const base = `story/${chapterId}`;
 
-    const [meta, npcs, items] = await Promise.all([
-      this._fetchJSON(`${base}/meta.json`),
-      this._fetchJSON('story/shared/npcs.json'),
-      this._fetchJSON('story/shared/items.json'),
-    ]);
-
+    const meta = await this._fetchJSON(`${base}/meta.json`);
     this.chapterMeta = meta;
-    this.npcData = npcs ?? {};
-    this.itemData = items ?? {};
+
+    if (meta && meta.randomized) {
+      // 随机生成章节：加载骨架、NPC 池、物品池
+      const [skeleton, npcs, items] = await Promise.all([
+        this._fetchJSON(`${base}/skeleton.json`),
+        this._fetchJSON(`${base}/npcs.json`),
+        this._fetchJSON(`${base}/items.json`),
+      ]);
+
+      this.assembler = new SceneAssembler(skeleton, npcs ?? {}, items ?? {});
+      this.npcData = npcs ?? {};
+      this.itemData = items ?? {};
+    } else {
+      // 手写章节：加载共享 NPC/物品数据
+      const [npcs, items] = await Promise.all([
+        this._fetchJSON('story/shared/npcs.json'),
+        this._fetchJSON('story/shared/items.json'),
+      ]);
+
+      this.assembler = null;
+      this.npcData = npcs ?? {};
+      this.itemData = items ?? {};
+    }
   }
 
   /**
@@ -60,8 +80,23 @@ export class StoryEngine {
     }
 
     const chapterId = this.gameState.get('currentChapter');
-    const url = `story/${chapterId}/scenes/${sceneId}.json`;
-    const scene = await this._fetchJSON(url);
+    let scene;
+
+    if (this.assembler) {
+      // 随机生成章节：从模板组装
+      const templateUrl = `story/${chapterId}/templates/${sceneId}.json`;
+      const template = await this._fetchJSON(templateUrl);
+
+      if (!template) {
+        throw new Error(`[StoryEngine] Template not found: ${sceneId}`);
+      }
+
+      scene = this.assembler.assemble(sceneId, template, this.gameState);
+    } else {
+      // 手写章节：直接加载
+      const url = `story/${chapterId}/scenes/${sceneId}.json`;
+      scene = await this._fetchJSON(url);
+    }
 
     if (!scene) {
       throw new Error(`[StoryEngine] Scene not found: ${sceneId}`);
