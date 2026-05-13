@@ -1,0 +1,74 @@
+{
+  "veteran": {
+    "id": "veteran",
+    "name": "老兵",
+    "identity": "断臂老兵，守着废弃烽火台",
+    "personality": "沉默、执拗、偶尔爆发",
+    "dialogueStyle": "短句，军事术语，偶尔粗犷",
+    "dialogues": {
+      "greeting": "你站住。这里不欢迎外人。",
+      "reveal": "仗打了三年。赢了，又输了。最后谁也没赢。",
+      "gift": "拿着。这是我的军牌。留着也没用了。"
+    }
+  },
+  "refugee_girl": {
+    "id": "refugee_girl",
+    "name": "流民少女",
+    "identity": "逃难路上与家人失散的女孩",
+    "personality": "警惕、倔强、内心柔软",
+    "dialogueStyle": "简短、方言味、偶尔哽咽",
+    "dialogues": {
+      "greeting": "你……也是逃出来的？",
+      "reveal": "我娘说，往南走就能活。可是南边也在打仗。",
+      "gift": "这个香囊……是我娘绣的。你带着吧，保平安。"
+    }
+  },
+  "strategist": {
+    "id": "strategist",
+    "name": "军师",
+    "identity": "将军府中的幕僚",
+    "personality": "冷静、算计、话中有话",
+    "dialogueStyle": "文雅、暗藏机锋、喜欢引用典故",
+    "dialogues": {
+      "greeting": "哦？竟有人能找到这里来。",
+      "reveal": "将军死了。但将军的死，不是战死的。",
+      "gift": "这封信，你看了就明白。但看完之后，你最好忘掉。"
+    }
+  },
+  "physician": {
+    "id": "physician",
+    "name": "郎中",
+    "identity": "战地赤脚医生",
+    "personality": "慈悲、疲惫、苦中作乐",
+    "dialogueStyle": "温和、带药理比喻、自嘲",
+    "dialogues": {
+      "greeting": "来，坐下。你的脸色不好。",
+      "reveal": "这仗打的不是人，是命。我救了三百人，没救下的……不数了。",
+      "gift": "这药方你拿着。能救一人是一人。"
+    }
+  },
+  "deserter": {
+    "id": "deserter",
+    "name": "逃兵",
+    "identity": "从战场上跑出来的小兵",
+    "personality": "恐惧、愧疚、想回家",
+    "dialogueStyle": "断续、颤抖、偶尔语无伦次",
+    "dialogues": {
+      "greeting": "别……别杀我。我不是坏人。",
+      "reveal": "我跑了。我亲眼看着他们死的，我跑了。",
+      "gift": "这封信……我本来要寄回家的。你帮我……帮我寄出去好不好？"
+    }
+  },
+  "general_widow": {
+    "id": "general_widow",
+    "name": "将军遗孀",
+    "identity": "已故将军的夫人",
+    "personality": "高傲、悲伤、决绝",
+    "dialogueStyle": "古雅、克制、偶尔锋利",
+    "dialogues": {
+      "greeting": "你来了。我等了很久了。",
+      "reveal": "将军不是死在战场上的。他是被人害死的。",
+      "ending": "走吧。这里的事，与你无关。但你若想留下……我也不拦你。"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "military_tag": {
+    "id": "military_tag",
+    "name": "军牌",
+    "description": "一枚铜制军牌，刻着一个已经模糊的名字。握在手中，能感受到主人最后的执念。",
+    "effects": {
+      "setFlag": "has_military_tag"
+    }
+  },
+  "embroidered_pouch": {
+    "id": "embroidered_pouch",
+    "name": "绣囊",
+    "description": "粗布绣成的香囊，针脚歪斜却用心。里面装着干枯的艾草，是家乡的味道。",
+    "effects": {
+      "setFlag": "has_embroidered_pouch"
+    }
+  },
+  "secret_letter": {
+    "id": "secret_letter",
+    "name": "密信",
+    "description": "一封用暗语写成的信，字迹工整。上面盖着一个你认不出的印章。",
+    "effects": {
+      "setFlag": "has_secret_letter"
+    }
+  },
+  "prescription": {
+    "id": "prescription",
+    "name": "药方",
+    "description": "一张发黄的药方，上面的药名你大多不认识。角落里写着一行小字：'此方可救一人，亦可误一人。'",
+    "effects": {
+      "setFlag": "has_prescription"
+    }
+  },
+  "letter_home": {
+    "id": "letter_home",
+    "name": "家书",
+    "description": "一封没寄出的家书。'娘，孩儿不孝……'后面的字被泪水洇开了。",
+    "effects": {
+      "setFlag": "has_letter_home"
+    }
+  }
+}
