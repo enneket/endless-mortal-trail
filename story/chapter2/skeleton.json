@@ -1,0 +1,32 @@
+{
+  "chapterId": "chapter2",
+  "title": "边关战火",
+  "startScene": "01_arrival",
+  "npcSlots": {
+    "slot_1": { "candidates": ["veteran", "refugee_girl"], "scene": "02_camp" },
+    "slot_2": { "candidates": ["refugee_girl", "physician"], "scene": "03_village" },
+    "slot_3": { "candidates": ["strategist", "deserter"], "scene": "04_fortress" },
+    "slot_4": { "candidates": ["veteran", "deserter"], "scene": "05_path_a" },
+    "slot_5": { "candidates": ["refugee_girl", "physician"], "scene": "06_path_b" },
+    "slot_6": { "candidates": ["strategist", "deserter"], "scene": "07_path_c" }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["military_tag", "letter_home"], "scene": "05_path_a" },
+    "slot_b": { "candidates": ["embroidered_pouch", "prescription"], "scene": "06_path_b" },
+    "slot_c": { "candidates": ["secret_letter", "letter_home"], "scene": "07_path_c" }
+  },
+  "scenes": [
+    "01_arrival",
+    "02_camp",
+    "03_village",
+    "04_fortress",
+    "05_path_a",
+    "06_path_b",
+    "07_path_c",
+    "08_convergence",
+    "09_revelation",
+    "10a_departure",
+    "10b_stay",
+    "10c_resist"
+  ]
+}
