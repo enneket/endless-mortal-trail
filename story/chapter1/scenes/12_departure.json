@@ -39,7 +39,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "01_awakening",
+      "target": "chapter2:01_arrival",
       "effects": {
         "experience": 3
       },

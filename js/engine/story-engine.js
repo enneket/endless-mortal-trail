@@ -157,6 +157,20 @@ export class StoryEngine {
   }
 
   /**
+   * 切换到下一章：更新章节 ID、清空场景缓存、加载新章节、播放起始场景。
+   * @param {string} nextChapterId
+   */
+  async switchChapter(nextChapterId) {
+    this.gameState.set('currentChapter', nextChapterId);
+    this.sceneCache = {};
+    await this.loadChapter(nextChapterId);
+
+    const startScene = this.chapterMeta?.startScene ?? '01_arrival';
+    this.gameState.set('currentScene', startScene);
+    await this.playScene(startScene);
+  }
+
+  /**
    * 开始游戏：加载第一章并播放起始场景。
    */
   async start() {
@@ -229,8 +243,28 @@ export class StoryEngine {
 
     // 播放下一场景
     if (choice.target) {
-      await this.playScene(choice.target);
+      // 检查是否需要切换章节（target 包含 chapter 前缀）
+      const targetChapter = this._detectChapterSwitch(choice.target);
+      if (targetChapter) {
+        await this.switchChapter(targetChapter);
+      } else {
+        await this.playScene(choice.target);
+      }
     }
+  }
+
+  /**
+   * 检测是否需要章节切换。
+   * 如果 target 格式为 "chapter2:scene_id"，返回目标章节 ID。
+   * @param {string} target
+   * @returns {string|null}
+   */
+  _detectChapterSwitch(target) {
+    if (target.includes(':')) {
+      const [chapterId] = target.split(':');
+      return chapterId;
+    }
+    return null;
   }
 
   /**
