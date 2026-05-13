@@ -27,7 +27,7 @@
   "choices": [
     {
       "text": "接过话头，追问下去，替对方分担这份秘密",
-      "target": "05_teahouse",
+      "target": "06_embroidery_shop",
       "effects": {
         "experience": 1,
         "karma": 1,
@@ -37,7 +37,7 @@
     },
     {
       "text": "不接话，只问路，然后告辞",
-      "target": "05_teahouse",
+      "target": "06_embroidery_shop",
       "effects": {
         "experience": 1
       },

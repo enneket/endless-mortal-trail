@@ -31,7 +31,7 @@
   "choices": [
     {
       "text": "在她身边坐下，听她把话说完",
-      "target": "05_teahouse",
+      "target": "07_ancestral_hall",
       "effects": {
         "experience": 1,
         "karma": 1,
@@ -41,7 +41,7 @@
     },
     {
       "text": "点点头，沿着河岸继续走",
-      "target": "05_teahouse",
+      "target": "07_ancestral_hall",
       "effects": {
         "experience": 1
       },
