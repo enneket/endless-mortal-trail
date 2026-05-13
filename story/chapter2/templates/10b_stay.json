@@ -39,7 +39,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "01_arrival",
+      "target": "chapter3:01_riverside",
       "effects": { "experience": 3 },
       "condition": null
     }
