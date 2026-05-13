@@ -1,0 +1,98 @@
+{
+  "ghost_merchant": {
+    "id": "ghost_merchant",
+    "name": "鬼市商人",
+    "identity": "在鬼市中贩卖记忆的幽魂",
+    "personality": "狡黠、贪婪、偶尔流露真情",
+    "dialogueStyle": "市侩、讨价还价、偶尔诗意",
+    "dialogues": {
+      "greeting": "客官，要买点什么？记忆？还是忘却？",
+      "reveal": "我卖的不是东西，是别人不要的过去。",
+      "gift": "这个……是别人寄卖的。你拿着吧，不收钱。"
+    }
+  },
+  "judge_clerk": {
+    "id": "judge_clerk",
+    "name": "判官书记",
+    "identity": "判官殿中抄录生死簿的小吏",
+    "personality": "刻板、谨慎、内心有疑问",
+    "dialogueStyle": "公文腔、咬文嚼字、偶尔叹息",
+    "dialogues": {
+      "greeting": "站住。报上名来，我查查生死簿。",
+      "reveal": "生死簿上没有你的名字。这很不寻常。",
+      "gift": "这页残页……是从生死簿上掉下来的。你留着吧。"
+    }
+  },
+  "judge": {
+    "id": "judge",
+    "name": "判官",
+    "identity": "掌管生死簿的地府判官",
+    "personality": "威严、公正、疲惫",
+    "dialogueStyle": "威严、简短、偶尔感慨",
+    "dialogues": {
+      "greeting": "又一个渡途人。坐吧。",
+      "reveal": "我判了千万人的生死，却判不了自己的。",
+      "gift": "拿着。这是你应得的。"
+    }
+  },
+  "ox_head": {
+    "id": "ox_head",
+    "name": "牛头",
+    "identity": "地府勾魂使者",
+    "personality": "憨厚、忠诚、偶尔迷茫",
+    "dialogueStyle": "粗犷、直白、偶尔困惑",
+    "dialogues": {
+      "greeting": "你……你是活人？这里不让活人进的。",
+      "reveal": "我勾了无数魂，有时候想，我自己的魂在哪。",
+      "gift": "这个引魂灯……能照亮前面的路。你拿着。"
+    }
+  },
+  "wronged_soul": {
+    "id": "wronged_soul",
+    "name": "冤魂",
+    "identity": "含冤而死、无法投胎的亡魂",
+    "personality": "愤怒、悲伤、渴望解脱",
+    "dialogueStyle": "哀怨、反复、偶尔尖叫",
+    "dialogues": {
+      "greeting": "你能看见我？你能看见我！",
+      "reveal": "我死得冤。我忘不了。我走不了。",
+      "gift": "这个……是我活着时候的东西。你帮我带出去好不好？"
+    }
+  },
+  "old_ghost": {
+    "id": "old_ghost",
+    "name": "老鬼",
+    "identity": "在地府游荡了千年的老魂魄",
+    "personality": "淡然、智慧、看透一切",
+    "dialogueStyle": "缓慢、古语、偶尔幽默",
+    "dialogues": {
+      "greeting": "又来一个。坐吧，不急。",
+      "reveal": "我在这待了一千年了。什么都见过了。",
+      "gift": "拿着。这东西跟了我很久了，该换个人了。"
+    }
+  },
+  "ferryman": {
+    "id": "ferryman",
+    "name": "忘川摆渡人",
+    "identity": "在忘川河上摆渡的船夫",
+    "personality": "沉默、神秘、遵守规则",
+    "dialogueStyle": "简短、暗示、偶尔唱歌",
+    "dialogues": {
+      "greeting": "上船吧。不问来路，不问归途。",
+      "reveal": "我渡了千万人过河。没有一个回头的。",
+      "gift": "这忘川水……喝一口，忘一件事。你留着吧。"
+    }
+  },
+  "past_lover": {
+    "id": "past_lover",
+    "name": "前世恋人",
+    "identity": "渡途人前世的爱人，已入轮回",
+    "personality": "温柔、悲伤、释然",
+    "dialogueStyle": "轻柔、回忆、偶尔哽咽",
+    "dialogues": {
+      "greeting": "你……你不认识我了？",
+      "reveal": "我等了你很久。后来我不等了。后来我走了。",
+      "gift": "这个信物……是我们的。你带着吧，替我记着。"
+    }
+  }
+}

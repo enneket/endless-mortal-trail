@@ -1,0 +1,38 @@
+{
+  "meng_po_soup": {
+    "id": "meng_po_soup",
+    "name": "孟婆汤",
+    "description": "一碗温热的汤，散发着淡淡的甜味。喝下它，你会忘记一切。",
+    "effects": { "setFlag": "has_meng_po_soup" }
+  },
+  "life_death_book": {
+    "id": "life_death_book",
+    "name": "生死簿残页",
+    "description": "一页泛黄的纸，上面密密麻麻写着名字和寿数。你找不到自己的名字。",
+    "effects": { "setFlag": "has_life_death_book" }
+  },
+  "past_token": {
+    "id": "past_token",
+    "name": "前世信物",
+    "description": "一枚玉佩，温润如水。握在手中，你依稀记得一个模糊的面容。",
+    "effects": { "setFlag": "has_past_token" }
+  },
+  "soul_lantern": {
+    "id": "soul_lantern",
+    "name": "引魂灯",
+    "description": "一盏永不熄灭的灯，灯光幽蓝。据说能照亮亡魂回家的路。",
+    "effects": { "setFlag": "has_soul_lantern" }
+  },
+  "reincarnation_pearl": {
+    "id": "reincarnation_pearl",
+    "name": "轮回珠",
+    "description": "一颗浑浊的珠子，里面似乎有什么在转动。据说握着它，能看到自己的前世。",
+    "effects": { "setFlag": "has_reincarnation_pearl" }
+  },
+  "forget_river_water": {
+    "id": "forget_river_water",
+    "name": "忘川水",
+    "description": "一瓶清澈的水，却散发着一种说不出的气息。喝一口，忘一件事。",
+    "effects": { "setFlag": "has_forget_river_water" }
+  }
+}

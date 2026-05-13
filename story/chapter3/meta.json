@@ -1,0 +1,8 @@
+{
+  "id": "chapter3",
+  "title": "幽冥渡",
+  "description": "渡途人踏入幽冥地府，面对生死与遗忘",
+  "sceneCount": 12,
+  "startScene": "01_riverside",
+  "randomized": true
+}
