@@ -1,0 +1,35 @@
+{
+  "chapterId": "chapter3",
+  "title": "幽冥渡",
+  "startScene": "01_riverside",
+  "npcSlots": {
+    "slot_1": { "candidates": ["ghost_merchant", "judge_clerk"], "scene": "02_ghost_market" },
+    "slot_2": { "candidates": ["judge", "ox_head"], "scene": "03_judge_hall" },
+    "slot_3": { "candidates": ["ferryman", "old_ghost"], "scene": "04_reincarnation_well" },
+    "slot_4": { "candidates": ["wronged_soul", "past_lover"], "scene": "05_yellow_spring_road" },
+    "slot_5": { "candidates": ["ghost_merchant", "judge_clerk"], "scene": "06_wronged_city" },
+    "slot_6": { "candidates": ["old_ghost", "ferryman"], "scene": "07_three_life_stone" },
+    "slot_7": { "candidates": ["past_lover", "wronged_soul"], "scene": "07_three_life_stone" },
+    "slot_8": { "candidates": ["ox_head", "judge_clerk"], "scene": "07_three_life_stone" }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["meng_po_soup", "life_death_book"], "scene": "05_yellow_spring_road" },
+    "slot_b": { "candidates": ["past_token", "soul_lantern"], "scene": "06_wronged_city" },
+    "slot_c": { "candidates": ["reincarnation_pearl", "forget_river_water"], "scene": "07_three_life_stone" },
+    "slot_d": { "candidates": ["life_death_book", "past_token"], "scene": "07_three_life_stone" }
+  },
+  "scenes": [
+    "01_riverside",
+    "02_ghost_market",
+    "03_judge_hall",
+    "04_reincarnation_well",
+    "05_yellow_spring_road",
+    "06_wronged_city",
+    "07_three_life_stone",
+    "08_naihe_bridge",
+    "09_past_life",
+    "10a_drink_soup",
+    "10b_refuse",
+    "10c_reincarnate"
+  ]
+}
