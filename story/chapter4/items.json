@@ -1,0 +1,50 @@
+{
+  "old_letter": {
+    "id": "old_letter",
+    "name": "泛黄家书",
+    "description": "一封泛黄的家书，字迹已经模糊。信中记载着多年前的恩怨真相，字字沉重。",
+    "effects": {
+      "setFlag": "has_old_letter"
+    }
+  },
+  "jade_pendant": {
+    "id": "jade_pendant",
+    "name": "碎玉佩",
+    "description": "断裂的玉佩只剩半边，玉质温润却带着裂痕。据说另一半在另一个人手中。",
+    "effects": {
+      "setFlag": "has_jade_pendant"
+    }
+  },
+  "medicine_pack": {
+    "id": "medicine_pack",
+    "name": "药包",
+    "description": "一包罕见的药材，散发着苦涩的香气。掌柜的说能治百病，但治不了心病。",
+    "effects": {
+      "setFlag": "has_medicine_pack"
+    }
+  },
+  "fishing_net": {
+    "id": "fishing_net",
+    "name": "渔网",
+    "description": "一张修补过无数次的旧渔网，每一处补丁都是一个故事。沉甸甸的，像拖着半生的风雨。",
+    "effects": {
+      "setFlag": "has_fishing_net"
+    }
+  },
+  "opera_mask": {
+    "id": "opera_mask",
+    "name": "戏面具",
+    "description": "半边笑脸半边哭脸的戏曲面具，木质已旧。戴上它，不知该哭还是该笑。",
+    "effects": {
+      "setFlag": "has_opera_mask"
+    }
+  },
+  "tea_tin": {
+    "id": "tea_tin",
+    "name": "老茶罐",
+    "description": "一个陈年的锡制茶罐，里面还有半罐老茶。打开盖子，茶香混着岁月的潮气扑面而来。",
+    "effects": {
+      "setFlag": "has_tea_tin"
+    }
+  }
+}

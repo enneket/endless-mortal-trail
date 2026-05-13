@@ -1,0 +1,98 @@
+{
+  "old_boatman": {
+    "id": "old_boatman",
+    "name": "老船夫",
+    "identity": "在烟雨镇摆渡三十年的老艄公",
+    "personality": "沉默寡言、看透世事、偶尔感慨",
+    "dialogueStyle": "短句、江南方言、偶尔叹息",
+    "dialogues": {
+      "greeting": "上船吧。坐稳了，河水凉。",
+      "reveal": "我渡了三十年的人。有回来的，也有没回来的。水还是那条水，人不一样了。",
+      "gift": "这封信……是以前一个客人落下的。放在我这也没用，你拿着吧。"
+    }
+  },
+  "embroiderer": {
+    "id": "embroiderer",
+    "name": "绣娘",
+    "identity": "绣坊主人，手艺精湛",
+    "personality": "温柔、心思细腻、藏着心事",
+    "dialogueStyle": "轻声、细密、偶尔出神",
+    "dialogues": {
+      "greeting": "客人进来坐。外面雨大，喝杯茶暖暖。",
+      "reveal": "我绣了一辈子的鸳鸯，自己的人却没等到。这手艺好有什么用呢。",
+      "gift": "这块碎玉佩……是我留了多年的东西。你带着吧，替我了了这桩心事。"
+    }
+  },
+  "medicine_owner": {
+    "id": "medicine_owner",
+    "name": "药铺掌柜",
+    "identity": "知晓镇上秘辛的药铺主人",
+    "personality": "精明、守口如瓶、内心有愧",
+    "dialogueStyle": "圆滑、试探、偶尔失言",
+    "dialogues": {
+      "greeting": "哟，客人哪里不舒服？我这什么药都有。",
+      "reveal": "有些事……不该说的。但闷在心里这么多年，也快烂了。",
+      "gift": "这包药……是当年欠下的。你拿去，算是替我了了一桩旧账。"
+    }
+  },
+  "scholar": {
+    "id": "scholar",
+    "name": "落魄书生",
+    "identity": "屡试不第的读书人",
+    "personality": "傲气、怀才不遇、心有不甘",
+    "dialogueStyle": "文绉绉、引经据典、偶尔自嘲",
+    "dialogues": {
+      "greeting": "你也是来这穷乡僻壤避世的？呵，读书人落魄，天地都窄了。",
+      "reveal": "考了七次，七次不中。不是才学不够，是命不好。认了。",
+      "gift": "这老茶罐里还有半罐茶，是我最后一点体面了。你拿去喝吧。"
+    }
+  },
+  "fishing_girl": {
+    "id": "fishing_girl",
+    "name": "渔家女",
+    "identity": "以打鱼为生的渔家姑娘",
+    "personality": "泼辣、心地善良、嘴硬心软",
+    "dialogueStyle": "爽利、直白、偶尔骂人",
+    "dialogues": {
+      "greeting": "站那干嘛？要买鱼就买，不买别挡道。",
+      "reveal": "我爹说打鱼的人不欠人情。可我欠了。欠了还不清。",
+      "gift": "这渔网……跟了我好多年了，你拿着。别嫌弃，补补还能用。"
+    }
+  },
+  "blind_fortune": {
+    "id": "blind_fortune",
+    "name": "算命瞎子",
+    "identity": "街头算命的盲人先生",
+    "personality": "神秘、说话半真半假、看破不说破",
+    "dialogueStyle": "玄乎、双关、偶尔冷笑",
+    "dialogues": {
+      "greeting": "看不见你的人，未必看不见你的命。坐，算一卦？",
+      "reveal": "你的命，我算不了。能算的命，都不是什么好命。",
+      "gift": "这面具……是以前一个客人留下的。他说他不需要了。你看看你需不需要。"
+    }
+  },
+  "storyteller": {
+    "id": "storyteller",
+    "name": "茶楼说书人",
+    "identity": "茶楼里的讲古先生",
+    "personality": "诙谐、暗藏玄机、真假难辨",
+    "dialogueStyle": "夸张、抑扬顿挫、亦庄亦谐",
+    "dialogues": {
+      "greeting": "哟，来了位新听众。今日不收茶钱，听我讲一段？",
+      "reveal": "这烟雨镇的故事，说三天三夜也说不完。但有一桩旧事……嘿，没人敢提。",
+      "gift": "这出戏的面具，是上一个听故事的人留下的。他说，故事比人长久。"
+    }
+  },
+  "enemy_descendant": {
+    "id": "enemy_descendant",
+    "name": "仇家后人",
+    "identity": "世仇家族的后代",
+    "personality": "压抑、渴望和解、又放不下仇恨",
+    "dialogueStyle": "冷硬、克制、偶尔失态",
+    "dialogues": {
+      "greeting": "你是谁？为什么来这？我们镇上不欢迎外人。",
+      "reveal": "两家的仇，从我爷爷那辈开始。我没见过那个人，但我恨了他一辈子。",
+      "gift": "这封信……是我爷爷写的。他到死都没送出去。你……替他送了吧。"
+    }
+  }
+}

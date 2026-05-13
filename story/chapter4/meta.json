@@ -1,0 +1,8 @@
+{
+  "id": "chapter4",
+  "title": "烟雨镇",
+  "description": "渡途人踏入江南水乡，面对恩怨情仇",
+  "sceneCount": 12,
+  "startScene": "01_dock",
+  "randomized": true
+}
