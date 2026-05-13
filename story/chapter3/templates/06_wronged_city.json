@@ -1,0 +1,42 @@
+{
+  "id": "06_wronged_city",
+  "title": "枉死城",
+  "atmosphere": { "time": "深夜", "weather": "阴风", "mood": "悲怆" },
+  "texts": [
+    {
+      "content": "你走进一座城。城里的建筑歪歪斜斜，墙壁上满是裂痕。街上的人们穿着不同朝代的衣服，有的在哭，有的在笑，有的只是呆呆地站着。他们都是枉死的——死得冤，死得不甘心。",
+      "delay": 0
+    },
+    {
+      "content": "{{NPC_SLOT_5:greeting}}",
+      "delay": 3000
+    },
+    {
+      "content": "{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_5:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_5:gift}}",
+      "delay": 1500
+    },
+    {
+      "content": "得到：{{ITEM_SLOT_B:name}}",
+      "delay": 500
+    }
+  ],
+  "choices": [
+    {
+      "text": "接过东西，继续前行",
+      "target": "08_naihe_bridge",
+      "effects": {},
+      "condition": null,
+      "_itemSlot": "b"
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

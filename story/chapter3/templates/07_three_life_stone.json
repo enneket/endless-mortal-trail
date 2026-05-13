@@ -1,0 +1,50 @@
+{
+  "id": "07_three_life_stone",
+  "title": "三生石",
+  "atmosphere": { "time": "黎明", "weather": "月光", "mood": "空灵" },
+  "texts": [
+    {
+      "content": "你走到一块巨石前。石头表面光滑如镜，上面刻满了名字，密密麻麻，像是千万年的积累。石头发着淡淡的光，光芒中似乎有影子在晃动——是人，是事，是记忆。",
+      "delay": 0
+    },
+    {
+      "content": "你在石头前站了很久。忽然，石头上的光芒变得强烈，你看见了一些画面——模糊的，断断续续的，像是别人的梦。",
+      "delay": 3000
+    },
+    {
+      "content": "{{NPC_SLOT_6:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_6:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "石头旁边，你发现了几样东西。",
+      "delay": 1500
+    },
+    {
+      "content": "得到：{{ITEM_SLOT_C:name}}",
+      "delay": 500
+    },
+    {
+      "content": "得到：{{ITEM_SLOT_D:name}}",
+      "delay": 500
+    }
+  ],
+  "choices": [
+    {
+      "text": "收好东西，继续前行",
+      "target": "08_naihe_bridge",
+      "effects": {},
+      "condition": null,
+      "_itemSlot": "c"
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
