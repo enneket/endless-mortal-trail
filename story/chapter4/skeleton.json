@@ -1,0 +1,35 @@
+{
+  "chapterId": "chapter4",
+  "title": "烟雨镇",
+  "startScene": "01_dock",
+  "npcSlots": {
+    "slot_1": { "candidates": ["old_boatman", "blind_fortune"], "scene": "02_old_street" },
+    "slot_2": { "candidates": ["medicine_owner", "scholar"], "scene": "03_medicine_shop" },
+    "slot_3": { "candidates": ["fishing_girl", "embroiderer"], "scene": "04_riverside" },
+    "slot_4": { "candidates": ["storyteller", "blind_fortune"], "scene": "05_teahouse" },
+    "slot_5": { "candidates": ["embroiderer", "medicine_owner"], "scene": "06_embroidery_shop" },
+    "slot_6": { "candidates": ["enemy_descendant", "old_boatman"], "scene": "07_ancestral_hall" },
+    "slot_7": { "candidates": ["scholar", "fishing_girl"], "scene": "07_ancestral_hall" },
+    "slot_8": { "candidates": ["storyteller", "enemy_descendant"], "scene": "07_ancestral_hall" }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["old_letter", "tea_tin"], "scene": "05_teahouse" },
+    "slot_b": { "candidates": ["jade_pendant", "medicine_pack"], "scene": "06_embroidery_shop" },
+    "slot_c": { "candidates": ["fishing_net", "opera_mask"], "scene": "07_ancestral_hall" },
+    "slot_d": { "candidates": ["old_letter", "jade_pendant"], "scene": "07_ancestral_hall" }
+  },
+  "scenes": [
+    "01_dock",
+    "02_old_street",
+    "03_medicine_shop",
+    "04_riverside",
+    "05_teahouse",
+    "06_embroidery_shop",
+    "07_ancestral_hall",
+    "08_opera_stage",
+    "09_truth_revealed",
+    "10a_mediate",
+    "10b_revenge",
+    "10c_leave"
+  ]
+}
