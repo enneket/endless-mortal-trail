@@ -1,0 +1,42 @@
+{
+  "id": "05_path_a",
+  "title": "烽火台",
+  "atmosphere": { "time": "黎明", "weather": "寒风", "mood": "孤寂" },
+  "texts": [
+    {
+      "content": "你爬上一座废弃的烽火台。台阶很陡，石阶上有刀砍的痕迹。登上台顶，寒风扑面而来，你看见了整个边关的全貌——荒芜的田野，倒塌的村庄，还有远处蜿蜒的长城，像一条断了脊梁的巨蛇。",
+      "delay": 0
+    },
+    {
+      "content": "{{NPC_SLOT_4:greeting}}",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_4:name}}站在烽火台的另一端。{{NPC_SLOT_4:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_4:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "你注意到烽火台的角落里有一个东西。",
+      "delay": 1500
+    },
+    {
+      "content": "得到：{{ITEM_SLOT_A:name}}",
+      "delay": 500
+    }
+  ],
+  "choices": [
+    {
+      "text": "收好东西，继续前行",
+      "target": "08_convergence",
+      "effects": {},
+      "condition": null,
+      "_itemSlot": "a"
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
