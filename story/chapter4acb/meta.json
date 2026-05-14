@@ -1,0 +1,8 @@
+{
+  "id": "chapter4acb",
+  "title": "撤退重生",
+  "description": "撤退到林外世界，渡途人开始新的生活",
+  "sceneCount": 12,
+  "startScene": "01_forest_exit",
+  "randomized": true
+}

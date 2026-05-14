@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_forest_exit", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_village", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_healer", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_market", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_evening", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_festival", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_rest", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_visitor", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_new_beginning", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_return_forest", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_keep_going", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["forest_watcher", "village_healer"] },
+    "slot_2": { "candidates": ["farmer", "storyteller"] },
+    "slot_3": { "candidates": ["village_healer", "wandering_monk"] },
+    "slot_4": { "candidates": ["traveling_merchant", "farmer"] },
+    "slot_5": { "candidates": ["retired_explorer", "storyteller"] },
+    "slot_6": { "candidates": ["storyteller", "mysterious_child"] },
+    "slot_7": { "candidates": ["wandering_monk", "retired_explorer"] },
+    "slot_8": { "candidates": ["mysterious_child", "forest_watcher"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["new_clothes", "village_map"] },
+    "slot_b": { "candidates": ["travel_rations", "healing_herbs"] },
+    "slot_c": { "candidates": ["hope_token", "forest_memento"] },
+    "slot_d": { "candidates": ["healing_herbs", "hope_token"] }
+  }
+}

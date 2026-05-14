@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "healing_herbs",
+      "name": "疗伤草药",
+      "description": "医者赠送的草药，散发着淡淡的药香，能治愈伤痛",
+      "effects": { "setFlag": "has_healing_herbs" }
+    },
+    {
+      "id": "forest_memento",
+      "name": "森林纪念品",
+      "description": "来自森林的纪念之物，带着林间的气息，是一段记忆的凭证",
+      "effects": { "setFlag": "has_forest_memento" }
+    },
+    {
+      "id": "new_clothes",
+      "name": "新衣服",
+      "description": "换洗的干净衣服，虽然朴素，但穿在身上格外舒坦",
+      "effects": { "setFlag": "has_new_clothes" }
+    },
+    {
+      "id": "travel_rations",
+      "name": "旅行干粮",
+      "description": "行商赠送的干粮，足够支撑好几天的路程",
+      "effects": { "setFlag": "has_travel_rations" }
+    },
+    {
+      "id": "village_map",
+      "name": "村庄地图",
+      "description": "周边村庄的地图，标注了道路、水源和歇脚处",
+      "effects": { "setFlag": "has_village_map" }
+    },
+    {
+      "id": "hope_token",
+      "name": "希望信物",
+      "description": "给予希望的东西，握在手中便觉得前路不那么难走",
+      "effects": { "setFlag": "has_hope_token" }
+    }
+  ]
+}
