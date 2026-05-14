@@ -1,0 +1,31 @@
+{
+  "id": "06_river",
+  "title": "大河",
+  "atmosphere": { "time": "午后", "weather": "阴沉", "mood": "犹豫" },
+  "texts": [
+    { "content": "翻过山口，一条大河横在眼前。", "delay": 0 },
+    { "content": "河水湍急，看不到对岸。", "delay": 2000 },
+    { "content": "没有桥，没有船，只有滔滔河水。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你看着手中的{{ITEM_SLOT_C:name}}，思考着。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_C:description}}", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"想办法渡河。\"",
+      "target": "07_night_desert",
+      "effects": { "mood": "勇敢" },
+      "condition": null
+    },
+    {
+      "text": "\"沿着河岸走，也许能找到渡口。\"",
+      "target": "07_night_desert",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

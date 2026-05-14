@@ -1,0 +1,19 @@
+{
+  "id": "10a_brave_new_world",
+  "title": "勇敢新世界",
+  "atmosphere": { "time": "黄昏", "weather": "晚霞绚烂", "mood": "壮阔而自由" },
+  "texts": [
+    { "content": "你选择了继续前行。", "delay": 0 },
+    { "content": "身后是走过的路，眼前是无尽的可能。", "delay": 2000 },
+    { "content": "你不知道前方有什么在等着你。", "delay": 1500 },
+    { "content": "但你知道，你会勇敢地面对一切。", "delay": 2000 },
+    { "content": "风在耳边呼啸，像是在为你送行。", "delay": 1500 },
+    { "content": "你迈开步伐，走向那片绚烂的晚霞。", "delay": 2000 },
+    { "content": "前方未知，但你不再恐惧。", "delay": 1500 },
+    { "content": "因为你知道，路在脚下，心在远方。", "delay": 2000 },
+    { "content": "——前方未知·勇敢新世界·完——", "delay": 2000 }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

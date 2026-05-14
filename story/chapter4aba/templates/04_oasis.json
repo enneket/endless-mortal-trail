@@ -1,0 +1,31 @@
+{
+  "id": "04_oasis",
+  "title": "绿洲",
+  "atmosphere": { "time": "傍晚", "weather": "温暖", "mood": "宁静" },
+  "texts": [
+    { "content": "穿过一片荒地，眼前忽然出现了一片绿洲。", "delay": 0 },
+    { "content": "清澈的泉水，翠绿的草地，几棵高大的棕榈树。", "delay": 2000 },
+    { "content": "在荒漠中，这里就像天堂。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你捧起一捧泉水，甘甜入喉。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:gift}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"在这里休息一晚再走。\"",
+      "target": "05_mountain_pass",
+      "effects": { "mood": "休整" },
+      "condition": null
+    },
+    {
+      "text": "\"补充好物资，继续赶路。\"",
+      "target": "05_mountain_pass",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

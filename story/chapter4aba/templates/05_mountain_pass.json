@@ -1,0 +1,30 @@
+{
+  "id": "05_mountain_pass",
+  "title": "山口",
+  "atmosphere": { "time": "清晨", "weather": "寒风凛冽", "mood": "艰难" },
+  "texts": [
+    { "content": "绿洲之后，是一片连绵的山脉。", "delay": 0 },
+    { "content": "山口的风像刀子一样刮在脸上。", "delay": 2000 },
+    { "content": "脚下的路越来越窄，越来越陡。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "你咬紧牙关，一步一步往上爬。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"翻过这座山，也许就能看到答案。\"",
+      "target": "06_river",
+      "effects": { "mood": "执着" },
+      "condition": null
+    },
+    {
+      "text": "\"慢点走，急不得。\"",
+      "target": "06_river",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

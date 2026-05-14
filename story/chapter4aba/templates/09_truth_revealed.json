@@ -1,0 +1,38 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "正午", "weather": "万里无云", "mood": "清明" },
+  "texts": [
+    { "content": "你站在一片高地上，俯瞰着脚下的世界。", "delay": 0 },
+    { "content": "远方是连绵的山脉，是无尽的原野。", "delay": 2000 },
+    { "content": "你终于明白了。", "delay": 2000 },
+    { "content": "路，从来就没有终点。", "delay": 1500 },
+    { "content": "所谓的远方，不过是另一个起点。", "delay": 2000 },
+    { "content": "你所寻找的，不是某个地方，而是你自己。", "delay": 2000 },
+    { "content": "风吹过来，带着自由的气息。", "delay": 1500 },
+    { "content": "你笑了。", "delay": 1500 },
+    { "content": "现在，你有三个选择。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"继续前行，去探索更远的远方。\"",
+      "target": "10a_brave_new_world",
+      "effects": { "mood": "勇敢" },
+      "condition": null
+    },
+    {
+      "text": "\"回去吧，回到来时的地方。\"",
+      "target": "10b_turn_back",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"就在这里，开始新的生活。\"",
+      "target": "10c_settle_here",
+      "effects": { "mood": "安宁" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

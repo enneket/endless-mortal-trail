@@ -1,0 +1,32 @@
+{
+  "id": "08_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "黎明", "weather": "霞光万丈", "mood": "顿悟" },
+  "texts": [
+    { "content": "黎明时分，你从梦中醒来。", "delay": 0 },
+    { "content": "梦里，你看到了来时的路。", "delay": 2000 },
+    { "content": "那些山川，那些河流，那些遇见的人。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你低头看了看手中的{{ITEM_SLOT_D:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_D:description}}", "delay": 1000 },
+    { "content": "忽然，你明白了什么。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"原来如此……\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"不，还不够，我要继续寻找。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "执着" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

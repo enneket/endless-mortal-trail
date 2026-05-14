@@ -1,0 +1,30 @@
+{
+  "id": "01_unknown_road",
+  "title": "未知之路",
+  "atmosphere": { "time": "清晨", "weather": "薄雾弥漫", "mood": "迷茫而坚定" },
+  "texts": [
+    { "content": "你踏上了前方的路。", "delay": 0 },
+    { "content": "身后是熟悉的风景，眼前是未知的远方。", "delay": 2000 },
+    { "content": "薄雾笼罩着道路，看不清前方。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 },
+    { "content": "你深吸一口气，迈开步伐。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"既然已经出发，就没有回头路。\"",
+      "target": "02_crossroads",
+      "effects": { "mood": "决然" },
+      "condition": null
+    },
+    {
+      "text": "\"走一步看一步吧。\"",
+      "target": "02_crossroads",
+      "effects": { "mood": "随遇而安" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

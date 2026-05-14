@@ -1,0 +1,30 @@
+{
+  "id": "03_strange_land",
+  "title": "陌生之地",
+  "atmosphere": { "time": "午后", "weather": "风起", "mood": "新奇而警觉" },
+  "texts": [
+    { "content": "眼前的景象变得陌生起来。", "delay": 0 },
+    { "content": "从未见过的植物，从未听过的鸟鸣。", "delay": 2000 },
+    { "content": "这片土地，不属于你所知道的任何地方。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "风吹过，带来一种从未闻过的气息。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里真不一样。\"",
+      "target": "04_oasis",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    },
+    {
+      "text": "\"得小心点，未知的地方总有未知的危险。\"",
+      "target": "04_oasis",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

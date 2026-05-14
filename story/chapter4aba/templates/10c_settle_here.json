@@ -1,0 +1,20 @@
+{
+  "id": "10c_settle_here",
+  "title": "在此安家",
+  "atmosphere": { "time": "傍晚", "weather": "炊烟袅袅", "mood": "安宁而满足" },
+  "texts": [
+    { "content": "你选择了留下。", "delay": 0 },
+    { "content": "这片土地，虽然陌生，却让你感到安心。", "delay": 2000 },
+    { "content": "你搭起了一间小屋，开垦了一片田地。", "delay": 1500 },
+    { "content": "日出而作，日落而息。", "delay": 2000 },
+    { "content": "你终于找到了属于自己的地方。", "delay": 2000 },
+    { "content": "傍晚的炊烟升起，带着饭菜的香气。", "delay": 1500 },
+    { "content": "你坐在门前，看着夕阳西下。", "delay": 2000 },
+    { "content": "远方，不再是远方。", "delay": 1500 },
+    { "content": "因为这里，就是家。", "delay": 2000 },
+    { "content": "——前方未知·在此安家·完——", "delay": 2000 }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

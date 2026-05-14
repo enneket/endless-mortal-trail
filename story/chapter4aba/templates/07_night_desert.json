@@ -1,0 +1,31 @@
+{
+  "id": "07_night_desert",
+  "title": "夜荒漠",
+  "atmosphere": { "time": "深夜", "weather": "繁星满天", "mood": "孤独而敬畏" },
+  "texts": [
+    { "content": "夜幕降临，你身处一片荒漠之中。", "delay": 0 },
+    { "content": "头顶是从未见过的星空，璀璨得让人窒息。", "delay": 2000 },
+    { "content": "四周一片寂静，只有风声。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你点燃篝火，望着火焰发呆。", "delay": 1500 },
+    { "content": "火光映照着你的脸，也映照着你的心。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"明天，继续走。\"",
+      "target": "08_revelation",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"也许该停下来想想，这一路到底在找什么。\"",
+      "target": "08_revelation",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
