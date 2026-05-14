@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_mountain_path", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_temple_gate", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_main_hall", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_garden", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_library", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_meditation_room", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_mountain_peak", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_night_meditation", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_accept", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_reject", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_secrets", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["temple_woodcutter", "wandering_performer"] },
+    "slot_2": { "candidates": ["young_monk", "female_pilgrim"] },
+    "slot_3": { "candidates": ["old_abbot", "failed_scholar"] },
+    "slot_4": { "candidates": ["female_pilgrim", "herb_merchant"] },
+    "slot_5": { "candidates": ["failed_scholar", "old_abbot"] },
+    "slot_6": { "candidates": ["herb_merchant", "mysterious_elder"] },
+    "slot_7": { "candidates": ["wandering_performer", "temple_woodcutter"] },
+    "slot_8": { "candidates": ["mysterious_elder", "young_monk"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["buddhist_beads", "vegetarian_box"] },
+    "slot_b": { "candidates": ["incense_burner", "wooden_fish"] },
+    "slot_c": { "candidates": ["sutra_book", "mountain_herbs"] },
+    "slot_d": { "candidates": ["mountain_herbs", "buddhist_beads"] }
+  }
+}

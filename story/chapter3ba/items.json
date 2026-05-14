@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "buddhist_beads",
+      "name": "佛珠",
+      "description": "寺庙开光之物，檀木所制，香气沁人",
+      "effects": { "setFlag": "has_buddhist_beads" }
+    },
+    {
+      "id": "sutra_book",
+      "name": "经书",
+      "description": "手抄经卷，字迹工整，墨香犹存",
+      "effects": { "setFlag": "has_sutra_book" }
+    },
+    {
+      "id": "incense_burner",
+      "name": "香炉",
+      "description": "古铜香炉，炉身刻有梵文，年代久远",
+      "effects": { "setFlag": "has_incense_burner" }
+    },
+    {
+      "id": "wooden_fish",
+      "name": "木鱼",
+      "description": "僧人念经之物，敲之声清脆，可静心安神",
+      "effects": { "setFlag": "has_wooden_fish" }
+    },
+    {
+      "id": "vegetarian_box",
+      "name": "素食食盒",
+      "description": "寺庙特色食物，素斋精致，别有风味",
+      "effects": { "setFlag": "has_vegetarian_box" }
+    },
+    {
+      "id": "mountain_herbs",
+      "name": "山中草药",
+      "description": "珍贵药材，生于悬崖峭壁，采之不易",
+      "effects": { "setFlag": "has_mountain_herbs" }
+    }
+  ]
+}

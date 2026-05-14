@@ -1,0 +1,8 @@
+{
+  "id": "chapter3ba",
+  "title": "山间古刹",
+  "description": "跟随指引后，渡途人走入深山，发现一座古寺",
+  "sceneCount": 12,
+  "startScene": "01_mountain_path",
+  "randomized": true
+}
