@@ -1,0 +1,22 @@
+{
+  "id": "12a_acceptance",
+  "title": "坦然接受",
+  "atmosphere": { "time": "黎明", "weather": "晴朗", "mood": "平静" },
+  "texts": [
+    { "content": "你深吸一口气，坦然接受了这一切。", "delay": 0 },
+    { "content": "裂缝在你面前展开，像一扇通往未知的门。你没有犹豫，迈步走了进去。", "delay": 1500 },
+    { "content": "光芒包围了你。你感到一种从未有过的平静。", "delay": 2000 },
+    { "content": "当你再次睁开眼睛，你站在一个宁静的山间小镇前。", "delay": 2000 },
+    { "content": "——第一章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter2a:01_town_gate",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
