@@ -1,0 +1,30 @@
+{
+  "id": "07_night_cave",
+  "title": "夜洞",
+  "atmosphere": { "time": "深夜", "weather": "无风", "mood": "宁静" },
+  "texts": [
+    { "content": "你在洞穴中找到了一处避风的地方，准备休息。", "delay": 0 },
+    { "content": "周围一片寂静，只有远处滴水的声音。你闭上眼睛，听着这来自地底的音乐。", "delay": 2000 },
+    { "content": "不知过了多久，你被一阵轻微的响动惊醒。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "在{{NPC_SLOT_7:name}}的帮助下，你发现了一件有用的东西。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“跟着{{NPC_SLOT_7:name}}走。”",
+      "target": "08_discovery",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“我自己继续探索。”",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "自信" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

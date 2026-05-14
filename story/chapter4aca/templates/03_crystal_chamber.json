@@ -1,0 +1,30 @@
+{
+  "id": "03_crystal_chamber",
+  "title": "水晶洞穴",
+  "atmosphere": { "time": "夜晚", "weather": "无风", "mood": "惊叹" },
+  "texts": [
+    { "content": "你继续往前走，突然，眼前豁然开朗。", "delay": 0 },
+    { "content": "一个巨大的洞穴出现在你面前，洞壁上镶嵌着无数水晶，闪烁着五彩斑斓的光芒。", "delay": 2000 },
+    { "content": "光芒在洞穴中跳跃，仿佛无数星星在闪烁。你从未见过如此美丽的景象。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "在{{NPC_SLOT_3:name}}的帮助下，你找到了一件珍贵的东西。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“这些水晶太美了，我想多看看。”",
+      "target": "06_deep_abyss",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“我感觉前面还有更重要的东西。”",
+      "target": "07_night_cave",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

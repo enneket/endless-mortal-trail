@@ -1,0 +1,36 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "无风", "mood": "豁然" },
+  "texts": [
+    { "content": "你终于到达了洞穴的最深处。", "delay": 0 },
+    { "content": "这里没有水晶，没有遗迹，只有一面巨大的石壁。", "delay": 2000 },
+    { "content": "石壁上刻满了文字，不是任何你认识的语言，但你却能读懂。", "delay": 2000 },
+    { "content": "“渡途人。”石壁上的文字仿佛在对你说话，“你走了很远的路。”", "delay": 2000 },
+    { "content": "“这个洞穴，是世界的记忆。每一块石头，每一滴水，都记录着一段故事。”", "delay": 2000 },
+    { "content": "“你在这里看到的一切，都是真实的。你在这里做出的选择，都将改变一切。”", "delay": 2000 },
+    { "content": "“现在，告诉我，你想要什么？”", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“我想继续探索，去更深的地方。”",
+      "target": "10a_go_deeper",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "“我想回到地面，回到阳光下。”",
+      "target": "10b_surface",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "“我想留在这里，在洞中定居。”",
+      "target": "10c_build_home",
+      "effects": { "mood": "归属" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

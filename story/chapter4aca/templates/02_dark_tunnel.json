@@ -1,0 +1,30 @@
+{
+  "id": "02_dark_tunnel",
+  "title": "黑暗隧道",
+  "atmosphere": { "time": "黄昏", "weather": "无风", "mood": "紧张" },
+  "texts": [
+    { "content": "你深吸一口气，走进了洞穴。", "delay": 0 },
+    { "content": "黑暗瞬间将你吞没。你只能听见自己的呼吸声，和远处滴水的回响。", "delay": 2000 },
+    { "content": "脚下的路越来越窄，头顶的岩石越来越低。你不得不弯下腰，摸索着前进。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "在{{NPC_SLOT_2:name}}的指引下，你发现了一件有用的东西。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“继续往深处走。”",
+      "target": "03_crystal_chamber",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“先在这里休息一下。”",
+      "target": "05_ancient_ruins",
+      "effects": { "mood": "警觉" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "04_underground_river",
+  "title": "地下暗河",
+  "atmosphere": { "time": "黄昏", "weather": "潮湿", "mood": "敬畏" },
+  "texts": [
+    { "content": "你绕过洞穴入口，沿着一条隐蔽的小路往下走。", "delay": 0 },
+    { "content": "渐渐地，你听到了水声。不是地面上的溪流，而是一种更深沉、更古老的声音。", "delay": 2000 },
+    { "content": "你来到一条地下暗河前。河水漆黑如墨，却散发着微弱的光芒。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“沿着暗河往下游走。”",
+      "target": "05_ancient_ruins",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“想办法渡过暗河，去对面看看。”",
+      "target": "08_discovery",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

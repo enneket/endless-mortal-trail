@@ -1,0 +1,29 @@
+{
+  "id": "06_deep_abyss",
+  "title": "深渊边缘",
+  "atmosphere": { "time": "深夜", "weather": "无风", "mood": "恐惧" },
+  "texts": [
+    { "content": "你沿着水晶洞穴继续深入，脚下的路越来越陡。", "delay": 0 },
+    { "content": "突然，你停住了脚步。前方是一片虚无——一个深不见底的深渊。", "delay": 2000 },
+    { "content": "你往下看去，黑暗仿佛在凝视着你。一股寒意从脚底升起，直冲头顶。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我要下去看看。”",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“还是从别的路走吧。”",
+      "target": "08_discovery",
+      "effects": { "mood": "谨慎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

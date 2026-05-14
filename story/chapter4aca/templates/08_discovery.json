@@ -1,0 +1,24 @@
+{
+  "id": "08_discovery",
+  "title": "发现",
+  "atmosphere": { "time": "黎明", "weather": "无风", "mood": "震惊" },
+  "texts": [
+    { "content": "你继续深入，脚下的路变得越来越平坦。", "delay": 0 },
+    { "content": "突然，你看到了一些不属于自然的东西——石柱、台阶、还有雕刻着花纹的墙壁。", "delay": 2000 },
+    { "content": "这是一处远古遗迹。不知何人所建，不知存在了多久。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你站在遗迹中央，环顾四周。墙壁上的壁画，记录着一段被遗忘的历史。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我要找到真相。”",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

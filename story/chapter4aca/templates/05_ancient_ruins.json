@@ -1,0 +1,30 @@
+{
+  "id": "05_ancient_ruins",
+  "title": "远古遗迹",
+  "atmosphere": { "time": "夜晚", "weather": "无风", "mood": "神秘" },
+  "texts": [
+    { "content": "你继续深入，脚下的路变得越来越平坦。", "delay": 0 },
+    { "content": "突然，你看到了一些不属于自然的东西——石柱、台阶、还有雕刻着花纹的墙壁。", "delay": 2000 },
+    { "content": "这是一处远古遗迹。不知何人所建，不知存在了多久。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "在{{NPC_SLOT_5:name}}的指引下，你发现了一件珍贵的东西。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“这些遗迹里一定藏着秘密。”",
+      "target": "08_discovery",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“我感觉这里不太安全，还是先离开吧。”",
+      "target": "07_night_cave",
+      "effects": { "mood": "警觉" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
