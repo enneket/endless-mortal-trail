@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_wasteland", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_dust_storm", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_oasis", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_ruined_temple", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_night_desert", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_mirage", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_canyon", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_revelation", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_follow_light", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_embrace_darkness", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_find_middle", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["wandering_merchant", "old_wanderer"] },
+    "slot_2": { "candidates": ["lost_child", "bandit"] },
+    "slot_3": { "candidates": ["traveling_healer", "desert_hermit"] },
+    "slot_4": { "candidates": ["ghost_woman", "old_wanderer"] },
+    "slot_5": { "candidates": ["bandit", "wandering_merchant"] },
+    "slot_6": { "candidates": ["desert_hermit", "ghost_woman"] },
+    "slot_7": { "candidates": ["fate_weaver", "traveling_healer"] },
+    "slot_8": { "candidates": ["fate_weaver", "old_wanderer"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["survival_kit", "dried_rations"] },
+    "slot_b": { "candidates": ["compass", "old_journal"] },
+    "slot_c": { "candidates": ["mysterious_talisman", "dried_rations"] },
+    "slot_d": { "candidates": ["memory_shard", "survival_kit"] }
+  }
+}

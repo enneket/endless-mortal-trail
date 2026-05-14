@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "survival_kit",
+      "name": "生存工具",
+      "description": "一套求生之物，火石、绳索、小刀，样样俱全",
+      "effects": { "setFlag": "has_survival_kit" }
+    },
+    {
+      "id": "old_journal",
+      "name": "旧日记",
+      "description": "泛黄的纸页上，记录着不为人知的秘密",
+      "effects": { "setFlag": "has_old_journal" }
+    },
+    {
+      "id": "compass",
+      "name": "指南针",
+      "description": "古旧的指南针，指针微微颤抖，指向未知的方向",
+      "effects": { "setFlag": "has_compass" }
+    },
+    {
+      "id": "dried_rations",
+      "name": "干粮",
+      "description": "风干的肉干和硬饼，虽不好吃，却能充饥",
+      "effects": { "setFlag": "has_dried_rations" }
+    },
+    {
+      "id": "mysterious_talisman",
+      "name": "神秘符咒",
+      "description": "画满奇怪符号的黄纸，据说是辟邪之物",
+      "effects": { "setFlag": "has_mysterious_talisman" }
+    },
+    {
+      "id": "memory_shard",
+      "name": "记忆碎片",
+      "description": "一块晶莹的碎片，里面似乎封存着某个人的记忆",
+      "effects": { "setFlag": "has_memory_shard" }
+    }
+  ]
+}

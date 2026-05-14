@@ -1,0 +1,8 @@
+{
+  "id": "chapter3bb",
+  "title": "迷途荒野",
+  "description": "继续迷惘中，渡途人走入一片荒芜的野地",
+  "sceneCount": 12,
+  "startScene": "01_wasteland",
+  "randomized": true
+}
