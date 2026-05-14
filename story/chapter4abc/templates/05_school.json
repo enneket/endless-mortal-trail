@@ -1,0 +1,28 @@
+{
+  "id": "05_school",
+  "title": "学堂",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "温馨" },
+  "texts": [
+    { "content": "学堂的门开着，里面传来朗朗的读书声。", "delay": 0 },
+    { "content": "你站在门口，看着里面的孩子们摇头晃脑地念书，恍惚间觉得自己也回到了从前。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“去山上走走吧。”",
+      "target": "06_mountain_path",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "“天快黑了，先找个地方歇脚。”",
+      "target": "07_night_town",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

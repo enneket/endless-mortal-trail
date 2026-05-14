@@ -1,0 +1,30 @@
+{
+  "id": "02_old_street",
+  "title": "老街",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "怀念" },
+  "texts": [
+    { "content": "你沿着老街慢慢走着。", "delay": 0 },
+    { "content": "两旁的店铺大多还在，只是招牌换了新的。石板路上的裂缝还是老地方，踩上去还是会发出咯吱的声响。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你从怀里掏出一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“去茶馆坐坐吧。”",
+      "target": "03_teahouse",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "“我想去药铺看看。”",
+      "target": "04_medicine_shop",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

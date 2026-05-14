@@ -1,0 +1,31 @@
+{
+  "id": "06_mountain_path",
+  "title": "山路",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "宁静" },
+  "texts": [
+    { "content": "你沿着山路往上走，两旁的树木比从前茂密了许多。", "delay": 0 },
+    { "content": "山路还是那条山路，只是走起来比从前吃力了些。", "delay": 2000 },
+    { "content": "到了半山腰，你停下来歇脚。远处的小镇在夕阳下显得格外宁静。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你从行囊里掏出一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“下山吧，天快黑了。”",
+      "target": "07_night_town",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "“再坐一会儿。”",
+      "target": "08_reunion",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

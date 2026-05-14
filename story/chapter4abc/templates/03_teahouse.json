@@ -1,0 +1,29 @@
+{
+  "id": "03_teahouse",
+  "title": "茶馆",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "温暖" },
+  "texts": [
+    { "content": "茶馆还是老样子，只是掌柜换了人。", "delay": 0 },
+    { "content": "你找了个靠窗的位置坐下，要了一壶茶。茶端上来，还是从前的味道。", "delay": 2000 },
+    { "content": "窗外的街景没什么变化，只是树长得更高了，遮住了半边天空。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我想去学校看看。”",
+      "target": "05_school",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“去山上走走吧。”",
+      "target": "06_mountain_path",
+      "effects": { "mood": "释然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "08_reunion",
+  "title": "重逢",
+  "atmosphere": { "time": "夜晚", "weather": "晴朗", "mood": "感动" },
+  "texts": [
+    { "content": "镇口的空地上，不知谁摆了几张桌子，上面放满了酒菜。", "delay": 0 },
+    { "content": "镇上的人三三两两地聚过来，有认识的，也有不认识的。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "老镇长站起来，举起酒杯。", "delay": 1500 },
+    { "content": "“今晚，我们为渡途人接风。”他的声音有些哽咽，“不管你走了多远，这里永远是你的家。”", "delay": 2500 },
+    { "content": "众人纷纷举杯，灯火映照着一张张熟悉的面孔。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“谢谢大家。”你举起酒杯，一饮而尽。",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "感动" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

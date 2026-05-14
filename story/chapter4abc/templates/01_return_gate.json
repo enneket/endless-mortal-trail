@@ -1,0 +1,30 @@
+{
+  "id": "01_return_gate",
+  "title": "归途",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "感慨" },
+  "texts": [
+    { "content": "你又站在了那座小镇的门口。", "delay": 0 },
+    { "content": "夕阳把镇门染成了金色，门楣上的字迹比从前模糊了些，但还认得出来。", "delay": 2000 },
+    { "content": "风吹过来，带着熟悉的味道——炊烟、泥土、还有远处飘来的饭菜香。", "delay": 2000 },
+    { "content": "你深吸一口气，迈步走了进去。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我回来了。”",
+      "target": "02_old_street",
+      "effects": { "mood": "感慨" },
+      "condition": null
+    },
+    {
+      "text": "“镇子还是老样子。”",
+      "target": "03_teahouse",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "04_medicine_shop",
+  "title": "药铺",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "平静" },
+  "texts": [
+    { "content": "药铺的门虚掩着，里面飘出草药的香气。", "delay": 0 },
+    { "content": "你推门进去，药柜还是从前那些，只是上面的标签换了新的。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你注意到柜台上放着一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“去学校看看吧。”",
+      "target": "05_school",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“天快黑了，先找个地方歇脚。”",
+      "target": "07_night_town",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

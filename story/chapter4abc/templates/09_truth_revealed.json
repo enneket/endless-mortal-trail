@@ -1,0 +1,38 @@
+{
+  "id": "09_truth_revealed",
+  "title": "归宿",
+  "atmosphere": { "time": "深夜", "weather": "晴朗", "mood": "豁然" },
+  "texts": [
+    { "content": "酒过三巡，人群渐渐散去。", "delay": 0 },
+    { "content": "你坐在镇口的老树下，看着天上的星星。这里的星星，比别处的都亮。", "delay": 2000 },
+    { "content": "老镇长走过来，在你身边坐下。", "delay": 1500 },
+    { "content": "“你走了这些年，我也老了。”老镇长叹了口气，“但镇子还在，人还在。”", "delay": 2000 },
+    { "content": "他看着你，眼里闪着光。", "delay": 1500 },
+    { "content": "“你在这里看了这么多，该做出你的选择了。”", "delay": 2000 },
+    { "content": "“留下来，再做一次镇上的人。”", "delay": 1500 },
+    { "content": "“或者，继续你的旅途。”", "delay": 1500 },
+    { "content": "“又或者，成为这个镇子的一部分，永远留在这里。”", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“我留下。”",
+      "target": "10a_stay_again",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "“我该走了。”",
+      "target": "10b_leave_again",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "“我要成为这里的一部分。”",
+      "target": "10c_become_part",
+      "effects": { "mood": "归属" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

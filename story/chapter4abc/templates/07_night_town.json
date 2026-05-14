@@ -1,0 +1,31 @@
+{
+  "id": "07_night_town",
+  "title": "夜镇",
+  "atmosphere": { "time": "夜晚", "weather": "晴朗", "mood": "静谧" },
+  "texts": [
+    { "content": "夜幕降临，小镇亮起了灯火。", "delay": 0 },
+    { "content": "灯笼挂在门檐下，把石板路照得暖洋洋的。远处传来几声犬吠，还有孩子的笑声。", "delay": 2500 },
+    { "content": "你走在街上，感觉像是走进了一幅画里。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你掏出一样东西，在灯光下端详。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“去镇口看看，也许有人在等我。”",
+      "target": "08_reunion",
+      "effects": { "mood": "期待" },
+      "condition": null
+    },
+    {
+      "text": "“找个地方住下，明天再说。”",
+      "target": "08_reunion",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
