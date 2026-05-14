@@ -1,0 +1,32 @@
+{
+  "id": "08_visitor",
+  "chapter": "chapter4acc",
+  "title": "访客临门",
+  "narrative": {
+    "opening": "在这林中深处，访客是稀罕的。每一次有人到来，都像是一颗石子投入平静的湖面。",
+    "description": "你已经习惯了独处的节奏。森林是你的同伴，鸟兽是你的邻居。但偶尔，会有人循着小径找到这里——迷路的、采药的、赶路的、或者只是被笛声吸引来的。每一个访客都带来外界的消息，也带来一面镜子，让你看到自己的变化。",
+    "atmosphere": "期待、对照、外界与内心的交汇。"
+  },
+  "choices": [
+    {
+      "id": "welcome_visitor",
+      "text": "欢迎访客，分享一杯泉水",
+      "nextScene": "09_truth_revealed",
+      "effects": {}
+    },
+    {
+      "id": "observe_visitor",
+      "text": "静静观察，不主动接触",
+      "nextScene": "09_truth_revealed",
+      "effects": {}
+    },
+    {
+      "id": "reflect_alone",
+      "text": "谢绝访客，继续独处",
+      "nextScene": "09_truth_revealed",
+      "effects": {}
+    }
+  ],
+  "npcs": ["forest_neighbor", "herb_gatherer", "lost_hunter", "wandering_child", "passing_traveler"],
+  "items": []
+}

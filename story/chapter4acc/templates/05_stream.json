@@ -1,0 +1,30 @@
+{
+  "id": "05_stream",
+  "chapter": "chapter4acc",
+  "title": "溪边静思",
+  "narrative": {
+    "opening": "溪水潺潺，从山石间流过，发出清脆的声响。你坐在溪边的大石头上，看着水花飞溅。",
+    "description": "这条溪流是森林的血脉。你曾在这里取水、洗衣、洗澡。溪水清澈见底，偶尔能看到小鱼游过。你俯身掬起一捧水，清凉从指尖传遍全身。在这里，时间仿佛变得缓慢，每一秒都可以被细细品味。",
+    "atmosphere": "清澈、流动、时间的质感。"
+  },
+  "choices": [
+    {
+      "id": "drink_spring",
+      "text": "掬一捧泉水饮下",
+      "nextScene": "06_evening",
+      "effects": {
+        "addItems": ["crystal_spring"]
+      }
+    },
+    {
+      "id": "find_child",
+      "text": "发现一个迷路的孩子在哭泣",
+      "nextScene": "06_evening",
+      "effects": {
+        "addNpcs": ["wandering_child"]
+      }
+    }
+  ],
+  "npcs": ["wandering_child"],
+  "items": ["crystal_spring"]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "03_garden",
+  "chapter": "chapter4acc",
+  "title": "药园时光",
+  "narrative": {
+    "opening": "屋前的药园里，各种草药长得正好。薄荷的清凉、艾草的苦涩、金银花的甜香混在一起，形成独特的气息。",
+    "description": "你蹲下身，仔细检查每一株草药的生长状况。有些需要浇水，有些需要除草，还有些已经可以采摘了。药园虽小，却是你与土地最直接的连接。在这里，你学会了等待——草药的生长急不得，正如人生许多事情一样。",
+    "atmosphere": "平和、耐心、与自然的对话。"
+  },
+  "choices": [
+    {
+      "id": "tend_garden",
+      "text": "专心照料药园",
+      "nextScene": "04_forest_walk",
+      "effects": {
+        "addItems": ["herb_garden"]
+      }
+    },
+    {
+      "id": "visitor_arrives",
+      "text": "有人来了——是采药人",
+      "nextScene": "04_forest_walk",
+      "effects": {
+        "addNpcs": ["herb_gatherer"]
+      }
+    }
+  ],
+  "npcs": ["herb_gatherer"],
+  "items": ["herb_garden"]
+}

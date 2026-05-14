@@ -1,0 +1,38 @@
+{
+  "id": "04_forest_walk",
+  "chapter": "chapter4acc",
+  "title": "林间漫步",
+  "narrative": {
+    "opening": "你沿着熟悉的小径走进森林深处。树木高大挺拔，阳光在树冠间碎成金色的光斑。",
+    "description": "林中的小径是你踩出来的。每一块石头、每一棵弯树你都认得。走在这里，你不需要思考方向，脚步自然知道该往哪里去。偶尔有松鼠从枝头跳过，鸟儿在头顶歌唱。这是属于你的森林，你也是属于这片森林的。",
+    "atmosphere": "自在、融入、归属。"
+  },
+  "choices": [
+    {
+      "id": "meet_neighbor",
+      "text": "遇到林中邻居，点头致意",
+      "nextScene": "05_stream",
+      "effects": {
+        "addNpcs": ["forest_neighbor"]
+      }
+    },
+    {
+      "id": "find_hunter",
+      "text": "发现一个迷路的猎人",
+      "nextScene": "05_stream",
+      "effects": {
+        "addNpcs": ["lost_hunter"]
+      }
+    },
+    {
+      "id": "encounter_traveler",
+      "text": "遇到一个路过旅人",
+      "nextScene": "05_stream",
+      "effects": {
+        "addNpcs": ["passing_traveler"]
+      }
+    }
+  ],
+  "npcs": ["forest_neighbor", "lost_hunter", "passing_traveler"],
+  "items": []
+}

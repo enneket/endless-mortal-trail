@@ -1,0 +1,32 @@
+{
+  "id": "09_truth_revealed",
+  "chapter": "chapter4acc",
+  "title": "真相显现",
+  "narrative": {
+    "opening": "在林中生活了不知多少个日夜之后，某个瞬间，你忽然明白了什么。",
+    "description": "那不是一个惊天动地的时刻。也许是在劈柴的时候，也许是在看溪水的时候，也许是在与访客交谈的时候——真相就这样自然而然地显现了。你明白了，隐居不是逃避，而是另一种面对。你明白了，孤独不是缺失，而是与自己相处的能力。你明白了，这片森林不是你的避难所，而是你的道场。",
+    "atmosphere": "顿悟、清明、真相的重量。"
+  },
+  "choices": [
+    {
+      "id": "choose_hermit",
+      "text": "选择永远留在这片森林",
+      "nextScene": "10a_eternal_hermit",
+      "effects": {}
+    },
+    {
+      "id": "choose_return",
+      "text": "带着领悟重返人世间",
+      "nextScene": "10b_return_world",
+      "effects": {}
+    },
+    {
+      "id": "choose_transcend",
+      "text": "超越隐居与入世的分别",
+      "nextScene": "10c_transcend",
+      "effects": {}
+    }
+  ],
+  "npcs": ["tree_spirit", "wise_owl", "mirror_self"],
+  "items": ["journal"]
+}

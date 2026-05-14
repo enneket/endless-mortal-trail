@@ -1,0 +1,38 @@
+{
+  "id": "07_night_meditation",
+  "chapter": "chapter4acc",
+  "title": "夜坐冥想",
+  "narrative": {
+    "opening": "夜深了，万籁俱寂。你坐在蒲团上，面对着窗外的星空，开始每晚的冥想。",
+    "description": "蒲团是你亲手编织的，坐上去刚好贴合身体。你闭上眼睛，听着自己的呼吸，感受着身体的每一个细微变化。思绪如流水般来来去去，你只是看着它们，不追逐，不抗拒。在这寂静的夜里，你与自己独处。",
+    "atmosphere": "深邃、宁静、内在的探索。"
+  },
+  "choices": [
+    {
+      "id": "deep_meditation",
+      "text": "进入深层冥想",
+      "nextScene": "08_visitor",
+      "effects": {
+        "addItems": ["meditation_mat"]
+      }
+    },
+    {
+      "id": "owl_appears",
+      "text": "一只猫头鹰落在窗台上",
+      "nextScene": "08_visitor",
+      "effects": {
+        "addNpcs": ["wise_owl"]
+      }
+    },
+    {
+      "id": "mirror_vision",
+      "text": "在冥想中看到另一个自己",
+      "nextScene": "08_visitor",
+      "effects": {
+        "addNpcs": ["mirror_self"]
+      }
+    }
+  ],
+  "npcs": ["wise_owl", "mirror_self"],
+  "items": ["meditation_mat"]
+}

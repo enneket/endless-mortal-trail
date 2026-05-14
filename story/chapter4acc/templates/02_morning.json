@@ -1,0 +1,28 @@
+{
+  "id": "02_morning",
+  "chapter": "chapter4acc",
+  "title": "晨光初照",
+  "narrative": {
+    "opening": "清晨的森林苏醒了。露珠挂在草叶上，闪烁着晶莹的光芒。远处传来啄木鸟笃笃的敲击声。",
+    "description": "你走出小屋，深吸一口清冽的空气。晨雾还未完全散去，在树梢间缠绕。你需要去劈些柴火，为接下来的日子做准备。柴斧靠在墙边，斧刃在晨光中闪着寒光。",
+    "atmosphere": "清新、生机、日常的节奏。"
+  },
+  "choices": [
+    {
+      "id": "chop_wood",
+      "text": "拿起柴斧去劈柴",
+      "nextScene": "03_garden",
+      "effects": {
+        "addItems": ["wood_axe"]
+      }
+    },
+    {
+      "id": "skip_wood",
+      "text": "柴还够用，先去照看药园",
+      "nextScene": "03_garden",
+      "effects": {}
+    }
+  ],
+  "npcs": [],
+  "items": ["wood_axe"]
+}

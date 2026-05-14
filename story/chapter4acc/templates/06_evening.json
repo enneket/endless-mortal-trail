@@ -1,0 +1,30 @@
+{
+  "id": "06_evening",
+  "chapter": "chapter4acc",
+  "title": "暮色降临",
+  "narrative": {
+    "opening": "夕阳将天空染成橙红色，林中的光影变得柔和而漫长。你回到小屋，准备度过又一个宁静的夜晚。",
+    "description": "暮色中的森林别有一番韵味。归鸟在天空划出优美的弧线，虫鸣渐渐取代了鸟叫。你在屋前生起一小堆火，火光在暮色中跳动。这一刻，你感到一种深深的满足——不是因为拥有了什么，而是因为什么都不需要。",
+    "atmosphere": "温暖、满足、一天的圆满。"
+  },
+  "choices": [
+    {
+      "id": "play_flute",
+      "text": "取出林笛，吹一曲",
+      "nextScene": "07_night_meditation",
+      "effects": {
+        "addItems": ["forest_flute"]
+      }
+    },
+    {
+      "id": "write_journal",
+      "text": "点燃油灯，写日记",
+      "nextScene": "07_night_meditation",
+      "effects": {
+        "addItems": ["journal"]
+      }
+    }
+  ],
+  "npcs": [],
+  "items": ["forest_flute", "journal"]
+}
