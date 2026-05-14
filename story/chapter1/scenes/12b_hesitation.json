@@ -1,0 +1,23 @@
+{
+  "id": "12b_hesitation",
+  "title": "犹豫不决",
+  "atmosphere": { "time": "黄昏", "weather": "迷雾", "mood": "迷茫" },
+  "texts": [
+    { "content": "你站在裂缝前，犹豫不决。", "delay": 0 },
+    { "content": "进去？还是不进去？你不知道。", "delay": 1500 },
+    { "content": "裂缝似乎在召唤你，又似乎在警告你。", "delay": 2000 },
+    { "content": "最终，你还是迈出了那一步。不是因为勇气，而是因为别无选择。", "delay": 2000 },
+    { "content": "当你再次睁开眼睛，你站在一片迷雾笼罩的森林边缘。", "delay": 2000 },
+    { "content": "——第一章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter2b:01_forest_edge",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
