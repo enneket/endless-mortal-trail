@@ -1,0 +1,29 @@
+{
+  "id": "03_crossroads",
+  "title": "岔路口",
+  "atmosphere": { "time": "午后", "weather": "多云", "mood": "犹豫" },
+  "texts": [
+    { "content": "走到一个岔路口。三条路伸向不同的方向。", "delay": 0 },
+    { "content": "路牌上的字已经模糊了，看不清哪条路通向哪里。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你在路牌下发现了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "选左边的路，看起来人多些。",
+      "target": "04_small_town",
+      "effects": { "mood": "随遇而安" },
+      "condition": null
+    },
+    {
+      "text": "选右边的路，通往山里。",
+      "target": "04_small_town",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

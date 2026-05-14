@@ -1,0 +1,30 @@
+{
+  "id": "01_departure",
+  "title": "离别",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "离愁" },
+  "texts": [
+    { "content": "天还没亮透，你就收拾好了行囊。", "delay": 0 },
+    { "content": "村口已经站了几个人。他们没有说话，只是静静地看着你。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 },
+    { "content": "你回头看了一眼村庄。炊烟刚刚升起，鸡鸣声从远处传来。", "delay": 2000 },
+    { "content": "你转过身，踏上了那条不知通往何方的路。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我会回来的。\"",
+      "target": "02_road",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "不回头，大步向前。",
+      "target": "02_road",
+      "effects": { "mood": "决然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

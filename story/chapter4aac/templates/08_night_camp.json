@@ -1,0 +1,29 @@
+{
+  "id": "08_night_camp",
+  "title": "夜宿",
+  "atmosphere": { "time": "深夜", "weather": "星空", "mood": "孤独" },
+  "texts": [
+    { "content": "天黑了。你在路边找了个避风的地方，生了一堆火。", "delay": 0 },
+    { "content": "火焰跳动着，映照着你疲惫的脸。四周一片寂静。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "火光渐渐暗了下来。你望着星空，想起了很多事。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "闭上眼睛，让思绪随风飘散。",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "和这个人继续聊下去。",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

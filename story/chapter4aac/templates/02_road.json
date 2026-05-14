@@ -1,0 +1,29 @@
+{
+  "id": "02_road",
+  "title": "路上",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "孤寂" },
+  "texts": [
+    { "content": "路很长。两旁是无尽的田野，偶尔有几棵老树。", "delay": 0 },
+    { "content": "你一个人走着，脚步声在空旷的路上回响。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在路边发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续赶路。",
+      "target": "03_crossroads",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "和这个人聊聊。",
+      "target": "03_crossroads",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "恍然" },
+  "texts": [
+    { "content": "天亮了。你睁开眼睛，发现火已经灭了。", "delay": 0 },
+    { "content": "露水打湿了你的衣衫。你站起来，望着远方。", "delay": 2000 },
+    { "content": "你忽然明白了一些事情。", "delay": 2000 },
+    { "content": "这条路，不只是脚下的路。它通往的，是你一直在寻找的答案。", "delay": 2000 },
+    { "content": "你站在岔路口，面对三个方向。", "delay": 1500 },
+    { "content": "每个方向，都是一个结局。每个结局，都是一个新的开始。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "回到村庄，回到那些等你的人身边。",
+      "target": "10a_reunion",
+      "effects": { "mood": "温暖" },
+      "condition": null
+    },
+    {
+      "text": "继续走下去，看看这世界还有多大。",
+      "target": "10b_continue",
+      "effects": { "mood": "自由" },
+      "condition": null
+    },
+    {
+      "text": "返回村庄，但不是为了留下，而是为了重新出发。",
+      "target": "10c_return",
+      "effects": { "mood": "释然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

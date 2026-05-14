@@ -1,0 +1,29 @@
+{
+  "id": "06_market",
+  "title": "集市",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "喧嚣" },
+  "texts": [
+    { "content": "集市很热闹。各种摊位摆满了街道两旁。", "delay": 0 },
+    { "content": "卖布的、卖菜的、卖杂货的……吆喝声此起彼伏。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你在集市上转了一圈，买不起什么东西，但看了不少热闹。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续赶路。",
+      "target": "07_river",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "再逛逛，看看有什么发现。",
+      "target": "07_river",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "04_small_town",
+  "title": "小镇",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "傍晚时分，你走进了一个小镇。", "delay": 0 },
+    { "content": "街道不宽，两旁是低矮的房屋。炊烟升起，饭菜的香气飘来。", "delay": 2000 },
+    { "content": "人来人往，叫卖声、谈笑声混在一起。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "找个客栈住下。",
+      "target": "05_inn",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    },
+    {
+      "text": "先去集市逛逛。",
+      "target": "06_market",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

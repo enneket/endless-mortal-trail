@@ -1,0 +1,29 @@
+{
+  "id": "07_river",
+  "title": "河边",
+  "atmosphere": { "time": "午后", "weather": "阴天", "mood": "沉思" },
+  "texts": [
+    { "content": "一条大河横在面前。河水湍急，没有桥。", "delay": 0 },
+    { "content": "岸边停着一条渡船，船夫在打盹。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在岸边发现了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "搭船过河。",
+      "target": "08_night_camp",
+      "effects": { "mood": "果断" },
+      "condition": null
+    },
+    {
+      "text": "沿河走一段，看看有没有浅滩。",
+      "target": "08_night_camp",
+      "effects": { "mood": "谨慎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
