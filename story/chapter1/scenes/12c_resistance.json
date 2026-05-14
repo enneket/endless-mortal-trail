@@ -1,0 +1,22 @@
+{
+  "id": "12c_resistance",
+  "title": "抗拒命运",
+  "atmosphere": { "time": "夜晚", "weather": "狂风", "mood": "愤怒" },
+  "texts": [
+    { "content": "你转身想要离开。你不想进去，你不想接受这个命运。", "delay": 0 },
+    { "content": "但裂缝不会让你走。一股无形的力量把你推了进去。", "delay": 1500 },
+    { "content": "你挣扎，你反抗，但一切都是徒劳。", "delay": 2000 },
+    { "content": "当你再次睁开眼睛，你站在一片战火纷飞的边关。", "delay": 2000 },
+    { "content": "——第一章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter2c:01_arrival",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
