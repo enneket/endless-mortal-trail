@@ -1,0 +1,30 @@
+{
+  "id": "02_temple_gate",
+  "title": "寺门",
+  "atmosphere": { "time": "傍晚", "weather": "薄雾", "mood": "庄严" },
+  "texts": [
+    { "content": "你循着钟声，来到了一座古寺门前。", "delay": 0 },
+    { "content": "山门上挂着一块褪色的匾额，隐约可见“般若寺”三个字。", "delay": 2000 },
+    { "content": "门前两棵古松，枝干虬曲，不知经历了多少岁月。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在寺门前发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我可以进去看看吗？\"",
+      "target": "04_garden",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"这寺里有什么？\"",
+      "target": "05_library",
+      "effects": { "mood": "期待" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

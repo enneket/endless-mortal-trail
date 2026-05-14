@@ -1,0 +1,30 @@
+{
+  "id": "05_library",
+  "title": "藏经阁",
+  "atmosphere": { "time": "夜晚", "weather": "月明", "mood": "神秘" },
+  "texts": [
+    { "content": "你走进了藏经阁。", "delay": 0 },
+    { "content": "书架上摆满了经卷，空气中弥漫着墨香和檀香。", "delay": 2000 },
+    { "content": "月光从窗棂间洒落，照在泛黄的书页上。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你在书架上发现了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这些经书讲的是什么？\"",
+      "target": "06_meditation_room",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想去禅房看看。\"",
+      "target": "08_night_meditation",
+      "effects": { "mood": "沉思" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

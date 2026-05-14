@@ -1,0 +1,30 @@
+{
+  "id": "01_mountain_path",
+  "title": "山路",
+  "atmosphere": { "time": "午后", "weather": "山雾缭绕", "mood": "幽静" },
+  "texts": [
+    { "content": "你沿着指引的方向，走进了深山。", "delay": 0 },
+    { "content": "山路崎岖，古木参天。雾气在林间缠绕，似有似无。", "delay": 2000 },
+    { "content": "走了不知多久，你隐约听到了钟声。", "delay": 2000 },
+    { "content": "钟声悠远，穿过雾气，穿过密林，仿佛从天外传来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"钟声是从哪里来的？\"",
+      "target": "02_temple_gate",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想去看看。\"",
+      "target": "03_main_hall",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

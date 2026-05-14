@@ -1,0 +1,29 @@
+{
+  "id": "06_meditation_room",
+  "title": "禅房",
+  "atmosphere": { "time": "夜晚", "weather": "月明", "mood": "静谧" },
+  "texts": [
+    { "content": "你走进了禅房。", "delay": 0 },
+    { "content": "房内只有一张蒲团，一盏油灯。灯火摇曳，影子在墙上跳舞。", "delay": 2000 },
+    { "content": "窗外是山，山外是天。天地之间，只有这一盏灯。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我可以在这里坐一会儿吗？\"",
+      "target": "08_night_meditation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想去山顶看看。\"",
+      "target": "07_mountain_peak",
+      "effects": { "mood": "向往" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

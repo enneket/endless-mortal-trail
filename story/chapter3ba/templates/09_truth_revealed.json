@@ -1,0 +1,36 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "恍然" },
+  "texts": [
+    { "content": "天亮了。真相浮出水面。", "delay": 0 },
+    { "content": "这座古寺，并不是普通的寺庙。它有着更深的秘密。", "delay": 2000 },
+    { "content": "而你来到这里，或许并非偶然。", "delay": 2000 },
+    { "content": "老方丈找到了你，说：“现在你该做出选择了。”", "delay": 2000 },
+    { "content": "“留下来，在寺中修行，寻找你心中的答案。”", "delay": 1500 },
+    { "content": "“或者，带着你知道的一切，离开这里。”", "delay": 1500 },
+    { "content": "“又或者，你可以选择探寻更深的秘密。”", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“我愿意留下来。”",
+      "target": "10a_accept",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "“这里的一切，我不能接受。”",
+      "target": "10b_reject",
+      "effects": { "mood": "矛盾" },
+      "condition": null
+    },
+    {
+      "text": "“我想知道更多的秘密。”",
+      "target": "10c_secrets",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

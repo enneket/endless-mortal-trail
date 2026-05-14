@@ -1,0 +1,30 @@
+{
+  "id": "07_mountain_peak",
+  "title": "山顶",
+  "atmosphere": { "time": "夜晚", "weather": "星空", "mood": "辽阔" },
+  "texts": [
+    { "content": "你登上了山顶。", "delay": 0 },
+    { "content": "星空如洗，银河横亘。脚下是万丈深渊，远处是连绵群山。", "delay": 2000 },
+    { "content": "风从山谷吹来，带着松涛和钟声。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在山顶发现了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里真美。\"",
+      "target": "08_night_meditation",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "\"我想回去休息了。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

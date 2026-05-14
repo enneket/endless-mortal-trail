@@ -1,0 +1,30 @@
+{
+  "id": "03_main_hall",
+  "title": "大殿",
+  "atmosphere": { "time": "傍晚", "weather": "薄雾", "mood": "肃穆" },
+  "texts": [
+    { "content": "你走进了大殿。", "delay": 0 },
+    { "content": "殿内香烟缭绕，佛像金身庄严。烛火摇曳，映照着四壁的壁画。", "delay": 2000 },
+    { "content": "壁画上画的是因果轮回的故事，栩栩如生。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你在供桌上发现了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这些壁画是什么意思？\"",
+      "target": "06_meditation_room",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想去别处看看。\"",
+      "target": "07_mountain_peak",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

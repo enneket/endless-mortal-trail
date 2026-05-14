@@ -1,0 +1,29 @@
+{
+  "id": "04_garden",
+  "title": "庭院",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "宁静" },
+  "texts": [
+    { "content": "你穿过大殿，来到了后院。", "delay": 0 },
+    { "content": "庭院中有一棵菩提树，树下是一口古井。", "delay": 2000 },
+    { "content": "井水清澈，映照着天上的云。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这棵树有多少年了？\"",
+      "target": "05_library",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想去山顶看看。\"",
+      "target": "07_mountain_peak",
+      "effects": { "mood": "向往" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
