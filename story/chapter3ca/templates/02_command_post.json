@@ -1,0 +1,30 @@
+{
+  "id": "02_command_post",
+  "title": "指挥所",
+  "atmosphere": { "time": "上午", "weather": "阴沉", "mood": "肃杀" },
+  "texts": [
+    { "content": "指挥所设在一座半塌的庙宇里，墙壁上弹痕累累。桌上铺着一张巨大的地图，上面插满了红蓝两色的小旗。几盏油灯摇曳着，映照着将领们凝重的面容。", "delay": 0 },
+    { "content": "传令兵进进出出，带来前线的消息——大多是坏消息。有人在低声争论，有人在沉默抽烟。", "delay": 2500 },
+    { "content": "一个身影从地图前转过身来，挡住了你的去路。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在桌角发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "前往前线壕沟",
+      "target": "03_trenches",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "去后方的战地医院看看",
+      "target": "04_field_hospital",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

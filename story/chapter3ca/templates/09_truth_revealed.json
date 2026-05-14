@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "震撼" },
+  "texts": [
+    { "content": "天亮了。真相像一把刀，劈开了你面前的迷雾。", "delay": 0 },
+    { "content": "这场战争，两边的将领本是同门师兄弟。二十年前，他们一起拜师学艺，亲如手足。后来因为一个女子反目成仇，各为其主，厮杀了整整二十年。", "delay": 3000 },
+    { "content": "而那个女子，早在十年前就已经病死了。她临终前留下一封信，希望两人能和解。可这封信，辗转了十年才送到前线。", "delay": 3000 },
+    { "content": "你握着那封信，手在发抖。二十年的战争，无数人的生死，竟然只是因为一场误会。", "delay": 2500 },
+    { "content": "现在你必须做出选择。你可以继续战斗，直到一方彻底倒下；你可以转身离开，假装什么都不知道；你也可以拿着这封信，去尝试结束这场战争。", "delay": 2500 },
+    { "content": "风从战场的方向吹来，带着硝烟和血腥的气味。你深吸一口气，迈出了脚步。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "战斗到底，直到战争结束",
+      "target": "10a_fight_to_end",
+      "effects": { "courage": 3, "setFlag": "chose_fight_to_end" },
+      "condition": null
+    },
+    {
+      "text": "离开前线，不再参与这场战争",
+      "target": "10b_retreat",
+      "effects": { "wisdom": 3, "setFlag": "chose_retreat" },
+      "condition": null
+    },
+    {
+      "text": "拿着信，去尝试谈判",
+      "target": "10c_negotiate",
+      "effects": { "karma": 3, "setFlag": "chose_negotiate" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

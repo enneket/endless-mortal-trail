@@ -1,0 +1,31 @@
+{
+  "id": "06_battle",
+  "title": "战斗",
+  "atmosphere": { "time": "清晨", "weather": "炮火纷飞", "mood": "惨烈" },
+  "texts": [
+    { "content": "号角声撕裂了黎明的寂静。冲锋的命令下达了。你跟着队伍从壕沟里跃出，脚下的大地在颤抖，耳边是震耳欲聋的喊杀声和炮火声。", "delay": 0 },
+    { "content": "硝烟遮天蔽日，你什么都看不清。只看见身边的人一个接一个倒下，有的还在喊叫，有的已经没有了声音。血溅在你的脸上，分不清是敌人的还是自己人的。", "delay": 3000 },
+    { "content": "你在混乱中抓住了一个敌军。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "你在战场上发现了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "战斗持续了整整一天。当太阳落山的时候，战场上只剩下呻吟声和火焰燃烧的声音。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "在战场上搜寻幸存者",
+      "target": "07_aftermath",
+      "effects": { "karma": 2 },
+      "condition": null
+    },
+    {
+      "text": "回到壕沟，等待下一次命令",
+      "target": "07_aftermath",
+      "effects": { "experience": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

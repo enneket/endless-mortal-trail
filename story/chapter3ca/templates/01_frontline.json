@@ -1,0 +1,29 @@
+{
+  "id": "01_frontline",
+  "title": "前线",
+  "atmosphere": { "time": "黎明", "weather": "硝烟弥漫", "mood": "紧张" },
+  "texts": [
+    { "content": "你随着溃散的人群，被裹挟着推向了战场的最前线。脚下的泥土是黑色的，浸透了血和火药。空气中弥漫着硝烟、腐肉和铁锈的气味，呛得人睁不开眼。", "delay": 0 },
+    { "content": "远处传来隆隆的炮声，大地在微微颤抖。旗帜在硝烟中若隐若现，辨不清是哪一方的标记。你只知道，你已经身在战场了。", "delay": 3000 },
+    { "content": "一道壕沟出现在面前，里面蹲着几个灰头土脸的士兵。有人抬头看了你一眼，又低下头去。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "沿着壕沟前往指挥所",
+      "target": "02_command_post",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "跳进壕沟，和士兵们待在一起",
+      "target": "03_trenches",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

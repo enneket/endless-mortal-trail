@@ -1,0 +1,31 @@
+{
+  "id": "08_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "深夜", "weather": "星光黯淡", "mood": "震动" },
+  "texts": [
+    { "content": "你在废墟中翻找着，希望能找到什么线索。碎石、断木、血迹斑斑的衣物……直到你摸到了一个硬物。", "delay": 0 },
+    { "content": "是一封信，被血浸透了一半，但字迹还能辨认。你借着月光读了起来，越读越心惊。", "delay": 2500 },
+    { "content": "一个身影从黑暗中走出来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "你发现了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你的心跳加快了。真相就在眼前。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "我要弄清楚这一切",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "也许真相并不重要",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

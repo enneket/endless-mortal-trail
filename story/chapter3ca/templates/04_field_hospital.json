@@ -1,0 +1,30 @@
+{
+  "id": "04_field_hospital",
+  "title": "战地医院",
+  "atmosphere": { "time": "午后", "weather": "闷热", "mood": "沉重" },
+  "texts": [
+    { "content": "战地医院设在一座被炸塌了一半的祠堂里。地上铺满了稻草，上面躺着一排排伤员。呻吟声、哭喊声、医者的低声安慰，混成一片。空气里弥漫着血腥味和草药味。", "delay": 0 },
+    { "content": "一个医者正在给一个断了腿的士兵包扎，手上全是血。旁边的一个伤员已经不再动弹了，有人用草席盖住了他的脸。", "delay": 3000 },
+    { "content": "一个身影从伤员之间穿过，朝你走来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "你在角落里发现了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "回到前线壕沟",
+      "target": "03_trenches",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "去执行夜间巡逻任务",
+      "target": "05_night_watch",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

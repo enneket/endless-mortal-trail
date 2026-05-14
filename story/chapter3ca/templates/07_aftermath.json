@@ -1,0 +1,29 @@
+{
+  "id": "07_aftermath",
+  "title": "战后",
+  "atmosphere": { "time": "黄昏", "weather": "残阳如血", "mood": "悲凉" },
+  "texts": [
+    { "content": "战场上一片狼藉。尸体横七竖八地躺在焦黑的土地上，有的还保持着冲锋的姿势。旗帜倒在泥里，被血浸透。远处有乌鸦在盘旋，发出刺耳的叫声。", "delay": 0 },
+    { "content": "你坐在一堆尸体旁边，浑身发抖。手上还沾着血，怎么擦也擦不干净。你的耳边还在嗡嗡作响，仿佛炮声从未停止。", "delay": 3000 },
+    { "content": "有人在废墟中翻找着什么。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "去寻找战争的真相",
+      "target": "08_revelation",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "在废墟中搜寻线索",
+      "target": "08_revelation",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

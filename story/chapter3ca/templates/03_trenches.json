@@ -1,0 +1,29 @@
+{
+  "id": "03_trenches",
+  "title": "壕沟",
+  "atmosphere": { "time": "正午", "weather": "炮火连天", "mood": "压抑" },
+  "texts": [
+    { "content": "你跳进了壕沟。泥水没过了脚踝，冰冷刺骨。壕沟弯弯曲曲，像一条伤疤刻在大地上。两侧的土壁上插着几根木桩，上面挂着破烂的毯子和生锈的水壶。", "delay": 0 },
+    { "content": "头顶不时有炮弹呼啸而过，每一次爆炸都让壕沟里的泥土簌簌落下。士兵们蜷缩在角落里，有的在啃干粮，有的在擦拭武器，有的只是呆呆地望着天空。", "delay": 3000 },
+    { "content": "一个身影从壕沟的另一头走来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "去后方的战地医院帮忙",
+      "target": "04_field_hospital",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "留在壕沟里，等待天黑",
+      "target": "05_night_watch",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

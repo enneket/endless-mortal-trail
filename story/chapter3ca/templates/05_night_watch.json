@@ -1,0 +1,29 @@
+{
+  "id": "05_night_watch",
+  "title": "夜巡",
+  "atmosphere": { "time": "深夜", "weather": "月色昏暗", "mood": "诡异" },
+  "texts": [
+    { "content": "夜色如墨。你被安排执行夜间巡逻任务。壕沟里一片漆黑，只有远处偶尔闪过的炮火照亮一小片天空。冷风从壕沟口灌进来，刺骨的寒。", "delay": 0 },
+    { "content": "你握紧了手中的武器，沿着壕沟慢慢前行。每一步都踩在泥水里，发出咕叽咕叽的声音。远处有狗叫声，也有不知名的鸟在夜空中掠过。", "delay": 3000 },
+    { "content": "前方的黑暗中，一个模糊的身影挡住了去路。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "天亮后去参加战斗",
+      "target": "06_battle",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "继续巡逻，查看前线情况",
+      "target": "06_battle",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
