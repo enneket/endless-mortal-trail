@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "dried_food",
+      "name": "干粮",
+      "description": "路上充饥的食物，虽不精致但能果腹",
+      "effects": { "setFlag": "has_dried_food" }
+    },
+    {
+      "id": "water_bag",
+      "name": "水囊",
+      "description": "装水的皮囊，旅人必备之物",
+      "effects": { "setFlag": "has_water_bag" }
+    },
+    {
+      "id": "road_map",
+      "name": "地图",
+      "description": "一张手绘的路线图，标注了前路的驿站和岔口",
+      "effects": { "setFlag": "has_road_map" }
+    },
+    {
+      "id": "fire_starter",
+      "name": "火折子",
+      "description": "生火之物，夜间露宿时不可或缺",
+      "effects": { "setFlag": "has_fire_starter" }
+    },
+    {
+      "id": "rope",
+      "name": "绳索",
+      "description": "结实的登山绳索，攀爬悬崖时用得上",
+      "effects": { "setFlag": "has_rope" }
+    },
+    {
+      "id": "copper_coins",
+      "name": "铜钱",
+      "description": "一串铜钱，路上的盘缠",
+      "effects": { "setFlag": "has_copper_coins" }
+    }
+  ]
+}

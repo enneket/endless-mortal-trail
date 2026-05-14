@@ -1,0 +1,8 @@
+{
+  "id": "chapter3ab",
+  "title": "山间古道",
+  "description": "离开小镇后，踏上一条古老的山间道路",
+  "sceneCount": 12,
+  "startScene": "01_road_start",
+  "randomized": true
+}
