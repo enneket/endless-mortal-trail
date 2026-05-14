@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "lingzhi",
+      "name": "灵芝",
+      "description": "千年古木上生长的灵芝，散发着淡淡的光泽，是珍贵的药材",
+      "effects": { "setFlag": "has_lingzhi" }
+    },
+    {
+      "id": "glow_stone",
+      "name": "荧光石",
+      "description": "在深林中发现的奇异石头，夜晚会发出幽幽的蓝光",
+      "effects": { "setFlag": "has_glow_stone" }
+    },
+    {
+      "id": "ancient_bark",
+      "name": "古木片",
+      "description": "从一棵千年古树上剥下的树皮，上面刻着无人能识的符号",
+      "effects": { "setFlag": "has_ancient_bark" }
+    },
+    {
+      "id": "beast_skin",
+      "name": "兽皮",
+      "description": "猎人留下的兽皮，上面绘制着密林的粗略地图",
+      "effects": { "setFlag": "has_beast_skin" }
+    },
+    {
+      "id": "mystical_seed",
+      "name": "种子",
+      "description": "一颗散发着微光的种子，不知来自何种植物",
+      "effects": { "setFlag": "has_mystical_seed" }
+    },
+    {
+      "id": "forest_compass",
+      "name": "罗盘",
+      "description": "古老的罗盘，指针并非指向北方，而是指向密林深处",
+      "effects": { "setFlag": "has_forest_compass" }
+    }
+  ]
+}

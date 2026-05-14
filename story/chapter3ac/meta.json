@@ -1,0 +1,8 @@
+{
+  "id": "chapter3ac",
+  "title": "深山密林",
+  "description": "探索深山时，发现一片神秘的密林",
+  "sceneCount": 12,
+  "startScene": "01_forest_edge",
+  "randomized": true
+}
