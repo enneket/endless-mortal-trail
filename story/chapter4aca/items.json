@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "crystal_lamp",
+      "name": "水晶灯",
+      "description": "一盏用水晶制成的灯，发出柔和的光芒，能照亮黑暗的洞穴",
+      "effects": { "setFlag": "has_crystal_lamp" }
+    },
+    {
+      "id": "ancient_artifact",
+      "name": "远古器物",
+      "description": "在洞穴深处发现的神秘器物，上面刻着无人能识的符号",
+      "effects": { "setFlag": "has_ancient_artifact" }
+    },
+    {
+      "id": "underground_map",
+      "name": "地下地图",
+      "description": "一张绘制在兽皮上的地图，标注着洞穴的通道和危险区域",
+      "effects": { "setFlag": "has_underground_map" }
+    },
+    {
+      "id": "glow_mushroom",
+      "name": "荧光蘑菇",
+      "description": "在洞穴中发现的发光蘑菇，散发着幽幽的蓝光，可以照明",
+      "effects": { "setFlag": "has_glow_mushroom" }
+    },
+    {
+      "id": "rope",
+      "name": "绳索",
+      "description": "结实的麻绳，用于攀爬和下降，是洞穴探索的必备工具",
+      "effects": { "setFlag": "has_rope" }
+    },
+    {
+      "id": "cave_painting",
+      "name": "洞穴壁画",
+      "description": "远古壁画的拓片，上面描绘着洞穴居民的生活和祭祀场景",
+      "effects": { "setFlag": "has_cave_painting" }
+    }
+  ]
+}

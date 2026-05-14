@@ -1,0 +1,8 @@
+{
+  "id": "chapter4aca",
+  "title": "深渊探秘",
+  "description": "深入探索后，渡途人发现地下洞穴的秘密",
+  "sceneCount": 12,
+  "startScene": "01_cave_entrance",
+  "randomized": true
+}

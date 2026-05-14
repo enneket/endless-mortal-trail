@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_cave_entrance", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_dark_tunnel", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_crystal_chamber", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_underground_river", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_ancient_ruins", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_deep_abyss", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_night_cave", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_discovery", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_go_deeper", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_surface", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_build_home", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["cave_guide", "crystal_collector"] },
+    "slot_2": { "candidates": ["treasure_hunter", "bat_whisperer"] },
+    "slot_3": { "candidates": ["crystal_collector", "cave_scholar"] },
+    "slot_4": { "candidates": ["underground_river_spirit", "underground_dweller"] },
+    "slot_5": { "candidates": ["ancient_keeper", "cave_scholar"] },
+    "slot_6": { "candidates": ["treasure_hunter", "ancient_keeper"] },
+    "slot_7": { "candidates": ["bat_whisperer", "underground_dweller"] },
+    "slot_8": { "candidates": ["ancient_keeper", "cave_guide"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["crystal_lamp", "rope"] },
+    "slot_b": { "candidates": ["glow_mushroom", "ancient_artifact"] },
+    "slot_c": { "candidates": ["underground_map", "cave_painting"] },
+    "slot_d": { "candidates": ["glow_mushroom", "crystal_lamp"] }
+  }
+}
