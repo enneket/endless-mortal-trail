@@ -1,0 +1,31 @@
+{
+  "id": "04_work",
+  "title": "谋生",
+  "atmosphere": { "time": "下午", "weather": "晴", "mood": "充实" },
+  "texts": [
+    { "content": "你开始找活干。", "delay": 0 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 2000 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你得到了{{ITEM_SLOT_B:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_B:description}}", "delay": 1000 },
+    { "content": "忙碌了一天，虽然累，但心里踏实。", "delay": 2000 },
+    { "content": "\"这就是过日子吧。\"你擦了擦汗。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"继续干，攒点钱。\"",
+      "target": "06_festival",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"歇一歇，想想以后。\"",
+      "target": "07_night_reflection",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

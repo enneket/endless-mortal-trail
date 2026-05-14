@@ -1,0 +1,30 @@
+{
+  "id": "03_market",
+  "title": "集市",
+  "atmosphere": { "time": "正午", "weather": "热闹", "mood": "新奇" },
+  "texts": [
+    { "content": "集市上人来人往，叫卖声此起彼伏。", "delay": 0 },
+    { "content": "你走在人群中，有种久违的烟火气。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "你买了一些日用的东西，心里盘算着接下来的日子。", "delay": 1500 },
+    { "content": "\"得找个活计干。\"你对自己说。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"去找份正经工作。\"",
+      "target": "04_work",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"先四处转转，不急。\"",
+      "target": "05_evening_walk",
+      "effects": { "mood": "悠闲" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

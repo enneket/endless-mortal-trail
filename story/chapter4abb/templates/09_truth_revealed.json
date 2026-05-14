@@ -1,0 +1,36 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黄昏", "weather": "霞光万丈", "mood": "顿悟" },
+  "texts": [
+    { "content": "你站在门口，看着来来往往的人。", "delay": 0 },
+    { "content": "忽然明白了一些事。", "delay": 2000 },
+    { "content": "\"人这一辈子，\"你轻声说，\"到底在追求什么？\"", "delay": 2000 },
+    { "content": "是功名利禄？是荣华富贵？", "delay": 1500 },
+    { "content": "还是一个能安心睡下的地方？", "delay": 2000 },
+    { "content": "\"我走了那么远的路，\"你对自己说，\"原来答案一直在身边。\"", "delay": 2000 },
+    { "content": "夕阳西下，你终于看清了自己。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"留下来，好好过日子。\"",
+      "target": "10a_happy_life",
+      "effects": { "mood": "满足" },
+      "condition": null
+    },
+    {
+      "text": "\"不行，我还是静不下来。\"",
+      "target": "10b_restless",
+      "effects": { "mood": "不安" },
+      "condition": null
+    },
+    {
+      "text": "\"也许，该去别处看看了。\"",
+      "target": "10c_move_again",
+      "effects": { "mood": "决意" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "06_festival",
+  "title": "节庆",
+  "atmosphere": { "time": "夜晚", "weather": "灯火通明", "mood": "欢乐" },
+  "texts": [
+    { "content": "镇上办起了节庆，到处张灯结彩。", "delay": 0 },
+    { "content": "人群涌动，笑声此起彼伏。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你得到了{{ITEM_SLOT_C:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_C:description}}", "delay": 1000 },
+    { "content": "烟花在夜空中绽放，你看着看着，眼眶有些湿润。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这就是归属感吧。\"",
+      "target": "08_visitor",
+      "effects": { "mood": "温暖" },
+      "condition": null
+    },
+    {
+      "text": "\"热闹是别人的，我什么也没有。\"",
+      "target": "07_night_reflection",
+      "effects": { "mood": "孤独" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

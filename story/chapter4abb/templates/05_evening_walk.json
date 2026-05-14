@@ -1,0 +1,30 @@
+{
+  "id": "05_evening_walk",
+  "title": "黄昏漫步",
+  "atmosphere": { "time": "黄昏", "weather": "微凉", "mood": "沉思" },
+  "texts": [
+    { "content": "黄昏时分，你一个人走在街上。", "delay": 0 },
+    { "content": "夕阳把影子拉得很长。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "你看着远处的炊烟，心里有些恍惚。", "delay": 1500 },
+    { "content": "\"这真的是我想要的生活吗？\"你问自己。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"是的，这就是我要的。\"",
+      "target": "06_festival",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"我不知道。\"",
+      "target": "07_night_reflection",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

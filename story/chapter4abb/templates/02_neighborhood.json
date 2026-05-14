@@ -1,0 +1,30 @@
+{
+  "id": "02_neighborhood",
+  "title": "邻里",
+  "atmosphere": { "time": "上午", "weather": "微风", "mood": "温暖" },
+  "texts": [
+    { "content": "收拾了一阵，总算有了点家的样子。", "delay": 0 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 2000 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你得到了一件{{ITEM_SLOT_A:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_A:description}}", "delay": 1000 },
+    { "content": "\"慢慢来，日子是过出来的。\"{{NPC_SLOT_2:name}}说。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"谢谢，我会好好过的。\"",
+      "target": "04_work",
+      "effects": { "mood": "安定" },
+      "condition": null
+    },
+    {
+      "text": "\"我还不确定，这里适合我吗？\"",
+      "target": "05_evening_walk",
+      "effects": { "mood": "犹疑" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

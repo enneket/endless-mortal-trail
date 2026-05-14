@@ -1,0 +1,21 @@
+{
+  "id": "10b_restless",
+  "title": "心不安定",
+  "atmosphere": { "time": "深夜", "weather": "辗转难眠", "mood": "不安" },
+  "texts": [
+    { "content": "夜深了，你翻来覆去睡不着。", "delay": 0 },
+    { "content": "窗外的月光很亮，照得屋里一片清冷。", "delay": 2000 },
+    { "content": "\"我到底怎么了？\"你问自己。", "delay": 1500 },
+    { "content": "房子有了，工作有了，邻居也不错。", "delay": 2000 },
+    { "content": "可心里总有个声音在说：还不够。", "delay": 1500 },
+    { "content": "\"也许，我天生就不是能安定下来的人。\"你叹了口气。", "delay": 2000 },
+    { "content": "你起身，走到院子里。", "delay": 1500 },
+    { "content": "星星很亮，风很轻。", "delay": 2000 },
+    { "content": "\"再等等吧。\"你对自己说。", "delay": 1500 },
+    { "content": "\"也许再等等，就能安下心来了。\"", "delay": 2000 },
+    { "content": "——第四章·安居乐业·完——", "delay": 1500 }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

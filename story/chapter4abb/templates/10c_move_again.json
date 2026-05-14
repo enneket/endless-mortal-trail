@@ -1,0 +1,22 @@
+{
+  "id": "10c_move_again",
+  "title": "再次迁徙",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "决然" },
+  "texts": [
+    { "content": "天还没亮，你收拾好了行囊。", "delay": 0 },
+    { "content": "房子退了，东西送了人。", "delay": 2000 },
+    { "content": "\"你要走了？\"邻居问。", "delay": 1500 },
+    { "content": "\"嗯。\"你点点头。", "delay": 1000 },
+    { "content": "\"去哪里？\"", "delay": 1500 },
+    { "content": "\"不知道。\"你笑了笑。", "delay": 2000 },
+    { "content": "你最后看了一眼这个住了一阵子的地方。", "delay": 1500 },
+    { "content": "有些不舍，但更多的是释然。", "delay": 2000 },
+    { "content": "\"也许，我的家在路上。\"你对自己说。", "delay": 1500 },
+    { "content": "你背上行囊，走进了晨雾中。", "delay": 2000 },
+    { "content": "路还很长，但你不怕。", "delay": 1500 },
+    { "content": "——第四章·安居乐业·完——", "delay": 1500 }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

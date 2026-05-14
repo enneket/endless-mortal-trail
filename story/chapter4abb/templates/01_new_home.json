@@ -1,0 +1,31 @@
+{
+  "id": "01_new_home",
+  "title": "新居",
+  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "期待" },
+  "texts": [
+    { "content": "推开那扇门，阳光洒了进来。", "delay": 0 },
+    { "content": "这是你的新家。", "delay": 2000 },
+    { "content": "空荡荡的房间，四壁斑驳，但总算有个落脚的地方。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 },
+    { "content": "你站在屋子中央，深深吸了一口气。", "delay": 1500 },
+    { "content": "这里，也许可以重新开始。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"先收拾收拾，安顿下来。\"",
+      "target": "02_neighborhood",
+      "effects": { "mood": "踏实" },
+      "condition": null
+    },
+    {
+      "text": "\"出去走走，看看周围。\"",
+      "target": "03_market",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

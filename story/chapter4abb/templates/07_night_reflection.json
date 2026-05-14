@@ -1,0 +1,30 @@
+{
+  "id": "07_night_reflection",
+  "title": "夜思",
+  "atmosphere": { "time": "深夜", "weather": "寂静", "mood": "沉静" },
+  "texts": [
+    { "content": "夜深了，你一个人坐在窗前。", "delay": 0 },
+    { "content": "月光洒在地上，像一层薄霜。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你想起了很多事。那些走过的路，见过的人。", "delay": 2000 },
+    { "content": "\"我到底在找什么？\"你轻声问自己。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"也许，我已经找到了。\"",
+      "target": "08_visitor",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"也许，我还在找。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "彷徨" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
