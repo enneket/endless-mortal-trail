@@ -1,0 +1,30 @@
+{
+  "id": "03_refugee_camp",
+  "title": "难民营",
+  "atmosphere": { "time": "正午", "weather": "酷热", "mood": "混乱" },
+  "texts": [
+    { "content": "你走了两天两夜，终于看见了前方的一片帐篷。那是难民营——用破布和木头搭起来的临时住所，密密麻麻地挤在一起，像一块巨大的补丁。", "delay": 0 },
+    { "content": "营地里到处是人。有人在排队领粥，有人在吵架，有人在哭泣。孩子们在泥地里玩耍，浑然不知自己身处何地。空气里弥漫着汗臭、烟尘和绝望的气味。", "delay": 3000 },
+    { "content": "你被人群推搡着往前走，一个声音叫住了你。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你得到了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "留在难民营，先安顿下来",
+      "target": "05_night_hiding",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    },
+    {
+      "text": "继续赶路，不在这里停留",
+      "target": "04_border",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

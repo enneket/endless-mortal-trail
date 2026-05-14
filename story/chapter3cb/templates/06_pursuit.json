@@ -1,0 +1,29 @@
+{
+  "id": "06_pursuit",
+  "title": "追兵",
+  "atmosphere": { "time": "黎明", "weather": "大雾", "mood": "惊恐" },
+  "texts": [
+    { "content": "你被发现了。不知道是谁告的密，还是巡逻队自己找到的，但你清楚地听见身后传来了追赶的脚步声和喊叫声。", "delay": 0 },
+    { "content": "你拼命地跑，雾气弥漫，什么都看不清。你的脚踩在湿滑的泥地上，几次差点摔倒。身后的声音越来越近。", "delay": 3000 },
+    { "content": "你跑进了一条小巷，前面是死胡同。你转过身，看见一个身影挡住了退路。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "拼死一搏，冲过去",
+      "target": "07_safe_house",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "投降，不再跑了",
+      "target": "08_revelation",
+      "effects": { "mood": "绝望" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

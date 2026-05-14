@@ -1,0 +1,30 @@
+{
+  "id": "02_road",
+  "title": "流亡路",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "疲惫" },
+  "texts": [
+    { "content": "你沿着一条尘土飞扬的路走了整整一夜。天亮的时候，你看见路上多了很多人——都是逃难的。有的拖家带口，有的孤身一人，有的推着独轮车，有的背着包袱。", "delay": 0 },
+    { "content": "这条路通向哪里，没有人知道。但所有人都在走，因为停下来就意味着死亡。", "delay": 2500 },
+    { "content": "一个小小的身影出现在路边。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在路边发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续沿着大路走",
+      "target": "03_refugee_camp",
+      "effects": { "experience": 1 },
+      "condition": null
+    },
+    {
+      "text": "拐进旁边的小路，避开人群",
+      "target": "05_night_hiding",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

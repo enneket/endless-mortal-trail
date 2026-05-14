@@ -1,0 +1,30 @@
+{
+  "id": "01_escape",
+  "title": "逃亡",
+  "atmosphere": { "time": "黄昏", "weather": "阴沉", "mood": "惊恐" },
+  "texts": [
+    { "content": "你从战场的方向跑出来，身后是渐渐远去的厮杀声。你的鞋底已经磨破，脚上满是血泡，但你不敢停。", "delay": 0 },
+    { "content": "天色越来越暗，你跑进了一片枯黄的草地。远处有几个黑影也在移动，和你一样，朝着远离战场的方向逃。", "delay": 3000 },
+    { "content": "你的肺像要炸开一样，终于在一个土坡后面停下来。你靠着土坡，大口喘着气，心跳如鼓。", "delay": 2500 },
+    { "content": "一个声音从旁边传来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我们一起走吧，路上有个照应。\"",
+      "target": "02_road",
+      "effects": { "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我一个人走，不想连累别人。\"",
+      "target": "02_road",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

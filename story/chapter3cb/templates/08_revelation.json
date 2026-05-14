@@ -1,0 +1,30 @@
+{
+  "id": "08_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "黄昏", "weather": "血色晚霞", "mood": "震动" },
+  "texts": [
+    { "content": "你在躲藏的日子里，听到了一些消息。有人说战争快结束了，有人说会更惨烈。有人说前面的边境已经封锁了，有人说还有别的路。", "delay": 0 },
+    { "content": "你不知道该信谁。但有一件事你越来越清楚——你不能再这样逃下去了。你必须做出选择。", "delay": 3000 },
+    { "content": "一个人找到了你。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你的心跳加快了。真相就在眼前。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "我要弄清楚这一切",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "也许真相并不重要",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

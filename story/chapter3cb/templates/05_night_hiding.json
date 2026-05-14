@@ -1,0 +1,30 @@
+{
+  "id": "05_night_hiding",
+  "title": "夜藏",
+  "atmosphere": { "time": "深夜", "weather": "月光黯淡", "mood": "恐惧" },
+  "texts": [
+    { "content": "夜深了，你躲在一处废弃的房屋里。墙壁已经塌了一半，屋顶漏着风，但至少能遮挡视线。你蜷缩在角落，听着外面的动静。", "delay": 0 },
+    { "content": "远处传来狗叫声和巡逻队的脚步声。你屏住呼吸，一动不敢动。月光从破洞里照进来，在地上投下一块惨白的光斑。", "delay": 3000 },
+    { "content": "一个黑影从窗户翻了进来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你发现了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "天亮后继续赶路",
+      "target": "06_pursuit",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "在这里多躲几天，等风头过去",
+      "target": "07_safe_house",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

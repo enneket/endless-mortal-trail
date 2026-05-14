@@ -1,0 +1,30 @@
+{
+  "id": "04_border",
+  "title": "边境",
+  "atmosphere": { "time": "傍晚", "weather": "阴冷", "mood": "紧张" },
+  "texts": [
+    { "content": "你终于走到了边境。一道铁丝网横在面前，把世界分成了两半。这边是战火和废墟，那边是……你不知道，但至少不是战场。", "delay": 0 },
+    { "content": "铁丝网前排着长长的队伍，都是等着过关的人。有人举着证件，有人抱着孩子，有人跪在地上哀求。守卫们面无表情，机械地检查着每一个人。", "delay": 3000 },
+    { "content": "你排在队伍里，手心全是汗。你不知道自己能不能过去。", "delay": 2000 },
+    { "content": "一个人影靠近了你。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "排队等待正规过关",
+      "target": "06_pursuit",
+      "effects": { "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "找别的路绕过去",
+      "target": "07_safe_house",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

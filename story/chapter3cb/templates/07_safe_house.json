@@ -1,0 +1,31 @@
+{
+  "id": "07_safe_house",
+  "title": "安全屋",
+  "atmosphere": { "time": "夜晚", "weather": "细雨", "mood": "短暂安宁" },
+  "texts": [
+    { "content": "你被带到了一个隐秘的地方——一间藏在地窖里的小屋。入口被木板和垃圾掩盖着，不仔细找根本发现不了。", "delay": 0 },
+    { "content": "地窖里点着一盏昏暗的油灯，墙上挂着几件破衣服，角落里堆着一些食物和水。有人在这里住过，但现在已经走了。", "delay": 3000 },
+    { "content": "你终于可以喘口气了。你靠在墙上，闭上眼睛，听着头顶传来的雨声。", "delay": 2000 },
+    { "content": "一个声音在黑暗中响起。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你得到了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "在这里休息几天，然后继续走",
+      "target": "08_revelation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "打听清楚外面的情况再做决定",
+      "target": "08_revelation",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

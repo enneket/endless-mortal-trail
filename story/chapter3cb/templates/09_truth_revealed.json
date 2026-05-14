@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "震撼" },
+  "texts": [
+    { "content": "天亮了。真相像一把刀，劈开了你面前的迷雾。", "delay": 0 },
+    { "content": "这场战争，根本不是为了什么国家大义。两边的将领在争夺一座金矿，那座矿山就在边境线上。他们用战争的名义，驱赶百姓，霸占土地，把金子装进自己的口袋。", "delay": 3000 },
+    { "content": "而你逃离的那场战役，不过是为了掩护一次秘密的金矿开采。那些死去的士兵，那些流离失所的难民，都只是他们棋盘上的棋子。", "delay": 3000 },
+    { "content": "你站在那里，风吹过你的脸，带着远方的尘土。你不知道该愤怒还是该悲哀。你只知道，你曾经拼命逃离的那个地方，原来从一开始就是一场骗局。", "delay": 2500 },
+    { "content": "现在你必须做出选择。你可以继续走，走到一个完全陌生的地方，开始新的生活；你可以回去，回到你出发的地方，面对一切；你也可以就这样一直走下去，不问归处。", "delay": 2500 },
+    { "content": "风从远方吹来，带着未知的气息。你深吸一口气，迈出了脚步。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续向前，去一个全新的地方",
+      "target": "10a_new_land",
+      "effects": { "courage": 3, "setFlag": "chose_new_land" },
+      "condition": null
+    },
+    {
+      "text": "掉头回去，回到家乡",
+      "target": "10b_return_home",
+      "effects": { "karma": 3, "setFlag": "chose_return_home" },
+      "condition": null
+    },
+    {
+      "text": "没有目的地，就这么走下去",
+      "target": "10c_keep_wandering",
+      "effects": { "wisdom": 3, "setFlag": "chose_keep_wandering" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
