@@ -42,12 +42,21 @@
   ],
   "choices": [
     {
-      "text": "下山，踏入下一个衍世人间",
-      "target": "12_departure",
-      "effects": {
-        "experience": 2,
-        "mood": "淡然"
-      },
+      "text": "坦然接受这一切",
+      "target": "12a_acceptance",
+      "effects": { "setFlag": "accepting", "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "犹豫不决，不知如何是好",
+      "target": "12b_hesitation",
+      "effects": { "setFlag": "hesitating", "mood": "迷茫" },
+      "condition": null
+    },
+    {
+      "text": "抗拒命运，想要回头",
+      "target": "12c_resistance",
+      "effects": { "setFlag": "resisting", "mood": "愤怒" },
       "condition": null
     }
   ],
