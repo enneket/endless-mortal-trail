@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "forest_keeper",
+      "name": "守林人",
+      "identity": "森林守护者，沉默寡言",
+      "personality": "沉稳、警惕、热爱自然",
+      "dialogueStyle": "简短、含蓄、偶尔严厉",
+      "dialogues": {
+        "greeting": "\"你不该来这里。\"守林人看着你，眼神警惕。",
+        "reveal": "\"这片森林，有它自己的规矩。\"",
+        "gift": "\"拿着吧，你会需要的。\""
+      }
+    },
+    {
+      "id": "herb_girl",
+      "name": "采药女",
+      "identity": "采集草药的女子，熟悉森林",
+      "personality": "温柔、细心、有些胆小",
+      "dialogueStyle": "轻声细语、谨慎",
+      "dialogues": {
+        "greeting": "\"你也是来采药的吗？\"采药女轻声问道。",
+        "reveal": "\"森林深处有宝贝，但也有危险。\"",
+        "gift": "\"这草药送你，或许用得上。\""
+      }
+    },
+    {
+      "id": "lost_scholar",
+      "name": "迷路书生",
+      "identity": "在森林中迷路的书生",
+      "personality": "焦虑、胆小、但有学问",
+      "dialogueStyle": "慌张、引经据典",
+      "dialogues": {
+        "greeting": "\"兄台！你也是迷路了吗？\"书生慌张地问。",
+        "reveal": "\"我在这里转了三天了，还是找不到出路。\"",
+        "gift": "\"这本书你拿着，或许对你有用。\""
+      }
+    },
+    {
+      "id": "forest_hunter",
+      "name": "猎人",
+      "identity": "森林猎人，经验丰富",
+      "personality": "冷静、果断、沉默",
+      "dialogueStyle": "简短、直接",
+      "dialogues": {
+        "greeting": "\"嘘。\"猎人做了个噤声的手势。",
+        "reveal": "\"这片森林里有大家伙。\"",
+        "gift": "\"这把刀你拿着防身。\""
+      }
+    },
+    {
+      "id": "woodcutter",
+      "name": "木匠",
+      "identity": "伐木工人，力大无穷",
+      "personality": "老实、勤劳、话不多",
+      "dialogueStyle": "简单、直接、朴实",
+      "dialogues": {
+        "greeting": "\"嗯。\"木匠点点头，继续砍树。",
+        "reveal": "\"这片林子，我砍了二十年了。\"",
+        "gift": "\"这木头你拿着，有用。\""
+      }
+    },
+    {
+      "id": "witch",
+      "name": "神婆",
+      "identity": "通灵的老妇，住在森林深处",
+      "personality": "神秘、古怪、有时很准",
+      "dialogueStyle": "含糊、押韵、偶尔清醒",
+      "dialogues": {
+        "greeting": "\"我等你很久了。\"神婆笑着说。",
+        "reveal": "\"命运的线，我已经看到了。\"",
+        "gift": "\"这符咒你拿着，保你平安。\""
+      }
+    },
+    {
+      "id": "poacher",
+      "name": "偷猎者",
+      "identity": "非法捕猎者，心术不正",
+      "personality": "狡猾、贪婪、怕事",
+      "dialogueStyle": "低声、讨好、偶尔威胁",
+      "dialogues": {
+        "greeting": "\"嘿，兄弟，要不要合作？\"偷猎者低声问。",
+        "reveal": "\"这森林里有值钱的东西。\"",
+        "gift": "\"这东西你拿着，别说见过我。\""
+      }
+    },
+    {
+      "id": "spirit",
+      "name": "精灵",
+      "identity": "森林中的神秘存在",
+      "personality": "天真、好奇、有时淘气",
+      "dialogueStyle": "清脆、跳跃、有时听不懂",
+      "dialogues": {
+        "greeting": "\"你是谁呀？\"一个声音从树上传来。",
+        "reveal": "\"这片森林，是我的家。\"",
+        "gift": "\"送你一个礼物！\""
+      }
+    }
+  ]
+}

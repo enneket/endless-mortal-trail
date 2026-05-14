@@ -1,0 +1,8 @@
+{
+  "id": "chapter2b",
+  "title": "迷雾森林",
+  "description": "犹豫不决中，渡途人走入一片迷雾笼罩的森林",
+  "sceneCount": 12,
+  "startScene": "01_forest_edge",
+  "randomized": true
+}

@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_forest_edge", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_foggy_path", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_clearing", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_cave", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_river", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_old_tree", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_forest", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_deep_forest", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_follow", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_wander", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_awaken", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["forest_keeper", "herb_girl"] },
+    "slot_2": { "candidates": ["lost_scholar", "forest_hunter"] },
+    "slot_3": { "candidates": ["herb_girl", "witch"] },
+    "slot_4": { "candidates": ["forest_hunter", "poacher"] },
+    "slot_5": { "candidates": ["woodcutter", "spirit"] },
+    "slot_6": { "candidates": ["witch", "forest_keeper"] },
+    "slot_7": { "candidates": ["poacher", "spirit"] },
+    "slot_8": { "candidates": ["lost_scholar", "woodcutter"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["compass", "glow_stone"] },
+    "slot_b": { "candidates": ["lingzhi", "beast_skin"] },
+    "slot_c": { "candidates": ["bark_painting", "talisman"] },
+    "slot_d": { "candidates": ["talisman", "compass"] }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "lingzhi",
+      "name": "灵芝",
+      "description": "珍贵的灵芝，有起死回生之效",
+      "effects": { "setFlag": "has_lingzhi" }
+    },
+    {
+      "id": "compass",
+      "name": "罗盘",
+      "description": "古老的罗盘，能指引方向",
+      "effects": { "setFlag": "has_compass" }
+    },
+    {
+      "id": "glow_stone",
+      "name": "荧光石",
+      "description": "会发光的石头，在黑暗中很亮",
+      "effects": { "setFlag": "has_glow_stone" }
+    },
+    {
+      "id": "bark_painting",
+      "name": "树皮画",
+      "description": "画在树皮上的地图，记录着森林的秘密",
+      "effects": { "setFlag": "has_bark_painting" }
+    },
+    {
+      "id": "beast_skin",
+      "name": "兽皮",
+      "description": "猎人剥的兽皮，可以御寒",
+      "effects": { "setFlag": "has_beast_skin" }
+    },
+    {
+      "id": "talisman",
+      "name": "符咒",
+      "description": "神婆画的符咒，据说能辟邪",
+      "effects": { "setFlag": "has_talisman" }
+    }
+  ]
+}
