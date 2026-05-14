@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_village_entrance", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_village_center", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_hunting_ground", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_herb_garden", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_blacksmith", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_mountain_spring", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_night_village", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_discovery", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_harmony", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_conflict", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_leave", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["village_chief", "mountain_hunter"] },
+    "slot_2": { "candidates": ["village_chief", "traveling_merchant"] },
+    "slot_3": { "candidates": ["mountain_hunter", "village_child"] },
+    "slot_4": { "candidates": ["herb_farmer", "mysterious_elder"] },
+    "slot_5": { "candidates": ["blacksmith", "hermit"] },
+    "slot_6": { "candidates": ["hermit", "traveling_merchant"] },
+    "slot_7": { "candidates": ["village_child", "mysterious_elder"] },
+    "slot_8": { "candidates": ["mysterious_elder", "hermit"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["mountain_goods", "mysterious_letter"] },
+    "slot_b": { "candidates": ["hunting_tools", "herbs"] },
+    "slot_c": { "candidates": ["iron_works", "ancient_artifact"] },
+    "slot_d": { "candidates": ["ancient_artifact", "mysterious_letter"] }
+  }
+}

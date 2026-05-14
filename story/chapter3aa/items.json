@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "mountain_goods",
+      "name": "山货",
+      "description": "山中特产，干货野味，外面买不到",
+      "effects": { "setFlag": "has_mountain_goods" }
+    },
+    {
+      "id": "herbs",
+      "name": "药材",
+      "description": "珍贵草药，香气扑鼻",
+      "effects": { "setFlag": "has_herbs" }
+    },
+    {
+      "id": "hunting_tools",
+      "name": "猎具",
+      "description": "猎人常用的工具，做工精良",
+      "effects": { "setFlag": "has_hunting_tools" }
+    },
+    {
+      "id": "iron_works",
+      "name": "铁器",
+      "description": "铁匠手工打造，结实耐用",
+      "effects": { "setFlag": "has_iron_works" }
+    },
+    {
+      "id": "ancient_artifact",
+      "name": "古物",
+      "description": "村中旧物，来历不明，似乎有些年头",
+      "effects": { "setFlag": "has_ancient_artifact" }
+    },
+    {
+      "id": "mysterious_letter",
+      "name": "信件",
+      "description": "一封泛黄的信，字迹模糊，内容耐人寻味",
+      "effects": { "setFlag": "has_mysterious_letter" }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "chapter3aa",
+  "title": "山中村落",
+  "description": "留在小镇后，发现附近山中有个隐秘村落",
+  "sceneCount": 12,
+  "startScene": "01_village_entrance",
+  "randomized": true
+}
