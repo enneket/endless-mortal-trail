@@ -1,0 +1,8 @@
+{
+  "id": "chapter4acc",
+  "title": "林中隐居",
+  "description": "在林中定居后，渡途人过上隐居生活",
+  "sceneCount": 12,
+  "startScene": "01_cabin",
+  "randomized": true
+}

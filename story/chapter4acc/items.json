@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "wood_axe",
+      "name": "柴斧",
+      "description": "一把结实的柴斧，斧刃在阳光下闪着寒光，是林中生活不可或缺的工具",
+      "type": "tool",
+      "effect": "可用于砍柴，维持日常生活",
+      "scenes": ["02_morning", "04_forest_walk"]
+    },
+    {
+      "id": "herb_garden",
+      "name": "药园",
+      "description": "屋前开辟的一小片药园，种着各种草药，散发着淡淡的药香",
+      "type": "facility",
+      "effect": "提供草药，可治疗小病痛",
+      "scenes": ["03_garden", "08_visitor"]
+    },
+    {
+      "id": "journal",
+      "name": "日记",
+      "description": "一本手工装订的日记，记录着隐居以来的所思所感",
+      "type": "personal",
+      "effect": "记录生活，反思自我",
+      "scenes": ["06_evening", "09_truth_revealed"]
+    },
+    {
+      "id": "meditation_mat",
+      "name": "蒲团",
+      "description": "用干草编织的蒲团，表面已被坐得光滑发亮",
+      "type": "tool",
+      "effect": "辅助打坐冥想，安定心神",
+      "scenes": ["07_night_meditation", "10c_transcend"]
+    },
+    {
+      "id": "forest_flute",
+      "name": "林笛",
+      "description": "用竹子自制的笛子，音色清越，与林间风声相和",
+      "type": "instrument",
+      "effect": "吹奏乐曲，与自然共鸣",
+      "scenes": ["06_evening", "10a_eternal_hermit"]
+    },
+    {
+      "id": "crystal_spring",
+      "name": "泉水",
+      "description": "从山石间涌出的清泉，水质清冽甘甜，四季不涸",
+      "type": "resource",
+      "effect": "提供饮水，净化身心",
+      "scenes": ["05_stream", "10c_transcend"]
+    }
+  ]
+}

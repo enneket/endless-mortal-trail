@@ -1,0 +1,88 @@
+{
+  "scenes": [
+    {
+      "id": "01_cabin",
+      "title": "林中小屋",
+      "type": "opening",
+      "description": "在林中定居后的第一个清晨，小屋中醒来",
+      "nextScenes": ["02_morning"]
+    },
+    {
+      "id": "02_morning",
+      "title": "晨光初照",
+      "type": "daily",
+      "description": "清晨的森林，开始一天的劳作",
+      "nextScenes": ["03_garden"]
+    },
+    {
+      "id": "03_garden",
+      "title": "药园时光",
+      "type": "daily",
+      "description": "照料药园，与草药为伴",
+      "nextScenes": ["04_forest_walk"]
+    },
+    {
+      "id": "04_forest_walk",
+      "title": "林间漫步",
+      "type": "exploration",
+      "description": "在森林中漫步，观察自然的变化",
+      "nextScenes": ["05_stream"]
+    },
+    {
+      "id": "05_stream",
+      "title": "溪边静思",
+      "type": "reflection",
+      "description": "坐在溪边，听水流的声音",
+      "nextScenes": ["06_evening"]
+    },
+    {
+      "id": "06_evening",
+      "title": "暮色降临",
+      "type": "daily",
+      "description": "傍晚时分，一天即将结束",
+      "nextScenes": ["07_night_meditation"]
+    },
+    {
+      "id": "07_night_meditation",
+      "title": "夜坐冥想",
+      "type": "meditation",
+      "description": "夜晚的冥想，与内心对话",
+      "nextScenes": ["08_visitor"]
+    },
+    {
+      "id": "08_visitor",
+      "title": "访客临门",
+      "type": "encounter",
+      "description": "有人来到林中小屋",
+      "nextScenes": ["09_truth_revealed"]
+    },
+    {
+      "id": "09_truth_revealed",
+      "title": "真相显现",
+      "type": "revelation",
+      "description": "在林中生活许久后，领悟到某些真相",
+      "nextScenes": ["10a_eternal_hermit", "10b_return_world", "10c_transcend"]
+    },
+    {
+      "id": "10a_eternal_hermit",
+      "title": "永恒隐居",
+      "type": "ending",
+      "description": "选择永远留在这片森林，成为林中的一部分",
+      "nextScenes": []
+    },
+    {
+      "id": "10b_return_world",
+      "title": "回归红尘",
+      "type": "ending",
+      "description": "带着林中的领悟，重返人世间",
+      "nextScenes": []
+    },
+    {
+      "id": "10c_transcend",
+      "title": "超然物外",
+      "type": "ending",
+      "description": "超越了隐居与入世的分别，达到更高的境界",
+      "nextScenes": []
+    }
+  ]
+}

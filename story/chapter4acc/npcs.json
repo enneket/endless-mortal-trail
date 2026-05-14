@@ -1,0 +1,76 @@
+{
+  "npcs": [
+    {
+      "id": "forest_neighbor",
+      "name": "林中邻居",
+      "description": "住在附近林中的隐士，与你相隔不远却互不打扰，偶尔在林间相遇时点头致意",
+      "personality": "沉默寡言，尊重彼此的隐居生活，只在必要时出现",
+      "dialogueStyle": "简短而富有哲理，常以自然为喻",
+      "relationship": "邻居",
+      "scenes": ["04_forest_walk", "08_visitor"]
+    },
+    {
+      "id": "herb_gatherer",
+      "name": "采药人",
+      "description": "定期来林中采药的草药师，熟悉每一种植物的药性",
+      "personality": "热心肠，喜欢分享草药知识，对隐居生活充满好奇",
+      "dialogueStyle": "亲切自然，常夹杂草药术语",
+      "relationship": "访客",
+      "scenes": ["03_garden", "08_visitor"]
+    },
+    {
+      "id": "lost_hunter",
+      "name": "迷路猎人",
+      "description": "在林中迷路的猎人，疲惫不堪，急需指引",
+      "personality": "倔强但内心善良，不习惯求人帮助",
+      "dialogueStyle": "直接而略带防备，逐渐放下戒心",
+      "relationship": "求助者",
+      "scenes": ["04_forest_walk", "08_visitor"]
+    },
+    {
+      "id": "wandering_child",
+      "name": "流浪孩童",
+      "description": "一个迷路的孩子，眼中带着恐惧和渴望",
+      "personality": "天真脆弱，需要保护，对世界充满疑问",
+      "dialogueStyle": "稚嫩直白，问出大人不会问的问题",
+      "relationship": "被保护者",
+      "scenes": ["05_stream", "08_visitor"]
+    },
+    {
+      "id": "wise_owl",
+      "name": "智者猫头鹰",
+      "description": "栖息在古树上的猫头鹰，似乎拥有超越普通动物的智慧",
+      "personality": "神秘而深邃，用眼神和动作传递信息",
+      "dialogueStyle": "不说话，但用行动和目光回应",
+      "relationship": "灵性伙伴",
+      "scenes": ["07_night_meditation", "09_truth_revealed"]
+    },
+    {
+      "id": "tree_spirit",
+      "name": "树灵",
+      "description": "古老树木的精灵，守护着这片森林",
+      "personality": "庄严慈悲，见证过无数来去的旅人",
+      "dialogueStyle": "如风过树叶般的低语，充满古老的智慧",
+      "relationship": "守护者",
+      "scenes": ["09_truth_revealed", "10c_transcend"]
+    },
+    {
+      "id": "passing_traveler",
+      "name": "路过旅人",
+      "description": "偶尔路过森林的旅人，带着外界的消息",
+      "personality": "好奇而有礼，对隐居生活既向往又不解",
+      "dialogueStyle": "健谈，喜欢讲述外面世界的变化",
+      "relationship": "过客",
+      "scenes": ["04_forest_walk", "08_visitor"]
+    },
+    {
+      "id": "mirror_self",
+      "name": "镜中自我",
+      "description": "内心的投射，是你过去的影子，也是未来的可能",
+      "personality": "既是自己又是他者，提出最尖锐的内心问题",
+      "dialogueStyle": "如回声般的话语，直击灵魂深处",
+      "relationship": "内心映照",
+      "scenes": ["07_night_meditation", "09_truth_revealed"]
+    }
+  ]
+}
