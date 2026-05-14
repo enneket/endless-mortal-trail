@@ -1,0 +1,30 @@
+{
+  "id": "07_forest",
+  "title": "森林",
+  "atmosphere": { "time": "黄昏", "weather": "阴沉", "mood": "神秘" },
+  "texts": [
+    { "content": "你走进了森林。", "delay": 0 },
+    { "content": "树木高大而密集，阳光只能从树叶的缝隙中透进来，在地上形成斑驳的光影。", "delay": 2000 },
+    { "content": "林子里很安静，只有鸟叫声和你自己的脚步声。", "delay": 2000 },
+    { "content": "你隐约觉得，有人在看着你。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "在森林里过夜",
+      "target": "08_night_camp",
+      "effects": { "mood": "警觉" },
+      "condition": null
+    },
+    {
+      "text": "走出森林，回到镇上",
+      "target": "03_small_town",
+      "effects": { "mood": "犹豫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

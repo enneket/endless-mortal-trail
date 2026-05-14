@@ -1,0 +1,37 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "曙光初现", "mood": "恍然" },
+  "texts": [
+    { "content": "天亮了。你睁开眼睛，看着东方泛起的鱼肚白。", "delay": 0 },
+    { "content": "你已经离开了寺庙，走进了红尘。但你心里清楚，你带走了寺庙里的一切。", "delay": 2000 },
+    { "content": "那些经文，那些钟声，那些沉默的夜晚，都已经刻在了你的骨头里。", "delay": 2000 },
+    { "content": "你站起身，拍了拍身上的尘土。", "delay": 1500 },
+    { "content": "前方的路，有三条。", "delay": 1500 },
+    { "content": "一条通往山下的镇子，你可以找个地方安定下来。", "delay": 1500 },
+    { "content": "一条通往远方，你可以继续漂泊，看看这世间还有什么是你没见过的。", "delay": 1500 },
+    { "content": "一条通往山上，你可以回到寺庙，回到你来的地方。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "去山下的镇子，安定下来",
+      "target": "10a_settle",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "继续往前走，去看看远方",
+      "target": "10b_continue",
+      "effects": { "mood": "洒脱" },
+      "condition": null
+    },
+    {
+      "text": "回到山上的寺庙",
+      "target": "10c_return_temple",
+      "effects": { "mood": "虔诚" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

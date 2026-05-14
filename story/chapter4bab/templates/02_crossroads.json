@@ -1,0 +1,28 @@
+{
+  "id": "02_crossroads",
+  "title": "岔路口",
+  "atmosphere": { "time": "上午", "weather": "薄雾散去", "mood": "犹豫" },
+  "texts": [
+    { "content": "山路走到了尽头，面前是一个岔路口。", "delay": 0 },
+    { "content": "左边的路通往山下，隐约能看到炊烟。右边的路通往更深的山里，看不到尽头。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你低头看了看自己的行囊，{{ITEM_SLOT_A:name}}还在。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "走左边，去山下的镇子",
+      "target": "03_small_town",
+      "effects": { "mood": "务实" },
+      "condition": null
+    },
+    {
+      "text": "走右边，往更深的山里去",
+      "target": "07_forest",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

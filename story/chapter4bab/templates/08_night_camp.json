@@ -1,0 +1,31 @@
+{
+  "id": "08_night_camp",
+  "title": "夜营",
+  "atmosphere": { "time": "夜晚", "weather": "星空", "mood": "孤独" },
+  "texts": [
+    { "content": "夜幕降临。你找了个避风的地方，生起了火。", "delay": 0 },
+    { "content": "火焰跳动着，映照着你的脸。周围一片漆黑，只有火光在黑暗中摇曳。", "delay": 2000 },
+    { "content": "你坐在火堆旁，看着天上的星星。星星很多，很亮。", "delay": 2000 },
+    { "content": "在寺庙里，你也看过星星。但那时候，你觉得星星很远。现在，你觉得星星很近。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你低头看了看身边，{{ITEM_SLOT_D:name}}还在。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续沉思",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "闭上眼睛睡觉",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

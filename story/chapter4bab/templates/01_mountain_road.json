@@ -1,0 +1,30 @@
+{
+  "id": "01_mountain_road",
+  "title": "山路",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "迷茫" },
+  "texts": [
+    { "content": "你离开了寺庙，沿着山路往下走。", "delay": 0 },
+    { "content": "晨雾在林间缠绕，脚下的石板路被露水打湿，每一步都踩出细微的声响。", "delay": 2000 },
+    { "content": "身后是钟声，前方是未知。你没有回头。", "delay": 2000 },
+    { "content": "走了约莫半个时辰，你听到身后有脚步声。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "与他同行",
+      "target": "02_crossroads",
+      "effects": { "mood": "安心" },
+      "condition": null
+    },
+    {
+      "text": "独自前行",
+      "target": "02_crossroads",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "06_river",
+  "title": "河边",
+  "atmosphere": { "time": "傍晚", "weather": "晚霞", "mood": "沉思" },
+  "texts": [
+    { "content": "你走到了河边。", "delay": 0 },
+    { "content": "河水缓缓流淌，映着天边的晚霞。岸边有几棵柳树，枝条垂到水面上。", "delay": 2000 },
+    { "content": "你坐在河边的石头上，看着水面上的倒影。", "delay": 2000 },
+    { "content": "倒影里的你，已经和从前不一样了。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你低头看了看身边，{{ITEM_SLOT_C:name}}还在。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "在河边过夜",
+      "target": "08_night_camp",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "继续往森林里走",
+      "target": "07_forest",
+      "effects": { "mood": "不安" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

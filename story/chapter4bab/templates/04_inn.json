@@ -1,0 +1,30 @@
+{
+  "id": "04_inn",
+  "title": "客栈",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "安宁" },
+  "texts": [
+    { "content": "你走进了一家客栈。", "delay": 0 },
+    { "content": "客栈不大，但很干净。掌柜的是个胖子，笑呵呵地迎上来。", "delay": 2000 },
+    { "content": "你找了个角落坐下，要了一壶茶。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你低头看了看桌上，{{ITEM_SLOT_B:name}}还在。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "在客栈住一晚",
+      "target": "06_river",
+      "effects": { "mood": "放松" },
+      "condition": null
+    },
+    {
+      "text": "继续赶路",
+      "target": "05_market",
+      "effects": { "mood": "急切" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

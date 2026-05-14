@@ -1,0 +1,20 @@
+{
+  "id": "10c_return_temple",
+  "title": "返回寺庙",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "虔诚" },
+  "texts": [
+    { "content": "你转过身，沿着来时的路，往山上走去。", "delay": 0 },
+    { "content": "山路依然崎岖，但你的脚步比来时更稳。", "delay": 2000 },
+    { "content": "你走过了岔路口，走过了密林，走过了石阶。", "delay": 2000 },
+    { "content": "寺庙的山门出现在眼前。钟声依然悠远，穿过雾气，穿过密林。", "delay": 2000 },
+    { "content": "你站在山门前，深吸一口气。", "delay": 1500 },
+    { "content": "你推开门，走了进去。", "delay": 1500 },
+    { "content": "老方丈站在院子里，看着你，微微一笑。", "delay": 1500 },
+    { "content": "\"你回来了。\"他说。", "delay": 1500 },
+    { "content": "\"是的。\"你说，\"我回来了。\"", "delay": 1500 },
+    { "content": "——渡途人·红尘再入·归来·完——", "delay": 1500 }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "05_market",
+  "title": "集市",
+  "atmosphere": { "time": "下午", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "你走进了集市。", "delay": 0 },
+    { "content": "各种摊位摆满了街道两旁，卖什么的都有。有卖布的，卖菜的，卖杂货的，还有卖艺的。", "delay": 2000 },
+    { "content": "人声鼎沸，尘土飞扬。你突然觉得有些不适应。", "delay": 2000 },
+    { "content": "在寺庙里待了那么久，你已经习惯了清静。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "离开集市，去河边走走",
+      "target": "06_river",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "找个地方过夜",
+      "target": "08_night_camp",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
