@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "peace_treaty",
+      "name": "和平条约",
+      "description": "和平协议草案，纸张泛黄，上面写满了条款和条件",
+      "effects": { "setFlag": "has_peace_treaty" }
+    },
+    {
+      "id": "war_trophies",
+      "name": "战利品",
+      "description": "战争中缴获的物品，沾着血迹，是仇恨的见证",
+      "effects": { "setFlag": "has_war_trophies" }
+    },
+    {
+      "id": "secret_documents",
+      "name": "机密文件",
+      "description": "记载各方底牌的机密文件，牵涉无数人的命运",
+      "effects": { "setFlag": "has_secret_documents" }
+    },
+    {
+      "id": "hostage_list",
+      "name": "人质名单",
+      "description": "被扣押人员的名单，上面有老人、妇女和孩子的名字",
+      "effects": { "setFlag": "has_hostage_list" }
+    },
+    {
+      "id": "territory_map",
+      "name": "领土地图",
+      "description": "划分边界的地图，红线蜿蜒，每一条线都是无数人的鲜血",
+      "effects": { "setFlag": "has_territory_map" }
+    },
+    {
+      "id": "ceasefire_agreement",
+      "name": "停火协议",
+      "description": "临时停火协议，两边将领都签过字，但从未真正生效",
+      "effects": { "setFlag": "has_ceasefire_agreement" }
+    }
+  ]
+}

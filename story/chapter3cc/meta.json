@@ -1,0 +1,8 @@
+{
+  "id": "chapter3cc",
+  "title": "谈判桌前",
+  "description": "选择谈判后，渡途人被带到谈判桌前",
+  "sceneCount": 12,
+  "startScene": "01_negotiation_table",
+  "randomized": true
+}
