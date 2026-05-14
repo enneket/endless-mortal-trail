@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_mountain_road", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_crossroads", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_small_town", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_inn", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_market", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_river", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_forest", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_night_camp", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_settle", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_continue", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_return_temple", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["fellow_traveler", "mountain_resident"] },
+    "slot_2": { "candidates": ["merchant_caravan", "government_officer"] },
+    "slot_3": { "candidates": ["street_performer", "beggar"] },
+    "slot_4": { "candidates": ["rich_merchant", "fellow_traveler"] },
+    "slot_5": { "candidates": ["beggar", "street_performer"] },
+    "slot_6": { "candidates": ["mountain_resident", "merchant_caravan"] },
+    "slot_7": { "candidates": ["government_officer", "mysterious_person"] },
+    "slot_8": { "candidates": ["mysterious_person", "rich_merchant"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["dried_food", "road_map"] },
+    "slot_b": { "candidates": ["copper_coins", "fire_starter"] },
+    "slot_c": { "candidates": ["water_bag", "rope"] },
+    "slot_d": { "candidates": ["fire_starter", "dried_food"] }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "fellow_traveler",
+      "name": "同行旅人",
+      "identity": "路上遇到的旅伴",
+      "personality": "健谈、热心、见多识广",
+      "dialogueStyle": "热情、直白、带着旅途的疲惫",
+      "dialogues": {
+        "greeting": "\"嘿，你也是赶路的？\"旅人笑着打招呼，步伐却不停。",
+        "reveal": "\"我走了大半个天下，见过太多人和事。这世道，不容易啊。\"",
+        "gift": "\"这干粮你拿着，路上能顶一阵。\""
+      }
+    },
+    {
+      "id": "mountain_resident",
+      "name": "山民",
+      "identity": "山中居民",
+      "personality": "朴实、寡言、自给自足",
+      "dialogueStyle": "缓慢、带着山野口音",
+      "dialogues": {
+        "greeting": "\"你是从山上下来的？\"山民放下锄头，打量着你。",
+        "reveal": "\"山下的人啊，总往山里跑。山里的人呢，又想去山下看看。\"",
+        "gift": "\"这水囊你带着，山路上没水可不行。\""
+      }
+    },
+    {
+      "id": "merchant_caravan",
+      "name": "商队",
+      "identity": "路过的商队",
+      "personality": "精明、忙碌、唯利是图",
+      "dialogueStyle": "急促、带着生意人的精明",
+      "dialogues": {
+        "greeting": "\"让让，让让！\"商队领头人挥着手，\"货要紧！\"",
+        "reveal": "\"这年头，做买卖不容易。但总比种地强。\"",
+        "gift": "\"看你也不是本地人。这地图你拿着，别走冤枉路。\""
+      }
+    },
+    {
+      "id": "street_performer",
+      "name": "卖艺人",
+      "identity": "流浪艺人",
+      "personality": "洒脱、健谈、消息灵通",
+      "dialogueStyle": "风趣、夸张、带着江湖气",
+      "dialogues": {
+        "greeting": "\"来来来，看官留步！\"卖艺人敲着铜锣，\"今日表演，分文不取！\"",
+        "reveal": "\"我走南闯北，什么稀奇古怪的事没见过？\"",
+        "gift": "\"这个火折子你拿着，夜里用得上。\""
+      }
+    },
+    {
+      "id": "government_officer",
+      "name": "官差",
+      "identity": "追捕逃犯",
+      "personality": "严肃、尽职、多疑",
+      "dialogueStyle": "威严、带着官腔",
+      "dialogues": {
+        "greeting": "\"站住！\"官差拦住去路，\"你是哪里人？\"",
+        "reveal": "\"最近有逃犯出没，你最好老实点。\"",
+        "gift": "\"算了，看你也不像。走吧。\""
+      }
+    },
+    {
+      "id": "beggar",
+      "name": "乞丐",
+      "identity": "城中乞丐",
+      "personality": "世故、看透人心、消息灵通",
+      "dialogueStyle": "沧桑、带着自嘲和智慧",
+      "dialogues": {
+        "greeting": "\"行行好，给口饭吃吧。\"乞丐伸出手，眼里却闪着精光。",
+        "reveal": "\"你以为我可怜？我告诉你，这城里最可怜的不是我。\"",
+        "gift": "\"我也没什么好给的。这根绳子你拿着，总有用的时候。\""
+      }
+    },
+    {
+      "id": "rich_merchant",
+      "name": "富商",
+      "identity": "城中富商",
+      "personality": "圆滑、势利、但也有善心",
+      "dialogueStyle": "客套、带着铜臭味",
+      "dialogues": {
+        "greeting": "\"哦？\"富商上下打量你，\"这位是……\"",
+        "reveal": "\"做生意嘛，靠的是人脉。你要是愿意，可以帮我跑跑腿。\"",
+        "gift": "\"这些铜钱你拿着，算是见面礼。\""
+      }
+    },
+    {
+      "id": "mysterious_person",
+      "name": "神秘人",
+      "identity": "似曾相识的身影",
+      "personality": "神秘、意味深长、知道很多",
+      "dialogueStyle": "低沉、隐晦、话中有话",
+      "dialogues": {
+        "greeting": "\"又见面了。\"神秘人微微一笑，目光深邃。",
+        "reveal": "\"你以为离开了寺庙，就能离开一切？\"",
+        "gift": "\"有些东西，你带着比扔了好。\""
+      }
+    }
+  ]
+}
