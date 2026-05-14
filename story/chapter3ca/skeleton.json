@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_frontline", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_command_post", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_trenches", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_field_hospital", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_night_watch", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_battle", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_aftermath", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_revelation", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_fight_to_end", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_retreat", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_negotiate", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["veteran_soldier", "civilian_refugee"] },
+    "slot_2": { "candidates": ["frontline_general", "supply_officer"] },
+    "slot_3": { "candidates": ["veteran_soldier", "war_correspondent"] },
+    "slot_4": { "candidates": ["field_medic", "civilian_refugee"] },
+    "slot_5": { "candidates": ["spy", "supply_officer"] },
+    "slot_6": { "candidates": ["prisoner", "veteran_soldier"] },
+    "slot_7": { "candidates": ["war_correspondent", "field_medic"] },
+    "slot_8": { "candidates": ["spy", "prisoner"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["battle_orders", "soldier_tag"] },
+    "slot_b": { "candidates": ["field_medicine", "supply_crate"] },
+    "slot_c": { "candidates": ["weapon", "war_map"] },
+    "slot_d": { "candidates": ["war_map", "battle_orders"] }
+  }
+}

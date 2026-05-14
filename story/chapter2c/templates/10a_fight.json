@@ -27,7 +27,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter3ca:01_arrival",
+      "target": "chapter3ca:01_frontline",
       "effects": { "experience": 3 },
       "condition": null
     }

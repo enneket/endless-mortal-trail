@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "battle_orders",
+      "name": "军令",
+      "description": "前线将领的手令，上面盖着血红的印章",
+      "effects": { "setFlag": "has_battle_orders" }
+    },
+    {
+      "id": "field_medicine",
+      "name": "战地药品",
+      "description": "军医所赠的伤药，金疮止血，战场上能救命",
+      "effects": { "setFlag": "has_field_medicine" }
+    },
+    {
+      "id": "soldier_tag",
+      "name": "士兵牌",
+      "description": "铜制的身份牌，上面刻着编号，阵亡时用来辨认尸体",
+      "effects": { "setFlag": "has_soldier_tag" }
+    },
+    {
+      "id": "weapon",
+      "name": "武器",
+      "description": "一把沾着血迹的刀，刃口已经卷了",
+      "effects": { "setFlag": "has_weapon" }
+    },
+    {
+      "id": "supply_crate",
+      "name": "补给箱",
+      "description": "一箱军需物资，里面有干粮和毯子",
+      "effects": { "setFlag": "has_supply_crate" }
+    },
+    {
+      "id": "war_map",
+      "name": "作战地图",
+      "description": "标注了双方兵力部署的地图，红线蓝线交错",
+      "effects": { "setFlag": "has_war_map" }
+    }
+  ]
+}

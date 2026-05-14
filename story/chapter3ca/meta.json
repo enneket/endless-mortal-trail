@@ -1,0 +1,8 @@
+{
+  "id": "chapter3ca",
+  "title": "战场前线",
+  "description": "参战后，渡途人来到战火纷飞的前线",
+  "sceneCount": 12,
+  "startScene": "01_frontline",
+  "randomized": true
+}
