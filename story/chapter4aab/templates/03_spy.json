@@ -1,0 +1,29 @@
+{
+  "id": "03_spy",
+  "title": "奸细",
+  "atmosphere": { "time": "夜晚", "weather": "阴暗", "mood": "疑虑" },
+  "texts": [
+    { "content": "你决定先派人去打探消息。", "delay": 0 },
+    { "content": "可没过多久，你就发现了一些不对劲的地方。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 2000 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "你心里隐隐觉得，村子里有内鬼。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我得查清楚。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"没时间了，先准备战斗。\"",
+      "target": "04_battle",
+      "effects": { "mood": "焦急" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

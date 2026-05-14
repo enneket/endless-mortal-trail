@@ -1,0 +1,30 @@
+{
+  "id": "01_threat",
+  "title": "威胁降临",
+  "atmosphere": { "time": "黄昏", "weather": "阴沉", "mood": "紧张" },
+  "texts": [
+    { "content": "村子重建后，日子刚安稳下来。", "delay": 0 },
+    { "content": "这天黄昏，远处传来一阵骚动。", "delay": 2000 },
+    { "content": "\"不好了！\"有人喊道，\"山那边来了一群人！\"", "delay": 1500 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 },
+    { "content": "村子里的气氛骤然紧张起来。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我们得准备迎敌。\"",
+      "target": "02_preparation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"先派个人去打探一下。\"",
+      "target": "03_spy",
+      "effects": { "mood": "谨慎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

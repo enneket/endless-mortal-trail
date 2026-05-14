@@ -1,0 +1,30 @@
+{
+  "id": "02_preparation",
+  "title": "备战",
+  "atmosphere": { "time": "夜晚", "weather": "阴冷", "mood": "紧迫" },
+  "texts": [
+    { "content": "村子紧急召集众人，商议对策。", "delay": 0 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 2000 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你得到了一件{{ITEM_SLOT_A:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_A:description}}", "delay": 1000 },
+    { "content": "\"准备好了吗？\"有人问你。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"准备好了，迎战！\"",
+      "target": "04_battle",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"再等等，也许还有转机。\"",
+      "target": "07_night_watch",
+      "effects": { "mood": "犹豫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

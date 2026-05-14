@@ -1,0 +1,29 @@
+{
+  "id": "07_night_watch",
+  "title": "夜守",
+  "atmosphere": { "time": "深夜", "weather": "寒风刺骨", "mood": "凝重" },
+  "texts": [
+    { "content": "夜深了，村子里一片死寂。", "delay": 0 },
+    { "content": "你守在村口，不敢合眼。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 2000 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "远处传来野兽的嚎叫。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"坚持到天亮。\"",
+      "target": "08_reinforcement",
+      "effects": { "patience": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"主动出击，夜袭敌营。\"",
+      "target": "10a_victory",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

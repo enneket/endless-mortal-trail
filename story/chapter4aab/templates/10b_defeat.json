@@ -1,0 +1,20 @@
+{
+  "id": "10b_defeat",
+  "title": "失败",
+  "atmosphere": { "time": "夜晚", "weather": "大雨倾盆", "mood": "绝望" },
+  "texts": [
+    { "content": "\"够了。\"你放下武器，声音嘶哑。", "delay": 0 },
+    { "content": "\"我们投降。\"", "delay": 2000 },
+    { "content": "村民们沉默了。没有人反对。", "delay": 2000 },
+    { "content": "外敌大笑着走进村子。", "delay": 2000 },
+    { "content": "\"早该如此。\"他们说。", "delay": 1500 },
+    { "content": "大雨倾盆而下，仿佛在为村子哭泣。", "delay": 2000 },
+    { "content": "你站在雨中，浑身湿透。", "delay": 1500 },
+    { "content": "\"对不起。\"你低声说。", "delay": 2000 },
+    { "content": "但没有人听见。", "delay": 1500 },
+    { "content": "——第四章·冲突再起·完——", "delay": 1500 }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

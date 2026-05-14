@@ -1,0 +1,20 @@
+{
+  "id": "10a_victory",
+  "title": "胜利",
+  "atmosphere": { "time": "黄昏", "weather": "夕阳如血", "mood": "悲壮而自豪" },
+  "texts": [
+    { "content": "\"冲啊！\"你大喊一声，率先冲了上去。", "delay": 0 },
+    { "content": "村民们被你的勇气感染，纷纷跟上。", "delay": 2000 },
+    { "content": "战斗异常惨烈，但没有人退缩。", "delay": 2000 },
+    { "content": "终于，外敌被击退了。", "delay": 2000 },
+    { "content": "\"我们赢了……\"你跪倒在地，泪流满面。", "delay": 1500 },
+    { "content": "夕阳西下，村子保住了。", "delay": 2000 },
+    { "content": "但代价是惨重的。", "delay": 1500 },
+    { "content": "\"值得吗？\"你问自己。", "delay": 2000 },
+    { "content": "\"值得。\"你回答自己。", "delay": 1500 },
+    { "content": "——第四章·冲突再起·完——", "delay": 1500 }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

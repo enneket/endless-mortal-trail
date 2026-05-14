@@ -1,0 +1,31 @@
+{
+  "id": "06_sacrifice",
+  "title": "牺牲",
+  "atmosphere": { "time": "正午", "weather": "血色天空", "mood": "悲壮" },
+  "texts": [
+    { "content": "\"不退！\"你咬紧牙关。", "delay": 0 },
+    { "content": "战斗越来越激烈。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你得到了一件{{ITEM_SLOT_C:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_C:description}}", "delay": 1000 },
+    { "content": "有人倒下了，再也没有站起来。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我们不能白死。\"",
+      "target": "10a_victory",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"够了，投降吧。\"",
+      "target": "10b_defeat",
+      "effects": { "mood": "绝望" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

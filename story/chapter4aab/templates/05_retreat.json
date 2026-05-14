@@ -1,0 +1,29 @@
+{
+  "id": "05_retreat",
+  "title": "撤退",
+  "atmosphere": { "time": "白天", "weather": "硝烟弥漫", "mood": "悲壮" },
+  "texts": [
+    { "content": "\"撤退！\"你大喊。", "delay": 0 },
+    { "content": "村民们开始往山里撤退。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "撤退的路上，有人受伤了。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"先救伤员。\"",
+      "target": "07_night_watch",
+      "effects": { "kindness": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"继续撤，不能停。\"",
+      "target": "08_reinforcement",
+      "effects": { "mood": "沉重" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

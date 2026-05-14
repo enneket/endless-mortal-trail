@@ -1,0 +1,31 @@
+{
+  "id": "04_battle",
+  "title": "激战",
+  "atmosphere": { "time": "黎明", "weather": "血色晨曦", "mood": "惨烈" },
+  "texts": [
+    { "content": "天刚蒙蒙亮，外敌就杀了过来。", "delay": 0 },
+    { "content": "喊杀声震天动地。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你得到了一件{{ITEM_SLOT_B:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_B:description}}", "delay": 1000 },
+    { "content": "战斗异常惨烈，村子里到处都是血迹。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"继续战斗，不能退！\"",
+      "target": "06_sacrifice",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"撤退，保存实力！\"",
+      "target": "05_retreat",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

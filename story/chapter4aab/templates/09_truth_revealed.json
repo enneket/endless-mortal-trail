@@ -1,0 +1,29 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "午后", "weather": "阴云密布", "mood": "震惊" },
+  "texts": [
+    { "content": "你暗中调查，终于发现了真相。", "delay": 0 },
+    { "content": "原来，外敌之所以能找到村子，是因为有内鬼。", "delay": 2000 },
+    { "content": "\"是你！\"你指着那个人，声音颤抖。", "delay": 2000 },
+    { "content": "\"哼，被发现了。\"那人冷笑一声，\"晚了。\"", "delay": 2000 },
+    { "content": "真相大白，但局势已经无法挽回。", "delay": 1500 },
+    { "content": "\"怎么办？\"众人看着你，等待你的决定。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"把他交给外敌，也许能换和平。\"",
+      "target": "10c_peace",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我们团结一致，决一死战。\"",
+      "target": "10a_victory",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
