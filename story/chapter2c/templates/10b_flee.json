@@ -27,7 +27,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter3cb:01_arrival",
+      "target": "chapter3cb:01_escape",
       "effects": { "wisdom": 3 },
       "condition": null
     }
