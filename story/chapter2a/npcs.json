@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "old_mayor",
+      "name": "老镇长",
+      "identity": "镇上长者，睿智沉稳",
+      "personality": "温和、有耐心、善于倾听",
+      "dialogueStyle": "缓慢、沉稳、富有哲理",
+      "dialogues": {
+        "greeting": "\"年轻人，你来了。\"老镇长看着你，眼里带着笑意。",
+        "reveal": "\"这镇子啊，有太多故事了。\"",
+        "gift": "\"拿着吧，这是镇上的特产。\""
+      }
+    },
+    {
+      "id": "herbalist",
+      "name": "药铺掌柜",
+      "identity": "开药铺的商人，精通药理",
+      "personality": "谨慎、细心、有些固执",
+      "dialogueStyle": "专业、详细、偶尔唠叨",
+      "dialogues": {
+        "greeting": "\"要买药吗？\"药铺掌柜抬起头，推了推眼镜。",
+        "reveal": "\"这山里的药材，可都是宝贝。\"",
+        "gift": "\"这副药你拿着，以备不时之需。\""
+      }
+    },
+    {
+      "id": "hunter",
+      "name": "猎户",
+      "identity": "山中猎人，熟悉山路",
+      "personality": "豪爽、直率、重义气",
+      "dialogueStyle": "粗犷、直接、偶尔幽默",
+      "dialogues": {
+        "greeting": "\"嘿！你是新来的？\"猎户大声问道。",
+        "reveal": "\"山里的事，我最清楚。\"",
+        "gift": "\"拿着这把弓，防身用。\""
+      }
+    },
+    {
+      "id": "teacher",
+      "name": "教书先生",
+      "identity": "私塾老师，博学多才",
+      "personality": "严谨、认真、有些迂腐",
+      "dialogueStyle": "文雅、引经据典",
+      "dialogues": {
+        "greeting": "\"有朋自远方来，不亦乐乎？\"教书先生拱手行礼。",
+        "reveal": "\"这镇上的历史，都在书里记载着。\"",
+        "gift": "\"这本书送你，望你勤学不辍。\""
+      }
+    },
+    {
+      "id": "teahouse_owner",
+      "name": "茶馆老板娘",
+      "identity": "经营茶馆，消息灵通",
+      "personality": "热情、健谈、善于察言观色",
+      "dialogueStyle": "热情、亲切、话多",
+      "dialogues": {
+        "greeting": "\"客官，进来喝杯茶吧！\"老板娘热情地招呼。",
+        "reveal": "\"我这茶馆啊，什么消息都能听到。\"",
+        "gift": "\"这茶叶你拿着，路上喝。\""
+      }
+    },
+    {
+      "id": "traveling_doctor",
+      "name": "游方郎中",
+      "identity": "流浪医者，医术高明",
+      "personality": "神秘、寡言、心地善良",
+      "dialogueStyle": "简短、含蓄、偶尔深奥",
+      "dialogues": {
+        "greeting": "\"你身体可好？\"游方郎中看了你一眼。",
+        "reveal": "\"病从心生，药从心来。\"",
+        "gift": "\"这药方你收好，日后或许用得上。\""
+      }
+    },
+    {
+      "id": "woodcutter",
+      "name": "樵夫",
+      "identity": "砍柴为生，勤劳朴实",
+      "personality": "老实、勤劳、话不多",
+      "dialogueStyle": "简单、直接、朴实",
+      "dialogues": {
+        "greeting": "\"嗯。\"樵夫点点头，继续砍柴。",
+        "reveal": "\"山上的事，我知道一些。\"",
+        "gift": "\"这柴你拿着，晚上取暖。\""
+      }
+    },
+    {
+      "id": "traveler",
+      "name": "旅人",
+      "identity": "路过的旅人，见多识广",
+      "personality": "开朗、健谈、喜欢交朋友",
+      "dialogueStyle": "热情、有趣、故事多",
+      "dialogues": {
+        "greeting": "\"你好啊！我也是旅人。\"他热情地打招呼。",
+        "reveal": "\"我走过很多地方，见过很多事。\"",
+        "gift": "\"这地图送你，或许对你有用。\""
+      }
+    }
+  ]
+}

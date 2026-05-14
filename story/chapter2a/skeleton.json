@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_town_gate", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_main_street", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_teahouse", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_medicine_shop", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_school", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_hunting_lodge", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_mountain_path", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_night_town", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_stay", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_leave", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_explore", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["old_mayor", "hunter"] },
+    "slot_2": { "candidates": ["herbalist", "teahouse_owner"] },
+    "slot_3": { "candidates": ["teahouse_owner", "traveler"] },
+    "slot_4": { "candidates": ["herbalist", "traveling_doctor"] },
+    "slot_5": { "candidates": ["teacher", "old_mayor"] },
+    "slot_6": { "candidates": ["hunter", "woodcutter"] },
+    "slot_7": { "candidates": ["woodcutter", "traveler"] },
+    "slot_8": { "candidates": ["traveling_doctor", "teahouse_owner"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["tea", "mountain_map"] },
+    "slot_b": { "candidates": ["ginseng", "prescription"] },
+    "slot_c": { "candidates": ["hunting_bow", "ancient_book"] },
+    "slot_d": { "candidates": ["prescription", "mountain_map"] }
+  }
+}

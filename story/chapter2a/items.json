@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "ginseng",
+      "name": "山参",
+      "description": "珍贵的山中人参，有滋补功效",
+      "effects": { "setFlag": "has_ginseng" }
+    },
+    {
+      "id": "tea",
+      "name": "茶叶",
+      "description": "当地特产的高山茶叶",
+      "effects": { "setFlag": "has_tea" }
+    },
+    {
+      "id": "hunting_bow",
+      "name": "猎弓",
+      "description": "猎户常用的弓箭",
+      "effects": { "setFlag": "has_bow" }
+    },
+    {
+      "id": "ancient_book",
+      "name": "古书",
+      "description": "教书先生珍藏的古籍",
+      "effects": { "setFlag": "has_book" }
+    },
+    {
+      "id": "prescription",
+      "name": "药方",
+      "description": "治疗疑难杂症的药方",
+      "effects": { "setFlag": "has_prescription" }
+    },
+    {
+      "id": "mountain_map",
+      "name": "山路图",
+      "description": "详细的山中路线图",
+      "effects": { "setFlag": "has_map" }
+    }
+  ]
+}
