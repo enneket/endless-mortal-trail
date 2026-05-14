@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_unknown_road", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_crossroads", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_strange_land", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_oasis", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_mountain_pass", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_river", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_desert", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_revelation", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_brave_new_world", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_turn_back", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_settle_here", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["mysterious_guide", "nomad"] },
+    "slot_2": { "candidates": ["lost_traveler", "border_guard"] },
+    "slot_3": { "candidates": ["storyteller", "merchant"] },
+    "slot_4": { "candidates": ["nomad", "hermit"] },
+    "slot_5": { "candidates": ["border_guard", "storyteller"] },
+    "slot_6": { "candidates": ["merchant", "child"] },
+    "slot_7": { "candidates": ["hermit", "mysterious_guide"] },
+    "slot_8": { "candidates": ["mysterious_guide", "hermit"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["compass", "ancient_map"] },
+    "slot_b": { "candidates": ["water_skin", "dried_meat"] },
+    "slot_c": { "candidates": ["fire_steel", "water_skin"] },
+    "slot_d": { "candidates": ["lucky_coin", "ancient_map"] }
+  }
+}

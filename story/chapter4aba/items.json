@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "compass",
+      "name": "指南针",
+      "description": "指引方向之物，指针永远朝向北方",
+      "effects": { "setFlag": "has_compass" }
+    },
+    {
+      "id": "ancient_map",
+      "name": "古地图",
+      "description": "未知地域的地图，线条模糊但大致可辨",
+      "effects": { "setFlag": "has_ancient_map" }
+    },
+    {
+      "id": "water_skin",
+      "name": "水袋",
+      "description": "装水之物，荒漠中比金子还珍贵",
+      "effects": { "setFlag": "has_water_skin" }
+    },
+    {
+      "id": "dried_meat",
+      "name": "肉干",
+      "description": "充饥食物，耐储存，管饱",
+      "effects": { "setFlag": "has_dried_meat" }
+    },
+    {
+      "id": "fire_steel",
+      "name": "火石",
+      "description": "生火工具，黑夜中的希望",
+      "effects": { "setFlag": "has_fire_steel" }
+    },
+    {
+      "id": "lucky_coin",
+      "name": "幸运币",
+      "description": "护身之物，据说能带来好运",
+      "effects": { "setFlag": "has_lucky_coin" }
+    }
+  ]
+}
