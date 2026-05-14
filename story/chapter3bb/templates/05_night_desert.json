@@ -1,0 +1,32 @@
+{
+  "id": "05_night_desert",
+  "title": "夜荒",
+  "atmosphere": { "time": "深夜", "weather": "星空", "mood": "孤独" },
+  "texts": [
+    { "content": "你走在荒野的夜色中。", "delay": 0 },
+    { "content": "头顶是漫天繁星，脚下是无尽的黑暗。", "delay": 2000 },
+    { "content": "你从未见过这么多星星，它们密密麻麻，像是撒了一把碎钻。", "delay": 2000 },
+    { "content": "你感到一种从未有过的孤独。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "在月光下，你发现了一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"星星真美。\"",
+      "target": "06_mirage",
+      "effects": { "mood": "沉思" },
+      "condition": null
+    },
+    {
+      "text": "\"我得继续走。\"",
+      "target": "07_canyon",
+      "effects": { "willpower": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

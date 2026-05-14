@@ -1,0 +1,25 @@
+{
+  "id": "08_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "黄昏", "weather": "霞光", "mood": "震撼" },
+  "texts": [
+    { "content": "你站在荒野的高处，看着远方。", "delay": 0 },
+    { "content": "夕阳西下，天边一片血红。", "delay": 2000 },
+    { "content": "你突然明白了什么。", "delay": 2000 },
+    { "content": "这片荒野，不只是一个地方。它是一个隐喻。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你开始理解了。这片荒野，是你内心的投射。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我该怎么做？\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

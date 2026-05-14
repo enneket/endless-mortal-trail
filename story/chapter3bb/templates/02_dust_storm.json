@@ -1,0 +1,32 @@
+{
+  "id": "02_dust_storm",
+  "title": "风沙",
+  "atmosphere": { "time": "傍晚", "weather": "沙尘暴", "mood": "紧张" },
+  "texts": [
+    { "content": "风越来越大了。", "delay": 0 },
+    { "content": "沙尘铺天盖地，你几乎看不见前方的路。", "delay": 2000 },
+    { "content": "你用手挡住脸，艰难地往前走。", "delay": 2000 },
+    { "content": "就在这时，你听到了一个声音。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "在风沙中，你发现了一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我们得找个地方躲躲。\"",
+      "target": "04_ruined_temple",
+      "effects": { "mood": "焦虑" },
+      "condition": null
+    },
+    {
+      "text": "\"继续走，不能停。\"",
+      "target": "05_night_desert",
+      "effects": { "willpower": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

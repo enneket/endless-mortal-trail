@@ -1,0 +1,24 @@
+{
+  "id": "10c_find_middle",
+  "title": "中道",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "平静" },
+  "texts": [
+    { "content": "你没有走向光，也没有走向暗。", "delay": 0 },
+    { "content": "你选择了中间的那条路。", "delay": 2000 },
+    { "content": "这条路不亮也不暗，不冷也不热。", "delay": 2000 },
+    { "content": "但它很稳，很踏实。", "delay": 2000 },
+    { "content": "你知道，这才是属于你的路。", "delay": 2000 },
+    { "content": "你沿着这条路一直走，荒野渐渐远去。", "delay": 1500 },
+    { "content": "——第三章·迷途荒野·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4bbc:01_new_chapter",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

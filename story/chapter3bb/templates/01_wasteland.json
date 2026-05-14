@@ -1,0 +1,30 @@
+{
+  "id": "01_wasteland",
+  "title": "荒野",
+  "atmosphere": { "time": "黄昏", "weather": "干燥多风", "mood": "荒凉" },
+  "texts": [
+    { "content": "你走出了迷雾森林，眼前却是一片荒芜的野地。", "delay": 0 },
+    { "content": "黄沙漫天，枯草遍地。远处的山峦在风中若隐若现。", "delay": 2000 },
+    { "content": "你不知道这里是哪里，也不知道该往哪里走。", "delay": 2000 },
+    { "content": "风呼啸着吹过，卷起一阵沙尘。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这片荒野有多大？\"",
+      "target": "02_dust_storm",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我该怎么走出去？\"",
+      "target": "03_oasis",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

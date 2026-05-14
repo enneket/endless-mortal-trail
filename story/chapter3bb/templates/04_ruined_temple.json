@@ -1,0 +1,30 @@
+{
+  "id": "04_ruined_temple",
+  "title": "废庙",
+  "atmosphere": { "time": "夜晚", "weather": "阴沉", "mood": "诡异" },
+  "texts": [
+    { "content": "你找到了一座废弃的庙宇，躲了进去。", "delay": 0 },
+    { "content": "庙里破败不堪，神像倒塌，蛛网遍布。", "delay": 2000 },
+    { "content": "月光从破洞中照进来，映出一片惨白。", "delay": 2000 },
+    { "content": "你感到一阵寒意，不只是因为夜风。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里发生过什么？\"",
+      "target": "08_revelation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我不该留在这里。\"",
+      "target": "05_night_desert",
+      "effects": { "mood": "不安" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

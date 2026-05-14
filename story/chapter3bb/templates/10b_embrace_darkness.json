@@ -1,0 +1,24 @@
+{
+  "id": "10b_embrace_darkness",
+  "title": "暗途",
+  "atmosphere": { "time": "深夜", "weather": "无星", "mood": "释然" },
+  "texts": [
+    { "content": "你走向了那片黑暗。", "delay": 0 },
+    { "content": "黑暗吞噬了你，你什么也看不见。", "delay": 2000 },
+    { "content": "但你没有恐惧。", "delay": 2000 },
+    { "content": "你知道，黑暗也是旅途的一部分。", "delay": 2000 },
+    { "content": "在黑暗中，你找到了内心的平静。", "delay": 2000 },
+    { "content": "当你再次睁眼时，荒野已经不在了。", "delay": 1500 },
+    { "content": "——第三章·迷途荒野·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4bbb:01_new_chapter",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

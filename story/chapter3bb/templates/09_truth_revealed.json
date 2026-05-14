@@ -1,0 +1,36 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "夜晚", "weather": "星空", "mood": "清醒" },
+  "texts": [
+    { "content": "你终于看清了真相。", "delay": 0 },
+    { "content": "这片荒野，是你迷惘的具象化。", "delay": 2000 },
+    { "content": "你在森林中迷失了方向，所以你来到了这片荒野。", "delay": 2000 },
+    { "content": "但荒野也有尽头。", "delay": 2000 },
+    { "content": "在远方，你看到了三样东西。", "delay": 2000 },
+    { "content": "一道光，一片黑暗，还有一条路。", "delay": 2000 },
+    { "content": "你必须做出选择。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "追随光芒",
+      "target": "10a_follow_light",
+      "effects": { "mood": "希望" },
+      "condition": null
+    },
+    {
+      "text": "拥抱黑暗",
+      "target": "10b_embrace_darkness",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "走中间的路",
+      "target": "10c_find_middle",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

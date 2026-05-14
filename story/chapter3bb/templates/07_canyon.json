@@ -1,0 +1,32 @@
+{
+  "id": "07_canyon",
+  "title": "峡谷",
+  "atmosphere": { "time": "正午", "weather": "烈日", "mood": "压迫" },
+  "texts": [
+    { "content": "你走进了一条狭窄的峡谷。", "delay": 0 },
+    { "content": "两侧是高耸的岩壁，头顶是一线天。", "delay": 2000 },
+    { "content": "阳光从缝隙中照下来，形成一道道光柱。", "delay": 2000 },
+    { "content": "你感到一种无形的压迫感。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "在峡谷深处，你发现了一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这条路通向哪里？\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我感觉到了什么。\"",
+      "target": "08_revelation",
+      "effects": { "mood": "警觉" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "03_oasis",
+  "title": "绿洲",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "宁静" },
+  "texts": [
+    { "content": "在荒野的深处，你意外地发现了一片绿洲。", "delay": 0 },
+    { "content": "一汪清泉，几棵棕榈，还有些许青草。", "delay": 2000 },
+    { "content": "你跪在泉边，捧起一捧水，清凉入喉。", "delay": 2000 },
+    { "content": "在这片荒芜中，这里就像是一个奇迹。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "在泉边，你发现了一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里真美，我想多待一会儿。\"",
+      "target": "06_mirage",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "\"休息够了，该继续走了。\"",
+      "target": "07_canyon",
+      "effects": { "willpower": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

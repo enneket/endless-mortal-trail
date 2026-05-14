@@ -1,0 +1,30 @@
+{
+  "id": "06_mirage",
+  "title": "幻象",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "迷幻" },
+  "texts": [
+    { "content": "天边泛起了鱼肚白。", "delay": 0 },
+    { "content": "你揉了揉眼睛，以为自己看错了。", "delay": 2000 },
+    { "content": "前方出现了一座城市，金碧辉煌，车水马龙。", "delay": 2000 },
+    { "content": "你朝着那座城市走去，但它似乎永远也走不到。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"那座城市是真实的吗？\"",
+      "target": "08_revelation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"不管真假，我要去看看。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "执着" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
