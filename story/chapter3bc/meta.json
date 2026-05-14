@@ -1,0 +1,8 @@
+{
+  "id": "chapter3bc",
+  "title": "灵境之地",
+  "description": "觉醒之后，渡途人进入一个超凡脱俗的灵境",
+  "sceneCount": 12,
+  "startScene": "01_spirit_gate",
+  "randomized": true
+}

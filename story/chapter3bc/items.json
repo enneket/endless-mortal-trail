@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "spirit_essence",
+      "name": "灵境精华",
+      "description": "灵境的能量结晶，散发着柔和的光芒",
+      "effects": { "setFlag": "has_spirit_essence" }
+    },
+    {
+      "id": "memory_crystal",
+      "name": "记忆水晶",
+      "description": "封存着记忆的水晶，触碰时能看见往事",
+      "effects": { "setFlag": "has_memory_crystal" }
+    },
+    {
+      "id": "time_hourglass",
+      "name": "时间沙漏",
+      "description": "掌控时间之物，沙粒倒流时时间逆转",
+      "effects": { "setFlag": "has_time_hourglass" }
+    },
+    {
+      "id": "dream_catcher",
+      "name": "捕梦网",
+      "description": "捕捉梦境的网，能困住最深处的梦",
+      "effects": { "setFlag": "has_dream_catcher" }
+    },
+    {
+      "id": "shadow_cloak",
+      "name": "暗影斗篷",
+      "description": "隐于暗处的斗篷，穿上后身形消融于黑暗",
+      "effects": { "setFlag": "has_shadow_cloak" }
+    },
+    {
+      "id": "light_staff",
+      "name": "光明法杖",
+      "description": "驱散黑暗的法杖，顶端的光芒永不熄灭",
+      "effects": { "setFlag": "has_light_staff" }
+    }
+  ]
+}

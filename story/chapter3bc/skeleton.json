@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_spirit_gate", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_memory_lake", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_dream_forest", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_time_tower", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_shadow_valley", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_light_peak", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_balance_temple", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_core", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_transcend", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_return_mortal", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_become_guardian", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["spirit_guide", "ancient_guardian"] },
+    "slot_2": { "candidates": ["memory_keeper", "dream_weaver"] },
+    "slot_3": { "candidates": ["dream_weaver", "spirit_guide"] },
+    "slot_4": { "candidates": ["time_watcher", "memory_keeper"] },
+    "slot_5": { "candidates": ["shadow_whisperer", "time_watcher"] },
+    "slot_6": { "candidates": ["light_bearer", "ancient_guardian"] },
+    "slot_7": { "candidates": ["balance_keeper", "light_bearer"] },
+    "slot_8": { "candidates": ["balance_keeper", "shadow_whisperer"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["spirit_essence", "memory_crystal"] },
+    "slot_b": { "candidates": ["time_hourglass", "dream_catcher"] },
+    "slot_c": { "candidates": ["light_staff", "spirit_essence"] },
+    "slot_d": { "candidates": ["shadow_cloak", "time_hourglass"] }
+  }
+}

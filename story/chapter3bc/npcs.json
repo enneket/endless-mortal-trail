@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "spirit_guide",
+      "name": "灵境向导",
+      "identity": "引导渡途人的灵体，形态飘忽不定",
+      "personality": "温和、神秘、超然",
+      "dialogueStyle": "轻柔、含蓄、富有禅意",
+      "dialogues": {
+        "greeting": "“你来了。”灵境向导微微一笑，身影如烟。",
+        "reveal": "“灵境之中，万物皆有其道。”",
+        "gift": "“这灵境精华，是灵境赐予你的。”"
+      }
+    },
+    {
+      "id": "ancient_guardian",
+      "name": "远古守护者",
+      "identity": "守护灵境的远古存在，身形高大",
+      "personality": "威严、沉默、不可动摇",
+      "dialogueStyle": "低沉、简短、掷地有声",
+      "dialogues": {
+        "greeting": "“来者何人？”远古守护者的声音如雷。",
+        "reveal": "“灵境已存在万年，不容侵犯。”",
+        "gift": "“拿着，这是守护者的认可。”"
+      }
+    },
+    {
+      "id": "memory_keeper",
+      "name": "记忆守护者",
+      "identity": "保管着所有记忆的灵体，周身环绕光点",
+      "personality": "温柔、忧伤、怀旧",
+      "dialogueStyle": "轻声、感性、充满回忆",
+      "dialogues": {
+        "greeting": "“每一个来到这里的人，都带着记忆。”记忆守护者轻声说。",
+        "reveal": "“记忆是珍贵的，无论是快乐还是痛苦。”",
+        "gift": "“这记忆水晶里，封存着一段往事。”"
+      }
+    },
+    {
+      "id": "dream_weaver",
+      "name": "梦境织者",
+      "identity": "编织梦境的灵体，手指间缠绕着丝线",
+      "personality": "梦幻、飘忽、时真时幻",
+      "dialogueStyle": "诗意、跳跃、如梦似幻",
+      "dialogues": {
+        "greeting": "“嘘——”梦境织者做了个噤声的手势，“你在我的梦里。”",
+        "reveal": "“梦境与现实，不过一线之隔。”",
+        "gift": "“这捕梦网，能捕捉最深处的梦。”"
+      }
+    },
+    {
+      "id": "time_watcher",
+      "name": "时间观察者",
+      "identity": "看守时间的存在，面容不断变化",
+      "personality": "冷静、超脱、洞察一切",
+      "dialogueStyle": "平淡、哲理、不带感情",
+      "dialogues": {
+        "greeting": "“时间在这里没有意义。”时间观察者说。",
+        "reveal": "“过去、现在、未来，不过是同一条河的不同段。”",
+        "gift": "“这沙漏，能让你看见时间的真相。”"
+      }
+    },
+    {
+      "id": "shadow_whisperer",
+      "name": "暗影低语者",
+      "identity": "低语着秘密的暗影存在",
+      "personality": "狡黠、深沉、亦正亦邪",
+      "dialogueStyle": "低沉、含糊、充满暗示",
+      "dialogues": {
+        "greeting": "“嘿嘿……”暗影中传来低语，“你知道了不该知道的事。”",
+        "reveal": "“秘密，是灵境最珍贵的宝藏。”",
+        "gift": "“这暗影斗篷，能让你隐于暗处。”"
+      }
+    },
+    {
+      "id": "light_bearer",
+      "name": "光明使者",
+      "identity": "带来光明的灵体，周身散发柔和光芒",
+      "personality": "温暖、希望、坚定不移",
+      "dialogueStyle": "明亮、充满力量、鼓舞人心",
+      "dialogues": {
+        "greeting": "“不要害怕黑暗。”光明使者的声音如晨钟。",
+        "reveal": "“光明与黑暗，从来不是对立的。”",
+        "gift": "“这光明法杖，能驱散一切黑暗。”"
+      }
+    },
+    {
+      "id": "balance_keeper",
+      "name": "平衡守护者",
+      "identity": "维持灵境平衡的存在，半明半暗",
+      "personality": "公正、超然、洞察万物",
+      "dialogueStyle": "平和、对称、充满辩证",
+      "dialogues": {
+        "greeting": "“万物皆有平衡。”平衡守护者缓缓开口。",
+        "reveal": "“失衡，是灵境最大的危机。”",
+        "gift": "“这力量，是灵境赐予平衡者的。”"
+      }
+    }
+  ]
+}
