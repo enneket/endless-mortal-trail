@@ -1,0 +1,29 @@
+{
+  "id": "08_night_town",
+  "title": "夜镇",
+  "atmosphere": { "time": "夜晚", "weather": "星光", "mood": "神秘" },
+  "texts": [
+    { "content": "夜深了。小镇安静下来，只有几盏灯笼还亮着。", "delay": 0 },
+    { "content": "你走在空荡荡的街上，影子被灯笼拉得很长。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "你看到路边有样东西在发光。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"你是谁？\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我该休息了。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

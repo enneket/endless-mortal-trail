@@ -1,0 +1,22 @@
+{
+  "id": "10c_explore",
+  "title": "探索",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "神秘" },
+  "texts": [
+    { "content": "\"我想去看看山里有什么。\"你说。", "delay": 0 },
+    { "content": "老镇长看着你，眼里闪过一丝担忧。", "delay": 1500 },
+    { "content": "\"小心。\"他说。\"山里有你不知道的东西。\"", "delay": 2000 },
+    { "content": "你转身走向深山。身后是小镇，身前是迷雾。", "delay": 2000 },
+    { "content": "——第二章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter3ac:01_forest_edge",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

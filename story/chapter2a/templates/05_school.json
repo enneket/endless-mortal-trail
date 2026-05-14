@@ -1,0 +1,28 @@
+{
+  "id": "05_school",
+  "title": "私塾",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "肃穆" },
+  "texts": [
+    { "content": "你走到一所私塾前。里面传来朗朗读书声。", "delay": 0 },
+    { "content": "透过窗户，你看见几个孩子正在摇头晃脑地背书。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想听听您的课。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"打扰了，我先告辞。\"",
+      "target": "07_mountain_path",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

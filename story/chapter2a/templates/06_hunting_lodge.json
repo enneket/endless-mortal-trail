@@ -1,0 +1,29 @@
+{
+  "id": "06_hunting_lodge",
+  "title": "猎户家",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "粗犷" },
+  "texts": [
+    { "content": "你来到一间猎户的住处。门口挂着兽皮，院子里晾着肉干。", "delay": 0 },
+    { "content": "一条大黄狗摇着尾巴迎了上来。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "墙角放着一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"能教我打猎吗？\"",
+      "target": "07_mountain_path",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我只是路过。\"",
+      "target": "08_night_town",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

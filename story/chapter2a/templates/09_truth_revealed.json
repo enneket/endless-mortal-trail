@@ -1,0 +1,33 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "沉重" },
+  "texts": [
+    { "content": "你终于明白了。这个小镇，不是普通的小镇。", "delay": 0 },
+    { "content": "这里的人，都在等待着什么。等待着一个答案，等待着一个结局。", "delay": 2000 },
+    { "content": "而你，就是那个带来答案的人。", "delay": 1500 },
+    { "content": "\"你想怎么做？\"一个声音问道。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "留下，帮助这个小镇",
+      "target": "10a_stay",
+      "effects": { "karma": 2, "setFlag": "helped_town" },
+      "condition": null
+    },
+    {
+      "text": "离开，继续你的旅程",
+      "target": "10b_leave",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    },
+    {
+      "text": "探索山中的秘密",
+      "target": "10c_explore",
+      "effects": { "courage": 2, "setFlag": "explored_mountain" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

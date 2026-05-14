@@ -1,0 +1,28 @@
+{
+  "id": "07_mountain_path",
+  "title": "山路",
+  "atmosphere": { "time": "夜晚", "weather": "星光", "mood": "孤寂" },
+  "texts": [
+    { "content": "你走在山路上。月光洒在石阶上，像铺了一层银霜。", "delay": 0 },
+    { "content": "远处是连绵的山影，近处是虫鸣和风声。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这条路通向哪里？\"",
+      "target": "09_truth_revealed",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想在这里歇歇。\"",
+      "target": "08_night_town",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "04_medicine_shop",
+  "title": "药铺",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "神秘" },
+  "texts": [
+    { "content": "你走进药铺。柜台上摆满了各种草药，空气中弥漫着药香。", "delay": 0 },
+    { "content": "药铺里很安静，只有算盘珠子的声音。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "你看到柜台上放着一样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这药怎么卖？\"",
+      "target": "06_hunting_lodge",
+      "effects": { "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我只是看看。\"",
+      "target": "05_school",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

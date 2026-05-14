@@ -1,0 +1,28 @@
+{
+  "id": "03_teahouse",
+  "title": "茶馆",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "悠闲" },
+  "texts": [
+    { "content": "你走进一家茶馆。馆里坐满了人，有人喝茶聊天，有人下棋对弈。", "delay": 0 },
+    { "content": "茶香袅袅，让人心旷神怡。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"再给我讲讲这镇子的故事。\"",
+      "target": "08_night_town",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我该走了。\"",
+      "target": "07_mountain_path",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

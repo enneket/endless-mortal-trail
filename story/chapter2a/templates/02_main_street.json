@@ -1,0 +1,29 @@
+{
+  "id": "02_main_street",
+  "title": "主街",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "你走在小镇的主街上。两旁是各种店铺，有药铺、茶馆、铁匠铺。", "delay": 0 },
+    { "content": "街上人来人往，有挑担的农夫，有闲逛的老人，还有追逐打闹的孩子。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你注意到地上有样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "继续往前走",
+      "target": "05_school",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "拐进小巷",
+      "target": "04_medicine_shop",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

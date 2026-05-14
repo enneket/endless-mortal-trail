@@ -1,0 +1,22 @@
+{
+  "id": "10a_stay",
+  "title": "留下",
+  "atmosphere": { "time": "黎明", "weather": "晴朗", "mood": "温暖" },
+  "texts": [
+    { "content": "\"我留下。\"你说。", "delay": 0 },
+    { "content": "镇上的人看着你，眼里闪过一丝惊讶，随即化为感激。", "delay": 1500 },
+    { "content": "\"谢谢你。\"老镇长说。\"我们等了很久了。\"", "delay": 2000 },
+    { "content": "你决定留下来，做你能做的事。也许不多，但至少不是什么都不做。", "delay": 2000 },
+    { "content": "——第二章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter3aa:01_village_entrance",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

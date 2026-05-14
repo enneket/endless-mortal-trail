@@ -1,0 +1,28 @@
+{
+  "id": "01_town_gate",
+  "title": "镇口",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "宁静" },
+  "texts": [
+    { "content": "你站在一座山间小镇的入口。镇子不大，但很整洁。", "delay": 0 },
+    { "content": "青石板路蜿蜒向前，两旁是低矮的房屋。远处传来鸡鸣狗吠的声音。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想在这里休息一下。\"",
+      "target": "03_teahouse",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "\"我想四处看看。\"",
+      "target": "02_main_street",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

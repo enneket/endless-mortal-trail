@@ -1,0 +1,22 @@
+{
+  "id": "10b_leave",
+  "title": "离开",
+  "atmosphere": { "time": "黎明", "weather": "晴朗", "mood": "平静" },
+  "texts": [
+    { "content": "\"我必须走了。\"你说。", "delay": 0 },
+    { "content": "镇上的人看着你，没有挽留。他们知道，每个人都有自己的路。", "delay": 1500 },
+    { "content": "\"路上小心。\"老镇长说。\"", "delay": 2000 },
+    { "content": "你转身离开。身后是小镇，身前是未知。", "delay": 2000 },
+    { "content": "——第二章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter3ab:01_road_start",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
