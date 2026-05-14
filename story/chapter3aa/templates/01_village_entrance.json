@@ -1,0 +1,29 @@
+{
+  "id": "01_village_entrance",
+  "title": "村口",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "神秘" },
+  "texts": [
+    { "content": "你沿着一条几乎被杂草淹没的小路，走了很久。", "delay": 0 },
+    { "content": "雾气渐渐散开，眼前出现了一个隐秘的村落。", "delay": 2000 },
+    { "content": "几间石屋错落有致，炊烟袅袅升起。鸡犬之声相闻。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里是什么地方？\"",
+      "target": "02_village_center",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想四处看看。\"",
+      "target": "03_hunting_ground",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

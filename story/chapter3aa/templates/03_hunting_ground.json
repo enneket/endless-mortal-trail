@@ -1,0 +1,29 @@
+{
+  "id": "03_hunting_ground",
+  "title": "猎场",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "野性" },
+  "texts": [
+    { "content": "村子后面是一片山林，树木高大，遮天蔽日。", "delay": 0 },
+    { "content": "地上有野兽的足迹，空气中带着松脂的气息。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你看到地上有{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里的野物多吗？\"",
+      "target": "06_mountain_spring",
+      "effects": { "mood": "兴奋" },
+      "condition": null
+    },
+    {
+      "text": "\"我想回村里看看。\"",
+      "target": "05_blacksmith",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

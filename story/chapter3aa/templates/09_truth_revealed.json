@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "恍然" },
+  "texts": [
+    { "content": "天亮了。真相浮出水面。", "delay": 0 },
+    { "content": "这个村子，并不是普通的山村。它有着更深的秘密。", "delay": 2000 },
+    { "content": "而你来到这里，或许并非偶然。", "delay": 2000 },
+    { "content": "村长找到了你，说：\"现在你该做出选择了。\"", "delay": 2000 },
+    { "content": "\"留下来，和我们一起守护这个地方。\"", "delay": 1500 },
+    { "content": "\"或者，带着你知道的一切，离开这里。\"", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我愿意留下来。\"",
+      "target": "10a_harmony",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"这里的事情，外面的人应该知道。\"",
+      "target": "10b_conflict",
+      "effects": { "mood": "矛盾" },
+      "condition": null
+    },
+    {
+      "text": "\"我什么都没看到，我走了。\"",
+      "target": "10c_leave",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

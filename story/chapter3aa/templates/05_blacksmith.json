@@ -1,0 +1,29 @@
+{
+  "id": "05_blacksmith",
+  "title": "铁匠铺",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "火热" },
+  "texts": [
+    { "content": "村子西边传来叮叮当当的打铁声。", "delay": 0 },
+    { "content": "一间石屋前，炉火烧得正旺。热浪扑面而来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你在角落里发现了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"你的手艺真好。\"",
+      "target": "07_night_village",
+      "effects": { "mood": "敬佩" },
+      "condition": null
+    },
+    {
+      "text": "\"我想去山泉边看看。\"",
+      "target": "06_mountain_spring",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

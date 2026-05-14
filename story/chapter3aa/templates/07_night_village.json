@@ -1,0 +1,29 @@
+{
+  "id": "07_night_village",
+  "title": "夜村",
+  "atmosphere": { "time": "夜晚", "weather": "星光", "mood": "神秘" },
+  "texts": [
+    { "content": "夜幕降临，村子里亮起了零星的灯火。", "delay": 0 },
+    { "content": "虫鸣声此起彼伏，远处传来犬吠。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在路边发现了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这村子有什么秘密？\"",
+      "target": "08_discovery",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我该休息了。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "02_village_center",
+  "title": "村中广场",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "宁静" },
+  "texts": [
+    { "content": "村子中央有一块空地，几棵老树遮天蔽日。", "delay": 0 },
+    { "content": "树下有石桌石凳，几位老人正在下棋。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在石桌旁发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这村子有多少年了？\"",
+      "target": "04_herb_garden",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想去别处看看。\"",
+      "target": "05_blacksmith",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

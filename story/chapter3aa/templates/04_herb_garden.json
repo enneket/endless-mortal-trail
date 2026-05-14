@@ -1,0 +1,28 @@
+{
+  "id": "04_herb_garden",
+  "title": "药田",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "清香" },
+  "texts": [
+    { "content": "村子东边有一片药田，种满了各式各样的草药。", "delay": 0 },
+    { "content": "空气中弥漫着草药的清香，蜜蜂在花间飞舞。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这些药材有什么用？\"",
+      "target": "06_mountain_spring",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想去山泉边看看。\"",
+      "target": "07_night_village",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

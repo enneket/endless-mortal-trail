@@ -1,0 +1,28 @@
+{
+  "id": "06_mountain_spring",
+  "title": "山泉",
+  "atmosphere": { "time": "傍晚", "weather": "清凉", "mood": "澄澈" },
+  "texts": [
+    { "content": "你来到村子上方的山泉旁。泉水清澈见底，叮咚作响。", "delay": 0 },
+    { "content": "四周是青苔覆盖的石头，几棵古松立在泉边。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这泉水真清。\"",
+      "target": "08_discovery",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"天色不早了，该回村了。\"",
+      "target": "07_night_village",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
