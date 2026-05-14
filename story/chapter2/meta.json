@@ -1,8 +1,0 @@
-{
-  "id": "chapter2",
-  "title": "边关战火",
-  "description": "渡途人踏入战火纷飞的边关人间",
-  "sceneCount": 12,
-  "startScene": "01_arrival",
-  "randomized": true
-}
