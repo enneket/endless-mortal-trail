@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_arrival", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_camp", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_village", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_fortress", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_battlefield", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_medical_tent", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_camp", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_revelation", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_fight", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_flee", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_negotiate", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["soldier", "refugee"] },
+    "slot_2": { "candidates": ["general", "veteran"] },
+    "slot_3": { "candidates": ["refugee", "merchant"] },
+    "slot_4": { "candidates": ["general", "spy"] },
+    "slot_5": { "candidates": ["soldier", "veteran"] },
+    "slot_6": { "candidates": ["medic", "general_widow"] },
+    "slot_7": { "candidates": ["spy", "merchant"] },
+    "slot_8": { "candidates": ["general_widow", "medic"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["military_order", "military_tag"] },
+    "slot_b": { "candidates": ["border_map", "grain"] },
+    "slot_c": { "candidates": ["medicine", "family_letter"] },
+    "slot_d": { "candidates": ["family_letter", "border_map"] }
+  }
+}

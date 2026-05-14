@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "military_order",
+      "name": "军令",
+      "description": "将军手令，可通行关卡",
+      "effects": { "setFlag": "has_military_order" }
+    },
+    {
+      "id": "medicine",
+      "name": "伤药",
+      "description": "军医所赠的伤药，可治刀伤箭伤",
+      "effects": { "setFlag": "has_medicine" }
+    },
+    {
+      "id": "family_letter",
+      "name": "家书",
+      "description": "士兵托你寄送的家信，字迹稚嫩",
+      "effects": { "setFlag": "has_family_letter" }
+    },
+    {
+      "id": "border_map",
+      "name": "地图",
+      "description": "边关地图，标注了安全小路",
+      "effects": { "setFlag": "has_border_map" }
+    },
+    {
+      "id": "military_tag",
+      "name": "军牌",
+      "description": "身份证明，可在军营中通行",
+      "effects": { "setFlag": "has_military_tag" }
+    },
+    {
+      "id": "grain",
+      "name": "粮食",
+      "description": "难民分给你的军粮，可充饥",
+      "effects": { "setFlag": "has_grain" }
+    }
+  ]
+}

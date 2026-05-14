@@ -1,0 +1,8 @@
+{
+  "id": "chapter2c",
+  "title": "战火边关",
+  "description": "试图抗拒命运后，渡途人被推入战火纷飞的边关",
+  "sceneCount": 12,
+  "startScene": "01_arrival",
+  "randomized": true
+}

@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "general",
+      "name": "将军",
+      "identity": "守关将领，身经百战",
+      "personality": "威严、果断、内心疲惫",
+      "dialogueStyle": "铿锵有力、简短下令",
+      "dialogues": {
+        "greeting": "\"站住！你是什么人？\"将军厉声喝问。",
+        "reveal": "\"这场仗，已经打了十年了。\"",
+        "gift": "\"拿着我的手令，没人敢拦你。\""
+      }
+    },
+    {
+      "id": "soldier",
+      "name": "士兵",
+      "identity": "普通守关士兵，年轻稚嫩",
+      "personality": "紧张、思乡、服从命令",
+      "dialogueStyle": "颤抖、偶尔哽咽",
+      "dialogues": {
+        "greeting": "\"你、你是从哪来的？\"士兵紧张地握着长枪。",
+        "reveal": "\"我已经三年没回家了，不知道娘还好不好。\"",
+        "gift": "\"这封信……帮我寄回家，行吗？\""
+      }
+    },
+    {
+      "id": "refugee",
+      "name": "难民",
+      "identity": "逃难的百姓，拖家带口",
+      "personality": "疲惫、警惕、为了孩子什么都能做",
+      "dialogueStyle": "低沉、急切、偶尔哀求",
+      "dialogues": {
+        "greeting": "\"求求你，有没有吃的？\"难民用干裂的嘴唇问道。",
+        "reveal": "\"村子已经被烧了，我们已经没有家了。\"",
+        "gift": "\"这粮食你拿着，路上小心。\""
+      }
+    },
+    {
+      "id": "merchant",
+      "name": "商人",
+      "identity": "战争商人，两边通吃",
+      "personality": "圆滑、逐利、消息灵通",
+      "dialogueStyle": "低声、讨好、话里有话",
+      "dialogues": {
+        "greeting": "\"嘿嘿，客官，要买点什么？\"商人搓着手凑过来。",
+        "reveal": "\"这场仗啊，两边都不想打，可谁也停不下来。\"",
+        "gift": "\"拿着这地图，小路比大路安全。\""
+      }
+    },
+    {
+      "id": "medic",
+      "name": "医者",
+      "identity": "军医，救治伤兵无数",
+      "personality": "冷静、慈悲、见惯生死",
+      "dialogueStyle": "平稳、专业、偶尔叹息",
+      "dialogues": {
+        "greeting": "\"受伤了？过来坐下。\"医者头也不抬地说。",
+        "reveal": "\"每天都有人死去，我能救一个是一个。\"",
+        "gift": "\"这伤药你带着，关键时刻能救命。\""
+      }
+    },
+    {
+      "id": "spy",
+      "name": "间谍",
+      "identity": "敌方间谍，伪装成商贩",
+      "personality": "谨慎、多疑、心思缜密",
+      "dialogueStyle": "试探、含糊、话只说三分",
+      "dialogues": {
+        "greeting": "\"你是哪边的人？\"对方压低声音问道。",
+        "reveal": "\"告诉你一个秘密——这场仗，本不该发生。\"",
+        "gift": "\"这军牌你拿着，关键时候能证明你的身份。\""
+      }
+    },
+    {
+      "id": "veteran",
+      "name": "老兵",
+      "identity": "退伍老兵，伤残回乡",
+      "personality": "沉默、固执、看透世事",
+      "dialogueStyle": "沙哑、简短、偶尔讽刺",
+      "dialogues": {
+        "greeting": "\"哼，又来一个不怕死的。\"老兵斜眼看着你。",
+        "reveal": "\"打仗？打赢了又怎样，不过是换一批人死。\"",
+        "gift": "\"这军牌你拿着，别让人把你当逃兵。\""
+      }
+    },
+    {
+      "id": "general_widow",
+      "name": "将军遗孀",
+      "identity": "将军夫人，丈夫战死沙场",
+      "personality": "坚强、哀伤、执着于亡夫遗志",
+      "dialogueStyle": "平静中带着悲凉",
+      "dialogues": {
+        "greeting": "\"你不该来这里。\"她看着远方，声音很轻。",
+        "reveal": "\"他走的时候说，等仗打完就回来。可仗打完了，他却没有回来。\"",
+        "gift": "\"这是他留下的东西，或许对你有用。\""
+      }
+    }
+  ]
+}
