@@ -1,0 +1,37 @@
+{
+  "id": "09_truth_revealed",
+  "title": "新生",
+  "atmosphere": { "time": "黎明", "weather": "雨后初晴", "mood": "豁然" },
+  "texts": [
+    { "content": "天亮了。雨停了。", "delay": 0 },
+    { "content": "你走出门外，看见整个村子沐浴在雨后的晨光里。屋檐上还滴着水，空气清新得像被洗过一样。田埂保住了，稻谷没有被冲垮。有人在清理街道上的积水，有人在修补被风吹坏的屋顶。", "delay": 2500 },
+    { "content": "新村长找到了你。", "delay": 1500 },
+    { "content": "\"昨夜的风雨，没有打垮我们。\"他说，眼里闪着光。\"这个村子，经历过比这更重的灾难。我们都挺过来了。\"", "delay": 2000 },
+    { "content": "他看着你，说：\"你在这里看了这么多，该做出你的选择了。\"", "delay": 2000 },
+    { "content": "\"留下来，成为我们的一员。\"", "delay": 1500 },
+    { "content": "\"或者，继续你的旅途。\"", "delay": 1500 },
+    { "content": "\"又或者，把这里的故事带出去，让更多人知道。\"", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我留下来。\"",
+      "target": "10a_stay",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"我该走了。\"",
+      "target": "10b_leave",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "\"我会把这里的故事告诉世人。\"",
+      "target": "10c_pass_on",
+      "effects": { "mood": "使命" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

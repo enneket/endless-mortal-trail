@@ -1,0 +1,29 @@
+{
+  "id": "02_field",
+  "title": "田间",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "丰收" },
+  "texts": [
+    { "content": "你走到村外的田边。", "delay": 0 },
+    { "content": "金黄的稻谷在风中起伏，像一片金色的海。田埂上站着几个人，正弯腰割稻，动作熟练而利落。远处有人在打谷，砰砰的声响传过来，像是心跳。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在田边发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"收成不错啊。\"",
+      "target": "04_school",
+      "effects": { "mood": "满足" },
+      "condition": null
+    },
+    {
+      "text": "\"我去村里转转。\"",
+      "target": "05_market",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

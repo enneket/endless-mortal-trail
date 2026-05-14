@@ -1,0 +1,29 @@
+{
+  "id": "07_night_story",
+  "title": "夜话",
+  "atmosphere": { "time": "夜晚", "weather": "星光", "mood": "深沉" },
+  "texts": [
+    { "content": "夜幕降临，村子里亮起了灯火。", "delay": 0 },
+    { "content": "不是从前那种零星的油灯，而是家家户户窗户里透出的暖光。有人在院子里摆了桌子，端上饭菜，一家人围坐在一起。笑声和饭菜的香气从各家各户飘出来，弥漫在夜色里。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在桌边发现了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"村子的未来会怎样？\"",
+      "target": "08_storm",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"夜深了，该休息了。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

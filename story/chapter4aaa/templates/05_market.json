@@ -1,0 +1,29 @@
+{
+  "id": "05_market",
+  "title": "集市",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "村子的集市开张了。", "delay": 0 },
+    { "content": "虽然不大，但五脏俱全。卖菜的、卖肉的、卖布的、卖杂货的，叫卖声此起彼伏。几个外乡来的商贩支起了摊子，和村民们讨价还价。空气里弥漫着新蒸的馒头香气。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你在摊位上发现了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"生意怎么样？\"",
+      "target": "06_well",
+      "effects": { "mood": "满足" },
+      "condition": null
+    },
+    {
+      "text": "\"我去歇歇脚。\"",
+      "target": "07_night_story",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

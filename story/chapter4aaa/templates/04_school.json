@@ -1,0 +1,28 @@
+{
+  "id": "04_school",
+  "title": "学堂",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "宁静" },
+  "texts": [
+    { "content": "你听见了读书声。", "delay": 0 },
+    { "content": "循声走去，看见一间新盖的学堂。窗户开着，里面坐着十几个孩子，正摇头晃脑地跟着先生念书。黑板上写着几个大字，粉笔灰在阳光里飞舞。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"孩子们学得怎么样？\"",
+      "target": "07_night_story",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我去村里别处看看。\"",
+      "target": "05_market",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

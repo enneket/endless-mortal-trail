@@ -1,0 +1,28 @@
+{
+  "id": "06_well",
+  "title": "井边",
+  "atmosphere": { "time": "傍晚", "weather": "晚霞", "mood": "温馨" },
+  "texts": [
+    { "content": "你走到村中的老井边。", "delay": 0 },
+    { "content": "井是新修的，井沿用青石砌成，比从前宽敞了许多。井旁种了一棵槐树，树荫遮住了大半个井台。几个妇人正在井边洗衣裳，说说笑笑，棒槌声和笑声混在一起。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"井水甜不甜？\"",
+      "target": "08_storm",
+      "effects": { "mood": "平和" },
+      "condition": null
+    },
+    {
+      "text": "\"天色不早了。\"",
+      "target": "07_night_story",
+      "effects": { "mood": "沉思" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

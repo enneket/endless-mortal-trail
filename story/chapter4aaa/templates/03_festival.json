@@ -1,0 +1,29 @@
+{
+  "id": "03_festival",
+  "title": "喜事",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "喜庆" },
+  "texts": [
+    { "content": "村子里热闹非凡。", "delay": 0 },
+    { "content": "家家户户门口挂着红灯笼，街道上铺着红纸屑。远处传来鞭炮声和锣鼓声，有人在喊\"接新娘子喽——\"。孩子们在人群里钻来钻去，手里攥着糖果。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你在人群中发现了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"恭喜恭喜！\"",
+      "target": "06_well",
+      "effects": { "mood": "喜悦" },
+      "condition": null
+    },
+    {
+      "text": "\"我去看看新娘子。\"",
+      "target": "04_school",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

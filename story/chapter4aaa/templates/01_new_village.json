@@ -1,0 +1,29 @@
+{
+  "id": "01_new_village",
+  "title": "新村",
+  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "希望" },
+  "texts": [
+    { "content": "你又回到了那个村子。", "delay": 0 },
+    { "content": "但眼前的景象，和你记忆中完全不同了。", "delay": 2000 },
+    { "content": "曾经的断壁残垣不见了。取而代之的是一排排崭新的房屋，青砖灰瓦，错落有致。街道被清扫得干干净净，两旁还栽了新树。炊烟从屋顶升起，鸡犬之声相闻。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"村子变化真大。\"",
+      "target": "02_field",
+      "effects": { "mood": "欣慰" },
+      "condition": null
+    },
+    {
+      "text": "\"我想四处看看。\"",
+      "target": "03_festival",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
