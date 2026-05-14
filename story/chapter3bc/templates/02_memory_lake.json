@@ -1,0 +1,30 @@
+{
+  "id": "02_memory_lake",
+  "title": "记忆之湖",
+  "atmosphere": { "time": "正午", "weather": "湖面如镜", "mood": "沉思" },
+  "texts": [
+    { "content": "你来到一片巨大的湖泊前。湖水清澈见底，却看不见湖底。", "delay": 0 },
+    { "content": "湖面上漂浮着无数光点，每一个光点都是一段记忆。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你获得了一件物品：{{ITEM_SLOT_A:name}}。", "delay": 1000 },
+    { "content": "{{ITEM_SLOT_A:description}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我能看看那些记忆吗？\"",
+      "target": "04_time_tower",
+      "effects": { "wisdom": 1, "setFlag": "viewed_memories" },
+      "condition": null
+    },
+    {
+      "text": "\"这湖通向哪里？\"",
+      "target": "05_shadow_valley",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

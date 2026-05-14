@@ -1,0 +1,30 @@
+{
+  "id": "04_time_tower",
+  "title": "时间之塔",
+  "atmosphere": { "time": "永恒", "weather": "时间停滞", "mood": "超脱" },
+  "texts": [
+    { "content": "你来到一座高耸入云的塔前。塔身由无数钟表构成，指针全部停止。", "delay": 0 },
+    { "content": "塔内传来低沉的嗡鸣声，像是时间本身在呼吸。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你获得了一件物品：{{ITEM_SLOT_B:name}}。", "delay": 1000 },
+    { "content": "{{ITEM_SLOT_B:description}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想看看时间的真相。\"",
+      "target": "06_light_peak",
+      "effects": { "wisdom": 2, "setFlag": "saw_time_truth" },
+      "condition": null
+    },
+    {
+      "text": "\"我想回到过去。\"",
+      "target": "05_shadow_valley",
+      "effects": { "mood": "怀念" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

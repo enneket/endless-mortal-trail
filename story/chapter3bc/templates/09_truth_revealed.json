@@ -1,0 +1,58 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "万光归一",
+    "mood": "顿悟"
+  },
+  "texts": [
+    {
+      "content": "你终于明白了。灵境不是普通的存在，它是万物的映照。",
+      "delay": 0
+    },
+    {
+      "content": "这里的一切——记忆、梦境、时间、光明、暗影——都是你内心的投射。",
+      "delay": 2000
+    },
+    {
+      "content": "灵境的存在，是为了让你看见真正的自己。",
+      "delay": 2000
+    },
+    {
+      "content": "“你准备好了吗？”一个声音从四面八方传来。",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "超越凡尘，融入灵境",
+      "target": "10a_transcend",
+      "effects": {
+        "karma": 3,
+        "setFlag": "transcended"
+      },
+      "condition": null
+    },
+    {
+      "text": "回归尘世，带着领悟",
+      "target": "10b_return_mortal",
+      "effects": {
+        "wisdom": 3,
+        "setFlag": "returned_with_wisdom"
+      },
+      "condition": null
+    },
+    {
+      "text": "成为灵境的守护者",
+      "target": "10c_become_guardian",
+      "effects": {
+        "courage": 3,
+        "setFlag": "became_guardian"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

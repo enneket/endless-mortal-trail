@@ -1,0 +1,47 @@
+{
+  "id": "10b_return_mortal",
+  "title": "归尘",
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "晴朗",
+    "mood": "平静"
+  },
+  "texts": [
+    {
+      "content": "“我想回去。”你说。",
+      "delay": 0
+    },
+    {
+      "content": "光芒渐渐散去，你感觉到自己正在变回凡人。",
+      "delay": 1500
+    },
+    {
+      "content": "灵境的一切开始变得模糊，但你心中的领悟却越来越清晰。",
+      "delay": 2000
+    },
+    {
+      "content": "你睁开眼，发现自己站在尘世的土地上。",
+      "delay": 2000
+    },
+    {
+      "content": "但你知道，你已经不再是原来的你了。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·灵境之地·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4bcb:01_new_chapter",
+      "effects": {
+        "experience": 3
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

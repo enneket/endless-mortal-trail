@@ -1,0 +1,28 @@
+{
+  "id": "07_balance_temple",
+  "title": "平衡神殿",
+  "atmosphere": { "time": "黄昏", "weather": "半明半暗", "mood": "肃穆" },
+  "texts": [
+    { "content": "你来到一座神殿前。神殿一半沐浴在光明中，一半沉没在暗影里。", "delay": 0 },
+    { "content": "殿内的光线不断交替，明暗之间仿佛在诉说着什么。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想理解平衡的真谛。\"",
+      "target": "08_core",
+      "effects": { "wisdom": 2, "setFlag": "understood_balance" },
+      "condition": null
+    },
+    {
+      "text": "\"光明与黑暗，哪个更强？\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "思索" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

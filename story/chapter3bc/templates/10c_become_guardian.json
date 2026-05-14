@@ -1,0 +1,47 @@
+{
+  "id": "10c_become_guardian",
+  "title": "守护者",
+  "atmosphere": {
+    "time": "永恒",
+    "weather": "灵光流转",
+    "mood": "庄严"
+  },
+  "texts": [
+    {
+      "content": "“我愿意成为守护者。”你说。",
+      "delay": 0
+    },
+    {
+      "content": "远古守护者出现在你面前，将一枚符文交到你手中。",
+      "delay": 1500
+    },
+    {
+      "content": "“从今以后，你就是灵境的守护者。”他说。",
+      "delay": 2000
+    },
+    {
+      "content": "你感觉到一股强大的力量注入体内。",
+      "delay": 2000
+    },
+    {
+      "content": "你不再是凡人，也不再是灵境的一部分——你是灵境的守护者。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·灵境之地·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4bcc:01_new_chapter",
+      "effects": {
+        "experience": 3
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

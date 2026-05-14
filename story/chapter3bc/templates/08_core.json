@@ -1,0 +1,25 @@
+{
+  "id": "08_core",
+  "title": "灵境核心",
+  "atmosphere": { "time": "永恒", "weather": "万光交汇", "mood": "震撼" },
+  "texts": [
+    { "content": "你来到灵境的最深处。这里是一切的源头，光与暗在此交汇。", "delay": 0 },
+    { "content": "无数光点在你周围旋转，像是宇宙中的星辰。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你获得了一件物品：{{ITEM_SLOT_D:name}}。", "delay": 1000 },
+    { "content": "{{ITEM_SLOT_D:description}}", "delay": 1500 },
+    { "content": "你终于明白了灵境的秘密。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "面对真相",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

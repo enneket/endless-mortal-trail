@@ -1,0 +1,28 @@
+{
+  "id": "03_dream_forest",
+  "title": "梦境森林",
+  "atmosphere": { "time": "黄昏", "weather": "光影交错", "mood": "迷幻" },
+  "texts": [
+    { "content": "你走进一片奇异的森林。树木的枝叶是半透明的，随风飘动时发出铃声。", "delay": 0 },
+    { "content": "这里的一切都像梦境——你知道自己在做梦，却无法醒来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想看看这个梦的深处。\"",
+      "target": "04_time_tower",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想从梦中醒来。\"",
+      "target": "06_light_peak",
+      "effects": { "wisdom": 1, "setFlag": "tried_to_wake" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

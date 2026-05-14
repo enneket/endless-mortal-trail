@@ -1,0 +1,29 @@
+{
+  "id": "01_spirit_gate",
+  "title": "灵境之门",
+  "atmosphere": { "time": "黎明", "weather": "灵光流转", "mood": "超然" },
+  "texts": [
+    { "content": "你睁开眼，发现自己站在一扇巨大的石门前。", "delay": 0 },
+    { "content": "石门上刻满了古老的符文，符文散发着淡淡的光芒。", "delay": 2000 },
+    { "content": "门后是一片朦胧的世界，云雾缭绕，光华流转。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这是什么地方？\"",
+      "target": "02_memory_lake",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我准备好了，请带路。\"",
+      "target": "03_dream_forest",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

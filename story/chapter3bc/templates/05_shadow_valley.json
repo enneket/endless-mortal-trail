@@ -1,0 +1,28 @@
+{
+  "id": "05_shadow_valley",
+  "title": "暗影幽谷",
+  "atmosphere": { "time": "深夜", "weather": "漆黑", "mood": "压抑" },
+  "texts": [
+    { "content": "你走进一片幽深的山谷。四周一片漆黑，只有远处隐约的光点。", "delay": 0 },
+    { "content": "黑暗中传来低语声，像是无数人在同时说话。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我不怕黑暗。\"",
+      "target": "07_balance_temple",
+      "effects": { "courage": 2, "setFlag": "faced_shadow" },
+      "condition": null
+    },
+    {
+      "text": "\"带我去找光明。\"",
+      "target": "06_light_peak",
+      "effects": { "mood": "渴望" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
