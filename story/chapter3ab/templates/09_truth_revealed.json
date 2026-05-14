@@ -1,0 +1,34 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "恍然" },
+  "texts": [
+    { "content": "天亮了。你站在一个三岔路口。", "delay": 0 },
+    { "content": "前方的路分成三条：一条继续深入山中，一条通向远处的平原，一条折返回去。", "delay": 2000 },
+    { "content": "路边有一块石碑，上面刻着模糊的字迹。你凑近一看，写着：“此去经年，各自珍重。”", "delay": 2000 },
+    { "content": "你忽然明白了什么。这条路，不只是脚下的路。", "delay": 2000 },
+    { "content": "身后是来时的路，身前是未知的命运。你该做出选择了。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "“继续向前，我要看看这条路的尽头是什么。”",
+      "target": "10a_continue",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "“这里不错，我想留下来。”",
+      "target": "10b_settle",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "“我该回去了。”",
+      "target": "10c_return",
+      "effects": { "mood": "释然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

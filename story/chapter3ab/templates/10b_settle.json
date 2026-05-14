@@ -1,0 +1,22 @@
+{
+  "id": "10b_settle",
+  "title": "落脚",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "安宁" },
+  "texts": [
+    { "content": "“我累了。”你说，“这里挺好。”", "delay": 0 },
+    { "content": "你决定在这个三岔路口停下来。也许只是暂时的，也许不是。", "delay": 1500 },
+    { "content": "你找了一处平坦的地方，开始搭建简陋的住所。", "delay": 2000 },
+    { "content": "路过的旅人会和你打招呼，你会给他们递上一碗水。", "delay": 2000 },
+    { "content": "——第三章·山间古道·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4abb:01_new_chapter",
+      "effects": { "experience": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "06_market",
+  "title": "集市",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "路边有一个小集市，人来人往，叫卖声此起彼伏。", "delay": 0 },
+    { "content": "摊位上摆满了山货和日用品，空气中弥漫着食物的香气。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "买些补给再上路",
+      "target": "07_forest",
+      "effects": { "mood": "充实" },
+      "condition": null
+    },
+    {
+      "text": "打听前方的消息",
+      "target": "08_night_camp",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

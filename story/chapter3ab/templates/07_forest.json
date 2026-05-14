@@ -1,0 +1,29 @@
+{
+  "id": "07_forest",
+  "title": "密林",
+  "atmosphere": { "time": "午后", "weather": "阴暗", "mood": "诡异" },
+  "texts": [
+    { "content": "你走进了一片密林。树木遮天蔽日，光线昏暗。", "delay": 0 },
+    { "content": "脚下是厚厚的落叶，踩上去沙沙作响。四周静得有些不正常。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在林中发现了{{ITEM_SLOT_D:name}}——{{ITEM_SLOT_D:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "穿过密林",
+      "target": "08_night_camp",
+      "effects": { "mood": "紧张" },
+      "condition": null
+    },
+    {
+      "text": "原路返回",
+      "target": "06_market",
+      "effects": { "mood": "犹豫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

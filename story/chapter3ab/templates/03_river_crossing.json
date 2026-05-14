@@ -1,0 +1,29 @@
+{
+  "id": "03_river_crossing",
+  "title": "渡河",
+  "atmosphere": { "time": "午后", "weather": "阴沉", "mood": "不安" },
+  "texts": [
+    { "content": "一条湍急的河流挡住了去路。水声轰鸣，白浪翻滚。", "delay": 0 },
+    { "content": "河上有一座摇摇欲坠的木桥，桥板已经腐朽了大半。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你捡到了{{ITEM_SLOT_B:name}}——{{ITEM_SLOT_B:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "冒险过桥",
+      "target": "05_inn",
+      "effects": { "mood": "紧张" },
+      "condition": null
+    },
+    {
+      "text": "沿河寻找浅滩",
+      "target": "06_market",
+      "effects": { "mood": "谨慎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

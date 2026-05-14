@@ -1,0 +1,29 @@
+{
+  "id": "02_mountain_pass",
+  "title": "山口",
+  "atmosphere": { "time": "上午", "weather": "多云", "mood": "险峻" },
+  "texts": [
+    { "content": "路越走越窄，两旁的山壁越来越陡峭。", "delay": 0 },
+    { "content": "风从山口灌进来，带着草木的清香和泥土的潮湿。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在路边发现了{{ITEM_SLOT_A:name}}——{{ITEM_SLOT_A:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "翻过山口，继续前行",
+      "target": "03_river_crossing",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "沿着山腰的小路绕行",
+      "target": "07_forest",
+      "effects": { "mood": "谨慎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

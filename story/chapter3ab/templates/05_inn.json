@@ -1,0 +1,29 @@
+{
+  "id": "05_inn",
+  "title": "客栈",
+  "atmosphere": { "time": "傍晚", "weather": "小雨", "mood": "安逸" },
+  "texts": [
+    { "content": "路边有一间客栈，门口挂着灯笼，透出暖黄色的光。", "delay": 0 },
+    { "content": "你推门进去，里面已经坐了不少赶路的人。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你在客栈里找到了{{ITEM_SLOT_C:name}}——{{ITEM_SLOT_C:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "住一晚再走",
+      "target": "08_night_camp",
+      "effects": { "mood": "放松" },
+      "condition": null
+    },
+    {
+      "text": "打听一下前面的路",
+      "target": "06_market",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

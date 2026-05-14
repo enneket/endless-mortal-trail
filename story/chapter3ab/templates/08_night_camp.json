@@ -1,0 +1,29 @@
+{
+  "id": "08_night_camp",
+  "title": "夜宿",
+  "atmosphere": { "time": "夜晚", "weather": "星光", "mood": "沉思" },
+  "texts": [
+    { "content": "夜幕降临，你在路边找了一处避风的地方歇脚。", "delay": 0 },
+    { "content": "篝火噼啪作响，映照着四周的树影。远处传来夜鸟的叫声。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "夜深了。你望着星空，心中涌起一股莫名的情绪。这条路的尽头，究竟是什么？", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "好好休息，明天继续赶路",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "睡不着，索性连夜赶路",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "焦虑" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "01_road_start",
+  "title": "古道",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "孤寂" },
+  "texts": [
+    { "content": "你离开了小镇，踏上了一条古老的山间道路。", "delay": 0 },
+    { "content": "路两旁是高耸的松柏，枝叶交错，遮天蔽日。脚下是青石板，被岁月磨得光滑。", "delay": 2000 },
+    { "content": "远处传来几声鸟鸣，回荡在山谷之间。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“前面的路好走吗？”",
+      "target": "02_mountain_pass",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“我先歇歇脚再说。”",
+      "target": "04_small_village",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

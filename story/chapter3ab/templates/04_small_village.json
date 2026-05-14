@@ -1,0 +1,28 @@
+{
+  "id": "04_small_village",
+  "title": "路边小村",
+  "atmosphere": { "time": "正午", "weather": "晴朗", "mood": "温暖" },
+  "texts": [
+    { "content": "路边出现了一个小村落，只有几户人家，炊烟袅袅。", "delay": 0 },
+    { "content": "几个孩子在村口玩耍，看见你便停下来张望。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "在村里歇息一晚",
+      "target": "05_inn",
+      "effects": { "mood": "安心" },
+      "condition": null
+    },
+    {
+      "text": "继续赶路",
+      "target": "07_forest",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
