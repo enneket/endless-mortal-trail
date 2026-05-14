@@ -1,0 +1,51 @@
+{
+  "id": "08_storm_night",
+  "title": "风暴夜",
+  "atmosphere": { "time": "夜晚", "weather": "狂风", "mood": "紧张" },
+  "texts": [
+    {
+      "content": "天黑了。风越来越大，海浪拍打着岸边，发出雷鸣般的声响。渔民们纷纷收网回港，有人在喊：\"台风要来了！\"",
+      "delay": 0
+    },
+    {
+      "content": "你走进神庙避风。庙里已经坐满了人，他们脸上带着恐惧。角落里坐着一个老婆婆，白发苍苍，眼神空洞，嘴里念念有词。",
+      "delay": 2500
+    },
+    {
+      "content": "\"你来了。\"她说，声音很轻，像是从很远的地方传来。\"我等了你很久了。\"",
+      "delay": 1500
+    },
+    {
+      "content": "她是神婆。",
+      "delay": 1000
+    },
+    {
+      "content": "\"这风暴……不是普通的风暴。\"她说。\"这是债。是这村子欠的债。\"",
+      "delay": 2000
+    },
+    {
+      "content": "她看着你，眼神里有一种说不出的慈悲。",
+      "delay": 1500
+    },
+    {
+      "content": "\"你想知道真相吗？\"",
+      "delay": 1000
+    }
+  ],
+  "choices": [
+    {
+      "text": "\"我想知道真相。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我不想管了。\"",
+      "target": "10c_leave",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

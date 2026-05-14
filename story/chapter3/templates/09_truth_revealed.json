@@ -1,0 +1,53 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "夜晚", "weather": "狂风", "mood": "沉重" },
+  "texts": [
+    {
+      "content": "神婆叹了口气。她从怀里掏出一枚贝壳，递给你。",
+      "delay": 0
+    },
+    {
+      "content": "\"你听听吧。\"她说。\"听了，你就明白了。\"",
+      "delay": 1500
+    },
+    {
+      "content": "你把贝壳贴在耳边。你听见了海浪声，听见了风声，听见了……哭声。是很多人的哭声，像是从很远的地方传来。",
+      "delay": 2000
+    },
+    {
+      "content": "你听见了真相。三十年前，这村子里有两大家族，一家姓陈，一家姓李。两家为了争一片渔场，打了一场大仗。死了很多人。后来，两家都败落了。",
+      "delay": 2000
+    },
+    {
+      "content": "但真相是……那片渔场根本不存在。是有人故意挑拨，让两家自相残杀。",
+      "delay": 1500
+    },
+    {
+      "content": "\"现在你知道了。\"神婆看着你。\"你想怎么做？\"",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "调解恩怨，让真相大白",
+      "target": "10a_mediate",
+      "effects": { "karma": 2, "setFlag": "reconciled" },
+      "condition": { "hasFlag": "reconciled" }
+    },
+    {
+      "text": "帮助一方报仇",
+      "target": "10b_revenge",
+      "effects": { "courage": 2, "setFlag": "sided" },
+      "condition": { "hasFlag": "sided" }
+    },
+    {
+      "text": "离开渔村，继续漂泊",
+      "target": "10c_leave",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

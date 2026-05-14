@@ -1,0 +1,41 @@
+{
+  "id": "10a_mediate",
+  "title": "调解恩怨",
+  "atmosphere": { "time": "黎明", "weather": "晴", "mood": "希望" },
+  "texts": [
+    {
+      "content": "你把真相告诉了两家的后人。他们听完，沉默了很久。",
+      "delay": 0
+    },
+    {
+      "content": "\"原来……是这样。\"陈家后人说，声音颤抖。",
+      "delay": 1500
+    },
+    {
+      "content": "\"我们恨了三十年……\"李家后人说，眼泪流了下来。",
+      "delay": 1000
+    },
+    {
+      "content": "你看着他们，心里很平静。你知道，仇恨不会立刻消失。但至少，真相大白了。至少，他们可以开始放下了。",
+      "delay": 2000
+    },
+    {
+      "content": "你转身离开。身后是渔村，身前是大海。你知道这条路很难，但你没有犹豫。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4:01_dock",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

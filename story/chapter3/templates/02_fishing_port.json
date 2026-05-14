@@ -1,0 +1,43 @@
+{
+  "id": "02_fishing_port",
+  "title": "渔港",
+  "atmosphere": { "time": "黄昏", "weather": "海风", "mood": "热闹" },
+  "texts": [
+    {
+      "content": "你走进渔港。港湾里停满了渔船，桅杆林立，像一片光秃秃的树林。渔民们正在卸货，一筐筐的鱼虾从船上搬下来，鱼贩子们围着讨价还价，声音此起彼伏。",
+      "delay": 0
+    },
+    {
+      "content": "你在渔港中穿行，忽然一个声音叫住了你。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_1:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_1:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "\"我想了解更多。\"",
+      "target": "05_tavern",
+      "effects": { "wisdom": 1, "setFlag": "reconciled" },
+      "condition": null
+    },
+    {
+      "text": "\"这不关我的事。\"",
+      "target": "05_tavern",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

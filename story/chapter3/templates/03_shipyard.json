@@ -1,0 +1,39 @@
+{
+  "id": "03_shipyard",
+  "title": "船厂",
+  "atmosphere": { "time": "黄昏", "weather": "海风", "mood": "忙碌" },
+  "texts": [
+    {
+      "content": "你走进一家船厂。厂里堆满了木料，空气中弥漫着松脂和桐油的味道。几个工匠正在锯木头，锤子敲打钉子的声音此起彼伏。一个老师傅坐在一旁，正在修补一条旧船。",
+      "delay": 0
+    },
+    {
+      "content": "{{NPC_SLOT_2:greeting}}",
+      "delay": 2500
+    },
+    {
+      "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_2:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "\"我想了解更多。\"",
+      "target": "06_temple",
+      "effects": { "wisdom": 1, "setFlag": "sided" },
+      "condition": null
+    },
+    {
+      "text": "\"我还是走吧。\"",
+      "target": "06_temple",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

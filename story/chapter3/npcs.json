@@ -1,98 +1,98 @@
 {
-  "ghost_merchant": {
-    "id": "ghost_merchant",
-    "name": "鬼市商人",
-    "identity": "在鬼市中贩卖记忆的幽魂",
-    "personality": "狡黠、贪婪、偶尔流露真情",
-    "dialogueStyle": "市侩、讨价还价、偶尔诗意",
+  "old_fisher": {
+    "id": "old_fisher",
+    "name": "老渔民",
+    "identity": "打了一辈子鱼的老渔民",
+    "personality": "沉默寡言、看透大海、偶尔感慨",
+    "dialogueStyle": "缓慢、简短、带着海腥味",
     "dialogues": {
-      "greeting": "客官，要买点什么？记忆？还是忘却？",
-      "reveal": "我卖的不是东西，是别人不要的过去。",
-      "gift": "这个……是别人寄卖的。你拿着吧，不收钱。"
+      "greeting": "又一个外来的。坐吧，喝口茶。",
+      "reveal": "这海……我打了一辈子鱼，还是看不透它。",
+      "gift": "这罗盘跟了我很多年了。你拿着，兴许有用。"
     }
   },
-  "judge_clerk": {
-    "id": "judge_clerk",
-    "name": "判官书记",
-    "identity": "判官殿中抄录生死簿的小吏",
-    "personality": "刻板、谨慎、内心有疑问",
-    "dialogueStyle": "公文腔、咬文嚼字、偶尔叹息",
+  "fishing_girl": {
+    "id": "fishing_girl",
+    "name": "渔家姑娘",
+    "identity": "渔民的女儿，水性极好",
+    "personality": "泼辣、心地善良、嘴硬心软",
+    "dialogueStyle": "直爽、带着海风、偶尔害羞",
     "dialogues": {
-      "greeting": "站住。报上名来，我查查生死簿。",
-      "reveal": "生死簿上没有你的名字。这很不寻常。",
-      "gift": "这页残页……是从生死簿上掉下来的。你留着吧。"
+      "greeting": "买鱼？今天打的鱼新鲜着呢！",
+      "reveal": "我爹……就是被他们害死的。",
+      "gift": "这鱼钩……是我爹留下的。你拿着吧。"
     }
   },
-  "judge": {
-    "id": "judge",
-    "name": "判官",
-    "identity": "掌管生死簿的地府判官",
-    "personality": "威严、公正、疲惫",
-    "dialogueStyle": "威严、简短、偶尔感慨",
+  "shipwright": {
+    "id": "shipwright",
+    "name": "船匠",
+    "identity": "造船修船的老师傅",
+    "personality": "稳重、手艺精湛、不爱说话",
+    "dialogueStyle": "简短、实在、偶尔叹气",
     "dialogues": {
-      "greeting": "又一个渡途人。坐吧。",
-      "reveal": "我判了千万人的生死，却判不了自己的。",
-      "gift": "拿着。这是你应得的。"
+      "greeting": "要修船？还是造船？",
+      "reveal": "这村里的船……有一半是我造的。包括那条沉了的。",
+      "gift": "这海图……是我年轻时候画的。你留着吧。"
     }
   },
-  "ox_head": {
-    "id": "ox_head",
-    "name": "牛头",
-    "identity": "地府勾魂使者",
-    "personality": "憨厚、忠诚、偶尔迷茫",
-    "dialogueStyle": "粗犷、直白、偶尔困惑",
+  "seafood_merchant": {
+    "id": "seafood_merchant",
+    "name": "海鲜商人",
+    "identity": "收购海鲜的外地商人",
+    "personality": "精明、见利忘义、偶尔流露真情",
+    "dialogueStyle": "圆滑、讨价还价、偶尔坦诚",
     "dialogues": {
-      "greeting": "你……你是活人？这里不让活人进的。",
-      "reveal": "我勾了无数魂，有时候想，我自己的魂在哪。",
-      "gift": "这个引魂灯……能照亮前面的路。你拿着。"
+      "greeting": "客官，要买点什么？鱼？还是虾？",
+      "reveal": "我来这村子十年了。还是个外人。",
+      "gift": "这夜明珠……是海底捞的。你拿着吧。"
     }
   },
-  "wronged_soul": {
-    "id": "wronged_soul",
-    "name": "冤魂",
-    "identity": "含冤而死、无法投胎的亡魂",
-    "personality": "愤怒、悲伤、渴望解脱",
-    "dialogueStyle": "哀怨、反复、偶尔尖叫",
+  "village_chief": {
+    "id": "village_chief",
+    "name": "村长",
+    "identity": "渔村的管理者",
+    "personality": "威严、左右为难、疲惫",
+    "dialogueStyle": "官腔、简短、偶尔叹息",
     "dialogues": {
-      "greeting": "你能看见我？你能看见我！",
-      "reveal": "我死得冤。我忘不了。我走不了。",
-      "gift": "这个……是我活着时候的东西。你帮我带出去好不好？"
+      "greeting": "你是外来的？报上名来。",
+      "reveal": "这村里的事……我管不了了。",
+      "gift": "这印章……是村长的信物。你留着吧。"
     }
   },
-  "old_ghost": {
-    "id": "old_ghost",
-    "name": "老鬼",
-    "identity": "在地府游荡了千年的老魂魄",
-    "personality": "淡然、智慧、看透一切",
-    "dialogueStyle": "缓慢、古语、偶尔幽默",
+  "outsider": {
+    "id": "outsider",
+    "name": "外来旅人",
+    "identity": "偶然来到渔村的外人",
+    "personality": "好奇、格格不入、渴望融入",
+    "dialogueStyle": "生疏、客气、偶尔困惑",
     "dialogues": {
-      "greeting": "又来一个。坐吧，不急。",
-      "reveal": "我在这待了一千年了。什么都见过了。",
-      "gift": "拿着。这东西跟了我很久了，该换个人了。"
+      "greeting": "你好……我也是刚来的。",
+      "reveal": "我来这村子三个月了。还是不懂他们的规矩。",
+      "gift": "这海螺笛……是我捡的。你拿着吧。"
     }
   },
-  "ferryman": {
-    "id": "ferryman",
-    "name": "忘川摆渡人",
-    "identity": "在忘川河上摆渡的船夫",
-    "personality": "沉默、神秘、遵守规则",
-    "dialogueStyle": "简短、暗示、偶尔唱歌",
+  "shaman": {
+    "id": "shaman",
+    "name": "神婆",
+    "identity": "能预测风暴的神婆",
+    "personality": "神秘、说话含糊、似乎能看见什么",
+    "dialogueStyle": "缓慢、玄妙、偶尔惊人",
     "dialogues": {
-      "greeting": "上船吧。不问来路，不问归途。",
-      "reveal": "我渡了千万人过河。没有一个回头的。",
-      "gift": "这忘川水……喝一口，忘一件事。你留着吧。"
+      "greeting": "我虽看不见，但我能感觉到你。",
+      "reveal": "这村子……有风暴要来了。",
+      "gift": "这锚形坠子……你戴着吧。能保平安。"
     }
   },
-  "past_lover": {
-    "id": "past_lover",
-    "name": "前世恋人",
-    "identity": "渡途人前世的爱人，已入轮回",
-    "personality": "温柔、悲伤、释然",
-    "dialogueStyle": "轻柔、回忆、偶尔哽咽",
+  "pirate_descendant": {
+    "id": "pirate_descendant",
+    "name": "海盗后人",
+    "identity": "海盗的后代，被村民排挤",
+    "personality": "压抑、渴望被接纳、又放不下仇恨",
+    "dialogueStyle": "低沉、矛盾、偶尔激动",
     "dialogues": {
-      "greeting": "你……你不认识我了？",
-      "reveal": "我等了你很久。后来我不等了。后来我走了。",
-      "gift": "这个信物……是我们的。你带着吧，替我记着。"
+      "greeting": "你……不是本地人吧？",
+      "reveal": "我爷爷是海盗。但我不是。",
+      "gift": "这锚形坠子……是我爷爷留下的。你看看吧。"
     }
   }
 }

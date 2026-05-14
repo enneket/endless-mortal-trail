@@ -1,0 +1,41 @@
+{
+  "id": "10b_revenge",
+  "title": "报仇雪恨",
+  "atmosphere": { "time": "黎明", "weather": "狂风", "mood": "壮烈" },
+  "texts": [
+    {
+      "content": "你把真相告诉了其中一家。他们听完，眼里燃起了怒火。",
+      "delay": 0
+    },
+    {
+      "content": "\"原来是他们！\"他们说，声音里充满了恨意。",
+      "delay": 1500
+    },
+    {
+      "content": "你看着他们冲向另一家。你听见了喊叫声，听见了打斗声，听见了哭声。",
+      "delay": 2000
+    },
+    {
+      "content": "你站在海边，看着这一切。你知道，你做了选择。这个选择，会带来更多的仇恨。但你没有后悔。",
+      "delay": 2000
+    },
+    {
+      "content": "你转身走进风里。身后是渔村，身前是大海。你知道这条路很难，但你没有犹豫。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4:01_dock",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

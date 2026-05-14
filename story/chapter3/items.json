@@ -1,38 +1,38 @@
 {
-  "meng_po_soup": {
-    "id": "meng_po_soup",
-    "name": "孟婆汤",
-    "description": "一碗温热的汤，散发着淡淡的甜味。喝下它，你会忘记一切。",
-    "effects": { "setFlag": "has_meng_po_soup" }
+  "old_compass": {
+    "id": "old_compass",
+    "name": "老罗盘",
+    "description": "一个生锈的罗盘，指针始终指向大海深处。据说它能指引迷途的人找到回家的路。",
+    "effects": { "setFlag": "has_old_compass" }
   },
-  "life_death_book": {
-    "id": "life_death_book",
-    "name": "生死簿残页",
-    "description": "一页泛黄的纸，上面密密麻麻写着名字和寿数。你找不到自己的名字。",
-    "effects": { "setFlag": "has_life_death_book" }
+  "pearl": {
+    "id": "pearl",
+    "name": "夜明珠",
+    "description": "一颗在黑暗中发光的珍珠，来自深海。据说它能照亮最深的黑暗。",
+    "effects": { "setFlag": "has_pearl" }
   },
-  "past_token": {
-    "id": "past_token",
-    "name": "前世信物",
-    "description": "一枚玉佩，温润如水。握在手中，你依稀记得一个模糊的面容。",
-    "effects": { "setFlag": "has_past_token" }
+  "fishing_hook": {
+    "id": "fishing_hook",
+    "name": "鱼钩",
+    "description": "一枚弯曲的鱼钩，据说能钓起任何东西。包括……真相。",
+    "effects": { "setFlag": "has_fishing_hook" }
   },
-  "soul_lantern": {
-    "id": "soul_lantern",
-    "name": "引魂灯",
-    "description": "一盏永不熄灭的灯，灯光幽蓝。据说能照亮亡魂回家的路。",
-    "effects": { "setFlag": "has_soul_lantern" }
+  "sea_map": {
+    "id": "sea_map",
+    "name": "海图",
+    "description": "一张褪色的海图，标注着未知的岛屿。据说那里藏着海盗的宝藏。",
+    "effects": { "setFlag": "has_sea_map" }
   },
-  "reincarnation_pearl": {
-    "id": "reincarnation_pearl",
-    "name": "轮回珠",
-    "description": "一颗浑浊的珠子，里面似乎有什么在转动。据说握着它，能看到自己的前世。",
-    "effects": { "setFlag": "has_reincarnation_pearl" }
+  "shell_flute": {
+    "id": "shell_flute",
+    "name": "海螺笛",
+    "description": "一个能吹出海浪声的海螺。据说它能召唤海里的生灵。",
+    "effects": { "setFlag": "has_shell_flute" }
   },
-  "forget_river_water": {
-    "id": "forget_river_water",
-    "name": "忘川水",
-    "description": "一瓶清澈的水，却散发着一种说不出的气息。喝一口，忘一件事。",
-    "effects": { "setFlag": "has_forget_river_water" }
+  "anchor_pendant": {
+    "id": "anchor_pendant",
+    "name": "锚形坠子",
+    "description": "一枚铁锚形状的坠子，沉甸甸的。据说它能让人在风暴中保持镇定。",
+    "effects": { "setFlag": "has_anchor_pendant" }
   }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "05_tavern",
+  "title": "酒馆",
+  "atmosphere": { "time": "傍晚", "weather": "海风", "mood": "热闹" },
+  "texts": [
+    {
+      "content": "你走进一家酒馆。馆里坐满了渔民，有的在喝酒，有的在打牌，有的在吹牛。空气中弥漫着酒香和鱼干的味道。角落里有人在弹琴，琴声被喧闹声淹没。",
+      "delay": 0
+    },
+    {
+      "content": "{{NPC_SLOT_4:greeting}}",
+      "delay": 2500
+    },
+    {
+      "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_4:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "酒桌的抽屉里，你发现了一个东西。",
+      "delay": 1500
+    },
+    {
+      "content": "得到：{{ITEM_SLOT_A:name}}",
+      "delay": 500
+    }
+  ],
+  "choices": [
+    {
+      "text": "收好东西，继续喝酒",
+      "target": "08_storm_night",
+      "effects": {},
+      "condition": null,
+      "_itemSlot": "a"
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

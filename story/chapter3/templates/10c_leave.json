@@ -1,0 +1,41 @@
+{
+  "id": "10c_leave",
+  "title": "离开渔村",
+  "atmosphere": { "time": "黄昏", "weather": "余晖", "mood": "温暖" },
+  "texts": [
+    {
+      "content": "你把贝壳还给神婆，转身离开。",
+      "delay": 0
+    },
+    {
+      "content": "你走过渔港，走过船厂，走过海滩，走过神庙。你走过每一处你来过的地方，但你没有停留。",
+      "delay": 1500
+    },
+    {
+      "content": "你走到码头。一条船正要离岸。船夫看了你一眼，没有说话。",
+      "delay": 1500
+    },
+    {
+      "content": "你上船。船慢慢离岸。你看着渔村在身后渐渐远去，心里很平静。",
+      "delay": 2000
+    },
+    {
+      "content": "你决定不介入这场恩怨。也许这是懦弱，但也许，这是另一种慈悲。",
+      "delay": 1500
+    },
+    {
+      "content": "——第三章·完——",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter4:01_dock",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

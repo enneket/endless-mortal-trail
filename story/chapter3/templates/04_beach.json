@@ -1,0 +1,43 @@
+{
+  "id": "04_beach",
+  "title": "海滩",
+  "atmosphere": { "time": "黄昏", "weather": "海风", "mood": "宁静" },
+  "texts": [
+    {
+      "content": "你走到一片海滩上。沙子很细，踩上去软绵绵的。海浪轻轻拍打着岸边，留下一串串白色的泡沫。远处有几个孩子在捡贝壳，笑声被海风吹散。",
+      "delay": 0
+    },
+    {
+      "content": "你在海滩上走着，忽然一个声音叫住了你。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_3:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_3:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "\"这海通往哪里？\"",
+      "target": "07_lighthouse",
+      "effects": { "courage": 1, "setFlag": "sided" },
+      "condition": null
+    },
+    {
+      "text": "\"我还是走吧。\"",
+      "target": "07_lighthouse",
+      "effects": { "mood": "淡然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
