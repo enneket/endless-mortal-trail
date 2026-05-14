@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_departure", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_road", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_crossroads", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_small_town", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_inn", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_market", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_river", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_night_camp", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_reunion", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_continue", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_return", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["farewell_villager", "fellow_traveler"] },
+    "slot_2": { "candidates": ["fellow_traveler", "merchant_caravan"] },
+    "slot_3": { "candidates": ["merchant_caravan", "street_performer"] },
+    "slot_4": { "candidates": ["street_performer", "government_officer"] },
+    "slot_5": { "candidates": ["government_officer", "beggar"] },
+    "slot_6": { "candidates": ["beggar", "rich_merchant"] },
+    "slot_7": { "candidates": ["rich_merchant", "old_friend"] },
+    "slot_8": { "candidates": ["old_friend", "farewell_villager"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["dried_food", "water_bag"] },
+    "slot_b": { "candidates": ["road_map", "keepsake"] },
+    "slot_c": { "candidates": ["copper_coins", "lucky_charm"] },
+    "slot_d": { "candidates": ["keepsake", "copper_coins"] }
+  }
+}

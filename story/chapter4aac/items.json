@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "dried_food",
+      "name": "干粮",
+      "description": "路上食物，虽不精致，但能充饥",
+      "effects": { "setFlag": "has_dried_food" }
+    },
+    {
+      "id": "water_bag",
+      "name": "水囊",
+      "description": "装水之物，路途遥远，水是命根子",
+      "effects": { "setFlag": "has_water_bag" }
+    },
+    {
+      "id": "road_map",
+      "name": "地图",
+      "description": "路线图，上面标注了沿途的城镇和驿站",
+      "effects": { "setFlag": "has_road_map" }
+    },
+    {
+      "id": "keepsake",
+      "name": "信物",
+      "description": "村民所赠，承载着离别的情谊",
+      "effects": { "setFlag": "has_keepsake" }
+    },
+    {
+      "id": "copper_coins",
+      "name": "铜钱",
+      "description": "盘缠虽不多，但够撑几日",
+      "effects": { "setFlag": "has_copper_coins" }
+    },
+    {
+      "id": "lucky_charm",
+      "name": "护身符",
+      "description": "保平安之物，据说道观里开过光",
+      "effects": { "setFlag": "has_lucky_charm" }
+    }
+  ]
+}

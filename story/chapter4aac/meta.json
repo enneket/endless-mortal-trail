@@ -1,0 +1,8 @@
+{
+  "id": "chapter4aac",
+  "title": "远行之路",
+  "description": "离开村庄后，渡途人踏上新的旅途",
+  "sceneCount": 12,
+  "startScene": "01_departure",
+  "randomized": true
+}
