@@ -1,0 +1,8 @@
+{
+  "id": "chapter4aaa",
+  "title": "和谐新生",
+  "description": "村庄重建成功，渡途人见证新生",
+  "sceneCount": 12,
+  "startScene": "01_new_village",
+  "randomized": true
+}

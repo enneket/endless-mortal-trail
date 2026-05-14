@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_new_village", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_field", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_festival", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_school", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_market", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_well", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_night_story", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_storm", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_stay", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_leave", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_pass_on", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["new_village_chief", "staying_soldier"] },
+    "slot_2": { "candidates": ["blacksmith_apprentice", "returning_villager"] },
+    "slot_3": { "candidates": ["returning_villager", "new_bride"] },
+    "slot_4": { "candidates": ["teacher", "village_children"] },
+    "slot_5": { "candidates": ["merchant", "blacksmith_apprentice"] },
+    "slot_6": { "candidates": ["new_bride", "staying_soldier"] },
+    "slot_7": { "candidates": ["staying_soldier", "teacher"] },
+    "slot_8": { "candidates": ["new_village_chief", "merchant"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["new_hoe", "harvest_grain"] },
+    "slot_b": { "candidates": ["wedding_candy", "red_cloth"] },
+    "slot_c": { "candidates": ["new_wine", "harvest_grain"] },
+    "slot_d": { "candidates": ["village_history", "new_wine"] }
+  }
+}

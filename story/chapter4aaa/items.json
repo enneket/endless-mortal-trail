@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "new_hoe",
+      "name": "新锄头",
+      "description": "铁匠徒弟新打的锄头，刃口锋利，木柄光滑",
+      "effects": { "setFlag": "has_new_hoe" }
+    },
+    {
+      "id": "wedding_candy",
+      "name": "喜糖",
+      "description": "红纸包着的糖果，甜丝丝的，是村中喜事的象征",
+      "effects": { "setFlag": "has_wedding_candy" }
+    },
+    {
+      "id": "harvest_grain",
+      "name": "丰收稻谷",
+      "description": "金黄的稻谷，颗粒饱满，是田里新收的",
+      "effects": { "setFlag": "has_harvest_grain" }
+    },
+    {
+      "id": "village_history",
+      "name": "村志",
+      "description": "记录村庄历史的册子，从建村到重建，事无巨细",
+      "effects": { "setFlag": "has_village_history" }
+    },
+    {
+      "id": "new_wine",
+      "name": "新酒",
+      "description": "村里自酿的米酒，清香扑鼻，入口绵柔",
+      "effects": { "setFlag": "has_new_wine" }
+    },
+    {
+      "id": "red_cloth",
+      "name": "红布",
+      "description": "一块鲜红的布料，是新媳妇带来的嫁妆，喜庆之物",
+      "effects": { "setFlag": "has_red_cloth" }
+    }
+  ]
+}
