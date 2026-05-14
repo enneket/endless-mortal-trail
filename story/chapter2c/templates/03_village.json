@@ -1,0 +1,47 @@
+{
+  "id": "03_village",
+  "title": "边关村庄",
+  "atmosphere": { "time": "黄昏", "weather": "薄雾", "mood": "凄凉" },
+  "texts": [
+    {
+      "content": "你沿着小路走进一个村庄。或者说，曾经是一个村庄。房屋只剩下断壁残垣，屋顶的茅草被烧成了灰烬，散落在地上。一口水井被巨石堵住，旁边的辘轳断成了两截。",
+      "delay": 0
+    },
+    {
+      "content": "几个衣衫褴褛的人蹲在废墟中间，用木棍翻找着什么。一个孩子坐在倒塌的墙根下，抱着一只脏兮兮的布娃娃，不哭也不闹。",
+      "delay": 3000
+    },
+    {
+      "content": "一个人影从废墟后走出来，看见你，停下了脚步。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_3:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_3:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "跟随他们前往战场方向",
+      "target": "05_battlefield",
+      "effects": { "experience": 1 },
+      "condition": null
+    },
+    {
+      "text": "去村口临时搭建的医帐看看",
+      "target": "06_medical_tent",
+      "effects": { "karma": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

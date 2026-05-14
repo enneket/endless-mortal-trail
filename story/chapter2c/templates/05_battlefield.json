@@ -1,0 +1,47 @@
+{
+  "id": "05_battlefield",
+  "title": "战场",
+  "atmosphere": { "time": "黎明", "weather": "血色朝霞", "mood": "惨烈" },
+  "texts": [
+    {
+      "content": "你站在战场的边缘。大地被鲜血染成了深红色，断裂的兵器插在泥土里，像一片钢铁的森林。空气中弥漫着硝烟和血腥的气味，浓烈得让人作呕。",
+      "delay": 0
+    },
+    {
+      "content": "远处传来号角声，低沉而悲壮。一面残破的军旗在风中摇曳，旗上的图案已经看不清了。地面上散落着盾牌、箭矢和……那些已经不能称之为人的东西。",
+      "delay": 3000
+    },
+    {
+      "content": "你在尸体间穿行，忽然听见一个微弱的声音。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_5:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_5:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "把伤者抬到后方的医帐",
+      "target": "06_medical_tent",
+      "effects": { "karma": 2 },
+      "condition": null
+    },
+    {
+      "text": "找一处安全的地方躲到天黑",
+      "target": "07_night_camp",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

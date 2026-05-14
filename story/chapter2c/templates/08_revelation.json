@@ -1,0 +1,45 @@
+{
+  "id": "08_revelation",
+  "title": "揭露",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "震动" },
+  "texts": [
+    {
+      "content": "天边泛起了鱼肚白。你沿着一条被踩出来的小路走着，路边散落着丢弃的辎重和倒塌的营帐。忽然，你看见前方有一座半塌的祠堂，门口站着一个人。",
+      "delay": 0
+    },
+    {
+      "content": "祠堂里点着一盏油灯，昏黄的光芒照亮了墙上的壁画。壁画上画的是两军交战的场景，但仔细看，两边的旗帜竟然是一样的——是同一支军队，在和自己打仗。",
+      "delay": 3000
+    },
+    {
+      "content": "那个人转过身来，看着你。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_8:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_8:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "{{ITEM_SLOT_D:description}}",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续追问，直到弄清全部真相",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

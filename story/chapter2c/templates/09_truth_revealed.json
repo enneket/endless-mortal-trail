@@ -1,0 +1,49 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "正午", "weather": "阳光刺眼", "mood": "震撼" },
+  "texts": [
+    {
+      "content": "真相像一把刀，劈开了你面前的迷雾。这场战争，从来就不是为了什么疆土或荣耀。两边的将领本是同门师兄弟，因为一场误会反目成仇，十年厮杀，尸横遍野。",
+      "delay": 0
+    },
+    {
+      "content": "你站在祠堂前，看着远方的战场。那里还在死人，还在流血。而这一切，本可以避免。",
+      "delay": 3000
+    },
+    {
+      "content": "你握紧了拳头。现在你必须做出选择。",
+      "delay": 2000
+    },
+    {
+      "content": "你可以拿起武器，加入这场毫无意义的战争；你可以转身逃离，假装什么都不知道；你也可以尝试去谈判，去结束这场本不该发生的悲剧。",
+      "delay": 2500
+    },
+    {
+      "content": "风从战场的方向吹来，带着硝烟和血腥的气味。你深吸一口气，迈出了脚步。",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "拿起武器，加入战斗",
+      "target": "10a_fight",
+      "effects": { "courage": 3, "setFlag": "chose_fight" },
+      "condition": null
+    },
+    {
+      "text": "转身逃离这个地方",
+      "target": "10b_flee",
+      "effects": { "wisdom": 2, "setFlag": "chose_flee" },
+      "condition": null
+    },
+    {
+      "text": "尝试去谈判，结束这场战争",
+      "target": "10c_negotiate",
+      "effects": { "karma": 3, "setFlag": "chose_negotiate" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "06_medical_tent",
+  "title": "医帐",
+  "atmosphere": { "time": "午后", "weather": "闷热", "mood": "沉重" },
+  "texts": [
+    {
+      "content": "医帐搭在一片空地上，用粗麻布和木杆支撑起来。帐内躺满了伤兵，呻吟声此起彼伏。地上铺着稻草，已经被血浸透了，散发出一股甜腻的腥味。",
+      "delay": 0
+    },
+    {
+      "content": "帐中央放着一张木桌，上面摆满了草药、绷带和一碗碗黑乎乎的药汤。一个身影在伤兵之间穿梭，动作熟练而冷静。",
+      "delay": 2500
+    },
+    {
+      "content": "你走进医帐，那身影抬起头来。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_6:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_6:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "{{ITEM_SLOT_C:description}}",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "留在医帐帮忙，等到夜幕降临",
+      "target": "07_night_camp",
+      "effects": { "karma": 2 },
+      "condition": null
+    },
+    {
+      "text": "离开医帐，去寻找更多真相",
+      "target": "08_revelation",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

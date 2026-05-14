@@ -1,0 +1,51 @@
+{
+  "id": "04_fortress",
+  "title": "要塞",
+  "atmosphere": { "time": "入夜", "weather": "阴云密布", "mood": "肃杀" },
+  "texts": [
+    {
+      "content": "要塞矗立在山脊之上，黑色的城墙在夜色中像一头沉睡的巨兽。城门半开，火把的光芒从门缝中漏出来，照亮了门前的护城河——河水已经干涸，河底散落着生锈的兵器。",
+      "delay": 0
+    },
+    {
+      "content": "你走进要塞。城墙上站满了弓箭手，他们的眼睛盯着远方，一动不动。院子里堆满了粮草和箭矢，空气中弥漫着松脂和铁器的气味。",
+      "delay": 3000
+    },
+    {
+      "content": "你在要塞深处找到了一间议事厅。墙上挂着一幅巨大的地图，上面用红线标注着敌我双方的阵地。地图前站着一个人。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_4:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_4:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "{{ITEM_SLOT_B:description}}",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "登上城墙，前往战场前线",
+      "target": "05_battlefield",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "在要塞中找个角落歇息，等待天明",
+      "target": "07_night_camp",
+      "effects": { "mood": "沉思" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "02_camp",
+  "title": "军营",
+  "atmosphere": { "time": "傍晚", "weather": "阴沉", "mood": "紧张" },
+  "texts": [
+    {
+      "content": "军营出现在眼前。帐篷一顶挨着一顶，密密麻麻地铺展在平地上。篝火已经点燃，火光映照着士兵们疲惫的面容。有人在磨刀，有人在写信，有人只是呆呆地望着火堆。",
+      "delay": 0
+    },
+    {
+      "content": "空气中混杂着马粪、汗臭和铁器的气味。一面军旗在风中猎猎作响，上面的字迹已经被烟熏得模糊不清。",
+      "delay": 2500
+    },
+    {
+      "content": "一个身影从帐篷后走出来，挡住了你的去路。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_2:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_2:reveal}}",
+      "delay": 2000
+    },
+    {
+      "content": "{{ITEM_SLOT_A:description}}",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "前往前方的要塞",
+      "target": "04_fortress",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "跟随巡逻队前往战场前线",
+      "target": "05_battlefield",
+      "effects": { "experience": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

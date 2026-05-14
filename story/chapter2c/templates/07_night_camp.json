@@ -1,0 +1,41 @@
+{
+  "id": "07_night_camp",
+  "title": "夜营",
+  "atmosphere": { "time": "深夜", "weather": "月光清冷", "mood": "孤寂" },
+  "texts": [
+    {
+      "content": "夜幕降临，你找了一处背风的角落歇息。篝火已经熄灭，只剩下几点火星在灰烬中闪烁。远处的战场上偶尔传来几声哀嚎，分不清是人还是野兽。",
+      "delay": 0
+    },
+    {
+      "content": "月亮从云层中露出来，清冷的光芒照在大地上，把一切都镀上了一层银白色。那些白天看起来触目惊心的残骸，在月光下竟有了一种诡异的宁静。",
+      "delay": 3000
+    },
+    {
+      "content": "你正准备闭眼休息，忽然听见旁边传来窸窣声。一个人影从黑暗中走出来。",
+      "delay": 2500
+    },
+    {
+      "content": "{{NPC_SLOT_7:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_7:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "天亮后去寻找更多的线索",
+      "target": "08_revelation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

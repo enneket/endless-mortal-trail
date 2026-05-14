@@ -1,0 +1,47 @@
+{
+  "id": "01_arrival",
+  "title": "到达边关",
+  "atmosphere": { "time": "黄昏", "weather": "硝烟弥漫", "mood": "苍凉" },
+  "texts": [
+    {
+      "content": "抗拒的命运将你推向远方。当你再次睁开眼，脚下是一片焦土。空气中弥漫着硝烟和铁锈的气味，远处的地平线上火光隐隐闪烁——那是战火，正在燃烧。",
+      "delay": 0
+    },
+    {
+      "content": "你站在一条黄土路上，路旁是被烧毁的农田和倒塌的房屋。一根旗杆歪斜地立在路边，上面的旗帜早已被烧得只剩半截，辨不清是哪一方的标记。",
+      "delay": 3000
+    },
+    {
+      "content": "前方传来脚步声。你警觉地停下脚步。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_1:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{NPC_SLOT_1:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "沿着大路走向前方的军营",
+      "target": "02_camp",
+      "effects": { "experience": 1 },
+      "condition": null
+    },
+    {
+      "text": "拐进旁边的小路，去看看远处的村庄",
+      "target": "03_village",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
