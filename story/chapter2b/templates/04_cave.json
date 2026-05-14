@@ -1,0 +1,29 @@
+{
+  "id": "04_cave",
+  "title": "山洞",
+  "atmosphere": { "time": "夜晚", "weather": "黑暗", "mood": "危险" },
+  "texts": [
+    { "content": "你发现了一个山洞。洞口很窄，里面漆黑一片。", "delay": 0 },
+    { "content": "你犹豫了一下，还是走了进去。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "洞里有样东西在发光。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这是什么地方？\"",
+      "target": "07_night_forest",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我要出去。\"",
+      "target": "05_river",
+      "effects": { "mood": "恐惧" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

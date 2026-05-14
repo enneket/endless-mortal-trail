@@ -1,0 +1,29 @@
+{
+  "id": "06_old_tree",
+  "title": "古树",
+  "atmosphere": { "time": "夜晚", "weather": "星光", "mood": "神秘" },
+  "texts": [
+    { "content": "你来到一棵巨大的古树前。树干粗得要几个人才能合抱。", "delay": 0 },
+    { "content": "树上挂满了红色的布条，像是有人许过愿。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "树洞里有样东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这棵树有什么故事？\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我想爬上去看看。\"",
+      "target": "07_night_forest",
+      "effects": { "courage": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

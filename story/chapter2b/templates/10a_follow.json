@@ -1,0 +1,22 @@
+{
+  "id": "10a_follow",
+  "title": "跟随",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "坚定" },
+  "texts": [
+    { "content": "\"我跟随指引。\"你说。", "delay": 0 },
+    { "content": "雾气渐渐散去，你看见了一条清晰的路。", "delay": 1500 },
+    { "content": "路的尽头，是一个你从未见过的地方。", "delay": 2000 },
+    { "content": "你迈步向前，不再犹豫。", "delay": 1500 },
+    { "content": "——第二章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter3ba:01_guide_post",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

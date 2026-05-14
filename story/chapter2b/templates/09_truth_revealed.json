@@ -1,0 +1,33 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "沉重" },
+  "texts": [
+    { "content": "你终于明白了。这片森林，不是普通的森林。", "delay": 0 },
+    { "content": "这里的一切，都在引导着你。引导你走向某个地方，某个答案。", "delay": 2000 },
+    { "content": "而你，一直在犹豫，一直在徘徊。", "delay": 1500 },
+    { "content": "\"你想怎么做？\"一个声音问道。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "跟随指引，走向深处",
+      "target": "10a_follow",
+      "effects": { "karma": 2, "setFlag": "followed_guide" },
+      "condition": null
+    },
+    {
+      "text": "继续迷惘，随波逐流",
+      "target": "10b_wander",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    },
+    {
+      "text": "觉醒，做出选择",
+      "target": "10c_awaken",
+      "effects": { "wisdom": 2, "setFlag": "awakened" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

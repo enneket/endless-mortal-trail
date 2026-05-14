@@ -1,0 +1,22 @@
+{
+  "id": "10c_awaken",
+  "title": "觉醒",
+  "atmosphere": { "time": "黎明", "weather": "晴朗", "mood": "清明" },
+  "texts": [
+    { "content": "\"我要做出选择。\"你说。", "delay": 0 },
+    { "content": "雾气突然散去，你看见了阳光。", "delay": 1500 },
+    { "content": "你终于明白，犹豫不决不是答案。只有做出选择，才能走出迷雾。", "delay": 2000 },
+    { "content": "你迈步向前，走向光明。", "delay": 1500 },
+    { "content": "——第二章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter3bc:01_clearing",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "02_foggy_path",
+  "title": "迷雾小径",
+  "atmosphere": { "time": "黄昏", "weather": "浓雾", "mood": "神秘" },
+  "texts": [
+    { "content": "你走在一条小径上，四周都是浓雾。", "delay": 0 },
+    { "content": "路很难看清，你只能摸索着前进。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你脚下踩到了什么东西。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"你能带我走出去吗？\"",
+      "target": "05_river",
+      "effects": { "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我自己走。\"",
+      "target": "04_cave",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

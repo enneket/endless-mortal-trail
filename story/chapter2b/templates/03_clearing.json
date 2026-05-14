@@ -1,0 +1,28 @@
+{
+  "id": "03_clearing",
+  "title": "林中空地",
+  "atmosphere": { "time": "黄昏", "weather": "薄雾", "mood": "宁静" },
+  "texts": [
+    { "content": "你来到一片空地。雾气在这里淡了一些，阳光透了下来。", "delay": 0 },
+    { "content": "空地中央有一块大石头，石头上刻着奇怪的符号。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这些符号是什么意思？\"",
+      "target": "06_old_tree",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我该往哪走？\"",
+      "target": "04_cave",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

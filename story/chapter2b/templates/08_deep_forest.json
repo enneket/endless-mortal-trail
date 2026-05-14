@@ -1,0 +1,29 @@
+{
+  "id": "08_deep_forest",
+  "title": "森林深处",
+  "atmosphere": { "time": "夜晚", "weather": "浓雾", "mood": "神秘" },
+  "texts": [
+    { "content": "你来到了森林的深处。这里的树木更加高大，雾气更加浓厚。", "delay": 0 },
+    { "content": "你感到一种莫名的压迫感，像是有什么东西在注视着你。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "你看到地上有样东西在发光。", "delay": 1500 },
+    { "content": "是{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里有什么秘密？\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我要离开这里。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "恐惧" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

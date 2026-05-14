@@ -1,0 +1,28 @@
+{
+  "id": "05_river",
+  "title": "林中小溪",
+  "atmosphere": { "time": "黄昏", "weather": "薄雾", "mood": "清新" },
+  "texts": [
+    { "content": "你听到流水声，循声走去，发现了一条小溪。", "delay": 0 },
+    { "content": "溪水清澈见底，水中有小鱼在游动。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"沿着溪流走能找到出路吗？\"",
+      "target": "08_deep_forest",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想在这里休息一下。\"",
+      "target": "06_old_tree",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

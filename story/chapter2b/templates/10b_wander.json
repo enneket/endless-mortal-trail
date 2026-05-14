@@ -1,0 +1,22 @@
+{
+  "id": "10b_wander",
+  "title": "迷惘",
+  "atmosphere": { "time": "黎明", "weather": "迷雾", "mood": "迷茫" },
+  "texts": [
+    { "content": "\"我不知道。\"你说。", "delay": 0 },
+    { "content": "雾气依然浓厚，你看不清前方的路。", "delay": 1500 },
+    { "content": "你继续走着，不知道要去哪里，不知道要做什么。", "delay": 2000 },
+    { "content": "也许，这就是你的命运。永远在迷雾中徘徊。", "delay": 2000 },
+    { "content": "——第二章·完——", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途（待续）",
+      "target": "chapter3bb:01_lost_path",
+      "effects": { "experience": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

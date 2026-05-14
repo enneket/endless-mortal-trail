@@ -1,0 +1,28 @@
+{
+  "id": "07_night_forest",
+  "title": "夜林",
+  "atmosphere": { "time": "夜晚", "weather": "黑暗", "mood": "恐怖" },
+  "texts": [
+    { "content": "夜深了。森林里一片漆黑，只有偶尔的虫鸣。", "delay": 0 },
+    { "content": "你摸索着前进，脚下是厚厚的落叶。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"你是谁？\"",
+      "target": "09_truth_revealed",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我要找个地方躲起来。\"",
+      "target": "08_deep_forest",
+      "effects": { "mood": "恐惧" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
