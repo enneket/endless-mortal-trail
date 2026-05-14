@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "old_photograph",
+      "name": "旧照片",
+      "description": "一张泛黄的老照片，上面是你和镇上的人们，笑容灿烂",
+      "effects": { "setFlag": "has_old_photograph" }
+    },
+    {
+      "id": "reunion_gift",
+      "name": "重逢礼物",
+      "description": "精心准备的礼物，送给久别重逢的故人",
+      "effects": { "setFlag": "has_reunion_gift" }
+    },
+    {
+      "id": "town_history",
+      "name": "镇志",
+      "description": "记录小镇历史的册子，从建镇到如今，事无巨细",
+      "effects": { "setFlag": "has_town_history" }
+    },
+    {
+      "id": "new_memories",
+      "name": "新回忆",
+      "description": "重逢后留下的新记忆，温暖而珍贵",
+      "effects": { "setFlag": "has_new_memories" }
+    },
+    {
+      "id": "farewell_letter",
+      "name": "告别信",
+      "description": "写给故人的信，字里行间满是不舍与祝福",
+      "effects": { "setFlag": "has_farewell_letter" }
+    },
+    {
+      "id": "journey_souvenir",
+      "name": "旅途纪念品",
+      "description": "从远方带回来的纪念品，承载着旅途的故事",
+      "effects": { "setFlag": "has_journey_souvenir" }
+    }
+  ]
+}

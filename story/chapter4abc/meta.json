@@ -1,0 +1,8 @@
+{
+  "id": "chapter4abc",
+  "title": "归途重逢",
+  "description": "返回小镇后，渡途人与故人重逢",
+  "sceneCount": 12,
+  "startScene": "01_return_gate",
+  "randomized": true
+}

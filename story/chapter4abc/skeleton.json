@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_return_gate", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_old_street", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_teahouse", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_medicine_shop", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_school", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_mountain_path", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_town", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_reunion", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_stay_again", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_leave_again", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_become_part", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["old_mayor", "childhood_friend"] },
+    "slot_2": { "candidates": ["shop_owner", "new_resident"] },
+    "slot_3": { "candidates": ["traveling_merchant", "retired_soldier"] },
+    "slot_4": { "candidates": ["shop_owner", "mysterious_elder"] },
+    "slot_5": { "candidates": ["town_child", "childhood_friend"] },
+    "slot_6": { "candidates": ["retired_soldier", "mysterious_elder"] },
+    "slot_7": { "candidates": ["old_mayor", "traveling_merchant"] },
+    "slot_8": { "candidates": ["childhood_friend", "town_child"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["old_photograph", "journey_souvenir"] },
+    "slot_b": { "candidates": ["town_history", "reunion_gift"] },
+    "slot_c": { "candidates": ["journey_souvenir", "farewell_letter"] },
+    "slot_d": { "candidates": ["new_memories", "farewell_letter"] }
+  }
+}
