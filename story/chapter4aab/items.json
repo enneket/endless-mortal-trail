@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "weapon",
+      "name": "武器",
+      "description": "防身之物，关键时刻能救命",
+      "effects": { "setFlag": "has_weapon" }
+    },
+    {
+      "id": "shield",
+      "name": "盾牌",
+      "description": "防御工具，能挡几下",
+      "effects": { "setFlag": "has_shield" }
+    },
+    {
+      "id": "medicine",
+      "name": "伤药",
+      "description": "治伤之物，药效显著",
+      "effects": { "setFlag": "has_medicine" }
+    },
+    {
+      "id": "banner",
+      "name": "旗帜",
+      "description": "村庄旗帜，象征团结",
+      "effects": { "setFlag": "has_banner" }
+    },
+    {
+      "id": "trap_materials",
+      "name": "陷阱材料",
+      "description": "制作陷阱用的材料，结实耐用",
+      "effects": { "setFlag": "has_trap_materials" }
+    },
+    {
+      "id": "signal_flare",
+      "name": "信号弹",
+      "description": "求援信号，能引起远处注意",
+      "effects": { "setFlag": "has_signal_flare" }
+    }
+  ]
+}

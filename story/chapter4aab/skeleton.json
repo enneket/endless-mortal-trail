@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_threat", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_preparation", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_spy", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_battle", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_retreat", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_sacrifice", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_watch", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_reinforcement", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_victory", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_defeat", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_peace", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["village_chief", "guard"] },
+    "slot_2": { "candidates": ["old_soldier", "guard"] },
+    "slot_3": { "candidates": ["spy", "opportunistic_merchant"] },
+    "slot_4": { "candidates": ["invader", "old_soldier"] },
+    "slot_5": { "candidates": ["healer", "child"] },
+    "slot_6": { "candidates": ["old_soldier", "guard"] },
+    "slot_7": { "candidates": ["child", "healer"] },
+    "slot_8": { "candidates": ["village_chief", "old_soldier"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["weapon", "trap_materials"] },
+    "slot_b": { "candidates": ["shield", "medicine"] },
+    "slot_c": { "candidates": ["banner", "signal_flare"] },
+    "slot_d": { "candidates": ["medicine", "signal_flare"] }
+  }
+}

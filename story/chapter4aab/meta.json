@@ -1,0 +1,8 @@
+{
+  "id": "chapter4aab",
+  "title": "冲突再起",
+  "description": "村庄重建后，新的威胁出现",
+  "sceneCount": 12,
+  "startScene": "01_threat",
+  "randomized": true
+}
