@@ -1,0 +1,31 @@
+{
+  "id": "06_night_study",
+  "title": "夜读",
+  "atmosphere": { "time": "夜晚", "weather": "月明", "mood": "沉静" },
+  "texts": [
+    { "content": "夜深了，你点起油灯，坐在案前。", "delay": 0 },
+    { "content": "月光从窗棂间洒进来，与灯光交织在一起。", "delay": 2000 },
+    { "content": "你翻开经卷，一字一句地读着。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你手中有{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}", "delay": 1500 },
+    { "content": "经文中的字句，忽然变得鲜活起来。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续读下去",
+      "target": "07_dream",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "合上经卷，闭目冥想",
+      "target": "08_trial",
+      "effects": { "mood": "入定" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

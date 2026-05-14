@@ -1,0 +1,30 @@
+{
+  "id": "07_dream",
+  "title": "梦中",
+  "atmosphere": { "time": "深夜", "weather": "无", "mood": "迷离" },
+  "texts": [
+    { "content": "你不知道自己是醒着，还是睡着了。", "delay": 0 },
+    { "content": "四周一片虚无，没有上下，没有左右，没有光，没有暗。", "delay": 2000 },
+    { "content": "你站在虚空中，脚下没有大地，头顶没有天空。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "那些你以为已经忘记的记忆，如潮水般涌来。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "直面内心的恐惧",
+      "target": "08_trial",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "试图逃离梦境",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "挣扎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

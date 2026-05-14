@@ -1,0 +1,31 @@
+{
+  "id": "02_meditation",
+  "title": "禅坐",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "寂静" },
+  "texts": [
+    { "content": "你走进禅堂，盘腿坐下。", "delay": 0 },
+    { "content": "闭上眼睛，呼吸渐渐平缓。", "delay": 1500 },
+    { "content": "起初，心中纷乱如麻。往事一幕幕浮现，挥之不去。", "delay": 2000 },
+    { "content": "你努力不去想，却越想越多。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你摸到了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}", "delay": 1500 },
+    { "content": "你握着它，心中渐渐安定下来。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续静坐",
+      "target": "05_mountain_walk",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "起身去抄经",
+      "target": "06_night_study",
+      "effects": { "mood": "精进" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

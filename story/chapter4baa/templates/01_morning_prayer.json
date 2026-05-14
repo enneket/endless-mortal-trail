@@ -1,0 +1,30 @@
+{
+  "id": "01_morning_prayer",
+  "title": "晨课",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "肃穆" },
+  "texts": [
+    { "content": "钟声响起，你从梦中醒来。", "delay": 0 },
+    { "content": "窗外天色微明，薄雾笼罩着寺院。你披上袈裟，走出寮房。", "delay": 2000 },
+    { "content": "大殿里，僧人们已经列队站好。木鱼声声，经声朗朗。", "delay": 2000 },
+    { "content": "你站在队列中，双手合十，跟着念诵。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "晨课结束，日头已经升起。新的一天，又开始了。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续打坐",
+      "target": "02_meditation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "去后院干活",
+      "target": "03_garden_work",
+      "effects": { "mood": "勤勉" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

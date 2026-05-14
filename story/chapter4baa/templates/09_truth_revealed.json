@@ -1,0 +1,37 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "雨后初晴", "mood": "澄明" },
+  "texts": [
+    { "content": "风雨过后，天边露出一抹鱼肚白。", "delay": 0 },
+    { "content": "你站在院子里，看着雨后的世界。一切都被洗得干干净净。", "delay": 2000 },
+    { "content": "师父走到你身边，没有说话。", "delay": 2000 },
+    { "content": "你们就这样站着，看着天边渐渐亮起来。", "delay": 2000 },
+    { "content": "忽然，你明白了什么。", "delay": 1500 },
+    { "content": "不是明白了什么大道理，而是明白了——不需要明白什么。", "delay": 2500 },
+    { "content": "一切，本来就在那里。", "delay": 2000 },
+    { "content": "师父看了你一眼，微微点头。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "悟道成佛",
+      "target": "10a_enlightenment",
+      "effects": { "wisdom": 3 },
+      "condition": null
+    },
+    {
+      "text": "下山回尘世",
+      "target": "10b_return",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "永驻山中",
+      "target": "10c_eternal",
+      "effects": { "virtue": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

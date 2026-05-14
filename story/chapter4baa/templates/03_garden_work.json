@@ -1,0 +1,30 @@
+{
+  "id": "03_garden_work",
+  "title": "劳作",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "踏实" },
+  "texts": [
+    { "content": "你拿起锄头，走进菜园。", "delay": 0 },
+    { "content": "清晨的露水还挂在菜叶上，泥土散发着清香。", "delay": 2000 },
+    { "content": "你弯腰除草，一下一下，不急不缓。", "delay": 1500 },
+    { "content": "师父说，劳作也是修行。挑水砍柴，无非妙道。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "帮{{NPC_SLOT_3:name}}的忙",
+      "target": "04_visitor",
+      "effects": { "virtue": 1 },
+      "condition": null
+    },
+    {
+      "text": "继续干活",
+      "target": "05_mountain_walk",
+      "effects": { "mood": "沉稳" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

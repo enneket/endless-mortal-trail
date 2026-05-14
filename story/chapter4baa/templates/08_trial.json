@@ -1,0 +1,30 @@
+{
+  "id": "08_trial",
+  "title": "考验",
+  "atmosphere": { "time": "黎明前", "weather": "风雨", "mood": "紧张" },
+  "texts": [
+    { "content": "风雨大作，雷声轰鸣。", "delay": 0 },
+    { "content": "你被一阵巨响惊醒。寺门被人踢开了。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你手中紧握着{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}", "delay": 1500 },
+    { "content": "风雨中，你必须做出选择。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "以慈悲心应对",
+      "target": "09_truth_revealed",
+      "effects": { "virtue": 2 },
+      "condition": null
+    },
+    {
+      "text": "以智慧化解",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

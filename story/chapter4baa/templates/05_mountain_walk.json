@@ -1,0 +1,30 @@
+{
+  "id": "05_mountain_walk",
+  "title": "山行",
+  "atmosphere": { "time": "午后", "weather": "山风", "mood": "空旷" },
+  "texts": [
+    { "content": "你沿着山间小路，独自走着。", "delay": 0 },
+    { "content": "风吹过松林，发出沙沙的声响。远处的山峦层层叠叠，一直延伸到天边。", "delay": 2500 },
+    { "content": "你想起刚来的时候，师父说：\"山不转路转，路不转人转。\"", "delay": 2000 },
+    { "content": "那时候不懂，现在似乎有些明白了。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "与{{NPC_SLOT_5:name}}同行",
+      "target": "07_dream",
+      "effects": { "mood": "豁达" },
+      "condition": null
+    },
+    {
+      "text": "独自继续前行",
+      "target": "06_night_study",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

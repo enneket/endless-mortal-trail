@@ -1,0 +1,30 @@
+{
+  "id": "04_visitor",
+  "title": "来客",
+  "atmosphere": { "time": "午后", "weather": "阴", "mood": "意外" },
+  "texts": [
+    { "content": "寺门外传来喧哗声。", "delay": 0 },
+    { "content": "你放下手中的活计，走过去看。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你收到了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}", "delay": 1500 },
+    { "content": "你不知道该如何应对，但你知道，出家人以慈悲为怀。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "请{{NPC_SLOT_4:name}}进寺休息",
+      "target": "06_night_study",
+      "effects": { "virtue": 1 },
+      "condition": null
+    },
+    {
+      "text": "送走{{NPC_SLOT_4:name}}，独自静一静",
+      "target": "05_mountain_walk",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
