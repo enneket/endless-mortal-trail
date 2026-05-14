@@ -1,0 +1,30 @@
+{
+  "id": "06_cave",
+  "title": "山洞",
+  "atmosphere": { "time": "黄昏", "weather": "阴暗", "mood": "恐惧" },
+  "texts": [
+    { "content": "你爬上古树，在树干上发现了一个隐蔽的洞口。", "delay": 0 },
+    { "content": "洞口被藤蔓遮掩，若不仔细看根本发现不了。里面黑漆漆的，看不清深浅。", "delay": 2000 },
+    { "content": "你犹豫了一下，还是钻了进去。", "delay": 2000 },
+    { "content": "洞内出奇地宽敞，石壁上长满了发光的苔藓，发出幽幽的绿光。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续往洞深处走",
+      "target": "08_discovery",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "退出洞穴，回到地面",
+      "target": "07_night_forest",
+      "effects": { "mood": "不安" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

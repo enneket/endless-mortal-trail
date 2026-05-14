@@ -1,0 +1,30 @@
+{
+  "id": "03_ancient_tree",
+  "title": "古树",
+  "atmosphere": { "time": "黄昏", "weather": "薄雾", "mood": "敬畏" },
+  "texts": [
+    { "content": "穿过一片低矮的灌木丛，你看到了一棵巨大的古树。", "delay": 0 },
+    { "content": "树干粗壮得需要五六个人才能合抱，树皮上布满了岁月的痕迹。树冠遮天蔽日，仿佛一座绿色的穹顶。", "delay": 2000 },
+    { "content": "树根盘根错节，形成一个个天然的洞穴。树干上长满了苔藓和藤蔓。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你在古树下发现了{{ITEM_SLOT_B:name}}——{{ITEM_SLOT_B:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "爬上古树看看",
+      "target": "06_cave",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "沿着树根寻找出路",
+      "target": "08_discovery",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

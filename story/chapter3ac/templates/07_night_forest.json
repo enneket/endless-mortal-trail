@@ -1,0 +1,30 @@
+{
+  "id": "07_night_forest",
+  "title": "夜林",
+  "atmosphere": { "time": "夜晚", "weather": "月光", "mood": "神秘" },
+  "texts": [
+    { "content": "夜幕降临，密林变得更加幽暗。", "delay": 0 },
+    { "content": "月光透过枝叶的缝隙洒下来，在地面上形成斑驳的光影。四周传来各种虫鸣声。", "delay": 2000 },
+    { "content": "你发现林中的植物在夜晚发出微弱的荧光，像是无数细小的灯笼。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在夜林中发现了{{ITEM_SLOT_D:name}}——{{ITEM_SLOT_D:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "跟着荧光走",
+      "target": "08_discovery",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "找一处安全的地方等天亮",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

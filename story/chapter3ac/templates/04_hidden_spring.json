@@ -1,0 +1,29 @@
+{
+  "id": "04_hidden_spring",
+  "title": "隐泉",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "宁静" },
+  "texts": [
+    { "content": "你绕过密林，沿着一条小径走了许久。", "delay": 0 },
+    { "content": "忽然，你听到了潺潺的水声。循声望去，发现一处隐蔽的山泉。", "delay": 2000 },
+    { "content": "泉水从石缝中涌出，汇成一个小小的水潭。潭水清澈见底，倒映着周围的树木。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“这泉水真清，歇歇脚吧。”",
+      "target": "05_ruins",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "顺着泉水往上游走",
+      "target": "07_night_forest",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

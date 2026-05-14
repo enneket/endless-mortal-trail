@@ -1,0 +1,30 @@
+{
+  "id": "02_deep_forest",
+  "title": "密林深处",
+  "atmosphere": { "time": "午后", "weather": "阴暗", "mood": "紧张" },
+  "texts": [
+    { "content": "你深吸一口气，踏入了密林。", "delay": 0 },
+    { "content": "树木高大而密集，枝叶交错成网，几乎看不到天空。脚下是厚厚的落叶，踩上去发出沙沙的声响。", "delay": 2000 },
+    { "content": "四周静得出奇，连鸟叫声都听不到。只有你自己的呼吸声。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在林中发现了{{ITEM_SLOT_A:name}}——{{ITEM_SLOT_A:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续深入",
+      "target": "03_ancient_tree",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "找个地方休息一下",
+      "target": "05_ruins",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

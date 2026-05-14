@@ -1,0 +1,30 @@
+{
+  "id": "05_ruins",
+  "title": "废墟",
+  "atmosphere": { "time": "傍晚", "weather": "阴沉", "mood": "疑惑" },
+  "texts": [
+    { "content": "你在林中发现了一片废墟。", "delay": 0 },
+    { "content": "残垣断壁上爬满了藤蔓，石阶被苔藓覆盖。看起来这里曾经是一处建筑，但现在已经面目全非。", "delay": 2000 },
+    { "content": "废墟中央有一块石碑，上面的字迹已经模糊不清。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你在废墟中发现了{{ITEM_SLOT_C:name}}——{{ITEM_SLOT_C:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "仔细研究石碑上的字迹",
+      "target": "08_discovery",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "在废墟中过夜",
+      "target": "07_night_forest",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

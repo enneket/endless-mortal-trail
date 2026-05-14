@@ -1,0 +1,29 @@
+{
+  "id": "01_forest_edge",
+  "title": "密林边缘",
+  "atmosphere": { "time": "午后", "weather": "阴沉", "mood": "好奇" },
+  "texts": [
+    { "content": "你沿着山间小路一直走，不知不觉间，周围的树木变得越来越密。", "delay": 0 },
+    { "content": "阳光被层层叠叠的枝叶遮挡，只留下斑驳的光影。空气中弥漫着潮湿的泥土气息。", "delay": 2000 },
+    { "content": "你停下脚步，发现自己站在一片密林的边缘。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我想进去看看。”",
+      "target": "02_deep_forest",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“这林子看起来不太对劲，我还是绕路吧。”",
+      "target": "04_hidden_spring",
+      "effects": { "mood": "谨慎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "08_discovery",
+  "title": "发现",
+  "atmosphere": { "time": "黎明", "weather": "薄雾", "mood": "震撼" },
+  "texts": [
+    { "content": "你继续前行，终于来到了密林的最深处。", "delay": 0 },
+    { "content": "眼前的景象让你惊呆了：一片开阔的空地，中央是一棵巨大的古树，树干上刻满了奇异的符号。", "delay": 2000 },
+    { "content": "古树周围环绕着一圈石头，石头上同样刻着符号。地面上长满了发光的苔藓。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你忽然意识到，这片密林隐藏着一个巨大的秘密。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "研究古树上的符号",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "在空地中央冥想",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
