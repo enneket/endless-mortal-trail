@@ -1,0 +1,29 @@
+{
+  "id": "04_private_talk",
+  "title": "密谈",
+  "atmosphere": { "time": "午后", "weather": "阴云密布", "mood": "深沉" },
+  "texts": [
+    { "content": "你找到了一处僻静的角落，远离人群的喧嚣。风吹动帐篷的帷幔，发出沙沙的声响。你刚坐下，就听见身后传来脚步声。", "delay": 0 },
+    { "content": "一个人影在你身旁坐下，压低了声音。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "对方递给你一样东西。你低头一看，是{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "回到谈判桌前，准备正式谈判",
+      "target": "05_crisis",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "继续搜集情报，等待时机",
+      "target": "06_revelation",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "正午", "weather": "云开雾散", "mood": "震撼" },
+  "texts": [
+    { "content": "真相终于完全揭开了。", "delay": 0 },
+    { "content": "这场战争，并不仅仅是两个将领的私人恩怨。背后有人在暗中操纵，有人在发战争财，有人在利用仇恨牟利。那些你以为的敌人，也许和你一样，都是棋子。", "delay": 3000 },
+    { "content": "而那个女子的信，不过是一个引子。真正的导火索，是利益、是权力、是人性中最黑暗的贪婪。", "delay": 3000 },
+    { "content": "你站在谈判桌前，手里握着所有的证据。二十年的战争，无数人的生死，如今都系于你的一念之间。", "delay": 2500 },
+    { "content": "现在你必须做出选择。你可以促成和平，让这场战争画上句号；你可以利用这些秘密谋取私利，成为新的棋手；你也可以转身离开，不再参与这场肮脏的游戏。", "delay": 2500 },
+    { "content": "风吹动帐篷的帷幔，阳光从缝隙中照进来。你深吸一口气，迈出了脚步。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "促成和平，结束这场战争",
+      "target": "10a_peace",
+      "effects": { "karma": 3, "setFlag": "chose_peace" },
+      "condition": null
+    },
+    {
+      "text": "利用秘密谋取私利",
+      "target": "10b_betrayal",
+      "effects": { "courage": 3, "setFlag": "chose_betrayal" },
+      "condition": null
+    },
+    {
+      "text": "转身离开，不再参与",
+      "target": "10c_walk_away",
+      "effects": { "wisdom": 3, "setFlag": "chose_walk_away" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

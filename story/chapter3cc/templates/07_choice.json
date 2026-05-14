@@ -1,0 +1,30 @@
+{
+  "id": "07_choice",
+  "title": "抉择",
+  "atmosphere": { "time": "黎明", "weather": "天将破晓", "mood": "凝重" },
+  "texts": [
+    { "content": "你站了出来。所有人的目光都落在你身上，空气仿佛凝固了。你知道，接下来你说的每一句话，都可能改变这场战争的走向。", "delay": 0 },
+    { "content": "你深吸一口气，开始说话。你提到了那个女子，提到了那封信，提到了二十年的仇恨和无数人的生死。你的声音不大，但在寂静的帐篷里，每一个字都清晰可闻。", "delay": 3000 },
+    { "content": "有人低下了头，有人握紧了拳头，有人在默默流泪。", "delay": 2500 },
+    { "content": "一个身影从人群后方走了出来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "把这些证据带到谈判桌上",
+      "target": "08_truth_revealed",
+      "effects": { "wisdom": 3 },
+      "condition": null
+    },
+    {
+      "text": "等待时机，让真相自己浮出水面",
+      "target": "08_truth_revealed",
+      "effects": { "karma": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "06_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "深夜", "weather": "星光黯淡", "mood": "震动" },
+  "texts": [
+    { "content": "你趁着混乱，溜出了谈判大帐。夜色深沉，营地里灯火摇曳，到处是巡逻的士兵。你贴着帐篷的阴影，朝营地边缘走去。", "delay": 0 },
+    { "content": "在一个不起眼的帐篷后面，你发现了一堆被丢弃的文件。你借着月光翻看着，越看越心惊。", "delay": 3000 },
+    { "content": "一个声音从黑暗中传来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "你发现了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "站出来调停，阻止冲突升级",
+      "target": "07_choice",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "把这些证据带到谈判桌上",
+      "target": "08_truth_revealed",
+      "effects": { "wisdom": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

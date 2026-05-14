@@ -1,0 +1,31 @@
+{
+  "id": "08_truth_revealed",
+  "title": "真相浮现",
+  "atmosphere": { "time": "黎明", "weather": "薄雾弥漫", "mood": "震动" },
+  "texts": [
+    { "content": "天亮了。真相像一把利刃，劈开了笼罩在谈判桌上的迷雾。所有的证据、所有的秘密、所有的谎言，都被摆到了台面上。", "delay": 0 },
+    { "content": "帐篷里鸦雀无声。每个人都在消化着刚刚听到的一切。有人震惊，有人愤怒，有人如释重负。", "delay": 3000 },
+    { "content": "一个身影从暗处缓缓走出。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "你发现了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你的心跳加快了。所有的一切都指向了同一个真相。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "面对最终的真相",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "也许真相并不重要",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

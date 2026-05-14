@@ -1,0 +1,30 @@
+{
+  "id": "01_negotiation_table",
+  "title": "谈判桌前",
+  "atmosphere": { "time": "清晨", "weather": "薄雾笼罩", "mood": "紧张" },
+  "texts": [
+    { "content": "你被带进了一座巨大的帐篷。帐篷中央摆着一张长桌，桌上铺着地图和文书。两边坐着各方代表，气氛凝重得像暴风雨前的天空。", "delay": 0 },
+    { "content": "你站在门口，所有人的目光都投向了你。你就是那个在战场上念信的人，那个让两边将领同时低头的人。他们不知道你是敌是友，但都知道你不能被忽视。", "delay": 3000 },
+    { "content": "一个人从桌边站起身，朝你走来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "你被引到了桌边坐下。谈判，即将开始。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "先去了解谈判的各方势力",
+      "target": "02_tent",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "参加接风宴，与各方人物结交",
+      "target": "03_feast",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

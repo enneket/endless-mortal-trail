@@ -1,0 +1,28 @@
+{
+  "id": "03_feast",
+  "title": "接风宴",
+  "atmosphere": { "time": "正午", "weather": "阳光刺眼", "mood": "表面祥和" },
+  "texts": [
+    { "content": "接风宴设在营地中央的空地上。两方的士兵混坐在一起，表面推杯换盏，暗地里互相试探。桌上摆满了酒菜，但真正能吃得下的人不多。", "delay": 0 },
+    { "content": "觥筹交错间，你注意到了一个人。他坐在角落里，既不喝酒，也不与人交谈，只是冷冷地看着这一切。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "找一个僻静处，私下了解情况",
+      "target": "04_private_talk",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "回到谈判桌前，准备正式谈判",
+      "target": "05_crisis",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "05_crisis",
+  "title": "危机",
+  "atmosphere": { "time": "黄昏", "weather": "狂风骤起", "mood": "危机" },
+  "texts": [
+    { "content": "谈判正式开始了。双方代表坐在长桌两侧，你被安排在中间的位置。空气中的紧张气氛几乎凝成了实质。", "delay": 0 },
+    { "content": "一开始还算平和，双方你来我往，试探着对方的底线。但当谈到关键问题时，气氛骤然一变。有人拍了桌子，有人拔出了刀。", "delay": 3000 },
+    { "content": "一个人从人群中冲了出来，挡在了拔刀者面前。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续搜集情报，等待时机",
+      "target": "06_revelation",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "站出来调停，阻止冲突升级",
+      "target": "07_choice",
+      "effects": { "courage": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

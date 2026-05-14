@@ -1,0 +1,29 @@
+{
+  "id": "02_tent",
+  "title": "帷幄",
+  "atmosphere": { "time": "上午", "weather": "薄雾渐散", "mood": "暗流涌动" },
+  "texts": [
+    { "content": "你走进了谈判大帐旁边的帷幄。这里比主帐小得多，但陈设更为精致。帐内焚着檀香，墙上挂着几幅山水画，角落里摆着一架古琴。", "delay": 0 },
+    { "content": "桌上摊开着各种文书和地图，有人正在低声商议。见你进来，其中一人抬起头，朝你招了招手。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在桌上发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "参加接风宴，与各方人物结交",
+      "target": "03_feast",
+      "effects": { "experience": 1 },
+      "condition": null
+    },
+    {
+      "text": "找一个僻静处，私下了解情况",
+      "target": "04_private_talk",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
