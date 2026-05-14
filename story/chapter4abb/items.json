@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "house_key",
+      "name": "新房钥匙",
+      "description": "新家的钥匙，握在手里沉甸甸的",
+      "effects": { "setFlag": "has_house_key" }
+    },
+    {
+      "id": "land_deed",
+      "name": "地契",
+      "description": "土地证明，从此有了自己的地",
+      "effects": { "setFlag": "has_land_deed" }
+    },
+    {
+      "id": "household_goods",
+      "name": "家什",
+      "description": "锅碗瓢盆，过日子的家伙什",
+      "effects": { "setFlag": "has_household_goods" }
+    },
+    {
+      "id": "garden_seeds",
+      "name": "菜种",
+      "description": "各种菜种子，种下去就有盼头",
+      "effects": { "setFlag": "has_garden_seeds" }
+    },
+    {
+      "id": "savings",
+      "name": "积蓄",
+      "description": "一点一点攒下的钱，以备不时之需",
+      "effects": { "setFlag": "has_savings" }
+    },
+    {
+      "id": "letter_from_home",
+      "name": "家书",
+      "description": "远方寄来的信，字迹熟悉而温暖",
+      "effects": { "setFlag": "has_letter_from_home" }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "neighbor",
+      "name": "邻居",
+      "identity": "热心的邻居，主动帮忙安顿",
+      "personality": "热情、直爽、爱管闲事",
+      "dialogueStyle": "亲切、唠叨、带着烟火气",
+      "dialogues": {
+        "greeting": "\"新搬来的吧？\"邻居探头进来，\"缺什么尽管说，别客气！\"",
+        "reveal": "\"这地方啊，住久了就离不开了。我当初也是这么来的。\"",
+        "gift": "\"拿着，自家种的菜，新鲜着呢。\""
+      }
+    },
+    {
+      "id": "landlord",
+      "name": "房东",
+      "identity": "出租房屋的人，精明但不坏",
+      "personality": "精明、守规矩、讲信用",
+      "dialogueStyle": "正式、谨慎、带着生意人的口吻",
+      "dialogues": {
+        "greeting": "\"房子看了吗？\"房东翻开账本，\"租金按月付，不赊账。\"",
+        "reveal": "\"这房子以前也住过一个像你这样的人，后来啊，他买下了隔壁那间。\"",
+        "gift": "\"钥匙给你，好好住着。有什么事，来找我。\""
+      }
+    },
+    {
+      "id": "local_shopkeeper",
+      "name": "店主",
+      "identity": "当地店主，消息灵通",
+      "personality": "圆滑、健谈、消息灵通",
+      "dialogueStyle": "热情、话多、带着市井气",
+      "dialogues": {
+        "greeting": "\"哟，新面孔！\"店主擦着柜台，\"想买点什么？\"",
+        "reveal": "\"这镇上啊，什么事都瞒不过我。你要是想知道什么，尽管问。\"",
+        "gift": "\"这个送你，算是开业礼。\""
+      }
+    },
+    {
+      "id": "fellow_settler",
+      "name": "同乡",
+      "identity": "同样定居此地的外乡人",
+      "personality": "沉稳、内敛、感同身受",
+      "dialogueStyle": "低沉、感慨、带着共鸣",
+      "dialogues": {
+        "greeting": "\"你也是外来的？\"同乡微微点头，\"我懂。\"",
+        "reveal": "\"刚来的时候，我也睡不踏实。后来啊，习惯了就好了。\"",
+        "gift": "\"这个给你，我刚来时也用得上。\""
+      }
+    },
+    {
+      "id": "local_official",
+      "name": "地方官",
+      "identity": "管理地方的官员，按规矩办事",
+      "personality": "严肃、公正、按部就班",
+      "dialogueStyle": "官腔、正式、带着威严",
+      "dialogues": {
+        "greeting": "\"报户口了吗？\"地方官翻开册子，\"在这里定居，得登记。\"",
+        "reveal": "\"安分守己，这里就能容你。\"",
+        "gift": "\"手续办好了，这是你的凭证。\""
+      }
+    },
+    {
+      "id": "traveling_friend",
+      "name": "旅友",
+      "identity": "路过此地的老朋友",
+      "personality": "洒脱、不羁、四处漂泊",
+      "dialogueStyle": "轻松、感慨、带着风尘",
+      "dialogues": {
+        "greeting": "\"嘿！\"一个熟悉的声音响起，\"没想到在这儿遇见你！\"",
+        "reveal": "\"你倒好，找了个地方停下来了。我啊，还停不下来。\"",
+        "gift": "\"这个给你，路上捡的，留个念想。\""
+      }
+    },
+    {
+      "id": "love_interest",
+      "name": "心上人",
+      "identity": "让人心动的人",
+      "personality": "温柔、体贴、善解人意",
+      "dialogueStyle": "轻柔、含蓄、带着暖意",
+      "dialogues": {
+        "greeting": "\"你来了。\"心上人微微一笑，\"我等你很久了。\"",
+        "reveal": "\"留下来吧。这里，可以是你的家。\"",
+        "gift": "\"这个，是我亲手做的。希望你喜欢。\""
+      }
+    },
+    {
+      "id": "old_memory",
+      "name": "旧识",
+      "identity": "曾经认识的人，意外重逢",
+      "personality": "感慨、沧桑、物是人非",
+      "dialogueStyle": "唏嘘、回忆、带着岁月感",
+      "dialogues": {
+        "greeting": "\"是你？\"旧识愣住了，\"好久不见。\"",
+        "reveal": "\"没想到你也在这里落脚了。世事难料啊。\"",
+        "gift": "\"拿着，算是重逢的礼物。\""
+      }
+    }
+  ]
+}

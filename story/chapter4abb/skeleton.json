@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_new_home", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_neighborhood", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_market", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_work", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_evening_walk", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_festival", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_reflection", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_visitor", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_happy_life", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_restless", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_move_again", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["neighbor", "landlord"] },
+    "slot_2": { "candidates": ["neighbor", "local_shopkeeper"] },
+    "slot_3": { "candidates": ["local_shopkeeper", "fellow_settler"] },
+    "slot_4": { "candidates": ["fellow_settler", "local_official"] },
+    "slot_5": { "candidates": ["local_official", "love_interest"] },
+    "slot_6": { "candidates": ["love_interest", "neighbor"] },
+    "slot_7": { "candidates": ["old_memory", "fellow_settler"] },
+    "slot_8": { "candidates": ["traveling_friend", "old_memory"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["house_key", "household_goods"] },
+    "slot_b": { "candidates": ["land_deed", "savings"] },
+    "slot_c": { "candidates": ["garden_seeds", "household_goods"] },
+    "slot_d": { "candidates": ["letter_from_home", "savings"] }
+  }
+}
