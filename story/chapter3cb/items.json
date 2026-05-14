@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "refugee_pass",
+      "name": "难民证",
+      "description": "一张皱巴巴的纸，上面盖着模糊的印章，是你的身份证明",
+      "effects": { "setFlag": "has_refugee_pass" }
+    },
+    {
+      "id": "survival_supplies",
+      "name": "生存物资",
+      "description": "一个破旧的包袱，里面装着干粮、水壶和一条毯子",
+      "effects": { "setFlag": "has_survival_supplies" }
+    },
+    {
+      "id": "hidden_gold",
+      "name": "藏金",
+      "description": "缝在衣服夹层里的几块金子，是你全部的家当",
+      "effects": { "setFlag": "has_hidden_gold" }
+    },
+    {
+      "id": "fake_papers",
+      "name": "假证件",
+      "description": "伪造的身份文件，做工粗糙，但在混乱中也许能蒙混过关",
+      "effects": { "setFlag": "has_fake_papers" }
+    },
+    {
+      "id": "family_photo",
+      "name": "全家福",
+      "description": "一张泛黄的照片，上面是你和家人的合影，笑容灿烂得像是另一个世界的事",
+      "effects": { "setFlag": "has_family_photo" }
+    },
+    {
+      "id": "hope_token",
+      "name": "希望信物",
+      "description": "一个小小的护身符，不知道是谁给的，但它让你相信前方还有希望",
+      "effects": { "setFlag": "has_hope_token" }
+    }
+  ]
+}

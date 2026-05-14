@@ -1,0 +1,8 @@
+{
+  "id": "chapter3cb",
+  "title": "流亡之路",
+  "description": "逃离战场后，渡途人踏上漫长的流亡之路",
+  "sceneCount": 12,
+  "startScene": "01_escape",
+  "randomized": true
+}

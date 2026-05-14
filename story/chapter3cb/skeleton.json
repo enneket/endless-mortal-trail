@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_escape", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_road", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_refugee_camp", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_border", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_night_hiding", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_pursuit", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_safe_house", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_revelation", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_new_land", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_return_home", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_keep_wandering", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["fellow_refugee", "deserting_soldier"] },
+    "slot_2": { "candidates": ["refugee_child", "black_market_dealer"] },
+    "slot_3": { "candidates": ["refugee_camp_leader", "relief_worker"] },
+    "slot_4": { "candidates": ["border_guard", "smuggler"] },
+    "slot_5": { "candidates": ["black_market_dealer", "fellow_refugee"] },
+    "slot_6": { "candidates": ["border_guard", "deserting_soldier"] },
+    "slot_7": { "candidates": ["smuggler", "relief_worker"] },
+    "slot_8": { "candidates": ["refugee_child", "refugee_camp_leader"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["refugee_pass", "family_photo"] },
+    "slot_b": { "candidates": ["survival_supplies", "hidden_gold"] },
+    "slot_c": { "candidates": ["fake_papers", "hidden_gold"] },
+    "slot_d": { "candidates": ["hope_token", "survival_supplies"] }
+  }
+}
