@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_morning_prayer", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_meditation", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_garden_work", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_visitor", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_mountain_walk", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_night_study", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_dream", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_trial", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_enlightenment", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_return", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_eternal", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["master", "fellow_monk"] },
+    "slot_2": { "candidates": ["fellow_monk", "wandering_monk"] },
+    "slot_3": { "candidates": ["village_believer", "sick_patient"] },
+    "slot_4": { "candidates": ["village_believer", "government_officer"] },
+    "slot_5": { "candidates": ["wandering_monk", "thief"] },
+    "slot_6": { "candidates": ["master", "sick_patient"] },
+    "slot_7": { "candidates": ["inner_demon", "fellow_monk"] },
+    "slot_8": { "candidates": ["inner_demon", "government_officer"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["prayer_beads", "wooden_fish"] },
+    "slot_b": { "candidates": ["vegetarian_cake", "kasaya"] },
+    "slot_c": { "candidates": ["scripture", "zen_staff"] },
+    "slot_d": { "candidates": ["zen_staff", "prayer_beads"] }
+  }
+}

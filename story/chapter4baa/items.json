@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "prayer_beads",
+      "name": "念珠",
+      "description": "师父所赐，檀木念珠，一百零八颗，日日捻之，渐生光泽",
+      "effects": { "setFlag": "has_prayer_beads" }
+    },
+    {
+      "id": "kasaya",
+      "name": "袈裟",
+      "description": "粗布僧衣，虽不华贵，却洗得干净，穿在身上，心也跟着静了",
+      "effects": { "setFlag": "has_kasaya" }
+    },
+    {
+      "id": "zen_staff",
+      "name": "禅杖",
+      "description": "云游僧所留，杖身斑驳，走遍天下，如今立在墙角",
+      "effects": { "setFlag": "has_zen_staff" }
+    },
+    {
+      "id": "wooden_fish",
+      "name": "木鱼",
+      "description": "念经时敲击之物，声声入耳，可定心神",
+      "effects": { "setFlag": "has_wooden_fish" }
+    },
+    {
+      "id": "vegetarian_cake",
+      "name": "素饼",
+      "description": "村民所赠，粗粮所制，虽朴素，却是真心",
+      "effects": { "setFlag": "has_vegetarian_cake" }
+    },
+    {
+      "id": "scripture",
+      "name": "经文",
+      "description": "手抄经卷，一笔一画，皆是修行",
+      "effects": { "setFlag": "has_scripture" }
+    }
+  ]
+}
