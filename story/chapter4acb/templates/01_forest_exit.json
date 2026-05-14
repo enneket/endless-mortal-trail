@@ -1,0 +1,30 @@
+{
+  "id": "01_forest_exit",
+  "title": "林外",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "释然" },
+  "texts": [
+    { "content": "你终于走出了那片林子。", "delay": 0 },
+    { "content": "夕阳挂在天边，把远处的山峦染成金色。风从旷野吹来，带着泥土和青草的气息，和林子里的味道完全不同。", "delay": 2500 },
+    { "content": "你站在林子边上，深深地吸了一口气。空气是甜的。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "你回头看了一眼身后的林子。树冠在暮色中连成一片，像一道沉默的墙。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想找个地方歇歇脚。\"",
+      "target": "02_village",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    },
+    {
+      "text": "\"附近有人家吗？\"",
+      "target": "03_healer",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

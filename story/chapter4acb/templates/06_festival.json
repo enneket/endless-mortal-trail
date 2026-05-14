@@ -1,0 +1,29 @@
+{
+  "id": "06_festival",
+  "title": "节庆",
+  "atmosphere": { "time": "夜晚", "weather": "晴朗", "mood": "欢愉" },
+  "texts": [
+    { "content": "村里正好赶上过节。", "delay": 0 },
+    { "content": "家家户户挂起了灯笼，村口搭了戏台，台上有人唱戏，台下坐满了人。孩子们在人群里钻来钻去，手里举着糖葫芦。空气里弥漫着饭菜和酒的香味。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "你在人群中找到了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"真热闹。我想多看看。\"",
+      "target": "07_night_rest",
+      "effects": { "mood": "欢乐" },
+      "condition": null
+    },
+    {
+      "text": "\"我有些累了。\"",
+      "target": "08_visitor",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

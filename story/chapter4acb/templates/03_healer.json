@@ -1,0 +1,29 @@
+{
+  "id": "03_healer",
+  "title": "疗伤",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "治愈" },
+  "texts": [
+    { "content": "你找到了一间草屋，门口挂着一块木牌，上面写着一个“医”字。", "delay": 0 },
+    { "content": "推开门，一股草药的香气扑面而来。屋子里摆满了瓶瓶罐罐，墙上挂着人体经络图。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "你坐在那里，任由他摆弄。身上的伤口被清洗、上药、包扎，疼痛一点点减轻。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"多谢。我想去村里看看。\"",
+      "target": "04_market",
+      "effects": { "mood": "感激" },
+      "condition": null
+    },
+    {
+      "text": "\"我想在这里歇一会儿。\"",
+      "target": "05_evening",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "04_market",
+  "title": "集市",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "第二天一早，你去了村里的集市。", "delay": 0 },
+    { "content": "说是集市，其实就是村口的一片空地，摆了十几个摊子。卖菜的、卖肉的、卖布的、卖杂货的，熙熙攘攘，热闹得很。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "你在集市上找到了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想买些东西。\"",
+      "target": "06_festival",
+      "effects": { "mood": "满足" },
+      "condition": null
+    },
+    {
+      "text": "\"我想去别处看看。\"",
+      "target": "05_evening",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

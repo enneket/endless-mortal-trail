@@ -1,0 +1,28 @@
+{
+  "id": "05_evening",
+  "title": "黄昏",
+  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "沉思" },
+  "texts": [
+    { "content": "黄昏时分，你坐在村口的大槐树下。", "delay": 0 },
+    { "content": "夕阳把天边染成橙红色，远处的山峦在暮色中渐渐模糊。村里升起炊烟，饭菜的香味飘过来，勾起了你的食欲。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想在这里多待几天。\"",
+      "target": "06_festival",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "\"我想休息了。\"",
+      "target": "07_night_rest",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

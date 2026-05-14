@@ -1,0 +1,29 @@
+{
+  "id": "08_visitor",
+  "title": "访客",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "惊奇" },
+  "texts": [
+    { "content": "第二天一早，有人敲你的门。", "delay": 0 },
+    { "content": "你打开门，门口站着一个人。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你站在门口，看着眼前的人。有些话，你一直想问，却不知道该问谁。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想知道真相。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"算了，不问了。\"",
+      "target": "10a_new_beginning",
+      "effects": { "mood": "释然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

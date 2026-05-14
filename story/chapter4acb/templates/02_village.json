@@ -1,0 +1,29 @@
+{
+  "id": "02_village",
+  "title": "村庄",
+  "atmosphere": { "time": "傍晚", "weather": "晴朗", "mood": "安定" },
+  "texts": [
+    { "content": "你沿着小路走了不远，便看见一个村庄。", "delay": 0 },
+    { "content": "十几户人家，青砖灰瓦，错落有致。炊烟从屋顶升起，鸡犬之声相闻。村口有棵大槐树，树下坐着几个人，正聊着家常。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在村里找到了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想在这里住几天。\"",
+      "target": "04_market",
+      "effects": { "mood": "安心" },
+      "condition": null
+    },
+    {
+      "text": "\"我想四处看看。\"",
+      "target": "05_evening",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

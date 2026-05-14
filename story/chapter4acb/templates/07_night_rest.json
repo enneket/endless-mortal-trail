@@ -1,0 +1,30 @@
+{
+  "id": "07_night_rest",
+  "title": "夜宿",
+  "atmosphere": { "time": "深夜", "weather": "晴朗", "mood": "安宁" },
+  "texts": [
+    { "content": "夜深了，你被安排住在村里的一间空房子里。", "delay": 0 },
+    { "content": "房间不大，但收拾得干干净净。一张木床，一张桌子，一盏油灯。窗外是蛙鸣和虫叫，远处偶尔传来几声犬吠。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在房间里找到了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你躺在床上，听着窗外的声音。这是你很久以来第一次睡在真正的床上。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"明天再说吧。\"",
+      "target": "08_visitor",
+      "effects": { "mood": "困倦" },
+      "condition": null
+    },
+    {
+      "text": "\"我睡不着。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "顿悟" },
+  "texts": [
+    { "content": "你站在村口，看着远处的林子。", "delay": 0 },
+    { "content": "晨光中，林子的轮廓清晰可见。树冠在阳光下泛着金绿色的光，像一片沉默的海。", "delay": 2500 },
+    { "content": "你想起了在林子里的一切。那些遇见的人，那些经历的事，那些做出的选择。", "delay": 2000 },
+    { "content": "林子是什么？是一个考验，还是一个机会？是一个陷阱，还是一个避难所？", "delay": 2000 },
+    { "content": "你想了很久，想不出答案。但你突然明白了一件事——答案不重要。重要的是你走出来了。", "delay": 2500 },
+    { "content": "你活下来了。你走出来了。你还在这里。", "delay": 1500 },
+    { "content": "这就够了。", "delay": 1000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想留在这里，开始新的生活。\"",
+      "target": "10a_new_beginning",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"我想回到林子里去。\"",
+      "target": "10b_return_forest",
+      "effects": { "mood": "决然" },
+      "condition": null
+    },
+    {
+      "text": "\"我想继续往前走。\"",
+      "target": "10c_keep_going",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
