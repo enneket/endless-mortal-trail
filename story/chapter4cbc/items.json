@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "wanderer_staff",
+      "name": "旅人之杖",
+      "description": "一根磨得发亮的木杖，上面刻满了走过的地名",
+      "effects": { "setFlag": "has_wanderer_staff" }
+    },
+    {
+      "id": "endless_map",
+      "name": "无尽地图",
+      "description": "一张永远画不完的地图，每走一步就会自动延伸",
+      "effects": { "setFlag": "has_endless_map" }
+    },
+    {
+      "id": "road_journal",
+      "name": "旅途日记",
+      "description": "一本厚厚的日记，记录着每一天的风景和遇见的人",
+      "effects": { "setFlag": "has_road_journal" }
+    },
+    {
+      "id": "weather_cloak",
+      "name": "风雨斗篷",
+      "description": "一件用特殊材料制成的斗篷，能抵御任何风雨",
+      "effects": { "setFlag": "has_weather_cloak" }
+    },
+    {
+      "id": "friendship_bracelet",
+      "name": "友谊手链",
+      "description": "路上结交的朋友所赠，每一个结都代表一段友谊",
+      "effects": { "setFlag": "has_friendship_bracelet" }
+    },
+    {
+      "id": "eternal_flame",
+      "name": "永恒之火",
+      "description": "一小簇永不熄灭的火焰，装在透明的瓶子里，温暖而明亮",
+      "effects": { "setFlag": "has_eternal_flame" }
+    }
+  ]
+}

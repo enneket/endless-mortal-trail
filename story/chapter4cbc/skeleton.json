@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_endless_road", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_crossroads", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_oasis", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_mountain", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_river", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_forest", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_night_sky", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_revelation", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_keep_walking", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_find_root", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_become_road", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["fellow_wanderer", "road_sage"] },
+    "slot_2": { "candidates": ["seasonal_merchant", "nomad_tribe"] },
+    "slot_3": { "candidates": ["wandering_artist", "eternal_child"] },
+    "slot_4": { "candidates": ["wind_speaker", "destiny_weaver"] },
+    "slot_5": { "candidates": ["fellow_wanderer", "wandering_artist"] },
+    "slot_6": { "candidates": ["eternal_child", "road_sage"] },
+    "slot_7": { "candidates": ["wind_speaker", "seasonal_merchant"] },
+    "slot_8": { "candidates": ["destiny_weaver", "nomad_tribe"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["wanderer_staff", "endless_map"] },
+    "slot_b": { "candidates": ["road_journal", "weather_cloak"] },
+    "slot_c": { "candidates": ["friendship_bracelet", "eternal_flame"] },
+    "slot_d": { "candidates": ["endless_map", "eternal_flame"] }
+  }
+}
