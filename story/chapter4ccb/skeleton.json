@@ -1,0 +1,80 @@
+{
+  "scenes": [
+    {
+      "id": "01_dark_night",
+      "title": "暗夜降临",
+      "description": "谈判破裂后的第一个夜晚，背叛的阴影笼罩大地"
+    },
+    {
+      "id": "02_ruined_city",
+      "title": "破败之城",
+      "description": "曾经繁华的城市如今满目疮痍，背叛的痕迹无处不在"
+    },
+    {
+      "id": "03_refugee_camp",
+      "title": "难民营",
+      "description": "无家可归的百姓聚集在一起，眼中满是恐惧和绝望"
+    },
+    {
+      "id": "04_battlefield",
+      "title": "战场遗址",
+      "description": "曾经的谈判地点变成了屠杀场，鲜血染红了大地"
+    },
+    {
+      "id": "05_underground",
+      "title": "地下避难所",
+      "description": "幸存者们躲在黑暗的地下，等待着未知的命运"
+    },
+    {
+      "id": "06_shrine",
+      "title": "破败神殿",
+      "description": "曾经神圣的殿堂如今破败不堪，神像倒塌在地"
+    },
+    {
+      "id": "07_nightmare",
+      "title": "噩梦之夜",
+      "description": "背叛带来的创伤在夜晚化作噩梦，折磨着每一个幸存者"
+    },
+    {
+      "id": "08_revelation",
+      "title": "揭露真相",
+      "description": "背叛的真相逐渐浮出水面，比想象中更加黑暗"
+    },
+    {
+      "id": "09_truth_revealed",
+      "title": "真相大白",
+      "description": "所有的线索汇聚在一起，完整的背叛图景终于呈现"
+    },
+    {
+      "id": "10a_revenge",
+      "title": "复仇之路",
+      "description": "选择复仇，用背叛者的方式来惩罚背叛者",
+      "isEnding": true
+    },
+    {
+      "id": "10b_forgive",
+      "title": "宽恕之道",
+      "description": "选择宽恕，试图在废墟上重建信任与和平",
+      "isEnding": true
+    },
+    {
+      "id": "10c_forget",
+      "title": "遗忘过去",
+      "description": "选择遗忘，带着伤痛离开这片土地，开始新的生活",
+      "isEnding": true
+    }
+  ],
+  "connections": [
+    {"from": "01_dark_night", "to": "02_ruined_city"},
+    {"from": "02_ruined_city", "to": "03_refugee_camp"},
+    {"from": "03_refugee_camp", "to": "04_battlefield"},
+    {"from": "04_battlefield", "to": "05_underground"},
+    {"from": "05_underground", "to": "06_shrine"},
+    {"from": "06_shrine", "to": "07_nightmare"},
+    {"from": "07_nightmare", "to": "08_revelation"},
+    {"from": "08_revelation", "to": "09_truth_revealed"},
+    {"from": "09_truth_revealed", "to": "10a_revenge"},
+    {"from": "09_truth_revealed", "to": "10b_forgive"},
+    {"from": "09_truth_revealed", "to": "10c_forget"}
+  ]
+}

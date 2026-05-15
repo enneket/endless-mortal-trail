@@ -1,0 +1,29 @@
+{
+  "id": "04_mountain_pass",
+  "title": "山口",
+  "atmosphere": { "time": "清晨", "weather": "多云", "mood": "肃穆" },
+  "texts": [
+    { "content": "你走到了山口。", "delay": 0 },
+    { "content": "两座大山之间，一条窄窄的通道蜿蜒向上。山壁上长满了苔藓和野草，石缝里渗出细细的水流。风从山口灌进来，呜呜作响，像是山在呼吸。", "delay": 2500 },
+    { "content": "你抬头看了看天。云层很低，灰蒙蒙的，像是要压到山顶上。远处有鹰在盘旋，翅膀几乎不动，却越飞越高。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"翻过这座山。\"",
+      "target": "08_summit",
+      "effects": { "mood": "决然" },
+      "condition": null
+    },
+    {
+      "text": "\"沿着山口走。\"",
+      "target": "05_canyon",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

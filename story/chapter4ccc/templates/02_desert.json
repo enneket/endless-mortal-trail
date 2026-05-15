@@ -1,0 +1,30 @@
+{
+  "id": "02_desert",
+  "title": "沙漠地带",
+  "atmosphere": { "time": "正午", "weather": "烈日", "mood": "煎熬" },
+  "texts": [
+    { "content": "你走进了沙漠。", "delay": 0 },
+    { "content": "黄沙漫天，一眼望不到边。太阳像一个火球悬在头顶，把大地烤得滚烫。你的影子缩成脚下的一小团，像是不愿跟着你走。", "delay": 2500 },
+    { "content": "每走一步，沙子就灌进鞋里。嘴唇干裂，嗓子冒烟。你开始想念那些谈判桌上的茶水——至少那时候，有人给你倒水。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你在沙地上发现了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"沙漠也是路。\"",
+      "target": "04_mountain_pass",
+      "effects": { "mood": "坚韧" },
+      "condition": null
+    },
+    {
+      "text": "\"穿过沙漠就能到山里。\"",
+      "target": "05_canyon",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "06_veterans_home",
+  "title": "老兵之家",
+  "atmosphere": { "time": "傍晚", "weather": "夕阳西下", "mood": "感怀" },
+  "texts": [
+    { "content": "老兵之家是一座安静的院落，几棵老槐树遮天蔽日。", "delay": 0 },
+    { "content": "院子里，几个老兵坐在石桌旁下棋。他们的身上，或多或少都带着伤残。", "delay": 2000 },
+    { "content": "有人缺了胳膊，有人少了腿，有人眼睛看不见了。但他们都在笑。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你得到了{{ITEM_SLOT_C:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_C:description}}", "delay": 1000 },
+    { "content": "夕阳把院子染成了金色。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"去纪念碑前坐坐。\"",
+      "target": "07_memorial",
+      "effects": { "mood": "沉思" },
+      "condition": null
+    },
+    {
+      "text": "\"去看看夜色中的城市。\"",
+      "target": "08_night_city",
+      "effects": { "mood": "宁静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

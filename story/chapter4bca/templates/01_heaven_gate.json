@@ -1,0 +1,19 @@
+{
+  "id": "01_heaven_gate",
+  "title": "天界入口",
+  "atmosphere": { "time": "黎明", "weather": "祥云", "mood": "神圣" },
+  "texts": [
+    { "content": "一道金光破开虚空，你被缓缓送入天界之门。眼前的景象令你屏住呼吸——无尽的云海之上，巍峨的宫阙在晨光中若隐若现。", "delay": 0 },
+    { "content": "脚下是凝实如玉的云阶，远处传来仙乐阵阵，空气中弥漫着难以言喻的清香。", "delay": 1500 },
+    { "content": "一道威严的身影挡在你面前。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "守卫审视着你，随后将一件散发着柔光的衣物递到你手中。", "delay": 1000 },
+    { "content": "这是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1200 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 }
+  ],
+  "choices": [
+    { "text": "沿着云阶向前走去", "target": "02_cloud_path", "effects": { "mood": "敬畏" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

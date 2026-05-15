@@ -3,7 +3,7 @@
     {
       "id": "buddhist_beads",
       "name": "佛珠",
-      "description": "寺庙开光之物，檀木所制，香气沁人",
+      "description": "寺庙开光之物，檀木所制，温润如玉",
       "effects": { "setFlag": "has_buddhist_beads" }
     },
     {
@@ -21,13 +21,13 @@
     {
       "id": "wooden_fish",
       "name": "木鱼",
-      "description": "僧人念经之物，敲之声清脆，可静心安神",
+      "description": "僧人念经之物，敲之有声，可静心安神",
       "effects": { "setFlag": "has_wooden_fish" }
     },
     {
       "id": "vegetarian_box",
       "name": "素食食盒",
-      "description": "寺庙特色食物，素斋精致，别有风味",
+      "description": "寺庙特色食物，素菜精致，别有风味",
       "effects": { "setFlag": "has_vegetarian_box" }
     },
     {

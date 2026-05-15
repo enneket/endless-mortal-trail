@@ -1,0 +1,31 @@
+{
+  "id": "01_wilderness",
+  "title": "荒野入口",
+  "atmosphere": { "time": "黄昏", "weather": "大风", "mood": "孤独" },
+  "texts": [
+    { "content": "你离开了那个谈判的地方。", "delay": 0 },
+    { "content": "没有人追上来。也没有人挽留。", "delay": 1500 },
+    { "content": "身后是灯火和人声，身前是一片望不到边的荒野。风从远处吹来，带着沙土的味道。天边最后一抹晚霞正在消退，像一场无声的告别。", "delay": 2500 },
+    { "content": "你迈出了第一步。", "delay": 1500 },
+    { "content": "脚下的路渐渐消失，取而代之的是碎石、枯草和龟裂的泥土。空气干燥得像是要把人的喉咙撕裂。远处有狼嚎，一声一声，像是在问你：你确定要走这条路吗？", "delay": 3000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我要一直走下去。\"",
+      "target": "02_desert",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"先找个地方歇脚。\"",
+      "target": "03_oasis",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

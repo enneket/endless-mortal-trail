@@ -1,0 +1,38 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "天将破晓", "mood": "顿悟" },
+  "texts": [
+    { "content": "你站在城墙上，看着东方的天空渐渐泛白。", "delay": 0 },
+    { "content": "一夜未眠，你想了很多。", "delay": 2000 },
+    { "content": "你想起了谈判桌上的那一幕——两边的将领同时伸出手，握在了一起。", "delay": 2000 },
+    { "content": "你想起了那些为了和平而牺牲的人——他们没有看到今天，但他们的牺牲没有白费。", "delay": 2000 },
+    { "content": "你想起了自己走过的路——从最初的迷茫，到战斗的选择，到谈判桌前的坚持。", "delay": 2000 },
+    { "content": "\"原来，\"你轻声说，\"和平不是终点，而是新的起点。\"", "delay": 2000 },
+    { "content": "太阳升起来了，金色的阳光洒满了整座城市。", "delay": 2000 },
+    { "content": "你看着眼前的和平之城，心中涌起一股前所未有的平静。", "delay": 1500 },
+    { "content": "该做出选择了。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"留下来，治理这座城市。\"",
+      "target": "10a_govern",
+      "effects": { "mood": "担当" },
+      "condition": null
+    },
+    {
+      "text": "\"任务完成了，该归隐了。\"",
+      "target": "10b_retire",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "\"和平已至，但远方还有路要走。\"",
+      "target": "10c_wander",
+      "effects": { "mood": "洒脱" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

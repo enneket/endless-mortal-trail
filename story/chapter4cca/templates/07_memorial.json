@@ -1,0 +1,31 @@
+{
+  "id": "07_memorial",
+  "title": "纪念碑",
+  "atmosphere": { "time": "傍晚", "weather": "霞光万丈", "mood": "肃穆" },
+  "texts": [
+    { "content": "纪念碑矗立在城中心，高耸入云。", "delay": 0 },
+    { "content": "碑身上刻满了名字——那些在战争中牺牲的人。", "delay": 2000 },
+    { "content": "密密麻麻的名字，从碑底一直延伸到碑顶。每一个名字，都是一条生命。", "delay": 2000 },
+    { "content": "碑前摆满了鲜花和祭品。有人在碑前默默流泪，有人在碑前低声祈祷。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你站在碑前，久久无言。那些名字，有些你认识，有些你不认识。但他们都有一个共同点——他们再也看不到今天的和平了。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"去看看夜色中的城市。\"",
+      "target": "08_night_city",
+      "effects": { "mood": "沉思" },
+      "condition": null
+    },
+    {
+      "text": "\"去政务大厅看看。\"",
+      "target": "03_government_hall",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

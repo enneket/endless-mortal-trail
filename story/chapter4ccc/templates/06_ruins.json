@@ -1,0 +1,29 @@
+{
+  "id": "06_ruins",
+  "title": "废墟遗址",
+  "atmosphere": { "time": "黄昏", "weather": "寂静", "mood": "苍凉" },
+  "texts": [
+    { "content": "你发现了一片废墟。", "delay": 0 },
+    { "content": "曾经的城墙只剩下半截断壁，上面爬满了藤蔓。倒塌的石柱散落在地上，像是被时间遗忘的棋子。风穿过残破的拱门，发出呜呜的声音。", "delay": 2500 },
+    { "content": "这里曾经是什么？一座城？一个村庄？一个帝国的边关？没有人知道。废墟不说自己的故事，只用沉默回答一切。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"在废墟里过夜。\"",
+      "target": "07_night_wilderness",
+      "effects": { "mood": "感慨" },
+      "condition": null
+    },
+    {
+      "text": "\"继续赶路。\"",
+      "target": "08_summit",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

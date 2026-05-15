@@ -1,0 +1,30 @@
+{
+  "id": "05_canyon",
+  "title": "峡谷",
+  "atmosphere": { "time": "午后", "weather": "阴沉", "mood": "深邃" },
+  "texts": [
+    { "content": "你走进了一条峡谷。", "delay": 0 },
+    { "content": "两侧的岩壁高耸入云，只留下头顶一线天光。谷底是一条干涸的河床，布满了被水冲刷了千年的圆石。阳光从缝隙中漏下来，在岩壁上画出明暗交错的条纹。", "delay": 2500 },
+    { "content": "你的脚步声在峡谷里回荡，像是有好几个人在走路。偶尔有碎石从上面滚下来，叮叮当当地响。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你在峡谷中发现了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"继续往前。\"",
+      "target": "06_ruins",
+      "effects": { "mood": "沉静" },
+      "condition": null
+    },
+    {
+      "text": "\"爬上岩壁看看。\"",
+      "target": "07_night_wilderness",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

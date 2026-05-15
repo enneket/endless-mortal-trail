@@ -1,0 +1,32 @@
+{
+  "id": "03_refugee_camp",
+  "title": "难民营",
+  "atmosphere": "简陋的帐篷挤在一起，篝火在黑暗中摇曳。人们的脸上写满了恐惧和绝望，孩子们的哭声此起彼伏。",
+  "texts": [
+    "渡途人来到一个临时搭建的难民营。这里挤满了从各处逃来的人们，他们失去了家园，失去了亲人，只剩下彼此取暖的本能。",
+    "{{NPC_SLOT_1:name}}蜷缩在一个角落里，{{NPC_SLOT_1:appearance}}。看到渡途人，{{NPC_SLOT_1:greeting}}",
+    "营火的光芒映照着人们疲惫的面容，每个人的眼中都燃烧着同样的问题：为什么？为什么背叛会发生？为什么代价要由无辜者承担？"
+  ],
+  "choices": [
+    {
+      "text": "安慰{{NPC_SLOT_1:name}}，了解更多内情",
+      "target": "04_battlefield"
+    },
+    {
+      "text": "在难民营中寻找更多幸存者的故事",
+      "target": "04_battlefield"
+    },
+    {
+      "text": "查看{{ITEM_SLOT_A:name}}，寻找线索",
+      "target": "04_battlefield"
+    }
+  ],
+  "onEnter": "难民营的景象让渡途人的心沉到了谷底。这些流离失所的人们，曾经都有自己的生活、自己的梦想。如今，他们只能在这个临时的地方苟延残喘，等待着不知何时才能到来的救援。",
+  "onExit": "渡途人离开了难民营，但那些绝望的眼神和颤抖的声音将永远留在心中。背叛的代价，最终都由这些最无辜的人来承担。",
+  "npcSlots": {
+    "NPC_SLOT_1": "fleeing_citizen"
+  },
+  "itemSlots": {
+    "ITEM_SLOT_A": "blood_stained_letter"
+  }
+}

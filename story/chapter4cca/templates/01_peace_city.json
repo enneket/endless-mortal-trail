@@ -1,0 +1,31 @@
+{
+  "id": "01_peace_city",
+  "title": "和平之城",
+  "atmosphere": { "time": "清晨", "weather": "晴空万里", "mood": "希望" },
+  "texts": [
+    { "content": "城门大开，阳光洒在崭新的石板路上。", "delay": 0 },
+    { "content": "城墙上不再有箭塔和烽火台，取而代之的是飘扬的彩旗。", "delay": 2000 },
+    { "content": "这就是和平之城——曾经的前线要塞，如今的和平象征。", "delay": 2000 },
+    { "content": "你站在城门口，看着来来往往的人群。有商人，有农夫，有孩子，有老人。他们的脸上，没有恐惧。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 },
+    { "content": "你深吸一口气。空气里没有硝烟的味道，只有花香和炊烟。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"先进城看看。\"",
+      "target": "02_market_square",
+      "effects": { "mood": "期待" },
+      "condition": null
+    },
+    {
+      "text": "\"去政务大厅报到。\"",
+      "target": "03_government_hall",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

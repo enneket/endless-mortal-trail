@@ -1,0 +1,32 @@
+{
+  "id": "04_temple",
+  "title": "寺庙",
+  "atmosphere": { "time": "午后", "weather": "微风", "mood": "宁静" },
+  "texts": [
+    { "content": "寺庙坐落在城西的山坡上，古木参天，钟声悠扬。", "delay": 0 },
+    { "content": "香烟缭绕，诵经声从大殿里传出。", "delay": 2000 },
+    { "content": "战争时期，这里收留了无数流离失所的人。如今，他们中的许多人回来还愿。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你得到了{{ITEM_SLOT_B:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_B:description}}", "delay": 1000 },
+    { "content": "佛前的长明灯，从未熄灭。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"去老兵之家看看。\"",
+      "target": "06_veterans_home",
+      "effects": { "mood": "感慨" },
+      "condition": null
+    },
+    {
+      "text": "\"去学堂看看。\"",
+      "target": "05_school",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

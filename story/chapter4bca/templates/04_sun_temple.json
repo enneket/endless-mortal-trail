@@ -1,0 +1,19 @@
+{
+  "id": "04_sun_temple",
+  "title": "太阳神殿",
+  "atmosphere": { "time": "正午", "weather": "烈日当空", "mood": "庄严" },
+  "texts": [
+    { "content": "沿着光路前行，温度逐渐升高。前方矗立着一座由纯金铸就的神殿，殿顶的太阳符号散发着灼目的光辉。", "delay": 0 },
+    { "content": "神殿内部如同置身于太阳核心，金色的光芒从四面八方涌来，却不灼伤分毫。", "delay": 1500 },
+    { "content": "殿中央站着一位身披金袍的祭司。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "祭司举起手中一根闪烁着太阳光辉的羽毛。", "delay": 1000 },
+    { "content": "这是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1200 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 }
+  ],
+  "choices": [
+    { "text": "继续前往风之巅", "target": "06_wind_peak", "effects": { "mood": "坚定" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

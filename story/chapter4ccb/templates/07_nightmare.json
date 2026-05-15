@@ -1,0 +1,32 @@
+{
+  "id": "07_nightmare",
+  "title": "噩梦之夜",
+  "atmosphere": "夜色更加深沉，空气中弥漫着一种诡异的寂静。远处偶尔传来野兽的嚎叫，混合着风声，像是亡魂的哭泣。",
+  "texts": [
+    "夜幕完全降临，渡途人在黑暗中艰难前行。背叛带来的创伤在夜晚化作噩梦，折磨着每一个幸存者的灵魂。",
+    "{{NPC_SLOT_1:name}}在黑暗中出现，{{NPC_SLOT_1:appearance}}。{{NPC_SLOT_1:greeting}}",
+    "远处的火光映照出诡异的影子，像是背叛者的幽灵在游荡。{{ITEM_SLOT_A:name}}在黑暗中闪烁着微光，仿佛在指引着什么。"
+  ],
+  "choices": [
+    {
+      "text": "跟随{{NPC_SLOT_1:name}}，寻找背叛的真相",
+      "target": "08_revelation"
+    },
+    {
+      "text": "拾起{{ITEM_SLOT_A:name}}，继续前行",
+      "target": "08_revelation"
+    },
+    {
+      "text": "在噩梦中寻找内心的平静",
+      "target": "08_revelation"
+    }
+  ],
+  "onEnter": "噩梦的阴影笼罩着渡途人。在背叛发生后，每一个夜晚都成了折磨。那些死去的人的面容在梦中浮现，那些被辜负的信任在黑暗中低语。渡途人知道，只有面对真相，才能从噩梦中解脱。",
+  "onExit": "渡途人从噩梦的边缘挣脱出来，但那些幻象将永远留在记忆深处。背叛的代价不仅仅是现实中的破坏，更是对灵魂的永恒折磨。",
+  "npcSlots": {
+    "NPC_SLOT_1": "ghost_of_past"
+  },
+  "itemSlots": {
+    "ITEM_SLOT_A": "memorial_flower"
+  }
+}

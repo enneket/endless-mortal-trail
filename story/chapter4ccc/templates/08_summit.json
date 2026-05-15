@@ -1,0 +1,24 @@
+{
+  "id": "08_summit",
+  "title": "山巅",
+  "atmosphere": { "time": "黎明", "weather": "清朗", "mood": "开阔" },
+  "texts": [
+    { "content": "你爬上了山顶。", "delay": 0 },
+    { "content": "风在耳边呼啸，吹得你几乎站不稳。但你还是站住了。", "delay": 1500 },
+    { "content": "从这里望出去，荒野尽收眼底。东边是沙漠，西边是峡谷，南边是废墟，北边是无尽的平原。天地之间，只有你一个人。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "日出的光芒从地平线上涌出来，把整个荒野染成了金色。你站在山巅，风吹着你的衣襟。这一刻，你觉得自己和天地融为了一体。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"下山，去看看真相。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "坦然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

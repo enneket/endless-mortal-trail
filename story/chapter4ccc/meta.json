@@ -1,0 +1,8 @@
+{
+  "id": "chapter4ccc",
+  "title": "独行天下",
+  "description": "拂袖离去后，渡途人独自踏上荒野之路",
+  "sceneCount": 12,
+  "startScene": "01_wilderness",
+  "randomized": true
+}

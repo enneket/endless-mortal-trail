@@ -1,0 +1,30 @@
+{
+  "id": "03_government_hall",
+  "title": "政务大厅",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "庄重" },
+  "texts": [
+    { "content": "政务大厅是一座新建的建筑，红墙绿瓦，气派非凡。", "delay": 0 },
+    { "content": "门口的石狮子不再张牙舞爪，而是含着绣球，象征祥和。", "delay": 2000 },
+    { "content": "大厅里，官员们正在处理各种事务——户籍登记、土地分配、商业纠纷。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "墙上挂着一块匾额，上面写着四个大字：天下太平。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"去老兵之家探望退伍军人。\"",
+      "target": "06_veterans_home",
+      "effects": { "mood": "感伤" },
+      "condition": null
+    },
+    {
+      "text": "\"去纪念碑前献花。\"",
+      "target": "07_memorial",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

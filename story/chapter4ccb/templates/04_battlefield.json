@@ -1,0 +1,32 @@
+{
+  "id": "04_battlefield",
+  "title": "战场遗址",
+  "atmosphere": "曾经的谈判地点如今变成了屠杀场。大地上布满了弹坑和焦痕，残破的武器和旗帜散落各处，空气中弥漫着死亡的气息。",
+  "texts": [
+    "渡途人来到曾经的谈判地点，这里已经变成了一片人间地狱。鲜血染红了大地，尸体横七竖八地躺在那里，仿佛在诉说着背叛发生时的惨烈。",
+    "{{NPC_SLOT_1:name}}躺在一截断墙旁，{{NPC_SLOT_1:appearance}}。看到渡途人靠近，{{NPC_SLOT_1:greeting}}",
+    "风吹过战场，卷起阵阵尘土。在这片死亡之地，{{ITEM_SLOT_A:name}}静静地躺在血泊中，等待着被人发现。"
+  ],
+  "choices": [
+    {
+      "text": "帮助{{NPC_SLOT_1:name}}，了解战斗的真相",
+      "target": "05_underground"
+    },
+    {
+      "text": "收集{{ITEM_SLOT_A:name}}，记录这场屠杀",
+      "target": "05_underground"
+    },
+    {
+      "text": "在战场上寻找幸存者",
+      "target": "05_underground"
+    }
+  ],
+  "onEnter": "战场的惨状让渡途人几乎无法呼吸。这里曾经是希望诞生的地方，如今却成了希望的坟墓。每一具尸体都在控诉着背叛的罪行，每一滴鲜血都在诉说着信任的代价。",
+  "onExit": "渡途人离开了战场，但那些惨烈的景象将永远刻在记忆中。背叛不仅仅是背弃誓言，更是对无数生命的无情践踏。",
+  "npcSlots": {
+    "NPC_SLOT_1": "wounded_soldier"
+  },
+  "itemSlots": {
+    "ITEM_SLOT_A": "war_map"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_peace_city", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_market_square", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_government_hall", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_temple", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_school", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_veterans_home", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_memorial", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_night_city", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_govern", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_retire", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_wander", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["old_chancellor", "peace_guard"] },
+    "slot_2": { "candidates": ["merchant_prince", "peace_guard"] },
+    "slot_3": { "candidates": ["old_chancellor", "merchant_prince"] },
+    "slot_4": { "candidates": ["temple_monk", "old_chancellor"] },
+    "slot_5": { "candidates": ["school_teacher", "temple_monk"] },
+    "slot_6": { "candidates": ["war_veteran", "school_teacher"] },
+    "slot_7": { "candidates": ["war_veteran", "farmer"] },
+    "slot_8": { "candidates": ["mysterious_traveler", "farmer"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["peace_decree", "golden_medal"] },
+    "slot_b": { "candidates": ["ancient_scroll", "friendship_bracelet"] },
+    "slot_c": { "candidates": ["memorial_book", "golden_medal"] },
+    "slot_d": { "candidates": ["jade_seal", "ancient_scroll"] }
+  }
+}

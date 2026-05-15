@@ -1,0 +1,8 @@
+{
+  "id": "chapter4cca",
+  "title": "和平年代",
+  "description": "谈判成功后，渡途人见证了和平时代的到来",
+  "sceneCount": 12,
+  "startScene": "01_peace_city",
+  "randomized": true
+}

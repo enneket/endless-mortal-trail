@@ -1,0 +1,19 @@
+{
+  "id": "06_wind_peak",
+  "title": "风之巅",
+  "atmosphere": { "time": "黄昏", "weather": "清风徐来", "mood": "洒脱" },
+  "texts": [
+    { "content": "一座孤峰直插云霄，峰顶没有任何遮挡，四方的风在此汇聚、旋转、升腾。", "delay": 0 },
+    { "content": "你站在峰顶，衣袂被风吹得猎猎作响。视野中是整个天界的全貌——云海、星辰、日月尽收眼底。", "delay": 1500 },
+    { "content": "一个人影踏风而来，立于虚空之中。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "他将一枚铃铛抛向空中，铃声随风飘散。", "delay": 1000 },
+    { "content": "这是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1200 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 }
+  ],
+  "choices": [
+    { "text": "御风前往天海", "target": "07_sky_ocean", "effects": { "mood": "自在" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

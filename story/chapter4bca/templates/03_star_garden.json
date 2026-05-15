@@ -1,0 +1,21 @@
+{
+  "id": "03_star_garden",
+  "title": "星辰花园",
+  "atmosphere": { "time": "夜幕初降", "weather": "星河璀璨", "mood": "神秘" },
+  "texts": [
+    { "content": "云车载着你穿过层层云雾，眼前豁然开朗——一座由星辰编织而成的花园浮现在天穹之中。", "delay": 0 },
+    { "content": "无数星辰如花朵般绽放，每一颗都散发着独特的光芒。星光在你脚下汇聚成流动的银河。", "delay": 1500 },
+    { "content": "一位老者正坐在星河之畔，静静注视着星辰的运转。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "他从星河中取出一件器物，递到你面前。", "delay": 1000 },
+    { "content": "这是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1200 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 },
+    { "content": "星辰守护者指向两条分叉的光路：一条通往东方，日光隐约可见；另一条通往西方，月华清冷如水。", "delay": 1000 }
+  ],
+  "choices": [
+    { "text": "前往东方的太阳神殿", "target": "04_sun_temple", "effects": { "mood": "热忱" }, "condition": null },
+    { "text": "前往西方的月宫", "target": "05_moon_palace", "effects": { "mood": "宁静" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

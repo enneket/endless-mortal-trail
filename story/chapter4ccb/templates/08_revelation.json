@@ -1,0 +1,32 @@
+{
+  "id": "08_revelation",
+  "title": "揭露真相",
+  "atmosphere": "黎明前的黑暗最为深沉。渡途人来到一处隐蔽的废墟，这里似乎保存着背叛的关键证据。",
+  "texts": [
+    "渡途人循着线索来到一处隐蔽的废墟。在这里，背叛的真相开始逐渐浮出水面，每一条线索都指向一个更加黑暗的事实。",
+    "{{NPC_SLOT_1:name}}早已等候在此，{{NPC_SLOT_1:appearance}}。{{NPC_SLOT_1:greeting}}",
+    "在废墟的深处，{{ITEM_SLOT_A:name}}被小心地保存着，上面记录着背叛的完整经过。渡途人知道，真相即将大白。"
+  ],
+  "choices": [
+    {
+      "text": "聆听{{NPC_SLOT_1:name}}揭露背叛的全部真相",
+      "target": "09_truth_revealed"
+    },
+    {
+      "text": "仔细研究{{ITEM_SLOT_A:name}}中的证据",
+      "target": "09_truth_revealed"
+    },
+    {
+      "text": "准备面对即将到来的真相",
+      "target": "09_truth_revealed"
+    }
+  ],
+  "onEnter": "渡途人感到一种莫名的紧张。真相就在眼前，但它可能比想象中更加残酷。背叛的每一条线索都指向同一个方向，而那个方向，将彻底改变渡途人对这个世界的认知。",
+  "onExit": "渡途人深吸一口气，准备面对完整的真相。无论它多么残酷，都必须承受。因为只有真相，才能带来真正的解脱或复仇。",
+  "npcSlots": {
+    "NPC_SLOT_1": "spy_master"
+  },
+  "itemSlots": {
+    "ITEM_SLOT_A": "betrayal_list"
+  }
+}

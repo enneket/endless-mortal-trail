@@ -1,0 +1,32 @@
+{
+  "id": "02_market_square",
+  "title": "市场广场",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "市场广场上人声鼎沸，叫卖声此起彼伏。", "delay": 0 },
+    { "content": "各种摊位摆满了货物——南方的丝绸，北方的皮毛，西域的香料，东海的珍珠。", "delay": 2000 },
+    { "content": "几年前，这里还是两军对峙的缓冲地带。如今，它成了最繁华的贸易中心。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你得到了{{ITEM_SLOT_A:name}}。", "delay": 1500 },
+    { "content": "{{ITEM_SLOT_A:description}}", "delay": 1000 },
+    { "content": "广场中央，有人在唱戏。唱的是和平的故事。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"去寺庙上柱香。\"",
+      "target": "04_temple",
+      "effects": { "mood": "虔诚" },
+      "condition": null
+    },
+    {
+      "text": "\"去学堂看看孩子们。\"",
+      "target": "05_school",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "02_ruined_city",
+  "title": "破败之城",
+  "atmosphere": "曾经繁华的街道如今满目疮痍，倒塌的建筑像巨兽的尸骸横陈。烟雾从废墟中升起，混合着烧焦的气味和死亡的气息。",
+  "texts": [
+    "渡途人踏入这座曾经充满生机的城市，如今只剩下断壁残垣和无尽的寂静。每一栋倒塌的建筑都在诉说着背叛的代价。",
+    "街道上散落着各种物品——破碎的家具、撕裂的旗帜、还有被遗弃的玩具。这些曾经属于普通人的生活，如今都成了背叛的牺牲品。",
+    "{{NPC_SLOT_1:name}}从废墟中缓缓走出，{{NPC_SLOT_1:appearance}}。{{NPC_SLOT_1:greeting}}"
+  ],
+  "choices": [
+    {
+      "text": "询问{{NPC_SLOT_1:name}}关于背叛的真相",
+      "target": "03_refugee_camp"
+    },
+    {
+      "text": "继续探索城市废墟",
+      "target": "03_refugee_camp"
+    },
+    {
+      "text": "收集{{ITEM_SLOT_A:name}}作为证据",
+      "target": "03_refugee_camp"
+    }
+  ],
+  "onEnter": "城市的废墟让渡途人感到一阵窒息。这里的每一砖一瓦都曾是某人的家，如今却成了背叛的纪念碑。空气中弥漫着一种压抑的悲伤，仿佛连风都在为这座城市哭泣。",
+  "onExit": "渡途人离开了这片废墟，但那些倒塌的建筑和散落的物品将永远刻在记忆中。背叛的代价不仅仅是死亡，更是无数人生活的彻底毁灭。",
+  "npcSlots": {
+    "NPC_SLOT_1": "ghost_of_past"
+  },
+  "itemSlots": {
+    "ITEM_SLOT_A": "broken_treaty"
+  }
+}

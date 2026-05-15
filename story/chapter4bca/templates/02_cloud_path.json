@@ -1,0 +1,19 @@
+{
+  "id": "02_cloud_path",
+  "title": "云路",
+  "atmosphere": { "time": "清晨", "weather": "云海翻涌", "mood": "空灵" },
+  "texts": [
+    { "content": "云阶蜿蜒向前，两侧是无边无际的云海。阳光穿透云层，化作万千金色丝线。", "delay": 0 },
+    { "content": "你看见一位女子在云间穿针引线，似乎在编织着什么。", "delay": 1500 },
+    { "content": "那是{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "她停下手中的活计，指着身旁一架流光溢彩的云车。", "delay": 1000 },
+    { "content": "这是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1200 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 }
+  ],
+  "choices": [
+    { "text": "驾云车前往星辰花园", "target": "03_star_garden", "effects": { "mood": "自由" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

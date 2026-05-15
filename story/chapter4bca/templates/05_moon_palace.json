@@ -1,0 +1,19 @@
+{
+  "id": "05_moon_palace",
+  "title": "月宫",
+  "atmosphere": { "time": "深夜", "weather": "明月高悬", "mood": "清冷" },
+  "texts": [
+    { "content": "沿着光路西行，月华如水般倾泻而下。一座通体洁白的宫殿浮在半空，散发着清冷而柔和的光芒。", "delay": 0 },
+    { "content": "宫殿中弥漫着淡淡的桂花香气，银色的月光在地面上织出繁复的花纹。", "delay": 1500 },
+    { "content": "一位仙子端坐在月桂树下，容颜清丽如月。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "仙子轻抚手中一块温润的玉石，将它递向你。", "delay": 1000 },
+    { "content": "这是{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1200 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 }
+  ],
+  "choices": [
+    { "text": "继续前往风之巅", "target": "06_wind_peak", "effects": { "mood": "澄澈" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黄昏", "weather": "静风", "mood": "顿悟" },
+  "texts": [
+    { "content": "你坐在废墟的一块石头上，看着太阳慢慢落下。", "delay": 0 },
+    { "content": "你已经走了很远。从谈判桌到荒野，从沙漠到山巅，从峡谷到废墟。你见过独行客，见过智者，见过僧人，见过游牧民，见过迷途者，见过隐士，见过荒野之子，见过暗影。", "delay": 2500 },
+    { "content": "他们每个人都给了你一些东西。拐杖、水壶、罗盘、刀、日记、星图。但真正给你的，不是这些物件。", "delay": 2500 },
+    { "content": "独行客告诉你，路是走出来的。", "delay": 1500 },
+    { "content": "智者告诉你，方向在心里。", "delay": 1500 },
+    { "content": "僧人告诉你，路就是修行。", "delay": 1500 },
+    { "content": "游牧民告诉你，天地就是家。", "delay": 1500 },
+    { "content": "迷途者告诉你，迷路也是一种路。", "delay": 1500 },
+    { "content": "隐士告诉你，停下来也是选择。", "delay": 1500 },
+    { "content": "荒野之子告诉你，世界本来就是荒野。", "delay": 1500 },
+    { "content": "暗影告诉你，最远的路在心里。", "delay": 1500 },
+    { "content": "你站起来，拍了拍身上的尘土。", "delay": 2000 },
+    { "content": "太阳落下去了。但你知道，明天还会升起来。", "delay": 2000 },
+    { "content": "你该做出选择了。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我选择独行。\"",
+      "target": "10a_solitude",
+      "effects": { "mood": "超脱" },
+      "condition": null
+    },
+    {
+      "text": "\"我选择回去。\"",
+      "target": "10b_return",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "\"我选择超越。\"",
+      "target": "10c_transcend",
+      "effects": { "mood": "升华" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

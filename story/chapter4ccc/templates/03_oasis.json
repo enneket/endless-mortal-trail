@@ -1,0 +1,30 @@
+{
+  "id": "03_oasis",
+  "title": "绿洲",
+  "atmosphere": { "time": "傍晚", "weather": "清凉", "mood": "安宁" },
+  "texts": [
+    { "content": "你找到了一片绿洲。", "delay": 0 },
+    { "content": "在荒野的尽头，一汪清水静静地躺在几棵胡杨之间。水面上倒映着天空的颜色，从橙红渐变成深蓝。几只水鸟停在岸边，歪着头看你。", "delay": 2500 },
+    { "content": "你跪在水边，捧起一掬水送到嘴边。清凉的感觉从喉咙一直流到心里。你已经很久没有这样安静地喝过水了。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "你在绿洲边发现了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"歇够了，继续走。\"",
+      "target": "04_mountain_pass",
+      "effects": { "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "\"翻过山去。\"",
+      "target": "06_ruins",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

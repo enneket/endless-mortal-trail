@@ -1,0 +1,30 @@
+{
+  "id": "07_night_wilderness",
+  "title": "荒野之夜",
+  "atmosphere": { "time": "深夜", "weather": "繁星", "mood": "静谧" },
+  "texts": [
+    { "content": "夜来了。", "delay": 0 },
+    { "content": "你独自坐在荒野里，四周一片漆黑。但当你抬起头，满天的星星像碎钻一样撒在黑色的穹顶上。银河从天的一边流到另一边，像是天上也有路。", "delay": 2500 },
+    { "content": "火堆噼啪作响，映红了你的脸。你往火里加了一根枯枝，看着火星飞起来，飞向夜空，和星星混在一起，分不清哪个是火，哪个是光。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "你在火堆旁发现了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"天亮了就上山。\"",
+      "target": "08_summit",
+      "effects": { "mood": "宁静" },
+      "condition": null
+    },
+    {
+      "text": "\"去看看废墟。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

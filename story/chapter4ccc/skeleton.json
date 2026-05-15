@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_wilderness", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_desert", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_oasis", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_mountain_pass", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_canyon", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_ruins", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_night_wilderness", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_summit", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_solitude", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_return", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_transcend", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["lone_wanderer", "wandering_monk"] },
+    "slot_2": { "candidates": ["desert_nomad", "lost_traveler"] },
+    "slot_3": { "candidates": ["wandering_monk", "wild_child"] },
+    "slot_4": { "candidates": ["hermit_sage", "old_hermit"] },
+    "slot_5": { "candidates": ["lost_traveler", "shadow_figure"] },
+    "slot_6": { "candidates": ["old_hermit", "hermit_sage"] },
+    "slot_7": { "candidates": ["wild_child", "lone_wanderer"] },
+    "slot_8": { "candidates": ["shadow_figure", "desert_nomad"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["water_gourd", "survival_kit"] },
+    "slot_b": { "candidates": ["water_gourd", "star_map"] },
+    "slot_c": { "candidates": ["lonely_journal", "walking_staff"] },
+    "slot_d": { "candidates": ["star_map", "ancient_compass"] }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "peace_decree",
+      "name": "和平诏书",
+      "description": "谈判的最终成果，宣告战争结束",
+      "effects": { "setFlag": "has_peace_decree" }
+    },
+    {
+      "id": "golden_medal",
+      "name": "金质奖章",
+      "description": "表彰功绩的奖章，金光闪闪",
+      "effects": { "setFlag": "has_golden_medal" }
+    },
+    {
+      "id": "ancient_scroll",
+      "name": "古老卷轴",
+      "description": "记载着历史兴衰的卷轴，纸张泛黄",
+      "effects": { "setFlag": "has_ancient_scroll" }
+    },
+    {
+      "id": "jade_seal",
+      "name": "玉玺",
+      "description": "权力的象征，温润如玉",
+      "effects": { "setFlag": "has_jade_seal" }
+    },
+    {
+      "id": "friendship_bracelet",
+      "name": "友谊手链",
+      "description": "象征和解的手链，编织精美",
+      "effects": { "setFlag": "has_friendship_bracelet" }
+    },
+    {
+      "id": "memorial_book",
+      "name": "纪念册",
+      "description": "记录战争中牺牲者的名册，沉甸甸的",
+      "effects": { "setFlag": "has_memorial_book" }
+    }
+  ]
+}

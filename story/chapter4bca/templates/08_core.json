@@ -1,0 +1,19 @@
+{
+  "id": "08_core",
+  "title": "天界核心",
+  "atmosphere": { "time": "永恒", "weather": "万籁俱寂", "mood": "超然" },
+  "texts": [
+    { "content": "穿过光门，一切声音都消失了。你置身于一个纯白的空间之中，没有上下左右，没有天地之分。", "delay": 0 },
+    { "content": "这是天界的核心——万物的起点，也是万物的终点。时间在这里失去了意义。", "delay": 1500 },
+    { "content": "一位老者盘坐于虚空之中，周身没有任何光芒，却让人感到无比的平和。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "仙人微微抬手，虚空中浮现出一幅画面——那是你一路走来的所有经历。", "delay": 1200 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 },
+    { "content": "“你已经走了很远的路。现在，是时候做出最终的抉择了。”仙人轻声说道。", "delay": 1500 }
+  ],
+  "choices": [
+    { "text": "倾听真相", "target": "09_truth_revealed", "effects": { "mood": "觉悟" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

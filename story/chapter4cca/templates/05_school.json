@@ -1,0 +1,31 @@
+{
+  "id": "05_school",
+  "title": "学堂",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "温暖" },
+  "texts": [
+    { "content": "学堂里传来朗朗读书声。", "delay": 0 },
+    { "content": "\"人之初，性本善……\"稚嫩的声音整齐地念着。", "delay": 2000 },
+    { "content": "你站在窗外，看着里面的孩子们。他们的眼睛里，没有战争的阴影。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "一个孩子跑过来，仰着头问你：\"叔叔，你是打过仗的人吗？\"", "delay": 2000 },
+    { "content": "你蹲下身，摸了摸他的头：\"是啊。所以你们要好好念书，以后就不用打仗了。\"", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"去老兵之家坐坐。\"",
+      "target": "06_veterans_home",
+      "effects": { "mood": "感怀" },
+      "condition": null
+    },
+    {
+      "text": "\"去纪念碑看看。\"",
+      "target": "07_memorial",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

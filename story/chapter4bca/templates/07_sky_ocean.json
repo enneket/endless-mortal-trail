@@ -1,0 +1,18 @@
+{
+  "id": "07_sky_ocean",
+  "title": "天海",
+  "atmosphere": { "time": "无尽的白昼", "weather": "天海交汇", "mood": "浩瀚" },
+  "texts": [
+    { "content": "风停了。你发现自己站在一片倒悬的海洋之前——天海。海水在头顶流淌，波光粼粼，仿佛另一片天空。", "delay": 0 },
+    { "content": "天海的边缘与真正的天穹相连，分不清哪里是海，哪里是天。一切都是纯净的蓝，深邃而无垠。", "delay": 1500 },
+    { "content": "一位学者模样的人坐在天海之畔，手持一卷古籍。{{NPC_SLOT_1:name}}，{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "他合上书卷，指向天海深处隐约可见的一道光门。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 1500 }
+  ],
+  "choices": [
+    { "text": "穿过天海，前往天界核心", "target": "08_core", "effects": { "mood": "笃定" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

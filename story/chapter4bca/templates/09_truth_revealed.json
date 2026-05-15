@@ -1,0 +1,20 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "超越时间", "weather": "无", "mood": "顿悟" },
+  "texts": [
+    { "content": "纯白的空间开始变化。无数画面如走马灯般在你眼前闪过——从最初踏上修行之路的那一刻起，每一劫、每一难、每一次抉择。", "delay": 0 },
+    { "content": "你看到了凡尘中的自己，看到了灵境中的自己，看到了一路上遇到的每一个人、每一件事。", "delay": 1500 },
+    { "content": "一切苦与乐、得与失、生与死，都在这瞬间变得清晰无比。", "delay": 1200 },
+    { "content": "“你已经明白了。”仙人的声音从四面八方传来，“天界并非终点，而是新的开始。”", "delay": 1500 },
+    { "content": "“你面前有三条路——每一条都通向不同的未来。但无论选择哪一条，你都已经超越了凡尘。”", "delay": 1500 },
+    { "content": "三道光芒在你面前缓缓展开：一金、一银、一青。", "delay": 1000 }
+  ],
+  "choices": [
+    { "text": "握住金光——得道成仙，融入天界永恒", "target": "10a_become_immortal", "effects": { "mood": "超脱" }, "condition": null },
+    { "text": "握住银光——返还人间，以仙人之身行走红尘", "target": "10b_return_earth", "effects": { "mood": "慈悲" }, "condition": null },
+    { "text": "握住青光——守护天界，成为新的天界守护者", "target": "10c_guard_heaven", "effects": { "mood": "担当" }, "condition": null }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

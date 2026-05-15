@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "walking_staff",
+      "name": "行走拐杖",
+      "description": "一根被无数手掌磨得光滑的木拐杖，杖头刻着一个\"行\"字",
+      "effects": { "setFlag": "has_walking_staff" }
+    },
+    {
+      "id": "water_gourd",
+      "name": "水壶",
+      "description": "一个葫芦制成的水壶，壶身刻着经文，壶嘴塞着木塞",
+      "effects": { "setFlag": "has_water_gourd" }
+    },
+    {
+      "id": "ancient_compass",
+      "name": "古老罗盘",
+      "description": "一个铜制罗盘，指针不是指向北方，而是微微颤动着指向某个方向",
+      "effects": { "setFlag": "has_ancient_compass" }
+    },
+    {
+      "id": "survival_kit",
+      "name": "生存工具",
+      "description": "一把锋利的短刀，刀鞘上绑着火石和绳索",
+      "effects": { "setFlag": "has_survival_kit" }
+    },
+    {
+      "id": "lonely_journal",
+      "name": "孤独日记",
+      "description": "一本破旧的日记本，里面写满了潦草的字迹和简单的地图",
+      "effects": { "setFlag": "has_lonely_journal" }
+    },
+    {
+      "id": "star_map",
+      "name": "星图",
+      "description": "一张泛黄的羊皮纸，上面画满了星星的位置和连线",
+      "effects": { "setFlag": "has_star_map" }
+    }
+  ]
+}
