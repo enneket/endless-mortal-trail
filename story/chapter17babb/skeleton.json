@@ -1,0 +1,43 @@
+{
+  "scenes": [
+    "01_scene",
+    "02_scene",
+    "03_scene",
+    "04_scene",
+    "05_scene",
+    "06_scene",
+    "07_scene",
+    "08_scene",
+    "09_scene",
+    "10_ending"
+  ],
+  "connections": {
+    "01_scene": [
+      "02_scene"
+    ],
+    "02_scene": [
+      "03_scene"
+    ],
+    "03_scene": [
+      "04_scene"
+    ],
+    "04_scene": [
+      "05_scene"
+    ],
+    "05_scene": [
+      "06_scene"
+    ],
+    "06_scene": [
+      "07_scene"
+    ],
+    "07_scene": [
+      "08_scene"
+    ],
+    "08_scene": [
+      "09_scene"
+    ],
+    "09_truth_revealed": [
+      "10_ending"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "item_1",
+    "name": "{{ITEM_SLOT_1:name}}",
+    "description": "{{ITEM_SLOT_1:description}}",
+    "effect": "{{ITEM_SLOT_1:effect}}"
+  },
+  {
+    "id": "item_2",
+    "name": "{{ITEM_SLOT_2:name}}",
+    "description": "{{ITEM_SLOT_2:description}}",
+    "effect": "{{ITEM_SLOT_2:effect}}"
+  },
+  {
+    "id": "item_3",
+    "name": "{{ITEM_SLOT_3:name}}",
+    "description": "{{ITEM_SLOT_3:description}}",
+    "effect": "{{ITEM_SLOT_3:effect}}"
+  },
+  {
+    "id": "item_4",
+    "name": "{{ITEM_SLOT_4:name}}",
+    "description": "{{ITEM_SLOT_4:description}}",
+    "effect": "{{ITEM_SLOT_4:effect}}"
+  },
+  {
+    "id": "item_5",
+    "name": "{{ITEM_SLOT_5:name}}",
+    "description": "{{ITEM_SLOT_5:description}}",
+    "effect": "{{ITEM_SLOT_5:effect}}"
+  },
+  {
+    "id": "item_6",
+    "name": "{{ITEM_SLOT_6:name}}",
+    "description": "{{ITEM_SLOT_6:description}}",
+    "effect": "{{ITEM_SLOT_6:effect}}"
+  }
+]

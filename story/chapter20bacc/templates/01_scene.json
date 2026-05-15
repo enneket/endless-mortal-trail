@@ -1,0 +1,15 @@
+{
+  "id": "01_scene",
+  "title": "场景 1",
+  "text": "这是第20章第1个场景。",
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "02_scene"
+    },
+    {
+      "text": "探索周围",
+      "target": "02_scene"
+    }
+  ]
+}

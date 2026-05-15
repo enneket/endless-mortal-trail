@@ -1,0 +1,11 @@
+{
+  "id": "10_ending",
+  "title": "结局",
+  "text": "第20章结束。",
+  "choices": [
+    {
+      "text": "继续旅程",
+      "target": "chapter21bcbb:01_scene"
+    }
+  ]
+}

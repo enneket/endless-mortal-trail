@@ -1,0 +1,15 @@
+{
+  "id": "06_scene",
+  "title": "场景 6",
+  "text": "这是第19章第6个场景。",
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "07_scene"
+    },
+    {
+      "text": "探索周围",
+      "target": "07_scene"
+    }
+  ]
+}

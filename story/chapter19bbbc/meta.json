@@ -1,0 +1,20 @@
+{
+  "id": "chapter19bbbc",
+  "title": "第19章",
+  "description": "第19章 - bbbc路线",
+  "randomized": true,
+  "npcSlots": 8,
+  "itemSlots": 6,
+  "scenes": [
+    "01_scene",
+    "02_scene",
+    "03_scene",
+    "04_scene",
+    "05_scene",
+    "06_scene",
+    "07_scene",
+    "08_scene",
+    "09_scene",
+    "10_ending"
+  ]
+}
