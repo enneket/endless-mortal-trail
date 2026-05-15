@@ -1,0 +1,8 @@
+{
+  "id": "chapter4cba",
+  "title": "新天地",
+  "description": "到达新天地后，渡途人开始全新的生活",
+  "sceneCount": 12,
+  "startScene": "01_new_shore",
+  "randomized": true
+}

@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "settlement_deed",
+      "name": "定居证",
+      "description": "定居的证明"
+    },
+    {
+      "id": "building_tools",
+      "name": "建造工具",
+      "description": "建造用的工具"
+    },
+    {
+      "id": "seed_bag",
+      "name": "种子袋",
+      "description": "种植用的种子"
+    },
+    {
+      "id": "trade_goods",
+      "name": "贸易品",
+      "description": "用于交易的物品"
+    },
+    {
+      "id": "local_map",
+      "name": "当地地图",
+      "description": "当地的地图"
+    },
+    {
+      "id": "hope_token",
+      "name": "希望信物",
+      "description": "给予希望的东西"
+    }
+  ]
+}

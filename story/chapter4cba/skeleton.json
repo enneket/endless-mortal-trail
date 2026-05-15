@@ -1,0 +1,67 @@
+{
+  "scenes": [
+    {
+      "id": "01_new_shore",
+      "title": "新岸",
+      "description": "踏上新天地的土地"
+    },
+    {
+      "id": "02_town",
+      "title": "小镇",
+      "description": "探索新兴的小镇"
+    },
+    {
+      "id": "03_market",
+      "title": "市场",
+      "description": "在市场中寻找机会"
+    },
+    {
+      "id": "04_farm",
+      "title": "农田",
+      "description": "开垦农田"
+    },
+    {
+      "id": "05_build",
+      "title": "建造",
+      "description": "建造自己的房屋"
+    },
+    {
+      "id": "06_festival",
+      "title": "节庆",
+      "description": "参加当地的节庆"
+    },
+    {
+      "id": "07_night_reflection",
+      "title": "夜思",
+      "description": "夜晚的沉思"
+    },
+    {
+      "id": "08_visitor",
+      "title": "访客",
+      "description": "一个神秘的访客到来"
+    },
+    {
+      "id": "09_truth_revealed",
+      "title": "真相",
+      "description": "了解这片土地的真相"
+    },
+    {
+      "id": "10a_prosper",
+      "title": "繁荣昌盛",
+      "description": "在这里繁荣发展",
+      "isEnding": true
+    },
+    {
+      "id": "10b_explore",
+      "title": "探索新世界",
+      "description": "继续探索未知的领域",
+      "isEnding": true
+    },
+    {
+      "id": "10c_return_home",
+      "title": "返回故乡",
+      "description": "带着收获回到故乡",
+      "isEnding": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "npcs": [
+    {
+      "id": "harbor_master",
+      "name": "港口主人",
+      "description": "管理港口的人"
+    },
+    {
+      "id": "local_guide",
+      "name": "当地向导",
+      "description": "熟悉当地的人"
+    },
+    {
+      "id": "settler",
+      "name": "定居者",
+      "description": "同样来定居的人"
+    },
+    {
+      "id": "merchant",
+      "name": "商人",
+      "description": "做生意的人"
+    },
+    {
+      "id": "farmer",
+      "name": "农夫",
+      "description": "务农的人"
+    },
+    {
+      "id": "builder",
+      "name": "建造者",
+      "description": "建造房屋的人"
+    },
+    {
+      "id": "storyteller",
+      "name": "说书人",
+      "description": "讲述故事的人"
+    },
+    {
+      "id": "mysterious_native",
+      "name": "神秘原住民",
+      "description": "当地的神秘人"
+    }
+  ]
+}
