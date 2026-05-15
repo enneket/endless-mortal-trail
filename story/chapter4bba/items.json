@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "light_crystal",
+      "name": "光明水晶",
+      "description": "光明的结晶，通体透明，内里流转着温暖的光芒，握在手中，仿佛握着一颗小太阳",
+      "effects": { "setFlag": "has_light_crystal" }
+    },
+    {
+      "id": "dawn_feather",
+      "name": "黎明羽毛",
+      "description": "黎明的象征，金色的羽毛，轻轻一挥，便能驱散周围的黑暗",
+      "effects": { "setFlag": "has_dawn_feather" }
+    },
+    {
+      "id": "healing_water",
+      "name": "治愈之水",
+      "description": "治愈一切的水，清冽甘甜，一滴便可抚平伤痛",
+      "effects": { "setFlag": "has_healing_water" }
+    },
+    {
+      "id": "star_dust",
+      "name": "星尘",
+      "description": "星辰的碎片，细碎如沙，却在掌心发出柔和的光",
+      "effects": { "setFlag": "has_star_dust" }
+    },
+    {
+      "id": "mirror_shard",
+      "name": "镜片",
+      "description": "映照真相的碎片，照见的不是容貌，而是人心",
+      "effects": { "setFlag": "has_mirror_shard" }
+    },
+    {
+      "id": "hope_seed",
+      "name": "希望种子",
+      "description": "播种希望的种子，据说种在任何地方，都能开出花来",
+      "effects": { "setFlag": "has_hope_seed" }
+    }
+  ]
+}

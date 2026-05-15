@@ -1,0 +1,8 @@
+{
+  "id": "chapter4bba",
+  "title": "光明彼岸",
+  "description": "追随光明后，渡途人到达光明之地",
+  "sceneCount": 12,
+  "startScene": "01_light_gate",
+  "randomized": true
+}

@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_light_gate", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_golden_path", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_crystal_garden", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_dawn_tower", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_star_lake", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_healing_spring", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_light", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_core", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_become_light", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_carry_light", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_return_dark", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["light_guardian", "angel"] },
+    "slot_2": { "candidates": ["dawn_singer", "light_scholar"] },
+    "slot_3": { "candidates": ["crystal_keeper", "mirror_child"] },
+    "slot_4": { "candidates": ["angel", "dawn_singer"] },
+    "slot_5": { "candidates": ["star_weaver", "healed_soul"] },
+    "slot_6": { "candidates": ["healed_soul", "light_guardian"] },
+    "slot_7": { "candidates": ["star_weaver", "mirror_child"] },
+    "slot_8": { "candidates": ["light_scholar", "crystal_keeper"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["light_crystal", "dawn_feather"] },
+    "slot_b": { "candidates": ["healing_water", "star_dust"] },
+    "slot_c": { "candidates": ["mirror_shard", "hope_seed"] },
+    "slot_d": { "candidates": ["star_dust", "light_crystal"] }
+  }
+}
