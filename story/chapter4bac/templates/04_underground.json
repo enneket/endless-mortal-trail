@@ -1,0 +1,31 @@
+{
+  "id": "04_underground",
+  "title": "地下",
+  "atmosphere": { "time": "深夜", "weather": "无风", "mood": "阴森" },
+  "texts": [
+    { "content": "你顺着密室里的暗门，走进了地下。", "delay": 0 },
+    { "content": "石阶陡峭，每一步都踩在黑暗里。空气潮湿而沉重，带着泥土和腐朽的味道。", "delay": 2000 },
+    { "content": "你走了很久。石阶尽头，是一个巨大的地下洞穴。", "delay": 2000 },
+    { "content": "洞穴里点着几盏油灯，灯光摇曳，照出四壁上的壁画。壁画上画的是一个人的一生：出生、长大、建功立业、被人背叛、死于非命。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你看着壁画上的人，觉得似曾相识。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"继续深入。\"",
+      "target": "05_trap",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"这些壁画是什么意思？\"",
+      "target": "06_revelation",
+      "effects": { "mood": "困惑" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

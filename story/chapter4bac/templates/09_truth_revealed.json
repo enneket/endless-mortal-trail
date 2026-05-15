@@ -1,0 +1,39 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "清晨", "weather": "薄雾散去", "mood": "恍然" },
+  "texts": [
+    { "content": "薄雾散去，阳光照进了大殿。", "delay": 0 },
+    { "content": "你站在佛像前，手里握着那些泛黄的文书。三百年的秘密，就沉睡在这几张纸上。", "delay": 2500 },
+    { "content": "你终于明白了这座寺庙的全部真相。", "delay": 2000 },
+    { "content": "三百年前，一位帝王在这里隐姓埋名，度过余生。僧人们世代守护这个秘密，不为功名，不为富贵，只为一个承诺。", "delay": 3000 },
+    { "content": "而现在，这个秘密交到了你手里。", "delay": 2000 },
+    { "content": "\"你想好了吗？\"老方丈不知何时站在了你身后。他的声音很轻，却重如千斤。", "delay": 2000 },
+    { "content": "\"揭露真相，天下震动。\"", "delay": 1500 },
+    { "content": "\"隐藏秘密，让亡者安息。\"", "delay": 1500 },
+    { "content": "\"毁掉一切，从此无人知晓。\"", "delay": 1500 },
+    { "content": "\"三条路，你自己选。\"", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"真相不应被埋没。我要揭露。\"",
+      "target": "10a_expose",
+      "effects": { "mood": "决然" },
+      "condition": null
+    },
+    {
+      "text": "\"有些秘密，就让它继续是秘密吧。\"",
+      "target": "10b_hide",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "\"这个秘密不该存在。我要毁掉它。\"",
+      "target": "10c_destroy",
+      "effects": { "mood": "决绝" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "05_trap",
+  "title": "陷阱",
+  "atmosphere": { "time": "深夜", "weather": "阴冷", "mood": "危险" },
+  "texts": [
+    { "content": "你继续往前走，突然脚下一空。", "delay": 0 },
+    { "content": "你踩到了机关。地面裂开，你整个人往下坠落。", "delay": 1500 },
+    { "content": "你拼命抓住了旁边的石壁，指甲抠进石缝里，疼痛传遍全身。", "delay": 2000 },
+    { "content": "下面是深不见底的黑暗。你听到水滴声，回荡在空旷的洞穴里。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "{{ITEM_SLOT_C:greeting}}", "delay": 1500 },
+    { "content": "你用尽全力，爬了上去。手心里全是血。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我不能退缩。\"",
+      "target": "06_revelation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"这里太危险了。\"",
+      "target": "07_confrontation",
+      "effects": { "mood": "恐惧" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

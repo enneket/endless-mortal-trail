@@ -1,0 +1,33 @@
+{
+  "id": "06_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "黎明前", "weather": "阴沉", "mood": "震动" },
+  "texts": [
+    { "content": "你终于走到了洞穴的最深处。", "delay": 0 },
+    { "content": "那里有一座石棺。石棺上刻着一个名字，一个你在壁画上见过的名字。", "delay": 2000 },
+    { "content": "石棺旁边，放着一摞泛黄的文书。你颤抖着手翻开第一页。", "delay": 2000 },
+    { "content": "\"建文四年，帝出亡……\"", "delay": 1500 },
+    { "content": "你的手停住了。", "delay": 1500 },
+    { "content": "这不是普通的古墓。这是——", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你终于明白了。这座寺庙存在的意义。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我要把真相告诉所有人。\"",
+      "target": "07_confrontation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"这件事太重大了。\"",
+      "target": "08_choice",
+      "effects": { "mood": "沉重" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

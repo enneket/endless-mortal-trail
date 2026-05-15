@@ -1,0 +1,31 @@
+{
+  "id": "01_suspicion",
+  "title": "疑心",
+  "atmosphere": { "time": "傍晚", "weather": "阴沉", "mood": "不安" },
+  "texts": [
+    { "content": "你再次来到这座古寺，却发现气氛与从前不同。", "delay": 0 },
+    { "content": "僧人们低着头走路，没有人说话。大殿里的香火比往日更旺，烟雾缭绕，像是一层屏障。", "delay": 2000 },
+    { "content": "你注意到一件事：后院的门，上了锁。", "delay": 2000 },
+    { "content": "上次来的时候，那扇门是开着的。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 },
+    { "content": "你的心沉了下去。这座寺庙，藏着什么？", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我要查清楚。\"",
+      "target": "02_investigation",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"也许我不该多管闲事。\"",
+      "target": "03_secret_room",
+      "effects": { "mood": "犹豫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

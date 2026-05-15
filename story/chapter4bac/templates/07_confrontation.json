@@ -1,0 +1,34 @@
+{
+  "id": "07_confrontation",
+  "title": "对峙",
+  "atmosphere": { "time": "黎明", "weather": "风起", "mood": "紧张" },
+  "texts": [
+    { "content": "你从地下走出来，迎面撞上了一个人。", "delay": 0 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "\"你看到了。\"{{NPC_SLOT_7:name}}的声音很平静，但你听出了底下的波澜。", "delay": 2000 },
+    { "content": "\"三百年了。\"他说，\"每一个知道真相的人，都要做出选择。\"", "delay": 2000 },
+    { "content": "\"留下来，保守秘密。\"", "delay": 1500 },
+    { "content": "\"离开，永远闭嘴。\"", "delay": 1500 },
+    { "content": "\"或者——\"", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "{{ITEM_SLOT_D:greeting}}", "delay": 1500 },
+    { "content": "天边泛起了鱼肚白。你必须做出决定了。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我不会沉默。\"",
+      "target": "08_choice",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"让我再想想。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "挣扎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "02_investigation",
+  "title": "调查",
+  "atmosphere": { "time": "夜晚", "weather": "无月", "mood": "紧张" },
+  "texts": [
+    { "content": "你决定调查这座寺庙的秘密。", "delay": 0 },
+    { "content": "夜深了，僧人们都回了禅房。你借着微弱的月光，沿着围墙摸索。", "delay": 2000 },
+    { "content": "后院的锁很新，不像是寺里原有的东西。你蹲下身，借着火折子的光查看锁孔。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "{{ITEM_SLOT_A:greeting}}", "delay": 1500 },
+    { "content": "你把这个东西收好。也许用得上。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"带我去看看那扇门后面是什么。\"",
+      "target": "03_secret_room",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我需要更多信息。\"",
+      "target": "04_underground",
+      "effects": { "mood": "谨慎" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

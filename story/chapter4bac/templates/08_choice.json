@@ -1,0 +1,39 @@
+{
+  "id": "08_choice",
+  "title": "抉择",
+  "atmosphere": { "time": "清晨", "weather": "风停", "mood": "凝重" },
+  "texts": [
+    { "content": "你站在大殿前，看着东方的天际。", "delay": 0 },
+    { "content": "晨钟响了。僧人们陆续走出禅房，像往常一样开始早课。没有人知道，在这座寺庙的地下，埋着一个足以动摇天下的秘密。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你手里握着那些文书，纸张在晨风中轻轻颤抖。", "delay": 2000 },
+    { "content": "三条路摆在你面前。", "delay": 1500 },
+    { "content": "揭露真相，让天下人知道。", "delay": 1500 },
+    { "content": "隐藏秘密，让历史继续沉睡。", "delay": 1500 },
+    { "content": "毁掉一切，让这个秘密永远消失。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我要揭露真相。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"也许有些真相不该被知道。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "矛盾" },
+      "condition": null
+    },
+    {
+      "text": "\"这个秘密必须被销毁。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "决绝" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
