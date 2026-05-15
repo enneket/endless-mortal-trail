@@ -1,0 +1,8 @@
+{
+  "id": "chapter4bcc",
+  "title": "守护使命",
+  "description": "成为守护者后，渡途人履行守护灵境的使命",
+  "sceneCount": 12,
+  "startScene": "01_guardian_duty",
+  "randomized": true
+}

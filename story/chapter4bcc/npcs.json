@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "fellow_guardian",
+      "name": "同伴守护者",
+      "identity": "同为守护者的人，并肩作战的伙伴",
+      "personality": "忠诚、坚毅、默契",
+      "dialogueStyle": "简练、有力、充满信任",
+      "dialogues": {
+        "greeting": "“你来了。”同伴守护者微微点头，眼中闪过一丝欣慰。",
+        "reveal": "“守护者的路，从来不是一个人走的。”",
+        "gift": "“这枚符文，是我守护灵境百年所得。你拿着。”"
+      }
+    },
+    {
+      "id": "spirit_pet",
+      "name": "灵宠",
+      "identity": "守护者的灵宠，通体流光",
+      "personality": "灵动、忠诚、善解人意",
+      "dialogueStyle": "无声传达心意，偶尔发出轻柔的鸣叫",
+      "dialogues": {
+        "greeting": "灵宠轻轻蹭了蹭你的手，发出一声低鸣。",
+        "reveal": "灵宠围着你转了一圈，忽然停下，望向远方。",
+        "gift": "灵宠从口中吐出一颗发光的珠子，放在你掌心。"
+      }
+    },
+    {
+      "id": "ancient_tree",
+      "name": "远古之树",
+      "identity": "灵境中的古树，根系深入灵境核心",
+      "personality": "沉稳、智慧、历经沧桑",
+      "dialogueStyle": "缓慢、低沉、带着岁月的厚重",
+      "dialogues": {
+        "greeting": "“又一位守护者。”远古之树的枝叶轻轻摇曳。",
+        "reveal": "“我已在此千年，见过无数守护者来来去去。”",
+        "gift": "“这片叶子，承载着灵境的记忆。”"
+      }
+    },
+    {
+      "id": "crystal_fairy",
+      "name": "水晶仙子",
+      "identity": "水晶的精灵，周身折射七彩光芒",
+      "personality": "清澈、纯真、洞察本质",
+      "dialogueStyle": "清脆、明亮、如水晶碰撞",
+      "dialogues": {
+        "greeting": "“叮——”水晶仙子现身，周身光芒闪烁。",
+        "reveal": "“水晶能映照一切真相，包括你自己。”",
+        "gift": "“这块水晶，能让你看清灵境的脉络。”"
+      }
+    },
+    {
+      "id": "wind_messenger",
+      "name": "风之信使",
+      "identity": "传递消息的风，无形无影",
+      "personality": "自由、迅捷、无处不在",
+      "dialogueStyle": "飘忽、轻快、带着远方的气息",
+      "dialogues": {
+        "greeting": "一阵风拂过你的脸庞，带着远方的消息。",
+        "reveal": "“灵境的每一个角落，我都去过。”风之信使的声音忽远忽近。",
+        "gift": "“这封信，是远方的守护者托我带给你的。”"
+      }
+    },
+    {
+      "id": "earth_keeper",
+      "name": "大地守护者",
+      "identity": "守护大地的人，双脚扎根于泥土",
+      "personality": "沉稳、可靠、与大地相连",
+      "dialogueStyle": "低沉、厚重、带着泥土的气息",
+      "dialogues": {
+        "greeting": "“站稳了。”大地守护者的声音从脚底传来。",
+        "reveal": "“大地是灵境的根基。根基不稳，一切皆空。”",
+        "gift": "“这捧泥土，来自灵境最深处。”"
+      }
+    },
+    {
+      "id": "fire_spirit",
+      "name": "火之灵",
+      "identity": "火焰的精灵，周身燃烧着不灭之火",
+      "personality": "炽热、暴烈、却有温情",
+      "dialogueStyle": "热烈、直接、带着灼烧感",
+      "dialogues": {
+        "greeting": "“哼！”火之灵现身，周围温度骤然升高。",
+        "reveal": "“火焰能毁灭，也能重生。关键在于谁来掌控。”",
+        "gift": "“这团火，是灵境之心。别让它熄灭。”"
+      }
+    },
+    {
+      "id": "water_nymph",
+      "name": "水之仙子",
+      "identity": "水的精灵，身形如流水般变幻",
+      "personality": "温柔、包容、深不可测",
+      "dialogueStyle": "柔和、流动、如溪水潺潺",
+      "dialogues": {
+        "greeting": "“你来了。”水之仙子的声音如溪水般轻柔。",
+        "reveal": "“水能容纳万物，也能吞噬万物。守护者需懂得分寸。”",
+        "gift": "“这滴水，来自灵境之心。它会指引你。”"
+      }
+    }
+  ]
+}

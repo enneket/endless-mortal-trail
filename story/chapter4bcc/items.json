@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "guardian_staff",
+      "name": "守护法杖",
+      "description": "守护者的法杖，杖身刻满古老的守护符文",
+      "effects": { "setFlag": "has_guardian_staff" }
+    },
+    {
+      "id": "spirit_key",
+      "name": "灵境钥匙",
+      "description": "开启灵境之门的钥匙，能通往灵境的任何角落",
+      "effects": { "setFlag": "has_spirit_key" }
+    },
+    {
+      "id": "element_crystal",
+      "name": "元素水晶",
+      "description": "掌控元素之力的水晶，内含风火水土四元素",
+      "effects": { "setFlag": "has_element_crystal" }
+    },
+    {
+      "id": "guardian_cape",
+      "name": "守护斗篷",
+      "description": "守护者的斗篷，穿上后能隐于灵境之中",
+      "effects": { "setFlag": "has_guardian_cape" }
+    },
+    {
+      "id": "realm_map",
+      "name": "灵境地图",
+      "description": "灵境的地图，标注着灵境的每一处秘境",
+      "effects": { "setFlag": "has_realm_map" }
+    },
+    {
+      "id": "duty_scroll",
+      "name": "使命卷轴",
+      "description": "记载守护者使命的卷轴，字迹永不褪色",
+      "effects": { "setFlag": "has_duty_scroll" }
+    }
+  ]
+}

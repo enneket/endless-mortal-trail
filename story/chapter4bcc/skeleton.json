@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_guardian_duty", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_patrol", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_threat", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_battle", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_rest", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_council", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_night_watch", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_revelation", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_eternal_guardian", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_pass_torch", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_abandon_post", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["fellow_guardian", "spirit_pet"] },
+    "slot_2": { "candidates": ["wind_messenger", "earth_keeper"] },
+    "slot_3": { "candidates": ["fire_spirit", "crystal_fairy"] },
+    "slot_4": { "candidates": ["fellow_guardian", "fire_spirit"] },
+    "slot_5": { "candidates": ["water_nymph", "ancient_tree"] },
+    "slot_6": { "candidates": ["ancient_tree", "crystal_fairy"] },
+    "slot_7": { "candidates": ["spirit_pet", "wind_messenger"] },
+    "slot_8": { "candidates": ["earth_keeper", "water_nymph"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["guardian_staff", "spirit_key"] },
+    "slot_b": { "candidates": ["element_crystal", "guardian_cape"] },
+    "slot_c": { "candidates": ["realm_map", "duty_scroll"] },
+    "slot_d": { "candidates": ["element_crystal", "spirit_key"] }
+  }
+}
