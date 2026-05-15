@@ -7,12 +7,28 @@
     "description": "你躺在战场上，望着满天的星星。身边是死去的战友和敌人，他们再也看不到这片星空了。你挣扎着站起来，踉踉跄跄地走过这片尸横遍野的战场。每一步都踩在血泊里，每一步都伴随着心碎的声音。你活下来了，但你不知道这是幸运还是诅咒。那些死去的人，他们的面孔会永远刻在你的记忆里。你将成为这场战争的见证者，活着，本身就是一种责任。你必须替那些死去的人活下去，替他们记住这一切。",
     "atmosphere": "劫后余生、沉重、活着的责任。"
   },
-  "choices": [],
-  "npcs": ["war_reporter", "prisoner"],
-  "items": ["soldier_letter", "victory_medal"],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5caab:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
+  "npcs": [
+    "war_reporter",
+    "prisoner"
+  ],
+  "items": [
+    "soldier_letter",
+    "victory_medal"
+  ],
   "ending": {
     "type": "true_ending",
     "title": "幸存",
     "epilogue": "他活了下来。但他从未真正从那场战争中走出来。每个夜晚，他都会梦到那些死去的战友，梦到那片血染的战场。他用余生记录下了这场战争的真相，不是为了荣耀，而是为了让后人记住——战争的代价，永远比想象的要沉重。在他生命的最后一天，他把这些手稿交给了战地记者，说：“替我保管好。总有一天，人们需要知道真相。”"
-  }
+  },
+  "texts": []
 }

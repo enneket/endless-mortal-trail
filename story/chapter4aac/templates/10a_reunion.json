@@ -1,19 +1,59 @@
 {
   "id": "10a_reunion",
   "title": "重逢",
-  "atmosphere": { "time": "黄昏", "weather": "晴朗", "mood": "温暖" },
+  "atmosphere": {
+    "time": "黄昏",
+    "weather": "晴朗",
+    "mood": "温暖"
+  },
   "texts": [
-    { "content": "你转身，朝着来时的路走去。", "delay": 0 },
-    { "content": "路还是那条路，但你已经不是当初离开时的那个人了。", "delay": 2000 },
-    { "content": "走了很久，你终于看到了那个熟悉的村庄。", "delay": 2000 },
-    { "content": "村口站着几个人。他们看到你，先是愣住，然后笑了。", "delay": 2000 },
-    { "content": "\"你回来了。\"他们说。", "delay": 1500 },
-    { "content": "\"我回来了。\"你说。", "delay": 1500 },
-    { "content": "夕阳洒在村庄上，一切都那么温暖。", "delay": 2000 },
-    { "content": "你知道，这是对的。", "delay": 1500 },
-    { "content": "——第四章·远行之路·完——", "delay": 1500 }
+    {
+      "content": "你转身，朝着来时的路走去。",
+      "delay": 0
+    },
+    {
+      "content": "路还是那条路，但你已经不是当初离开时的那个人了。",
+      "delay": 2000
+    },
+    {
+      "content": "走了很久，你终于看到了那个熟悉的村庄。",
+      "delay": 2000
+    },
+    {
+      "content": "村口站着几个人。他们看到你，先是愣住，然后笑了。",
+      "delay": 2000
+    },
+    {
+      "content": "\"你回来了。\"他们说。",
+      "delay": 1500
+    },
+    {
+      "content": "\"我回来了。\"你说。",
+      "delay": 1500
+    },
+    {
+      "content": "夕阳洒在村庄上，一切都那么温暖。",
+      "delay": 2000
+    },
+    {
+      "content": "你知道，这是对的。",
+      "delay": 1500
+    },
+    {
+      "content": "——第四章·远行之路·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5aaca:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

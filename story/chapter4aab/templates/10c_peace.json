@@ -1,20 +1,63 @@
 {
   "id": "10c_peace",
   "title": "和平解决",
-  "atmosphere": { "time": "清晨", "weather": "雨过天晴", "mood": "释然" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "雨过天晴",
+    "mood": "释然"
+  },
   "texts": [
-    { "content": "\"等等。\"你站出来，\"我们可以谈谈。\"", "delay": 0 },
-    { "content": "外敌头目看着你，有些意外。", "delay": 2000 },
-    { "content": "\"谈？\"他冷笑，\"你有什么资格谈？\"", "delay": 2000 },
-    { "content": "\"我不是来打架的。\"你说，\"我是来解决问题的。\"", "delay": 2000 },
-    { "content": "经过漫长的谈判，双方终于达成了协议。", "delay": 2000 },
-    { "content": "外敌撤走了，村子保住了。", "delay": 1500 },
-    { "content": "\"也许，这就是最好的结局。\"村长说。", "delay": 2000 },
-    { "content": "雨过天晴，阳光洒在村子里。", "delay": 1500 },
-    { "content": "\"但愿如此。\"你看着远方，轻声说。", "delay": 2000 },
-    { "content": "——第四章·冲突再起·完——", "delay": 1500 }
+    {
+      "content": "\"等等。\"你站出来，\"我们可以谈谈。\"",
+      "delay": 0
+    },
+    {
+      "content": "外敌头目看着你，有些意外。",
+      "delay": 2000
+    },
+    {
+      "content": "\"谈？\"他冷笑，\"你有什么资格谈？\"",
+      "delay": 2000
+    },
+    {
+      "content": "\"我不是来打架的。\"你说，\"我是来解决问题的。\"",
+      "delay": 2000
+    },
+    {
+      "content": "经过漫长的谈判，双方终于达成了协议。",
+      "delay": 2000
+    },
+    {
+      "content": "外敌撤走了，村子保住了。",
+      "delay": 1500
+    },
+    {
+      "content": "\"也许，这就是最好的结局。\"村长说。",
+      "delay": 2000
+    },
+    {
+      "content": "雨过天晴，阳光洒在村子里。",
+      "delay": 1500
+    },
+    {
+      "content": "\"但愿如此。\"你看着远方，轻声说。",
+      "delay": 2000
+    },
+    {
+      "content": "——第四章·冲突再起·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5aabc:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

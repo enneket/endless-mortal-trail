@@ -1,0 +1,8 @@
+{
+  "id": "chapter5acbb",
+  "title": "返回森林",
+  "description": "返回森林，渡途人继续探索",
+  "sceneCount": 12,
+  "startScene": "01_scene",
+  "randomized": true
+}

@@ -7,12 +7,27 @@
     "description": "你终于明白了，隐居与入世、山林与红尘、独处与群居——这些都是分别心制造的幻象。真正的自由，不在于你身在何处，而在于你心在何处。你站起身，走出小屋，走进森林，又走出森林。你发现，你可以在任何地方保持这份宁静，在任何环境中都是那个在林中醒来的自己。你超越了隐士与旅人的分别，成为了真正的渡途人。",
     "atmosphere": "超越、自由、无处不在的宁静。"
   },
-  "choices": [],
-  "npcs": ["tree_spirit"],
-  "items": ["meditation_mat", "crystal_spring"],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5accc:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
+  "npcs": [
+    "tree_spirit"
+  ],
+  "items": [
+    "meditation_mat",
+    "crystal_spring"
+  ],
   "ending": {
     "type": "true_ending",
     "title": "超然物外",
     "epilogue": "没有人知道他去了哪里。小屋还在，药园还在，溪水还在流。但那个隐士不见了。有人说他成仙了，有人说他只是搬去了更深的山里。只有树灵知道真相——他哪里都没去，也哪里都在。他成为了风，成为了水，成为了每一个在林中迷路又找到方向的人心中那份宁静。渡途人，终于渡过了自己。"
-  }
+  },
+  "texts": []
 }

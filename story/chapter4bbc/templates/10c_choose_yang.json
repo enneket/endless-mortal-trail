@@ -1,18 +1,55 @@
 {
   "id": "10c_choose_yang",
   "title": "选择阳",
-  "atmosphere": { "time": "正午", "weather": "万里无云", "mood": "光明" },
+  "atmosphere": {
+    "time": "正午",
+    "weather": "万里无云",
+    "mood": "光明"
+  },
   "texts": [
-    { "content": "你选择了阳。", "delay": 0 },
-    { "content": "你走向阳光的那一边，感受着炽热与光明。", "delay": 2000 },
-    { "content": "阳之灵在你身旁，阳光洒在你身上，如金般温暖。", "delay": 2000 },
-    { "content": "你明白了，阳不是灼烧。是光明，是创造，是万物生发。", "delay": 2500 },
-    { "content": "你张开双臂，感受着阳的力量。", "delay": 1500 },
-    { "content": "它让你热情，让你奔放，让你看见世界的广阔。", "delay": 2500 },
-    { "content": "你放下双手，阳光依然灿烂。你知道，你已经找到了属于你的路。", "delay": 2500 },
-    { "content": "——第四章·平衡之道·选择阳·完——", "delay": 1500 }
+    {
+      "content": "你选择了阳。",
+      "delay": 0
+    },
+    {
+      "content": "你走向阳光的那一边，感受着炽热与光明。",
+      "delay": 2000
+    },
+    {
+      "content": "阳之灵在你身旁，阳光洒在你身上，如金般温暖。",
+      "delay": 2000
+    },
+    {
+      "content": "你明白了，阳不是灼烧。是光明，是创造，是万物生发。",
+      "delay": 2500
+    },
+    {
+      "content": "你张开双臂，感受着阳的力量。",
+      "delay": 1500
+    },
+    {
+      "content": "它让你热情，让你奔放，让你看见世界的广阔。",
+      "delay": 2500
+    },
+    {
+      "content": "你放下双手，阳光依然灿烂。你知道，你已经找到了属于你的路。",
+      "delay": 2500
+    },
+    {
+      "content": "——第四章·平衡之道·选择阳·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5bbcc:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

@@ -7,12 +7,29 @@
     "description": "你们谈了很久。敌方将领并不是你想象中的恶魔——他和你一样，也是被卷入这场战争的普通人。他也有家人，也有梦想，也厌恶这无休止的杀戮。你们聊起了各自的家乡，聊起了战争前的生活，聊起了那些死去的人。最后，你们达成了共识：这场战争必须结束。不是一方征服另一方，而是双方共同放下武器。你们起草了一份和平条约，上面写着：“从今日起，永不再战。”当你们走出帐篷，向两军宣布这个消息的时候，响起了震天的欢呼声——不是胜利的欢呼，而是和平的欢呼。",
     "atmosphere": "释然、希望、新生。"
   },
-  "choices": [],
-  "npcs": ["enemy_general", "supreme_commander", "war_reporter"],
-  "items": ["victory_medal", "war_map"],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5caac:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
+  "npcs": [
+    "enemy_general",
+    "supreme_commander",
+    "war_reporter"
+  ],
+  "items": [
+    "victory_medal",
+    "war_map"
+  ],
   "ending": {
     "type": "true_ending",
     "title": "和平条约",
     "epilogue": "和平条约签订的那一天，被后人称为“和平日”。每年的这一天，人们都会举行纪念活动，不是庆祝胜利，而是纪念那些为和平付出生命的人。渡途人的故事被写进了历史书——不是作为英雄，而是作为和平的使者。他证明了，即使在最黑暗的时刻，人性中的善良和理性也不会完全泯灭。而那片曾经血流成河的战场，后来长满了鲜花，成为了和平公园。"
-  }
+  },
+  "texts": []
 }

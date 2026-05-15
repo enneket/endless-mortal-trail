@@ -1,0 +1,100 @@
+{
+  "npcs": [
+    {
+      "id": "guide",
+      "name": "引路人",
+      "identity": "指引方向的旅人",
+      "personality": "沉稳、睿智",
+      "dialogueStyle": "缓慢、深沉",
+      "dialogues": {
+        "greeting": "“年轻人，跟我来。”",
+        "reveal": "“这条路，我走过。”",
+        "gift": "“拿着这个，会用到的。”"
+      }
+    },
+    {
+      "id": "elder",
+      "name": "老者",
+      "identity": "年长的智者",
+      "personality": "温和、有耐心",
+      "dialogueStyle": "缓慢、富有哲理",
+      "dialogues": {
+        "greeting": "“你来了。”",
+        "reveal": "“这世间的事，我都经历过。”",
+        "gift": "“这个给你，好好珍惜。”"
+      }
+    },
+    {
+      "id": "merchant",
+      "name": "商人",
+      "identity": "行走四方的商人",
+      "personality": "精明、善谈",
+      "dialogueStyle": "热情、健谈",
+      "dialogues": {
+        "greeting": "“客官，看看有什么需要的？”",
+        "reveal": "“我走过很多地方，见过很多人。”",
+        "gift": "“这个送你，路上用得着。”"
+      }
+    },
+    {
+      "id": "scholar",
+      "name": "书生",
+      "identity": "博学的读书人",
+      "personality": "严谨、认真",
+      "dialogueStyle": "文雅、引经据典",
+      "dialogues": {
+        "greeting": "“有礼了。”",
+        "reveal": "“书中自有黄金屋。”",
+        "gift": "“这本书送你，望你勤学不辍。”"
+      }
+    },
+    {
+      "id": "warrior",
+      "name": "武者",
+      "identity": "行走江湖的武者",
+      "personality": "豪爽、直率",
+      "dialogueStyle": "粗犷、直接",
+      "dialogues": {
+        "greeting": "“嘿！”",
+        "reveal": "“江湖事，江湖了。”",
+        "gift": "“拿着这把剑，防身用。”"
+      }
+    },
+    {
+      "id": "healer",
+      "name": "医者",
+      "identity": "悬壶济世的医者",
+      "personality": "细心、善良",
+      "dialogueStyle": "温和、专业",
+      "dialogues": {
+        "greeting": "“身体可好？”",
+        "reveal": "“病从心生，药从心来。”",
+        "gift": "“这药方你收好。”"
+      }
+    },
+    {
+      "id": "farmer",
+      "name": "农夫",
+      "identity": "勤劳的农人",
+      "personality": "朴实、勤劳",
+      "dialogueStyle": "简单、直接",
+      "dialogues": {
+        "greeting": "“嗯。”",
+        "reveal": "“地里的事，我最清楚。”",
+        "gift": "“这个你拿着。”"
+      }
+    },
+    {
+      "id": "wanderer",
+      "name": "旅人",
+      "identity": "同路的旅人",
+      "personality": "开朗、健谈",
+      "dialogueStyle": "热情、有趣",
+      "dialogues": {
+        "greeting": "“你好啊！”",
+        "reveal": "“我走过很多路。”",
+        "gift": "“这个送你。”"
+      }
+    }
+  ]
+}

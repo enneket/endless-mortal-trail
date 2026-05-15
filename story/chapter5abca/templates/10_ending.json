@@ -1,0 +1,22 @@
+{
+  "id": "10_ending",
+  "title": "再次留下",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "圆满"
+  },
+  "texts": [
+    {
+      "content": "你来到了村庄。",
+      "delay": 0
+    },
+    {
+      "content": "这里是再次留下，圆满的氛围。",
+      "delay": 1500
+    }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,20 +1,63 @@
 {
   "id": "10b_carry_light",
   "title": "携带光明回归",
-  "atmosphere": { "time": "清晨", "weather": "万里晴空", "mood": "坦然" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "万里晴空",
+    "mood": "坦然"
+  },
   "texts": [
-    { "content": "你睁开眼睛。光还在。", "delay": 0 },
-    { "content": "不是在外面，在你心里。", "delay": 1500 },
-    { "content": "你转身，看向来时的路。那条穿过黑暗的路，还在那里。", "delay": 2500 },
-    { "content": "\"你要回去？\"光明守护者问。", "delay": 1500 },
-    { "content": "\"是。\"你说，\"那里还有人在黑暗中。\"", "delay": 2000 },
-    { "content": "你走过来时的路。但这一次，你不是在追光，你是带着光。", "delay": 2500 },
-    { "content": "黑暗还在那里。但你不怕了。", "delay": 2000 },
-    { "content": "你走进黑暗，黑暗在你身边退散。", "delay": 2000 },
-    { "content": "你把光明带给了每一个需要它的人。", "delay": 2000 },
-    { "content": "——第四章·光明彼岸·携带光明回归·完——", "delay": 1500 }
+    {
+      "content": "你睁开眼睛。光还在。",
+      "delay": 0
+    },
+    {
+      "content": "不是在外面，在你心里。",
+      "delay": 1500
+    },
+    {
+      "content": "你转身，看向来时的路。那条穿过黑暗的路，还在那里。",
+      "delay": 2500
+    },
+    {
+      "content": "\"你要回去？\"光明守护者问。",
+      "delay": 1500
+    },
+    {
+      "content": "\"是。\"你说，\"那里还有人在黑暗中。\"",
+      "delay": 2000
+    },
+    {
+      "content": "你走过来时的路。但这一次，你不是在追光，你是带着光。",
+      "delay": 2500
+    },
+    {
+      "content": "黑暗还在那里。但你不怕了。",
+      "delay": 2000
+    },
+    {
+      "content": "你走进黑暗，黑暗在你身边退散。",
+      "delay": 2000
+    },
+    {
+      "content": "你把光明带给了每一个需要它的人。",
+      "delay": 2000
+    },
+    {
+      "content": "——第四章·光明彼岸·携带光明回归·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5bbab:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

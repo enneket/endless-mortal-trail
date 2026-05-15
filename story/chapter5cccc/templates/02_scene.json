@@ -1,0 +1,55 @@
+{
+  "id": "02_scene",
+  "title": "云端深处",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "宁静"
+  },
+  "texts": [
+    {
+      "content": "你来到了云端。",
+      "delay": 0
+    },
+    {
+      "content": "这里是云端深处，宁静的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_2:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你发现了{{ITEM_SLOT_A:name}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{ITEM_SLOT_A:description}}",
+      "delay": 800
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续探索",
+      "target": "04_scene",
+      "effects": {
+        "mood": "好奇"
+      },
+      "condition": null
+    },
+    {
+      "text": "休息一下",
+      "target": "05_scene",
+      "effects": {
+        "mood": "平静"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

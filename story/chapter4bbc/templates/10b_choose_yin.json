@@ -1,18 +1,55 @@
 {
   "id": "10b_choose_yin",
   "title": "选择阴",
-  "atmosphere": { "time": "月夜", "weather": "清朗", "mood": "宁静" },
+  "atmosphere": {
+    "time": "月夜",
+    "weather": "清朗",
+    "mood": "宁静"
+  },
   "texts": [
-    { "content": "你选择了阴。", "delay": 0 },
-    { "content": "你走向月光的那一边，感受着清冷与宁静。", "delay": 2000 },
-    { "content": "阴之灵在你身旁，月光洒在你身上，如水般温柔。", "delay": 2000 },
-    { "content": "你明白了，阴不是黑暗。是宁静，是包容，是万物归藏。", "delay": 2500 },
-    { "content": "你闭上眼睛，感受着阴的力量。", "delay": 1500 },
-    { "content": "它让你沉静，让你内敛，让你看清自己的内心。", "delay": 2500 },
-    { "content": "你睁开眼睛，月光依然明亮。你知道，你已经找到了属于你的路。", "delay": 2500 },
-    { "content": "——第四章·平衡之道·选择阴·完——", "delay": 1500 }
+    {
+      "content": "你选择了阴。",
+      "delay": 0
+    },
+    {
+      "content": "你走向月光的那一边，感受着清冷与宁静。",
+      "delay": 2000
+    },
+    {
+      "content": "阴之灵在你身旁，月光洒在你身上，如水般温柔。",
+      "delay": 2000
+    },
+    {
+      "content": "你明白了，阴不是黑暗。是宁静，是包容，是万物归藏。",
+      "delay": 2500
+    },
+    {
+      "content": "你闭上眼睛，感受着阴的力量。",
+      "delay": 1500
+    },
+    {
+      "content": "它让你沉静，让你内敛，让你看清自己的内心。",
+      "delay": 2500
+    },
+    {
+      "content": "你睁开眼睛，月光依然明亮。你知道，你已经找到了属于你的路。",
+      "delay": 2500
+    },
+    {
+      "content": "——第四章·平衡之道·选择阴·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5bbcb:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

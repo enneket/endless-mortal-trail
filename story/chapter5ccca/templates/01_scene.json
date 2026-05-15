@@ -1,0 +1,47 @@
+{
+  "id": "01_scene",
+  "title": "山巅入口",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "平静"
+  },
+  "texts": [
+    {
+      "content": "你来到了山巅。",
+      "delay": 0
+    },
+    {
+      "content": "这里是山巅入口，平静的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_1:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。",
+      "delay": 1000
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "02_scene",
+      "effects": {
+        "mood": "平静"
+      },
+      "condition": null
+    },
+    {
+      "text": "四处看看",
+      "target": "03_scene",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

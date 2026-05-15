@@ -1,0 +1,22 @@
+{
+  "id": "10_ending",
+  "title": "成为暗影",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "圆满"
+  },
+  "texts": [
+    {
+      "content": "你来到了暗影之地。",
+      "delay": 0
+    },
+    {
+      "content": "这里是成为暗影，圆满的氛围。",
+      "delay": 1500
+    }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

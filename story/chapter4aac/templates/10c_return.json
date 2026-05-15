@@ -1,19 +1,59 @@
 {
   "id": "10c_return",
   "title": "返回村庄",
-  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "释然" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "薄雾",
+    "mood": "释然"
+  },
   "texts": [
-    { "content": "你决定回去。不是为了留下，而是为了重新出发。", "delay": 0 },
-    { "content": "你沿着原路返回，但这一次，你看清了路边的每一棵树，每一块石头。", "delay": 2000 },
-    { "content": "当你再次站在村口时，天刚刚亮。", "delay": 2000 },
-    { "content": "村长站在那里，似乎早已在等你。", "delay": 2000 },
-    { "content": "\"你回来了。\"他说。", "delay": 1500 },
-    { "content": "\"我回来了。\"你说，\"但我会再走的。\"", "delay": 1500 },
-    { "content": "村长点了点头，笑了。", "delay": 1500 },
-    { "content": "\"好。\"他说，\"这才是真正的渡途人。\"", "delay": 2000 },
-    { "content": "——第四章·远行之路·完——", "delay": 1500 }
+    {
+      "content": "你决定回去。不是为了留下，而是为了重新出发。",
+      "delay": 0
+    },
+    {
+      "content": "你沿着原路返回，但这一次，你看清了路边的每一棵树，每一块石头。",
+      "delay": 2000
+    },
+    {
+      "content": "当你再次站在村口时，天刚刚亮。",
+      "delay": 2000
+    },
+    {
+      "content": "村长站在那里，似乎早已在等你。",
+      "delay": 2000
+    },
+    {
+      "content": "\"你回来了。\"他说。",
+      "delay": 1500
+    },
+    {
+      "content": "\"我回来了。\"你说，\"但我会再走的。\"",
+      "delay": 1500
+    },
+    {
+      "content": "村长点了点头，笑了。",
+      "delay": 1500
+    },
+    {
+      "content": "\"好。\"他说，\"这才是真正的渡途人。\"",
+      "delay": 2000
+    },
+    {
+      "content": "——第四章·远行之路·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5aacc:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

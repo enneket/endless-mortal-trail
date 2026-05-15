@@ -1,18 +1,55 @@
 {
   "id": "10b_continue",
   "title": "继续漂泊",
-  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "自由" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "自由"
+  },
   "texts": [
-    { "content": "你没有回头。你继续往前走。", "delay": 0 },
-    { "content": "路没有尽头。但你已经不在乎了。", "delay": 2000 },
-    { "content": "你走过了山川，走过了河流，走过了无数的村庄和城镇。", "delay": 2000 },
-    { "content": "你见过各种各样的人，听过各种各样的故事。", "delay": 2000 },
-    { "content": "有时候你会想起那个村庄，想起那些送你离开的人。", "delay": 2000 },
-    { "content": "但你没有停下。因为你知道，路还在前方。", "delay": 1500 },
-    { "content": "你是一个渡途人。你的归宿，就是路本身。", "delay": 2000 },
-    { "content": "——第四章·远行之路·完——", "delay": 1500 }
+    {
+      "content": "你没有回头。你继续往前走。",
+      "delay": 0
+    },
+    {
+      "content": "路没有尽头。但你已经不在乎了。",
+      "delay": 2000
+    },
+    {
+      "content": "你走过了山川，走过了河流，走过了无数的村庄和城镇。",
+      "delay": 2000
+    },
+    {
+      "content": "你见过各种各样的人，听过各种各样的故事。",
+      "delay": 2000
+    },
+    {
+      "content": "有时候你会想起那个村庄，想起那些送你离开的人。",
+      "delay": 2000
+    },
+    {
+      "content": "但你没有停下。因为你知道，路还在前方。",
+      "delay": 1500
+    },
+    {
+      "content": "你是一个渡途人。你的归宿，就是路本身。",
+      "delay": 2000
+    },
+    {
+      "content": "——第四章·远行之路·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5aacb:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

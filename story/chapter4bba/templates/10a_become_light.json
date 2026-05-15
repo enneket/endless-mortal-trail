@@ -1,20 +1,63 @@
 {
   "id": "10a_become_light",
   "title": "化为光明",
-  "atmosphere": { "time": "黎明", "weather": "光芒万丈", "mood": "圆满" },
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "光芒万丈",
+    "mood": "圆满"
+  },
   "texts": [
-    { "content": "你闭上眼睛。", "delay": 0 },
-    { "content": "你的身体开始发光。从指尖开始，从脚底开始，从心脏开始。", "delay": 2500 },
-    { "content": "光一点一点地蔓延，覆盖了你的皮肤，你的骨骼，你的血液。", "delay": 2500 },
-    { "content": "你感到自己在消散。不是消失，是融入。", "delay": 2000 },
-    { "content": "你融入了光里。", "delay": 1500 },
-    { "content": "从此，世间多了一道光。", "delay": 2000 },
-    { "content": "每当有人在黑暗中抬头，看到天边那一抹微光——", "delay": 2500 },
-    { "content": "那就是你。", "delay": 1500 },
-    { "content": "你不再是渡途人。你是光。", "delay": 2000 },
-    { "content": "——第四章·光明彼岸·化为光明·完——", "delay": 1500 }
+    {
+      "content": "你闭上眼睛。",
+      "delay": 0
+    },
+    {
+      "content": "你的身体开始发光。从指尖开始，从脚底开始，从心脏开始。",
+      "delay": 2500
+    },
+    {
+      "content": "光一点一点地蔓延，覆盖了你的皮肤，你的骨骼，你的血液。",
+      "delay": 2500
+    },
+    {
+      "content": "你感到自己在消散。不是消失，是融入。",
+      "delay": 2000
+    },
+    {
+      "content": "你融入了光里。",
+      "delay": 1500
+    },
+    {
+      "content": "从此，世间多了一道光。",
+      "delay": 2000
+    },
+    {
+      "content": "每当有人在黑暗中抬头，看到天边那一抹微光——",
+      "delay": 2500
+    },
+    {
+      "content": "那就是你。",
+      "delay": 1500
+    },
+    {
+      "content": "你不再是渡途人。你是光。",
+      "delay": 2000
+    },
+    {
+      "content": "——第四章·光明彼岸·化为光明·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5bbaa:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

@@ -1,0 +1,55 @@
+{
+  "id": "04_scene",
+  "title": "山下角落",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "沉思"
+  },
+  "texts": [
+    {
+      "content": "你来到了山下。",
+      "delay": 0
+    },
+    {
+      "content": "这里是山下角落，沉思的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_4:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你发现了{{ITEM_SLOT_B:name}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{ITEM_SLOT_B:description}}",
+      "delay": 800
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续探索",
+      "target": "06_scene",
+      "effects": {
+        "mood": "好奇"
+      },
+      "condition": null
+    },
+    {
+      "text": "停下来思考",
+      "target": "05_scene",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

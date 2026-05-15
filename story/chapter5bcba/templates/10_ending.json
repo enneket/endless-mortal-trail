@@ -1,0 +1,22 @@
+{
+  "id": "10_ending",
+  "title": "智慧生活",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "圆满"
+  },
+  "texts": [
+    {
+      "content": "你来到了城镇。",
+      "delay": 0
+    },
+    {
+      "content": "这里是智慧生活，圆满的氛围。",
+      "delay": 1500
+    }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

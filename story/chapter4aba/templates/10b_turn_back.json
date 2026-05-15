@@ -1,19 +1,59 @@
 {
   "id": "10b_turn_back",
   "title": "回头是岸",
-  "atmosphere": { "time": "清晨", "weather": "朝霞满天", "mood": "释然而平静" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "朝霞满天",
+    "mood": "释然而平静"
+  },
   "texts": [
-    { "content": "你选择了回去。", "delay": 0 },
-    { "content": "转过身，看着来时的路。", "delay": 2000 },
-    { "content": "那些翻过的山，渡过的河，遇见的人。", "delay": 1500 },
-    { "content": "每一步，都是值得的。", "delay": 2000 },
-    { "content": "你终于明白，回家的路，也是远方。", "delay": 2000 },
-    { "content": "朝霞映照着你的脸，温暖而柔和。", "delay": 1500 },
-    { "content": "你迈开步伐，走向来时的方向。", "delay": 2000 },
-    { "content": "这一次，你不再是那个迷茫的旅人。", "delay": 1500 },
-    { "content": "——前方未知·回头是岸·完——", "delay": 2000 }
+    {
+      "content": "你选择了回去。",
+      "delay": 0
+    },
+    {
+      "content": "转过身，看着来时的路。",
+      "delay": 2000
+    },
+    {
+      "content": "那些翻过的山，渡过的河，遇见的人。",
+      "delay": 1500
+    },
+    {
+      "content": "每一步，都是值得的。",
+      "delay": 2000
+    },
+    {
+      "content": "你终于明白，回家的路，也是远方。",
+      "delay": 2000
+    },
+    {
+      "content": "朝霞映照着你的脸，温暖而柔和。",
+      "delay": 1500
+    },
+    {
+      "content": "你迈开步伐，走向来时的方向。",
+      "delay": 2000
+    },
+    {
+      "content": "这一次，你不再是那个迷茫的旅人。",
+      "delay": 1500
+    },
+    {
+      "content": "——前方未知·回头是岸·完——",
+      "delay": 2000
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5abab:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

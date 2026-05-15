@@ -1,21 +1,67 @@
 {
   "id": "10a_happy_life",
   "title": "幸福生活",
-  "atmosphere": { "time": "清晨", "weather": "阳光明媚", "mood": "安宁" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "阳光明媚",
+    "mood": "安宁"
+  },
   "texts": [
-    { "content": "清晨，阳光透过窗户照进来。", "delay": 0 },
-    { "content": "你睁开眼，看着这个熟悉的房间。", "delay": 2000 },
-    { "content": "锅里煮着粥，院子里种着菜。", "delay": 1500 },
-    { "content": "邻居在门口喊你吃饭，孩子在巷子里追着跑。", "delay": 2000 },
-    { "content": "你笑了。", "delay": 1500 },
-    { "content": "\"这就是家。\"你说。", "delay": 2000 },
-    { "content": "走了那么远的路，终于找到了归处。", "delay": 1500 },
-    { "content": "不是什么了不起的地方，但足够安心。", "delay": 2000 },
-    { "content": "你推开窗，深吸一口气。", "delay": 1500 },
-    { "content": "\"今天也是好天气。\"", "delay": 2000 },
-    { "content": "——第四章·安居乐业·完——", "delay": 1500 }
+    {
+      "content": "清晨，阳光透过窗户照进来。",
+      "delay": 0
+    },
+    {
+      "content": "你睁开眼，看着这个熟悉的房间。",
+      "delay": 2000
+    },
+    {
+      "content": "锅里煮着粥，院子里种着菜。",
+      "delay": 1500
+    },
+    {
+      "content": "邻居在门口喊你吃饭，孩子在巷子里追着跑。",
+      "delay": 2000
+    },
+    {
+      "content": "你笑了。",
+      "delay": 1500
+    },
+    {
+      "content": "\"这就是家。\"你说。",
+      "delay": 2000
+    },
+    {
+      "content": "走了那么远的路，终于找到了归处。",
+      "delay": 1500
+    },
+    {
+      "content": "不是什么了不起的地方，但足够安心。",
+      "delay": 2000
+    },
+    {
+      "content": "你推开窗，深吸一口气。",
+      "delay": 1500
+    },
+    {
+      "content": "\"今天也是好天气。\"",
+      "delay": 2000
+    },
+    {
+      "content": "——第四章·安居乐业·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5abba:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

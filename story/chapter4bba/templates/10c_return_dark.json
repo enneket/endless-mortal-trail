@@ -1,21 +1,67 @@
 {
   "id": "10c_return_dark",
   "title": "返回黑暗",
-  "atmosphere": { "time": "黄昏", "weather": "暮色四合", "mood": "悲壮" },
+  "atmosphere": {
+    "time": "黄昏",
+    "weather": "暮色四合",
+    "mood": "悲壮"
+  },
   "texts": [
-    { "content": "你看着那团光，忽然明白了一件事。", "delay": 0 },
-    { "content": "光之所以存在，是因为有黑暗。", "delay": 2000 },
-    { "content": "如果没有黑暗，光就不叫光了。", "delay": 2000 },
-    { "content": "你转身，向来路走去。", "delay": 1500 },
-    { "content": "\"你要去哪里？\"身后有人问。", "delay": 1500 },
-    { "content": "\"回去。\"你说。", "delay": 1000 },
-    { "content": "\"回到黑暗里去？\"", "delay": 1500 },
-    { "content": "\"是。\"你说，\"没有黑暗，谁来衬托光？\"", "delay": 2000 },
-    { "content": "你走回了黑暗中。但你心中有光。", "delay": 2500 },
-    { "content": "你成了黑暗中的光。不是驱散黑暗，而是在黑暗中发光。", "delay": 2500 },
-    { "content": "——第四章·光明彼岸·返回黑暗·完——", "delay": 1500 }
+    {
+      "content": "你看着那团光，忽然明白了一件事。",
+      "delay": 0
+    },
+    {
+      "content": "光之所以存在，是因为有黑暗。",
+      "delay": 2000
+    },
+    {
+      "content": "如果没有黑暗，光就不叫光了。",
+      "delay": 2000
+    },
+    {
+      "content": "你转身，向来路走去。",
+      "delay": 1500
+    },
+    {
+      "content": "\"你要去哪里？\"身后有人问。",
+      "delay": 1500
+    },
+    {
+      "content": "\"回去。\"你说。",
+      "delay": 1000
+    },
+    {
+      "content": "\"回到黑暗里去？\"",
+      "delay": 1500
+    },
+    {
+      "content": "\"是。\"你说，\"没有黑暗，谁来衬托光？\"",
+      "delay": 2000
+    },
+    {
+      "content": "你走回了黑暗中。但你心中有光。",
+      "delay": 2500
+    },
+    {
+      "content": "你成了黑暗中的光。不是驱散黑暗，而是在黑暗中发光。",
+      "delay": 2500
+    },
+    {
+      "content": "——第四章·光明彼岸·返回黑暗·完——",
+      "delay": 1500
+    }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter5bbac:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }
