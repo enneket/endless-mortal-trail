@@ -1,0 +1,29 @@
+{
+  "id": "05_river",
+  "title": "河流",
+  "atmosphere": { "time": "黄昏", "weather": "微风", "mood": "沉思" },
+  "texts": [
+    { "content": "一条宽阔的河流挡住了去路。河水缓缓流淌，映着天边的晚霞，像是流动的金子。", "delay": 0 },
+    { "content": "你蹲在河边，看着水里的倒影。你的脸比以前老了一些，但眼睛还是亮的。你用河水洗了把脸，凉意让你清醒。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 2500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "河水不停地流，从上游到下游，从过去到未来。你忽然觉得，自己也是一条河，一直在流动，一直在前进，永远不会停下来。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想要这个\"",
+      "target": "06_forest",
+      "effects": { "setFlag": "has_ITEM_SLOT_C" },
+      "condition": null
+    },
+    {
+      "text": "沿着河流走一段",
+      "target": "06_forest",
+      "effects": { "wisdom": 1, "karma": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

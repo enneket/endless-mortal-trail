@@ -1,0 +1,30 @@
+{
+  "id": "07_night_sky",
+  "title": "星空之下",
+  "atmosphere": { "time": "深夜", "weather": "星空璀璨", "mood": "超脱" },
+  "texts": [
+    { "content": "你走出了森林，来到一片空旷的草地上。抬头一看，满天的星星。", "delay": 0 },
+    { "content": "星星密密麻麻地铺满了天空，像是有人把一把碎钻撒在了黑色的天鹅绒上。银河横跨天际，明亮得像一条真正的河流。", "delay": 3000 },
+    { "content": "你躺在草地上，看着星空。你忽然觉得自己很小，小得像一粒尘埃。但你也觉得自己很大，大得能装下整个星空。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 2000 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你闭上眼睛，听着风声和虫鸣。你忽然明白了一件事——你不需要走到任何地方，因为你已经在该在的地方了。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想要这个\"",
+      "target": "08_revelation",
+      "effects": { "setFlag": "has_ITEM_SLOT_D" },
+      "condition": null
+    },
+    {
+      "text": "在星空下坐到天亮",
+      "target": "08_revelation",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

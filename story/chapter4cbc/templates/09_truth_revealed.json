@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相显现",
+  "atmosphere": { "time": "正午", "weather": "万里无云", "mood": "通透" },
+  "texts": [
+    { "content": "你继续走着。路在脚下延伸，一如既往。但你的眼睛不一样了。", "delay": 0 },
+    { "content": "你看到了路边的每一朵花，每一棵草，每一粒石子。你听到了风的声音，鸟的叫声，虫子的低语。你闻到了泥土的气息，花草的芬芳，远方的呼唤。", "delay": 3000 },
+    { "content": "你忽然明白了一件事——你从来不是在走路，你是在和这个世界对话。每一步都是一个字，每一段路都是一句话，整个旅途就是一首诗。", "delay": 3000 },
+    { "content": "你停下来，回头看了看自己走过的路。路弯弯曲曲，消失在远方。你又转过头，看了看前方的路。同样弯弯曲曲，同样消失在远方。", "delay": 2500 },
+    { "content": "你笑了。你终于明白了——路没有尽头，也不需要尽头。路的意义，就在于走。", "delay": 2500 },
+    { "content": "现在，你必须做出最后的选择。不是选择去哪里，而是选择如何继续走下去。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续前行，永远走下去",
+      "target": "10a_keep_walking",
+      "effects": { "courage": 3, "setFlag": "chose_keep_walking" },
+      "condition": null
+    },
+    {
+      "text": "寻找一个归宿，把根扎下来",
+      "target": "10b_find_root",
+      "effects": { "karma": 3, "setFlag": "chose_find_root" },
+      "condition": null
+    },
+    {
+      "text": "成为道路本身，让别人踩着你前行",
+      "target": "10c_become_road",
+      "effects": { "wisdom": 3, "setFlag": "chose_become_road" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

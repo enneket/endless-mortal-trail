@@ -1,0 +1,24 @@
+{
+  "id": "08_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "黎明", "weather": "曙光", "mood": "觉醒" },
+  "texts": [
+    { "content": "天亮了。第一缕阳光从地平线上射出来，把整个天空染成了金红色。", "delay": 0 },
+    { "content": "你站在路中间，看着太阳慢慢升起。你的影子被拉得很长，从你脚下一直延伸到远方。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 2500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你忽然明白了。你一直在寻找的，不是终点，不是归宿，不是答案。你一直在寻找的，是这条路本身。", "delay": 3000 },
+    { "content": "路就是你的家，脚步就是你的语言，远方就是你的信仰。你不需要到达任何地方，因为每一步都是到达。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "09_truth_revealed",
+      "effects": { "courage": 2, "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

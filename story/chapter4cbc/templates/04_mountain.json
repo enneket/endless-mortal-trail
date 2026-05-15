@@ -1,0 +1,30 @@
+{
+  "id": "04_mountain",
+  "title": "高山",
+  "atmosphere": { "time": "傍晚", "weather": "云雾缭绕", "mood": "敬畏" },
+  "texts": [
+    { "content": "一座高山挡在了面前。山很高，山顶消失在云雾里。路蜿蜒而上，像是系在山腰的一条丝带。", "delay": 0 },
+    { "content": "你开始爬山。每一步都很艰难，空气越来越稀薄，风越来越大。但你没有停下来。你已经习惯了艰难。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 2500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你终于爬到了山顶。风在耳边呼啸，云在脚下翻滚。你看到了来时的路，弯弯曲曲，延伸到看不见的地方。你也看到了前方的路，同样弯弯曲曲，同样延伸到看不见的地方。", "delay": 3000 },
+    { "content": "你忽然笑了。原来路就是这样，来时如此，去时也如此。重要的不是起点和终点，是路上的每一步。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "从另一侧下山，继续前行",
+      "target": "05_river",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "在山顶多待一会儿，看看风景",
+      "target": "05_river",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

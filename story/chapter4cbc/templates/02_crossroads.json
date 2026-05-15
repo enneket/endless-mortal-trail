@@ -1,0 +1,35 @@
+{
+  "id": "02_crossroads",
+  "title": "十字路口",
+  "atmosphere": { "time": "正午", "weather": "晴朗", "mood": "思索" },
+  "texts": [
+    { "content": "路在一个十字路口分成了四条。每条路看起来都一样，都延伸到远方，都消失在地平线上。", "delay": 0 },
+    { "content": "你站在路口中央，风吹过来，带着四个方向的气息。东边有海的味道，西边有沙的味道，南边有花的味道，北边有雪的味道。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 2500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你低头看了看自己的脚。鞋已经磨破了，但脚还在。你忽然明白了一件事——方向不重要，重要的是你在走。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "闭上眼睛，随意选一条路",
+      "target": "03_oasis",
+      "effects": { "courage": 1, "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "沿着风的方向走",
+      "target": "03_oasis",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我想要这个\"",
+      "target": "03_oasis",
+      "effects": { "setFlag": "has_ITEM_SLOT_A" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

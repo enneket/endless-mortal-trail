@@ -1,0 +1,29 @@
+{
+  "id": "03_oasis",
+  "title": "绿洲",
+  "atmosphere": { "time": "午后", "weather": "温暖", "mood": "安详" },
+  "texts": [
+    { "content": "沙漠中央出现了一片绿洲。棕榈树投下阴凉，泉水汩汩地冒出来，形成一个小池塘。", "delay": 0 },
+    { "content": "你蹲下来，用手捧起水喝了一口。水是甜的，凉的，从喉咙一直凉到心里。你闭上眼睛，让阳光透过树叶洒在脸上。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 2500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "你躺在草地上，看着天空。云慢慢地飘过去，像是时间本身在流动。你忽然觉得，停下来也是一种前进。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想要这个\"",
+      "target": "04_mountain",
+      "effects": { "setFlag": "has_ITEM_SLOT_B" },
+      "condition": null
+    },
+    {
+      "text": "在绿洲多待一会儿",
+      "target": "04_mountain",
+      "effects": { "karma": 1, "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

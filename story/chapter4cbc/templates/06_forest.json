@@ -1,0 +1,30 @@
+{
+  "id": "06_forest",
+  "title": "森林",
+  "atmosphere": { "time": "夜晚", "weather": "月光", "mood": "神秘" },
+  "texts": [
+    { "content": "你走进了一片古老的森林。树木高大而密集，枝叶遮住了天空，只有零星的月光从缝隙中洒下来。", "delay": 0 },
+    { "content": "脚下是厚厚的落叶，踩上去沙沙作响。空气中弥漫着腐叶和松脂的味道。远处有什么东西在叫，声音低沉而悠长。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 2500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你在森林里走着，忽然发现一棵巨大的树。树干粗得要十个人才能合抱，树冠遮天蔽日。你靠着树坐下，闭上眼睛。", "delay": 3000 },
+    { "content": "树的年轮里藏着多少年？你不知道。但你知道，自己也像这棵树一样，在路上扎根，在风中生长。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "在树下休息一晚",
+      "target": "07_night_sky",
+      "effects": { "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "继续穿过森林",
+      "target": "07_night_sky",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

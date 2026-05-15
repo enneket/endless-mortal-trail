@@ -1,0 +1,30 @@
+{
+  "id": "01_endless_road",
+  "title": "无尽之路",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "宁静" },
+  "texts": [
+    { "content": "你已经走了很久了。久到你忘了是从什么时候开始的，也忘了最初为什么要走。", "delay": 0 },
+    { "content": "脚下的路延伸到雾气里，看不到尽头。路边的草叶上挂着露珠，在晨光中闪闪发亮。", "delay": 3000 },
+    { "content": "你深吸一口气，空气里有泥土和青草的味道。你的脚步很慢，但很稳。你已经学会了不急不躁地走路。", "delay": 2500 },
+    { "content": "远处有一个人影，坐在路边的石头上。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我能和你一起走一段吗？\"",
+      "target": "02_crossroads",
+      "effects": { "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我习惯了一个人走。不过，谢谢你的故事。\"",
+      "target": "02_crossroads",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
