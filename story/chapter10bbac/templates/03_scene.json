@@ -1,0 +1,47 @@
+{
+  "id": "03_scene",
+  "title": "黑暗小径",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "迷茫"
+  },
+  "texts": [
+    {
+      "content": "你来到了黑暗。",
+      "delay": 0
+    },
+    {
+      "content": "这里是黑暗小径，迷茫的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_3:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。",
+      "delay": 1000
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "04_scene",
+      "effects": {
+        "mood": "坚定"
+      },
+      "condition": null
+    },
+    {
+      "text": "返回原路",
+      "target": "02_scene",
+      "effects": {
+        "mood": "犹豫"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

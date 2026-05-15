@@ -1,0 +1,47 @@
+{
+  "id": "07_scene",
+  "title": "暗影夜景",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "宁静"
+  },
+  "texts": [
+    {
+      "content": "你来到了暗影。",
+      "delay": 0
+    },
+    {
+      "content": "这里是暗影夜景，宁静的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_7:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。",
+      "delay": 1000
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "08_scene",
+      "effects": {
+        "mood": "坚定"
+      },
+      "condition": null
+    },
+    {
+      "text": "等待黎明",
+      "target": "08_scene",
+      "effects": {
+        "mood": "耐心"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

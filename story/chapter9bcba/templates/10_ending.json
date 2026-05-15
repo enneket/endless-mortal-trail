@@ -1,0 +1,31 @@
+{
+  "id": "10_ending",
+  "title": "智慧终章·续",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "圆满"
+  },
+  "texts": [
+    {
+      "content": "你来到了人间。",
+      "delay": 0
+    },
+    {
+      "content": "这里是智慧终章·续，圆满的氛围。",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter10bcba:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

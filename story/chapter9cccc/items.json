@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "item_1",
+      "name": "古玉",
+      "description": "温润的古玉，有灵性",
+      "effects": {
+        "setFlag": "has_jade"
+      }
+    },
+    {
+      "id": "item_2",
+      "name": "药草",
+      "description": "新鲜的药草，可治病",
+      "effects": {
+        "setFlag": "has_herb"
+      }
+    },
+    {
+      "id": "item_3",
+      "name": "干粮",
+      "description": "路上的口粮",
+      "effects": {
+        "setFlag": "has_food"
+      }
+    },
+    {
+      "id": "item_4",
+      "name": "地图",
+      "description": "详细的路线图",
+      "effects": {
+        "setFlag": "has_map"
+      }
+    },
+    {
+      "id": "item_5",
+      "name": "火折子",
+      "description": "生火工具",
+      "effects": {
+        "setFlag": "has_fire"
+      }
+    },
+    {
+      "id": "item_6",
+      "name": "绳索",
+      "description": "结实的绳索",
+      "effects": {
+        "setFlag": "has_rope"
+      }
+    }
+  ]
+}
