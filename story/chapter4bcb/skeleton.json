@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_mortal_world", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_village", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_market", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_healer", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_storyteller", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_evening", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_night_reflection", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_visitor", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_live_wisely", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_share_wisdom", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_forget", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["old_friend", "common_person"] },
+    "slot_2": { "candidates": ["wise_elder", "merchant"] },
+    "slot_3": { "candidates": ["merchant", "child"] },
+    "slot_4": { "candidates": ["healer", "common_person"] },
+    "slot_5": { "candidates": ["storyteller", "wise_elder"] },
+    "slot_6": { "candidates": ["old_friend", "storyteller"] },
+    "slot_7": { "candidates": ["child", "healer"] },
+    "slot_8": { "candidates": ["mysterious_stranger", "wise_elder"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["mortal_clothes", "mortal_coin"] },
+    "slot_b": { "candidates": ["mortal_coin", "spirit_gift"] },
+    "slot_c": { "candidates": ["wisdom_scroll", "healing_herbs"] },
+    "slot_d": { "candidates": ["memory_bead", "wisdom_scroll"] }
+  }
+}

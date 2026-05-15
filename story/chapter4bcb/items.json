@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "mortal_clothes",
+      "name": "凡衣",
+      "description": "普通的衣服，粗布缝制，朴素干净",
+      "effects": { "setFlag": "has_mortal_clothes" }
+    },
+    {
+      "id": "wisdom_scroll",
+      "name": "智慧卷轴",
+      "description": "记录灵境智慧的卷轴，字迹会随时间淡去",
+      "effects": { "setFlag": "has_wisdom_scroll" }
+    },
+    {
+      "id": "healing_herbs",
+      "name": "灵药",
+      "description": "来自灵境的药草，散发着淡淡的光芒",
+      "effects": { "setFlag": "has_healing_herbs" }
+    },
+    {
+      "id": "memory_bead",
+      "name": "记忆珠",
+      "description": "记住灵境的珠子，握在手中能看见往事",
+      "effects": { "setFlag": "has_memory_bead" }
+    },
+    {
+      "id": "mortal_coin",
+      "name": "凡间钱币",
+      "description": "在凡间使用的钱币，铜制，外圆内方",
+      "effects": { "setFlag": "has_mortal_coin" }
+    },
+    {
+      "id": "spirit_gift",
+      "name": "灵境礼物",
+      "description": "带给凡间的礼物，不知有何用途",
+      "effects": { "setFlag": "has_spirit_gift" }
+    }
+  ]
+}
