@@ -1,0 +1,34 @@
+{
+  "scenes": [
+    { "id": "01_rear_base", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_camp", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_hospital", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_meeting", "npcSlots": ["slot_4"], "itemSlots": ["slot_c"] },
+    { "id": "05_training", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_spy", "npcSlots": ["slot_6"], "itemSlots": ["slot_d"] },
+    { "id": "07_night_planning", "npcSlots": ["slot_7"], "itemSlots": ["slot_e"] },
+    { "id": "08_counterattack", "npcSlots": ["slot_8"], "itemSlots": ["slot_f"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_regroup", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_surrender", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_guerilla", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["rear_commander", "wounded_soldier"] },
+    "slot_2": { "candidates": ["supply_officer", "refugee_leader"] },
+    "slot_3": { "candidates": ["medic", "wounded_soldier"] },
+    "slot_4": { "candidates": ["strategist", "rear_commander"] },
+    "slot_5": { "candidates": ["morale_officer", "wounded_soldier"] },
+    "slot_6": { "candidates": ["spy", "supply_officer"] },
+    "slot_7": { "candidates": ["strategist", "spy"] },
+    "slot_8": { "candidates": ["morale_officer", "refugee_leader"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["retreat_order", "supply_list"] },
+    "slot_b": { "candidates": ["medical_supplies", "refugee_list"] },
+    "slot_c": { "candidates": ["secret_plan", "retreat_order"] },
+    "slot_d": { "candidates": ["supply_list", "morale_flag"] },
+    "slot_e": { "candidates": ["secret_plan", "medical_supplies"] },
+    "slot_f": { "candidates": ["morale_flag", "refugee_list"] }
+  }
+}

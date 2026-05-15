@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "retreat_order",
+      "name": "撤退令",
+      "description": "盖着大印的正式撤退命令，上面写着“保存实力，择机反攻”",
+      "effects": { "setFlag": "has_retreat_order" }
+    },
+    {
+      "id": "supply_list",
+      "name": "补给清单",
+      "description": "详细的物资清单，上面标注了各种物资的数量和缺口",
+      "effects": { "setFlag": "has_supply_list" }
+    },
+    {
+      "id": "medical_supplies",
+      "name": "医疗物资",
+      "description": "一箱药品和绷带，是从后方医院匀出来的",
+      "effects": { "setFlag": "has_medical_supplies" }
+    },
+    {
+      "id": "morale_flag",
+      "name": "士气旗",
+      "description": "一面染血的营旗，上面绣着“不屈”二字",
+      "effects": { "setFlag": "has_morale_flag" }
+    },
+    {
+      "id": "secret_plan",
+      "name": "秘密计划",
+      "description": "战略家制定的反攻方案，详细标注了敌人的弱点",
+      "effects": { "setFlag": "has_secret_plan" }
+    },
+    {
+      "id": "refugee_list",
+      "name": "难民名单",
+      "description": "一份手写的名单，记录着每一个难民的姓名和来历",
+      "effects": { "setFlag": "has_refugee_list" }
+    }
+  ]
+}

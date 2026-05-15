@@ -1,0 +1,8 @@
+{
+  "id": "chapter4cab",
+  "title": "战略撤退",
+  "description": "撤退到后方后，渡途人重新规划未来",
+  "sceneCount": 12,
+  "startScene": "01_rear_base",
+  "randomized": true
+}
