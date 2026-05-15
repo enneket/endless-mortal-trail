@@ -1,0 +1,22 @@
+{
+  "id": "10_ending",
+  "title": "遗忘后续",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "圆满"
+  },
+  "texts": [
+    {
+      "content": "你来到了陌生之地。",
+      "delay": 0
+    },
+    {
+      "content": "这里是遗忘后续，圆满的氛围。",
+      "delay": 1500
+    }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

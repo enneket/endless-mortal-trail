@@ -1,0 +1,8 @@
+{
+  "id": "chapter6cacc",
+  "title": "交易后续",
+  "description": "幕后交易的后续",
+  "sceneCount": 12,
+  "startScene": "01_scene",
+  "randomized": true
+}

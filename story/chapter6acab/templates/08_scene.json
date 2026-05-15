@@ -1,0 +1,47 @@
+{
+  "id": "08_scene",
+  "title": "地面尽头",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "期待"
+  },
+  "texts": [
+    {
+      "content": "你来到了地面。",
+      "delay": 0
+    },
+    {
+      "content": "这里是地面尽头，期待的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_8:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你发现了{{ITEM_SLOT_D:name}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{ITEM_SLOT_D:description}}",
+      "delay": 800
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "09_truth_revealed",
+      "effects": {
+        "mood": "坚定"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "05_scene",
+  "title": "新居休息处",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "平静"
+  },
+  "texts": [
+    {
+      "content": "你来到了新居。",
+      "delay": 0
+    },
+    {
+      "content": "这里是新居休息处，平静的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_5:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。",
+      "delay": 1000
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "06_scene",
+      "effects": {
+        "mood": "平静"
+      },
+      "condition": null
+    },
+    {
+      "text": "等待天亮",
+      "target": "07_scene",
+      "effects": {
+        "mood": "耐心"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

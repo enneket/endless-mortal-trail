@@ -1,0 +1,55 @@
+{
+  "id": "06_scene",
+  "title": "驿站深处",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "神秘"
+  },
+  "texts": [
+    {
+      "content": "你来到了驿站。",
+      "delay": 0
+    },
+    {
+      "content": "这里是驿站深处，神秘的氛围。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_6:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你发现了{{ITEM_SLOT_C:name}}。",
+      "delay": 1000
+    },
+    {
+      "content": "{{ITEM_SLOT_C:description}}",
+      "delay": 800
+    }
+  ],
+  "choices": [
+    {
+      "text": "继续探索",
+      "target": "07_scene",
+      "effects": {
+        "mood": "好奇"
+      },
+      "condition": null
+    },
+    {
+      "text": "返回休息",
+      "target": "05_scene",
+      "effects": {
+        "mood": "疲惫"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

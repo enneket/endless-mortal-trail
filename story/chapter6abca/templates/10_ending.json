@@ -1,0 +1,22 @@
+{
+  "id": "10_ending",
+  "title": "选择后续",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "圆满"
+  },
+  "texts": [
+    {
+      "content": "你来到了村庄。",
+      "delay": 0
+    },
+    {
+      "content": "这里是选择后续，圆满的氛围。",
+      "delay": 1500
+    }
+  ],
+  "choices": [],
+  "onEnter": [],
+  "onExit": []
+}

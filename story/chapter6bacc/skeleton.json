@@ -1,0 +1,154 @@
+{
+  "scenes": [
+    {
+      "id": "01_scene",
+      "npcSlots": [
+        "slot_1"
+      ],
+      "itemSlots": []
+    },
+    {
+      "id": "02_scene",
+      "npcSlots": [
+        "slot_2"
+      ],
+      "itemSlots": [
+        "slot_a"
+      ]
+    },
+    {
+      "id": "03_scene",
+      "npcSlots": [
+        "slot_3"
+      ],
+      "itemSlots": []
+    },
+    {
+      "id": "04_scene",
+      "npcSlots": [
+        "slot_4"
+      ],
+      "itemSlots": [
+        "slot_b"
+      ]
+    },
+    {
+      "id": "05_scene",
+      "npcSlots": [
+        "slot_5"
+      ],
+      "itemSlots": []
+    },
+    {
+      "id": "06_scene",
+      "npcSlots": [
+        "slot_6"
+      ],
+      "itemSlots": [
+        "slot_c"
+      ]
+    },
+    {
+      "id": "07_scene",
+      "npcSlots": [
+        "slot_7"
+      ],
+      "itemSlots": []
+    },
+    {
+      "id": "08_scene",
+      "npcSlots": [
+        "slot_8"
+      ],
+      "itemSlots": [
+        "slot_d"
+      ]
+    },
+    {
+      "id": "09_truth_revealed",
+      "npcSlots": [],
+      "itemSlots": []
+    },
+    {
+      "id": "10_ending",
+      "npcSlots": [],
+      "itemSlots": []
+    }
+  ],
+  "npcSlots": {
+    "slot_1": {
+      "candidates": [
+        "guide",
+        "elder"
+      ]
+    },
+    "slot_2": {
+      "candidates": [
+        "merchant",
+        "scholar"
+      ]
+    },
+    "slot_3": {
+      "candidates": [
+        "warrior",
+        "healer"
+      ]
+    },
+    "slot_4": {
+      "candidates": [
+        "farmer",
+        "wanderer"
+      ]
+    },
+    "slot_5": {
+      "candidates": [
+        "guide",
+        "merchant"
+      ]
+    },
+    "slot_6": {
+      "candidates": [
+        "elder",
+        "scholar"
+      ]
+    },
+    "slot_7": {
+      "candidates": [
+        "warrior",
+        "farmer"
+      ]
+    },
+    "slot_8": {
+      "candidates": [
+        "healer",
+        "wanderer"
+      ]
+    }
+  },
+  "itemSlots": {
+    "slot_a": {
+      "candidates": [
+        "item_1",
+        "item_2"
+      ]
+    },
+    "slot_b": {
+      "candidates": [
+        "item_3",
+        "item_4"
+      ]
+    },
+    "slot_c": {
+      "candidates": [
+        "item_5",
+        "item_6"
+      ]
+    },
+    "slot_d": {
+      "candidates": [
+        "item_1",
+        "item_3"
+      ]
+    }
+  }
+}

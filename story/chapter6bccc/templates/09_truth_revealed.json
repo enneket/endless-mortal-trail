@@ -1,0 +1,31 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "觉悟"
+  },
+  "texts": [
+    {
+      "content": "你来到了荒野。",
+      "delay": 0
+    },
+    {
+      "content": "这里是真相大白，觉悟的氛围。",
+      "delay": 1500
+    }
+  ],
+  "choices": [
+    {
+      "text": "接受真相",
+      "target": "10_ending",
+      "effects": {
+        "mood": "平静"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -16,7 +16,16 @@
       "delay": 1500
     }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅途",
+      "target": "chapter6abca:01_scene",
+      "effects": {
+        "experience": 5
+      },
+      "condition": null
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }
