@@ -1,0 +1,31 @@
+{
+  "id": "04_convergence",
+  "title": "交汇",
+  "atmosphere": { "time": "黄昏", "weather": "霞光万丈", "mood": "和谐" },
+  "texts": [
+    { "content": "阴之路和阳之路在这里交汇。", "delay": 0 },
+    { "content": "黑白两条路在此处合而为一，化作一条灰白色的石径。", "delay": 2000 },
+    { "content": "你站在交汇处，感受到两股力量在你体内流动。", "delay": 2000 },
+    { "content": "一股清冷，一股炽热。它们并不冲突，反而相互缠绕，相互补充。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你继续向前走，心中多了一份从未有过的平静。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "去和谐花园",
+      "target": "05_harmony_garden",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "去天平神殿",
+      "target": "06_scale_temple",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

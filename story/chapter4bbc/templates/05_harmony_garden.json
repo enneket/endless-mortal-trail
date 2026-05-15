@@ -1,0 +1,59 @@
+{
+  "id": "05_harmony_garden",
+  "title": "和谐花园",
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "和风细雨",
+    "mood": "祥和"
+  },
+  "texts": [
+    {
+      "content": "你走进一座花园。花园不大，却处处透着和谐。",
+      "delay": 0
+    },
+    {
+      "content": "白花与黑花并蒂而开，高树与低草各安其位。",
+      "delay": 2000
+    },
+    {
+      "content": "流水声、鸟鸣声、风声，交织在一起，却丝毫不显杂乱。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_5:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你在花园中漫步，每一步都踩在恰好的位置。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_5:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“这花园真美。”",
+      "target": "06_scale_temple",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    },
+    {
+      "text": "“和谐原来是这样的。”",
+      "target": "07_cycle_pool",
+      "effects": {
+        "mood": "安宁"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

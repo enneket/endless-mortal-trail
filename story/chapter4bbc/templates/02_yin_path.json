@@ -1,0 +1,59 @@
+{
+  "id": "02_yin_path",
+  "title": "阴之路",
+  "atmosphere": {
+    "time": "月夜",
+    "weather": "薄雾",
+    "mood": "幽静"
+  },
+  "texts": [
+    {
+      "content": "你向阴的那一边走去。月光如水，洒在青石路上。",
+      "delay": 0
+    },
+    {
+      "content": "路两旁是幽深的竹林，竹叶在夜风中轻轻摇曳。",
+      "delay": 2000
+    },
+    {
+      "content": "你感到一种奇异的宁静，仿佛时间在这里变得缓慢。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_2:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你走在月光下，心中渐渐平静。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_2:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“阴的力量，原来是这样的。”",
+      "target": "04_convergence",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    },
+    {
+      "text": "继续深入阴之路",
+      "target": "05_harmony_garden",
+      "effects": {
+        "mood": "沉静"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

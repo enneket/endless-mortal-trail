@@ -1,0 +1,59 @@
+{
+  "id": "07_cycle_pool",
+  "title": "循环之池",
+  "atmosphere": {
+    "time": "月夜",
+    "weather": "星光璀璨",
+    "mood": "神秘"
+  },
+  "texts": [
+    {
+      "content": "你来到一处圆形的水池旁。池水清澈见底，却看不到池底。",
+      "delay": 0
+    },
+    {
+      "content": "水面上倒映着星空，但那些星星似乎在缓缓转动。",
+      "delay": 2000
+    },
+    {
+      "content": "你凝视着水面，发现水中有无数的漩涡，一个接一个，永不停歇。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_7:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你伸手触碰水面，涟漪一圈圈扩散开去。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_7:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“这就是循环吗？”",
+      "target": "08_core",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    },
+    {
+      "text": "继续凝视池水",
+      "target": "08_core",
+      "effects": {
+        "mood": "沉思"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

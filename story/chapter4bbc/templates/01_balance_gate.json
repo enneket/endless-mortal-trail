@@ -1,0 +1,63 @@
+{
+  "id": "01_balance_gate",
+  "title": "平衡之门",
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "晴朗无风",
+    "mood": "肃穆"
+  },
+  "texts": [
+    {
+      "content": "你沿着中间的路一直走，走到一扇巨大的石门前。",
+      "delay": 0
+    },
+    {
+      "content": "石门上刻着两个字：平衡。",
+      "delay": 2000
+    },
+    {
+      "content": "门的两侧各有一座石像，一黑一白，相对而立。",
+      "delay": 2000
+    },
+    {
+      "content": "你伸手推门，石门缓缓打开。",
+      "delay": 1500
+    },
+    {
+      "content": "{{NPC_SLOT_1:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你走进石门，眼前是一片奇异的天地。",
+      "delay": 2000
+    },
+    {
+      "content": "天空一半是白天，一半是黑夜。大地一半是春天，一半是秋天。",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“这就是平衡的世界吗？”",
+      "target": "02_yin_path",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    },
+    {
+      "text": "“我该往哪里走？”",
+      "target": "03_yang_path",
+      "effects": {
+        "mood": "好奇"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

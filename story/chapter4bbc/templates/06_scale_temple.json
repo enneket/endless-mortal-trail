@@ -1,0 +1,59 @@
+{
+  "id": "06_scale_temple",
+  "title": "天平神殿",
+  "atmosphere": {
+    "time": "午后",
+    "weather": "晴朗",
+    "mood": "庄严"
+  },
+  "texts": [
+    {
+      "content": "你走进一座古老的神殿。神殿中央，立着一架巨大的天平。",
+      "delay": 0
+    },
+    {
+      "content": "天平的两端各放着一个盘子，一黑一白，却保持着完美的平衡。",
+      "delay": 2000
+    },
+    {
+      "content": "你走近天平，发现盘子里空无一物，但天平依然平衡。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_6:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你伸手触碰天平，一股温热从指尖传遍全身。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_6:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“天平衡量的是什么？”",
+      "target": "07_cycle_pool",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    },
+    {
+      "text": "继续探索神殿",
+      "target": "08_core",
+      "effects": {
+        "mood": "专注"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

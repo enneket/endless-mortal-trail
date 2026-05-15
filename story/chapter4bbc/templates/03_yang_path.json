@@ -1,0 +1,59 @@
+{
+  "id": "03_yang_path",
+  "title": "阳之路",
+  "atmosphere": {
+    "time": "正午",
+    "weather": "万里无云",
+    "mood": "炽热"
+  },
+  "texts": [
+    {
+      "content": "你向阳的那一边走去。阳光如金，铺满大地。",
+      "delay": 0
+    },
+    {
+      "content": "路两旁是盛开的花田，色彩斑斓，香气袭人。",
+      "delay": 2000
+    },
+    {
+      "content": "你感到一种蓬勃的生命力，仿佛万物都在生长。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_3:greeting}}",
+      "delay": 1500
+    },
+    {
+      "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。",
+      "delay": 1000
+    },
+    {
+      "content": "你走在阳光下，心中渐渐明亮。",
+      "delay": 2000
+    },
+    {
+      "content": "{{NPC_SLOT_3:reveal}}",
+      "delay": 2000
+    }
+  ],
+  "choices": [
+    {
+      "text": "“阳的力量，原来是这样的。”",
+      "target": "04_convergence",
+      "effects": {
+        "wisdom": 1
+      },
+      "condition": null
+    },
+    {
+      "text": "继续深入阳之路",
+      "target": "05_harmony_garden",
+      "effects": {
+        "mood": "昂扬"
+      },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

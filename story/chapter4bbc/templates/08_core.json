@@ -1,0 +1,25 @@
+{
+  "id": "08_core",
+  "title": "核心",
+  "atmosphere": { "time": "黎明", "weather": "天光初现", "mood": "庄严" },
+  "texts": [
+    { "content": "你来到这片天地的最深处。", "delay": 0 },
+    { "content": "这里没有白天，也没有黑夜。没有春天，也没有秋天。", "delay": 2000 },
+    { "content": "只有一种永恒的、超越一切对立的宁静。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你闭上眼睛，感受着这片天地的气息。", "delay": 2000 },
+    { "content": "一切都静了下来。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "睁开眼睛",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

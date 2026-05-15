@@ -1,0 +1,38 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "霞光初现", "mood": "澄明" },
+  "texts": [
+    { "content": "你睁开眼睛。", "delay": 0 },
+    { "content": "眼前的世界变了。", "delay": 2000 },
+    { "content": "不再是半明半暗，不再是半春半秋。", "delay": 2000 },
+    { "content": "而是一个完整的、统一的、和谐的世界。", "delay": 2500 },
+    { "content": "你终于明白了。", "delay": 1500 },
+    { "content": "平衡不是一半一半，不是不偏不倚。", "delay": 2000 },
+    { "content": "平衡是接纳一切，是包容一切，是在变化中找到恒定。", "delay": 2500 },
+    { "content": "你站在那里，心中再无疑惑。", "delay": 2000 },
+    { "content": "现在，你要做出最后的选择。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "保持平衡",
+      "target": "10a_maintain_balance",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "选择阴",
+      "target": "10b_choose_yin",
+      "effects": { "mood": "沉静" },
+      "condition": null
+    },
+    {
+      "text": "选择阳",
+      "target": "10c_choose_yang",
+      "effects": { "mood": "昂扬" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
