@@ -1,0 +1,8 @@
+{
+  "id": "chapter4bbb",
+  "title": "暗影深处",
+  "description": "拥抱黑暗后，渡途人在暗影中找到平静",
+  "sceneCount": 12,
+  "startScene": "01_shadow_gate",
+  "randomized": true
+}

@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_shadow_gate", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_dark_path", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_moon_garden", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_void_bridge", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_night_temple", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_dream_pool", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_silence_hall", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_core", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_become_shadow", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_embrace_void", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_find_light", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["shadow_guardian", "night_whisperer"] },
+    "slot_2": { "candidates": ["void_walker", "shadow_artist"] },
+    "slot_3": { "candidates": ["moon_priest", "dream_weaver"] },
+    "slot_4": { "candidates": ["silence_keeper", "shadow_guardian"] },
+    "slot_5": { "candidates": ["moon_priest", "night_whisperer"] },
+    "slot_6": { "candidates": ["dream_weaver", "shadow_artist"] },
+    "slot_7": { "candidates": ["silence_keeper", "star_watcher"] },
+    "slot_8": { "candidates": ["star_watcher", "void_walker"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["shadow_cloak", "nightmare_feather"] },
+    "slot_b": { "candidates": ["moon_tear", "shadow_flower"] },
+    "slot_c": { "candidates": ["silence_bell", "moon_tear"] },
+    "slot_d": { "candidates": ["void_essence", "shadow_cloak"] }
+  }
+}

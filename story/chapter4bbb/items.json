@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "shadow_cloak",
+      "name": "暗影斗篷",
+      "description": "用纯粹暗影织成的斗篷，穿上后与黑暗融为一体",
+      "effects": { "setFlag": "has_shadow_cloak" }
+    },
+    {
+      "id": "moon_tear",
+      "name": "月之泪",
+      "description": "月亮在最孤独的夜晚流下的一滴泪，晶莹而冰冷",
+      "effects": { "setFlag": "has_moon_tear" }
+    },
+    {
+      "id": "void_essence",
+      "name": "虚空精华",
+      "description": "虚空凝结而成的结晶，看似空无一物，却蕴含无限可能",
+      "effects": { "setFlag": "has_void_essence" }
+    },
+    {
+      "id": "nightmare_feather",
+      "name": "噩梦羽毛",
+      "description": "从噩梦中飘落的羽毛，触碰时能感到一丝战栗",
+      "effects": { "setFlag": "has_nightmare_feather" }
+    },
+    {
+      "id": "silence_bell",
+      "name": "寂静铃",
+      "description": "摇动时不会发出声音的铃铛，却能让周围陷入绝对的寂静",
+      "effects": { "setFlag": "has_silence_bell" }
+    },
+    {
+      "id": "shadow_flower",
+      "name": "暗影花",
+      "description": "只在黑暗中绽放的花，花瓣如夜色般深沉，却散发着淡淡的幽香",
+      "effects": { "setFlag": "has_shadow_flower" }
+    }
+  ]
+}
