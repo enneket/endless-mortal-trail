@@ -1,0 +1,39 @@
+{
+  "id": "03_frontline",
+  "chapter": "chapter4caa",
+  "title": "前线阵地",
+  "narrative": {
+    "opening": "前线阵地上，士兵们正在做最后的准备。有人磨刀，有人写信，有人默默祈祷。",
+    "description": "战壕里弥漫着泥土和火药的气味。精锐战士看到你走来，放下手中的武器，朝你点了点头。他的脸上布满了伤疤，眼神却依然锐利。“明天就是决战了。”他平静地说，仿佛在谈论天气。远处，敌军的营火星星点点，像一片危险的星海。战地记者蹲在一旁，借着微弱的光记录着什么。一个垂死士兵躺在担架上，呼吸微弱，手里紧握着一封家书。",
+    "atmosphere": "肃穆、决绝、视死如归。"
+  },
+  "choices": [
+    {
+      "id": "encourage_soldiers",
+      "text": "鼓舞士兵们的士气",
+      "nextScene": "04_battle",
+      "effects": {
+        "addItems": ["battle_flag"]
+      }
+    },
+    {
+      "id": "talk_to_prisoner",
+      "text": "去审讯被俘的敌军",
+      "nextScene": "04_battle",
+      "effects": {
+        "addNpcs": ["prisoner"]
+      }
+    },
+    {
+      "id": "comfort_dying",
+      "text": "陪伴垂死的士兵走完最后一程",
+      "nextScene": "05_casualties",
+      "effects": {
+        "addNpcs": ["dying_soldier"],
+        "addItems": ["soldier_letter"]
+      }
+    }
+  ],
+  "npcs": ["elite_soldier", "prisoner", "war_reporter", "dying_soldier"],
+  "items": ["battle_flag", "medicine_box"]
+}

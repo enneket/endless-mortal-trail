@@ -1,0 +1,38 @@
+{
+  "id": "02_command_tent",
+  "chapter": "chapter4caa",
+  "title": "指挥大帐",
+  "narrative": {
+    "opening": "大帐内灯火通明，将领们围坐在沙盘前，面色凝重。最高统帅站在正中，手中握着令剑。",
+    "description": "帐篷里弥漫着紧张的气氛。沙盘上插满了小旗，红色代表我军，黑色代表敌军。从旗帜的数量来看，敌军兵力几乎是我们的两倍。战争策略师正在地图上比划着什么，几位将领不时低声争论。最高统帅看到你进来，微微点头：“你来了。这一战，我们需要每一个人。”补给官在一旁清点着最后的物资，眉头紧锁。",
+    "atmosphere": "紧张、凝重、生死存亡。"
+  },
+  "choices": [
+    {
+      "id": "suggest_strategy",
+      "text": "提出你的战略建议",
+      "nextScene": "04_battle",
+      "effects": {
+        "addItems": ["war_map"]
+      }
+    },
+    {
+      "id": "volunteer_frontline",
+      "text": "主动请缨去前线",
+      "nextScene": "03_frontline",
+      "effects": {
+        "addItems": ["command_sword"]
+      }
+    },
+    {
+      "id": "ask_prisoner",
+      "text": "提议审讯战俘获取情报",
+      "nextScene": "03_frontline",
+      "effects": {
+        "addNpcs": ["prisoner"]
+      }
+    }
+  ],
+  "npcs": ["supreme_commander", "war_strategist", "supply_master"],
+  "items": ["war_map"]
+}

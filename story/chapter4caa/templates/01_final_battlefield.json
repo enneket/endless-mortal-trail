@@ -1,0 +1,39 @@
+{
+  "id": "01_final_battlefield",
+  "chapter": "chapter4caa",
+  "title": "最终战场",
+  "narrative": {
+    "opening": "你站在山丘之上，俯瞰着这片即将成为最终战场的平原。风卷着沙尘，远处两军的旗帜在风中猎猎作响。",
+    "description": "这是你一路走来最终到达的地方。从最初的迷茫到战斗的选择，从坚持到底到如今面对最终决战——每一步都把你带到了这里。平原上，两军对峙，战鼓声隐隐传来。你知道，这一战将决定一切。不是胜就是败，不是生就是死。没有退路，也不需要退路。",
+    "atmosphere": "肃杀、悲壮、决战在即。"
+  },
+  "choices": [
+    {
+      "id": "enter_command_tent",
+      "text": "走进指挥大帐，参加战前会议",
+      "nextScene": "02_command_tent",
+      "effects": {
+        "addNpcs": ["supreme_commander", "war_strategist"]
+      }
+    },
+    {
+      "id": "visit_frontline",
+      "text": "先去前线阵地视察",
+      "nextScene": "03_frontline",
+      "effects": {
+        "addNpcs": ["elite_soldier"]
+      }
+    },
+    {
+      "id": "check_supply",
+      "text": "检查后勤补给情况",
+      "nextScene": "02_command_tent",
+      "effects": {
+        "addNpcs": ["supply_master"],
+        "addItems": ["war_map"]
+      }
+    }
+  ],
+  "npcs": ["supreme_commander", "elite_soldier", "war_strategist"],
+  "items": ["command_sword", "battle_flag"]
+}

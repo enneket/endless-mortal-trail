@@ -1,0 +1,38 @@
+{
+  "id": "06_retreat",
+  "chapter": "chapter4caa",
+  "title": "撤退抉择",
+  "narrative": {
+    "opening": "最高统帅站在残破的军旗下，脸上满是硝烟和尘土。他的目光扫过每一个幸存者的脸庞。",
+    "description": "“我们已经失去了三分之一的兵力。”战争策略师的声音很轻，但每个字都像锤子一样砸在心上。补给官补充道：“粮食只够三天了，药材已经耗尽。”帐篷里一片死寂。最高统帅缓缓拔出令剑，凝视着剑身上映出的自己的倒影。撤退，意味着前功尽弃；继续，意味着更大的牺牲。他把目光转向你：“你觉得呢？”这一刻，你知道，你的选择将决定无数人的命运。",
+    "atmosphere": "犹豫、沉重、抉择艰难。"
+  },
+  "choices": [
+    {
+      "id": "fight_to_end",
+      "text": "“我们已经走到这里了，不能退！”",
+      "nextScene": "07_last_stand",
+      "effects": {
+        "addItems": ["command_sword"]
+      }
+    },
+    {
+      "id": "negotiate",
+      "text": "“或许可以尝试谈判？”",
+      "nextScene": "09_truth_revealed",
+      "effects": {
+        "addNpcs": ["enemy_general"]
+      }
+    },
+    {
+      "id": "strategic_retreat",
+      "text": "“先撤退，保存实力，择日再战。”",
+      "nextScene": "08_victory",
+      "effects": {
+        "addNpcs": ["war_strategist"]
+      }
+    }
+  ],
+  "npcs": ["supreme_commander", "war_strategist", "supply_master"],
+  "items": ["war_map"]
+}

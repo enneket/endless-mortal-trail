@@ -1,0 +1,38 @@
+{
+  "id": "08_victory",
+  "chapter": "chapter4caa",
+  "title": "胜利曙光",
+  "narrative": {
+    "opening": "天边出现了一抹鱼肚白。战斗了一整夜，你们终于看到了胜利的曙光。",
+    "description": "敌军开始溃退。战争策略师的迂回战术奏效了——一支奇兵从敌军背后杀出，打乱了他们的阵脚。敌方将领见大势已去，试图率领残部逃跑，却被精锐战士截住了去路。经过一番激战，敌将被俘。当太阳终于升起的时候，战场上响起了震天的欢呼声。你跪在地上，泪水夺眶而出。不是因为喜悦，而是因为想起了那些没能看到这一刻的战友。战地记者颤抖着记录下了这一幕——这是用鲜血换来的胜利。",
+    "atmosphere": "悲喜交加、百感交集、来之不易。"
+  },
+  "choices": [
+    {
+      "id": "face_truth",
+      "text": "面对胜利背后的真相",
+      "nextScene": "09_truth_revealed",
+      "effects": {
+        "addNpcs": ["enemy_general", "prisoner"]
+      }
+    },
+    {
+      "id": "accept_fate",
+      "text": "接受命运的安排",
+      "nextScene": "10b_survive",
+      "effects": {
+        "addItems": ["victory_medal"]
+      }
+    },
+    {
+      "id": "seek_peace",
+      "text": "寻求真正的和平",
+      "nextScene": "10c_peace_treaty",
+      "effects": {
+        "addNpcs": ["enemy_general"]
+      }
+    }
+  ],
+  "npcs": ["war_strategist", "elite_soldier", "war_reporter"],
+  "items": ["victory_medal"]
+}

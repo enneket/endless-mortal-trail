@@ -1,0 +1,38 @@
+{
+  "id": "07_last_stand",
+  "chapter": "chapter4caa",
+  "title": "最后的坚守",
+  "narrative": {
+    "opening": "残阳如血，你率领最后的战士们列成阵型。每个人都伤痕累累，但眼神中没有恐惧。",
+    "description": "这是最后的时刻了。你站在最前面，手中紧握着武器。身后是仅存的战友，他们有的断了手臂，有的瞎了一只眼，但没有人后退一步。精锐战士站在你身旁，他的铠甲已经破碎，却依然挺立如松。“能和你并肩作战，是我的荣幸。”他微笑着说。敌军如潮水般涌来，大地在震动。你深吸一口气，举起了战旗——那是你们最后的旗帜，也是你们不屈的象征。旗帜在风中飘扬，像一团燃烧的火焰。",
+    "atmosphere": "壮烈、不屈、视死如归。"
+  },
+  "choices": [
+    {
+      "id": "charge",
+      "text": "高举战旗，发起最后的冲锋",
+      "nextScene": "10a_glorious_death",
+      "effects": {
+        "addItems": ["battle_flag"]
+      }
+    },
+    {
+      "id": "find_weakness",
+      "text": "在坚守中寻找敌军破绽",
+      "nextScene": "08_victory",
+      "effects": {
+        "addNpcs": ["enemy_general"]
+      }
+    },
+    {
+      "id": "sacrifice",
+      "text": "以自己为饵，掩护战友撤退",
+      "nextScene": "10b_survive",
+      "effects": {
+        "addItems": ["soldier_letter"]
+      }
+    }
+  ],
+  "npcs": ["elite_soldier", "enemy_general"],
+  "items": ["battle_flag", "command_sword"]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "05_casualties",
+  "chapter": "chapter4caa",
+  "title": "伤亡惨重",
+  "narrative": {
+    "opening": "战斗暂歇，战场上横七竖八地躺满了尸体。哀嚎声此起彼伏，血流成河。",
+    "description": "你环顾四周，心如刀绞。刚才还活生生的战友，现在已经成为冰冷的尸体。补给官满脸是血地跑过来，声音嘶哑：“弹药快用完了，药材也不够了！”垂死士兵在担架上艰难地呼吸着，他的眼神已经开始涣散。战地记者放下了笔，颤抖着双手，再也写不下去。你跪在一个伤员身边，用药箱里最后一点绷带为他包扎。这就是战争的代价——每一步胜利都踩在同伴的尸体上。",
+    "atmosphere": "悲痛、沉重、代价惨重。"
+  },
+  "choices": [
+    {
+      "id": "continue_fight",
+      "text": "擦干眼泪，继续战斗",
+      "nextScene": "07_last_stand",
+      "effects": {
+        "addItems": ["battle_flag"]
+      }
+    },
+    {
+      "id": "retreat_order",
+      "text": "下令撤退，保存实力",
+      "nextScene": "06_retreat",
+      "effects": {
+        "addNpcs": ["supreme_commander"]
+      }
+    },
+    {
+      "id": "collect_letters",
+      "text": "收集阵亡将士的遗物",
+      "nextScene": "06_retreat",
+      "effects": {
+        "addItems": ["soldier_letter"]
+      }
+    }
+  ],
+  "npcs": ["supply_master", "dying_soldier", "war_reporter"],
+  "items": ["medicine_box", "soldier_letter"]
+}

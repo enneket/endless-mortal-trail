@@ -1,0 +1,39 @@
+{
+  "id": "04_battle",
+  "chapter": "chapter4caa",
+  "title": "决战开始",
+  "narrative": {
+    "opening": "号角响起，战鼓雷动。两军同时发起冲锋，大地在万千脚步下颤抖。",
+    "description": "你从未见过这样的场景。箭矢如雨，刀光如林，鲜血染红了大地。士兵们呐喊着冲向敌阵，有人倒下，后面的人踩着同伴的身体继续前进。你挥舞着手中的武器，与冲上来的敌人厮杀。每一次挥刀都伴随着血花飞溅，每一声惨叫都刺痛着你的耳膜。这不是演武场上的较量，这是真真正正的生死搏杀。战争策略师的计策开始发挥作用——敌军的侧翼出现了混乱。",
+    "atmosphere": "惨烈、疯狂、你死我活。"
+  },
+  "choices": [
+    {
+      "id": "press_attack",
+      "text": "趁势追击，扩大战果",
+      "nextScene": "08_victory",
+      "effects": {
+        "addNpcs": ["enemy_general"]
+      }
+    },
+    {
+      "id": "defend_position",
+      "text": "巩固阵地，减少伤亡",
+      "nextScene": "05_casualties",
+      "effects": {
+        "addItems": ["medicine_box"]
+      }
+    },
+    {
+      "id": "target_commander",
+      "text": "直取敌方将领",
+      "nextScene": "07_last_stand",
+      "effects": {
+        "addNpcs": ["enemy_general"],
+        "addItems": ["command_sword"]
+      }
+    }
+  ],
+  "npcs": ["enemy_general", "elite_soldier"],
+  "items": ["command_sword"]
+}

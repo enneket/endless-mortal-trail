@@ -1,0 +1,39 @@
+{
+  "id": "09_truth_revealed",
+  "chapter": "chapter4caa",
+  "title": "真相大白",
+  "narrative": {
+    "opening": "敌方将领被押到你面前。他浑身是血，却依然昂着头，目光中没有屈服。",
+    "description": "“你以为你们赢了？”敌方将领冷笑一声，“这场战争，从来就没有赢家。”他告诉你一个惊人的真相——这场战争的起因，并不是你被告知的那样。两边的统治者为了各自的利益，编造了谎言，驱使无数无辜的人互相残杀。那些死去的士兵，无论是你方还是敌方，都不过是棋子罢了。你回想起一路上遇到的每一个人——垂死的士兵、绝望的平民、迷失的灵魂。他们的痛苦，竟然源于一个谎言。战俘在一旁默默点头，“他说的都是真的。我也只是想回家而已。”",
+    "atmosphere": "震惊、愤怒、幻灭。"
+  },
+  "choices": [
+    {
+      "id": "glorious_death",
+      "text": "即使如此，也要战斗到底",
+      "nextScene": "10a_glorious_death",
+      "effects": {
+        "addItems": ["command_sword"]
+      }
+    },
+    {
+      "id": "choose_survive",
+      "text": "放下武器，选择活下去",
+      "nextScene": "10b_survive",
+      "effects": {
+        "addNpcs": ["prisoner"]
+      }
+    },
+    {
+      "id": "make_peace",
+      "text": "与敌将握手言和",
+      "nextScene": "10c_peace_treaty",
+      "effects": {
+        "addNpcs": ["enemy_general"],
+        "addItems": ["victory_medal"]
+      }
+    }
+  ],
+  "npcs": ["enemy_general", "prisoner", "war_reporter"],
+  "items": ["soldier_letter"]
+}
