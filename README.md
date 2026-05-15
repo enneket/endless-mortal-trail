@@ -57,21 +57,3 @@ docker compose up -d --build
 python3 -m http.server 8080
 ```
 
-## 文件结构
-
-```
-├── index.html          # 入口页面
-├── css/                # 样式文件
-├── js/                 # 游戏引擎
-│   ├── app.js          # 主程序
-│   ├── story-engine.js # 场景引擎
-│   ├── game-state.js   # 状态管理
-│   └── save-manager.js # 存档系统
-└── story/              # 剧情数据
-    ├── chapter1/       # 裂隙初醒
-    ├── chapter2a/      # 山间小镇
-    ├── chapter2b/      # 迷雾森林
-    ├── chapter2c/      # 战火边关
-    ├── chapter3aa/ ~ chapter3cc/  # 9个变体
-    └── chapter4aaa/ ~ chapter4ccc/ # 27个变体
-```
