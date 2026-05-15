@@ -1,0 +1,65 @@
+{
+  "chapter": "chapter4caa",
+  "scenes": [
+    {
+      "id": "01_final_battlefield",
+      "title": "最终战场",
+      "template": "01_final_battlefield.json"
+    },
+    {
+      "id": "02_command_tent",
+      "title": "指挥大帐",
+      "template": "02_command_tent.json"
+    },
+    {
+      "id": "03_frontline",
+      "title": "前线阵地",
+      "template": "03_frontline.json"
+    },
+    {
+      "id": "04_battle",
+      "title": "决战开始",
+      "template": "04_battle.json"
+    },
+    {
+      "id": "05_casualties",
+      "title": "伤亡惨重",
+      "template": "05_casualties.json"
+    },
+    {
+      "id": "06_retreat",
+      "title": "撤退抉择",
+      "template": "06_retreat.json"
+    },
+    {
+      "id": "07_last_stand",
+      "title": "最后的坚守",
+      "template": "07_last_stand.json"
+    },
+    {
+      "id": "08_victory",
+      "title": "胜利曙光",
+      "template": "08_victory.json"
+    },
+    {
+      "id": "09_truth_revealed",
+      "title": "真相大白",
+      "template": "09_truth_revealed.json"
+    },
+    {
+      "id": "10a_glorious_death",
+      "title": "光荣战死",
+      "template": "10a_glorious_death.json"
+    },
+    {
+      "id": "10b_survive",
+      "title": "幸存",
+      "template": "10b_survive.json"
+    },
+    {
+      "id": "10c_peace_treaty",
+      "title": "和平条约",
+      "template": "10c_peace_treaty.json"
+    }
+  ]
+}

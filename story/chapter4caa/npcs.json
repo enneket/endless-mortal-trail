@@ -1,0 +1,52 @@
+{
+  "npcs": [
+    {
+      "id": "supreme_commander",
+      "name": "最高统帅",
+      "description": "最高指挥官",
+      "role": "全军统帅，决战的最终决策者"
+    },
+    {
+      "id": "elite_soldier",
+      "name": "精锐战士",
+      "description": "最精锐的战士",
+      "role": "身经百战的精锐，战斗的核心力量"
+    },
+    {
+      "id": "war_strategist",
+      "name": "战争策略师",
+      "description": "制定战略的人",
+      "role": "运筹帷幄，决胜千里的谋士"
+    },
+    {
+      "id": "supply_master",
+      "name": "补给官",
+      "description": "负责补给",
+      "role": "掌管全军物资，决定战争持久力"
+    },
+    {
+      "id": "enemy_general",
+      "name": "敌方将领",
+      "description": "敌军指挥官",
+      "role": "敌方最高将领，亦正亦邪的对手"
+    },
+    {
+      "id": "prisoner",
+      "name": "战俘",
+      "description": "被俘的敌人",
+      "role": "被俘的敌军士兵，可能提供情报"
+    },
+    {
+      "id": "war_reporter",
+      "name": "战地记者",
+      "description": "记录战争的人",
+      "role": "冒着炮火记录真相的记者"
+    },
+    {
+      "id": "dying_soldier",
+      "name": "垂死士兵",
+      "description": "临终的士兵",
+      "role": "战场上濒死的士兵，留下最后遗言"
+    }
+  ]
+}

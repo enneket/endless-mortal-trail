@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "command_sword",
+      "name": "令剑",
+      "description": "指挥之剑",
+      "effect": "统帅权力的象征，可号令全军"
+    },
+    {
+      "id": "battle_flag",
+      "name": "战旗",
+      "description": "军旗",
+      "effect": "鼓舞士气，凝聚军心"
+    },
+    {
+      "id": "war_map",
+      "name": "作战图",
+      "description": "战场地图",
+      "effect": "标注敌我态势，制定战术依据"
+    },
+    {
+      "id": "medicine_box",
+      "name": "药箱",
+      "description": "治疗用品",
+      "effect": "救治伤员，挽救生命"
+    },
+    {
+      "id": "soldier_letter",
+      "name": "遗书",
+      "description": "士兵的遗书",
+      "effect": "承载着战士最后的心愿"
+    },
+    {
+      "id": "victory_medal",
+      "name": "胜利勋章",
+      "description": "象征胜利",
+      "effect": "代表最终胜利的至高荣誉"
+    }
+  ]
+}
