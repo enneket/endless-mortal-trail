@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "celestial_robe",
+      "name": "仙衣",
+      "description": "天界的衣服",
+      "effect": "穿上后可抵御天界的严寒，获得天界的认可",
+      "location": "01_heaven_gate",
+      "type": "equipment"
+    },
+    {
+      "id": "cloud_chariot",
+      "name": "云车",
+      "description": "在天界飞行的工具",
+      "effect": "驾驭云车可在天界自由飞行，穿越云层",
+      "location": "02_cloud_path",
+      "type": "vehicle"
+    },
+    {
+      "id": "star_compass",
+      "name": "星盘",
+      "description": "指引天界方向",
+      "effect": "星盘能感应星辰之力，指引持有者找到正确的道路",
+      "location": "03_star_garden",
+      "type": "tool"
+    },
+    {
+      "id": "sun_feather",
+      "name": "太阳羽毛",
+      "description": "太阳的象征",
+      "effect": "蕴含太阳之力，可驱散黑暗，照亮前路",
+      "location": "04_sun_temple",
+      "type": "artifact"
+    },
+    {
+      "id": "moon_jade",
+      "name": "月之玉",
+      "description": "月亮的结晶",
+      "effect": "蕴含月亮之力，可平息心绪，洞察真相",
+      "location": "05_moon_palace",
+      "type": "artifact"
+    },
+    {
+      "id": "wind_bell",
+      "name": "风铃",
+      "description": "驾驭风的铃铛",
+      "effect": "铃声响起时可召唤风之力，助持有者御风而行",
+      "location": "06_wind_peak",
+      "type": "tool"
+    }
+  ]
+}

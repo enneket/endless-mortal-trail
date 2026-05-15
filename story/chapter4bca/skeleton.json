@@ -1,0 +1,100 @@
+{
+  "scenes": [
+    {
+      "id": "01_heaven_gate",
+      "name": "天界之门",
+      "type": "exploration",
+      "npcs": ["celestial_guardian"],
+      "items": ["celestial_robe"],
+      "connections": ["02_cloud_path"]
+    },
+    {
+      "id": "02_cloud_path",
+      "name": "云路",
+      "type": "exploration",
+      "npcs": ["cloud_weaver"],
+      "items": ["cloud_chariot"],
+      "connections": ["03_star_garden"]
+    },
+    {
+      "id": "03_star_garden",
+      "name": "星辰花园",
+      "type": "exploration",
+      "npcs": ["star_keeper"],
+      "items": ["star_compass"],
+      "connections": ["04_sun_temple", "05_moon_palace"]
+    },
+    {
+      "id": "04_sun_temple",
+      "name": "太阳神殿",
+      "type": "puzzle",
+      "npcs": ["sun_priest"],
+      "items": ["sun_feather"],
+      "connections": ["06_wind_peak"]
+    },
+    {
+      "id": "05_moon_palace",
+      "name": "月之宫殿",
+      "type": "puzzle",
+      "npcs": ["moon_maiden"],
+      "items": ["moon_jade"],
+      "connections": ["06_wind_peak"]
+    },
+    {
+      "id": "06_wind_peak",
+      "name": "风之峰",
+      "type": "exploration",
+      "npcs": ["wind_rider"],
+      "items": ["wind_bell"],
+      "connections": ["07_sky_ocean"]
+    },
+    {
+      "id": "07_sky_ocean",
+      "name": "天空之海",
+      "type": "exploration",
+      "npcs": ["sky_scholar"],
+      "items": [],
+      "connections": ["08_core"]
+    },
+    {
+      "id": "08_core",
+      "name": "天界核心",
+      "type": "dialogue",
+      "npcs": ["immortal_elder"],
+      "items": [],
+      "connections": ["09_truth_revealed"]
+    },
+    {
+      "id": "09_truth_revealed",
+      "name": "真相揭示",
+      "type": "dialogue",
+      "npcs": [],
+      "items": [],
+      "connections": ["10a_become_immortal", "10b_return_earth", "10c_guard_heaven"]
+    },
+    {
+      "id": "10a_become_immortal",
+      "name": "得道成仙",
+      "type": "ending",
+      "npcs": [],
+      "items": [],
+      "connections": []
+    },
+    {
+      "id": "10b_return_earth",
+      "name": "重返人间",
+      "type": "ending",
+      "npcs": [],
+      "items": [],
+      "connections": []
+    },
+    {
+      "id": "10c_guard_heaven",
+      "name": "守护天界",
+      "type": "ending",
+      "npcs": [],
+      "items": [],
+      "connections": []
+    }
+  ]
+}

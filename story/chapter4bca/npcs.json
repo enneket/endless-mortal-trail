@@ -1,0 +1,68 @@
+{
+  "npcs": [
+    {
+      "id": "celestial_guardian",
+      "name": "天界守卫",
+      "description": "守护天界的存在",
+      "personality": "威严而公正，对每一位来到天界的灵魂都保持警惕，但内心深处有着对生命的敬畏",
+      "dialogue_style": "言语简练有力，常以天界法则为准则，说话时带着不容置疑的威严",
+      "location": "01_heaven_gate"
+    },
+    {
+      "id": "cloud_weaver",
+      "name": "云之织者",
+      "description": "编织云彩的人",
+      "personality": "温柔而富有创造力，将云彩视为艺术，每一朵云都承载着她的情感",
+      "dialogue_style": "说话如诗如画，喜欢用云的形态来比喻人生，声音轻柔如风",
+      "location": "02_cloud_path"
+    },
+    {
+      "id": "star_keeper",
+      "name": "星辰守护者",
+      "description": "守护星辰的人",
+      "personality": "沉稳而智慧，对星辰的运行规律了如指掌，相信命运与星辰息息相关",
+      "dialogue_style": "言语中充满对星辰的敬畏，常用星象来解释世间万物，声音深沉如夜空",
+      "location": "03_star_garden"
+    },
+    {
+      "id": "sun_priest",
+      "name": "日之祭司",
+      "description": "侍奉太阳的人",
+      "personality": "热情而坚定，对太阳充满虔诚，相信光明能驱散一切黑暗",
+      "dialogue_style": "言语中充满光明与希望，说话时仿佛带着太阳的温暖，声音洪亮而有力",
+      "location": "04_sun_temple"
+    },
+    {
+      "id": "moon_maiden",
+      "name": "月之仙子",
+      "description": "月亮的仙子",
+      "personality": "神秘而优雅，与月亮有着不解之缘，能洞察人心深处的秘密",
+      "dialogue_style": "言语轻柔如月光，常以月亮的阴晴圆缺来比喻人生，声音清冷而动人",
+      "location": "05_moon_palace"
+    },
+    {
+      "id": "wind_rider",
+      "name": "御风者",
+      "description": "驾驭风的人",
+      "personality": "自由而洒脱，不受任何束缚，随风而行，随心而动",
+      "dialogue_style": "言语飘逸不定，喜欢用风的自由来开导他人，声音时远时近如风声",
+      "location": "06_wind_peak"
+    },
+    {
+      "id": "sky_scholar",
+      "name": "天界学者",
+      "description": "研究天界的人",
+      "personality": "博学而谦逊，对天界的一切充满好奇，致力于记录和传承天界的智慧",
+      "dialogue_style": "言语严谨而富有条理，喜欢引经据典，用天界的历史来解答疑惑",
+      "location": "07_sky_ocean"
+    },
+    {
+      "id": "immortal_elder",
+      "name": "仙人",
+      "description": "得道的仙人",
+      "personality": "超然而平和，历经沧桑后看透世事，以慈悲之心对待万物",
+      "dialogue_style": "言语简练而深邃，常以寥寥数语道出人生真谛，声音平和如流水",
+      "location": "08_core"
+    }
+  ]
+}
