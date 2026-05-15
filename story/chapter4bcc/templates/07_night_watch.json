@@ -1,0 +1,29 @@
+{
+  "id": "07_night_watch",
+  "title": "守夜",
+  "atmosphere": { "time": "深夜", "weather": "月华如水", "mood": "沉思" },
+  "texts": [
+    { "content": "你独自守在灵境的边界，月光洒在你的守护斗篷上。", "delay": 0 },
+    { "content": "远处的裂隙已经闭合，但你知道，这只是暂时的平静。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "夜风中，你似乎听到了灵境深处传来的呼唤。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"跟随呼唤，探寻真相。\"",
+      "target": "08_revelation",
+      "effects": { "courage": 2, "setFlag": "followed_calling" },
+      "condition": null
+    },
+    {
+      "text": "\"坚守岗位，守护边界。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2, "setFlag": "held_position" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

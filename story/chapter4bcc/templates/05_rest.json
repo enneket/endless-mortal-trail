@@ -1,0 +1,29 @@
+{
+  "id": "05_rest",
+  "title": "守护者之憩",
+  "atmosphere": { "time": "傍晚", "weather": "灵光柔和", "mood": "宁静" },
+  "texts": [
+    { "content": "你坐在远古之树下，灵宠蜷缩在你脚边。", "delay": 0 },
+    { "content": "灵境的傍晚很安静。远处的山峦在暮色中渐渐模糊。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "你闭上眼，感受着灵境的脉动。它的每一次跳动，都与你的心跳共鸣。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我该去参加守护者议会了。\"",
+      "target": "06_council",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想再休息一会儿。\"",
+      "target": "08_revelation",
+      "effects": { "karma": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

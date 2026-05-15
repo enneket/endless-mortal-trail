@@ -1,0 +1,30 @@
+{
+  "id": "06_council",
+  "title": "守护者议会",
+  "atmosphere": { "time": "夜晚", "weather": "星辉满天", "mood": "肃穆" },
+  "texts": [
+    { "content": "守护者议会的大殿中，烛火摇曳。", "delay": 0 },
+    { "content": "所有守护者齐聚一堂，面容凝重。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "你发现了{{ITEM_C:name}}——{{ITEM_C:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "“灵境正面临前所未有的危机。”议会的长老开口说道，“我们必须做出选择。”", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我愿意承担最危险的任务。\"",
+      "target": "07_night_watch",
+      "effects": { "courage": 2, "setFlag": "volunteered_for_danger" },
+      "condition": null
+    },
+    {
+      "text": "\"我们需要找到危机的根源。\"",
+      "target": "08_revelation",
+      "effects": { "wisdom": 2, "setFlag": "sought_root_cause" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

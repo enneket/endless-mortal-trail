@@ -1,0 +1,29 @@
+{
+  "id": "03_threat",
+  "title": "威胁降临",
+  "atmosphere": { "time": "午后", "weather": "灵压骤增", "mood": "紧张" },
+  "texts": [
+    { "content": "灵境的天空忽然暗了下来。一股不祥的气息从远方蔓延而来。", "delay": 0 },
+    { "content": "大地开始颤抖，远处传来低沉的轰鸣声。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "“灵境的边界被撕裂了。”{{NPC_SLOT_3:name}}的声音带着不安。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我必须去阻止它。\"",
+      "target": "04_battle",
+      "effects": { "courage": 2, "setFlag": "faced_threat_directly" },
+      "condition": null
+    },
+    {
+      "text": "\"先召集其他守护者。\"",
+      "target": "06_council",
+      "effects": { "wisdom": 2, "setFlag": "called_council_first" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

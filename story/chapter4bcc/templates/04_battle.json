@@ -1,0 +1,30 @@
+{
+  "id": "04_battle",
+  "title": "守护之战",
+  "atmosphere": { "time": "黄昏", "weather": "灵压翻涌", "mood": "激昂" },
+  "texts": [
+    { "content": "你举起守护法杖，符文亮起耀眼的光芒。", "delay": 0 },
+    { "content": "灵境的裂隙越来越大，黑暗的力量从中涌出。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "你发现了{{ITEM_B:name}}——{{ITEM_B:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你将力量注入法杖，一道光柱直冲天际，与黑暗正面碰撞。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我不会退缩。\"",
+      "target": "07_night_watch",
+      "effects": { "courage": 3, "setFlag": "won_battle" },
+      "condition": null
+    },
+    {
+      "text": "\"这股力量太强大了，我需要帮助。\"",
+      "target": "06_council",
+      "effects": { "wisdom": 2, "setFlag": "sought_help" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

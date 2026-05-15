@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "万光归一", "mood": "顿悟" },
+  "texts": [
+    { "content": "你终于明白了。灵境不是永恒不变的，它也有生灭。", "delay": 0 },
+    { "content": "守护者的使命，不是阻止灵境的消亡，而是在消亡与新生之间找到平衡。", "delay": 2000 },
+    { "content": "灵境的裂隙，是灵境自我更新的方式。黑暗不是敌人，而是新生的前奏。", "delay": 2500 },
+    { "content": "“你明白了。”一个声音从四面八方传来。那是灵境本身的声音。", "delay": 2000 },
+    { "content": "“每一位守护者，最终都要面对这个选择。”", "delay": 2000 },
+    { "content": "“是永远守护，还是将使命传承，又或者……放下一切。”", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我选择永远守护灵境。\"",
+      "target": "10a_eternal_guardian",
+      "effects": { "courage": 3, "setFlag": "chose_eternal_guard" },
+      "condition": null
+    },
+    {
+      "text": "\"我将使命传承给后来者。\"",
+      "target": "10b_pass_torch",
+      "effects": { "wisdom": 3, "setFlag": "passed_torch" },
+      "condition": null
+    },
+    {
+      "text": "\"我选择放下守护者的身份。\"",
+      "target": "10c_abandon_post",
+      "effects": { "karma": 3, "setFlag": "abandoned_post" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

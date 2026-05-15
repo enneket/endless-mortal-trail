@@ -1,0 +1,29 @@
+{
+  "id": "02_patrol",
+  "title": "灵境巡逻",
+  "atmosphere": { "time": "上午", "weather": "灵雾弥漫", "mood": "警觉" },
+  "texts": [
+    { "content": "你沿着灵境的边界巡逻，脚下的大地微微震动。", "delay": 0 },
+    { "content": "远处的山峦在灵雾中若隐若现，偶尔有光点从雾中飘过。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "你发现了一件灵境之物。{{ITEM_A:name}}——{{ITEM_A:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"继续巡逻，查看其他区域。\"",
+      "target": "05_rest",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"这里有什么异常吗？\"",
+      "target": "06_council",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

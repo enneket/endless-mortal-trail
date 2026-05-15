@@ -1,0 +1,29 @@
+{
+  "id": "01_guardian_duty",
+  "title": "守护之责",
+  "atmosphere": { "time": "清晨", "weather": "灵光流转", "mood": "庄严" },
+  "texts": [
+    { "content": "你站在灵境的高处，俯瞰着这片你誓死守护的土地。", "delay": 0 },
+    { "content": "风拂过你的守护斗篷，法杖上的符文微微发光。", "delay": 2000 },
+    { "content": "从今天起，你不再是渡途人——你是灵境的守护者。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我准备好了，开始巡逻。\"",
+      "target": "02_patrol",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"先告诉我灵境的现状。\"",
+      "target": "03_threat",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

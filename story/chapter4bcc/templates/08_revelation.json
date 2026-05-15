@@ -1,0 +1,24 @@
+{
+  "id": "08_revelation",
+  "title": "启示",
+  "atmosphere": { "time": "黎明前", "weather": "灵光内敛", "mood": "顿悟" },
+  "texts": [
+    { "content": "你来到灵境的核心，发现了一面巨大的水晶镜。", "delay": 0 },
+    { "content": "镜中映照的不是你的倒影，而是灵境的过去与未来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "你发现了{{ITEM_D:name}}——{{ITEM_D:description}}。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "镜中出现了一个画面——你看见了灵境诞生之初，看见了第一位守护者。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我明白了。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 3, "setFlag": "saw_truth" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
