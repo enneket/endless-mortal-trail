@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "peace_proposal",
+      "name": "和平提案",
+      "description": "一份详细的和平方案，上面密密麻麻写满了条款，每一行都浸透了无数人的鲜血与期盼",
+      "effects": { "setFlag": "has_peace_proposal" }
+    },
+    {
+      "id": "war_evidence",
+      "name": "战争证据",
+      "description": "记录着战争罪行的文书，字字泣血，是无数冤魂的控诉",
+      "effects": { "setFlag": "has_war_evidence" }
+    },
+    {
+      "id": "hostage_list",
+      "name": "人质名单",
+      "description": "一份被扣押人员的名单，上面有些名字已经被划掉了，有些还在等待",
+      "effects": { "setFlag": "has_hostage_list" }
+    },
+    {
+      "id": "territory_map",
+      "name": "领土地图",
+      "description": "标注了双方领土边界的地图，红线蓝线犬牙交错，每一寸土地都浸透了血",
+      "effects": { "setFlag": "has_territory_map" }
+    },
+    {
+      "id": "ceasefire_order",
+      "name": "停火令",
+      "description": "一份由双方将领私下签署的停火命令，墨迹未干，字迹颤抖",
+      "effects": { "setFlag": "has_ceasefire_order" }
+    },
+    {
+      "id": "secret_treaty",
+      "name": "密约",
+      "description": "一份秘密协议，涉及的远不止眼前的战争，背后还有更大的棋局",
+      "effects": { "setFlag": "has_secret_treaty" }
+    }
+  ]
+}

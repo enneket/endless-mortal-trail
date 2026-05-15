@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_negotiation_tent", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_discussion", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_disagreement", "npcSlots": ["slot_3"], "itemSlots": [] },
+    { "id": "04_compromise", "npcSlots": ["slot_4"], "itemSlots": ["slot_b"] },
+    { "id": "05_crisis", "npcSlots": ["slot_5"], "itemSlots": [] },
+    { "id": "06_breakthrough", "npcSlots": ["slot_6"], "itemSlots": ["slot_c"] },
+    { "id": "07_signing", "npcSlots": ["slot_7"], "itemSlots": [] },
+    { "id": "08_celebration", "npcSlots": ["slot_8"], "itemSlots": ["slot_d"] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_peace_achieved", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_negotiations_fail", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_backdoor_deal", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["peace_envoy", "war_hawk"] },
+    "slot_2": { "candidates": ["diplomat", "civilian_leader"] },
+    "slot_3": { "candidates": ["war_hawk", "enemy_delegate"] },
+    "slot_4": { "candidates": ["spy_master", "religious_leader"] },
+    "slot_5": { "candidates": ["civilian_leader", "enemy_delegate"] },
+    "slot_6": { "candidates": ["religious_leader", "diplomat"] },
+    "slot_7": { "candidates": ["enemy_delegate", "peace_envoy"] },
+    "slot_8": { "candidates": ["mysterious_mediator", "spy_master"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["peace_proposal", "territory_map"] },
+    "slot_b": { "candidates": ["war_evidence", "hostage_list"] },
+    "slot_c": { "candidates": ["ceasefire_order", "territory_map"] },
+    "slot_d": { "candidates": ["secret_treaty", "hostage_list"] }
+  }
+}

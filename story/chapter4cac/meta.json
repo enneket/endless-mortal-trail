@@ -1,0 +1,8 @@
+{
+  "id": "chapter4cac",
+  "title": "和平谈判",
+  "description": "在战争中寻求和平，渡途人参与谈判",
+  "sceneCount": 12,
+  "startScene": "01_negotiation_tent",
+  "randomized": true
+}
