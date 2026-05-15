@@ -1,0 +1,32 @@
+{
+  "id": "07_night_reflection",
+  "title": "夜思",
+  "atmosphere": { "time": "深夜", "weather": "星空", "mood": "沉思" },
+  "texts": [
+    { "content": "夜深了，你坐在院子里，仰望星空。星星还是那些星星，和你离开前一模一样。但看星星的人，已经不是从前的那个了。", "delay": 0 },
+    { "content": "你想起战争中的日子——那些血与火的夜晚，那些你拼命想要忘记的画面。你想起那些死去的人，那些你没能救下的人，那些你不得不抛弃的人。", "delay": 3000 },
+    { "content": "你还想起逃亡的路上——那些饥饿的夜晚，那些寒冷的清晨，那些你以为自己撑不过去的时刻。", "delay": 2500 },
+    { "content": "你从怀里掏出一张纸。", "delay": 2000 },
+    { "content": "你得到了{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}。", "delay": 1500 },
+    { "content": "一个声音从黑暗中传来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我该怎么做，才能原谅自己？”",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "沉默不语，继续看星星",
+      "target": "08_visitor",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

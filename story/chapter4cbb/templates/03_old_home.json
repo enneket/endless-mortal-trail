@@ -1,0 +1,31 @@
+{
+  "id": "03_old_home",
+  "title": "旧居",
+  "atmosphere": { "time": "傍晚", "weather": "小雨", "mood": "哀伤" },
+  "texts": [
+    { "content": "你站在老家门前。那扇木门歪斜着，门框上的对联已经褪成了白色，只剩下几个模糊的字迹。院子里的枣树还在，但枝干上满是伤痕。", "delay": 0 },
+    { "content": "你推开门，门轴发出刺耳的吱呀声。屋子里的一切都蒙着厚厚的灰尘，桌上还放着一个碗，碗里的饭早已干涸成一团黑色的硬块。墙上的全家福歪挂着，玻璃碎了一角。", "delay": 3000 },
+    { "content": "你走进里屋，发现地上有一些东西。", "delay": 2000 },
+    { "content": "你发现了{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}。", "delay": 1500 },
+    { "content": "一个声音从门口传来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我要把这里打扫一下。”",
+      "target": "06_rebuilding",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "“我想去村里的墓地看看。”",
+      "target": "04_cemetery",
+      "effects": { "mood": "沉重" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

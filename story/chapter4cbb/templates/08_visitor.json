@@ -1,0 +1,29 @@
+{
+  "id": "08_visitor",
+  "title": "来客",
+  "atmosphere": { "time": "黄昏", "weather": "晚霞", "mood": "意外" },
+  "texts": [
+    { "content": "一个陌生人出现在村口。他穿着一身灰色的长袍，拄着一根木杖，走路的姿态让你觉得似曾相识。", "delay": 0 },
+    { "content": "村里的人用警惕的目光看着他。战后的人们对陌生人充满戒心，没有人主动上前。但那个老人似乎并不在意，他慢慢地走着，像是在寻找什么。", "delay": 3000 },
+    { "content": "他走到你面前，停下了脚步。他的眼睛很深，像是两口古井，映着天边的晚霞。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“你认识我？”",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "“你想告诉我什么？”",
+      "target": "09_truth_revealed",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

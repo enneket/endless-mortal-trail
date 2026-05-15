@@ -1,0 +1,30 @@
+{
+  "id": "06_rebuilding",
+  "title": "重建",
+  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "坚韧" },
+  "texts": [
+    { "content": "你拿起工具，开始清理废墟。砖块一块块地搬开，碎瓦一片片地拾起。尘土飞扬，汗水顺着脸颊流下来，但你没有停。", "delay": 0 },
+    { "content": "旁边也有人在干活。他们默默地劳动，偶尔递给你一碗水，或者帮你扶住一根摇摇欲坠的横梁。没有人多说什么，但每个人都知道自己在做什么。", "delay": 3000 },
+    { "content": "一面墙被推倒了，露出了后面的一片空地。阳光照进来，照亮了地上的野花。", "delay": 2500 },
+    { "content": "一个人走了过来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续干活，用行动代替言语",
+      "target": "07_night_reflection",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "“你觉得，我们能重建起来吗？”",
+      "target": "08_visitor",
+      "effects": { "mood": "思索" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

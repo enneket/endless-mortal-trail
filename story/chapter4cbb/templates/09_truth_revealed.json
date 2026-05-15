@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "震撼" },
+  "texts": [
+    { "content": "真相像一把刀，劈开了你面前的迷雾。", "delay": 0 },
+    { "content": "那场战争，不是什么外敌入侵。两边的将领为了争夺一座矿山，驱赶百姓，烧毁村庄，把活生生的人当成棋子。你逃离的那场战役，不过是为了掩护一次秘密的物资转运。", "delay": 3000 },
+    { "content": "那些死去的人——邻居张大爷、卖豆腐的李婶、教书的王先生——他们不是死于敌人之手，而是死于自己人的阴谋。", "delay": 3000 },
+    { "content": "你站在那里，风吹过你的脸，带着远方的尘土。你不知道该愤怒还是该悲哀。你只知道，你曾经拼命守护的那个地方，原来从一开始就是一场骗局。", "delay": 2500 },
+    { "content": "现在你必须做出最后的选择。你可以留下来重建这片废墟；你可以再次离开，去一个没有人认识你的地方；你也可以选择原谅，放下一切重新开始。", "delay": 2500 },
+    { "content": "风从远方吹来，带着未知的气息。你深吸一口气，迈出了脚步。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "留下来，用双手重建家园",
+      "target": "10a_stay_rebuild",
+      "effects": { "courage": 3, "setFlag": "chose_stay_rebuild" },
+      "condition": null
+    },
+    {
+      "text": "再次离开，去一个全新的地方",
+      "target": "10b_leave_again",
+      "effects": { "wisdom": 3, "setFlag": "chose_leave_again" },
+      "condition": null
+    },
+    {
+      "text": "选择原谅，放下仇恨与执念",
+      "target": "10c_forgive",
+      "effects": { "karma": 3, "setFlag": "chose_forgive" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

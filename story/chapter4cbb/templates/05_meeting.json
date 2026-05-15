@@ -1,0 +1,30 @@
+{
+  "id": "05_meeting",
+  "title": "村中集会",
+  "atmosphere": { "time": "正午", "weather": "多云", "mood": "紧张" },
+  "texts": [
+    { "content": "村中的广场上聚集了一些人。他们有的站着，有的蹲着，有的坐在倒塌的墙垣上。每个人脸上都带着不同的表情——疲惫、愤怒、迷茫、期待。", "delay": 0 },
+    { "content": "这是战后第一次村中集会。人们从各个角落走出来，有些是你认识的面孔，有些完全陌生。空气中弥漫着尘土和汗水的气味，还有一种说不清的紧张。", "delay": 3000 },
+    { "content": "有人开始说话，声音在空旷的广场上回荡。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "你得到了{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我愿意留下来，一起重建村子。”",
+      "target": "06_rebuilding",
+      "effects": { "karma": 2 },
+      "condition": null
+    },
+    {
+      "text": "“我想先弄清楚，战争到底是怎么发生的。”",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

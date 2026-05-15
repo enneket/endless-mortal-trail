@@ -1,0 +1,30 @@
+{
+  "id": "02_village",
+  "title": "村庄",
+  "atmosphere": { "time": "傍晚", "weather": "阴沉", "mood": "萧条" },
+  "texts": [
+    { "content": "你走进村庄，眼前的景象让你愣住了。", "delay": 0 },
+    { "content": "半数的房屋已经倒塌，残垣断壁间长满了野草。有些房子虽然还在，但门窗紧闭，墙壁上布满了弹孔和烟熏的痕迹。曾经热闹的村中广场如今空空荡荡，只有一口破井和几只瘦弱的鸡在啄食。", "delay": 3000 },
+    { "content": "远处有几个人影在废墟中翻找着什么。他们抬起头，用警惕的目光看着你。", "delay": 2500 },
+    { "content": "一个声音叫住了你。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我想先看看我的家。”",
+      "target": "03_old_home",
+      "effects": { "mood": "期待" },
+      "condition": null
+    },
+    {
+      "text": "“村里的人都还好吗？”",
+      "target": "04_cemetery",
+      "effects": { "karma": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

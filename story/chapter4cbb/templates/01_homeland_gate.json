@@ -1,0 +1,32 @@
+{
+  "id": "01_homeland_gate",
+  "title": "故乡之门",
+  "atmosphere": { "time": "黄昏", "weather": "薄雾", "mood": "复杂" },
+  "texts": [
+    { "content": "你站在故乡的入口。那扇石砌的牌坊还在，但上面的字已经模糊不清，被风雨侵蚀得只剩下隐约的轮廓。", "delay": 0 },
+    { "content": "牌坊两侧的石狮子缺了一只，另一只歪斜着，像是在打盹。地上散落着碎瓦和枯叶，曾经干净整洁的石板路如今长满了杂草。", "delay": 3000 },
+    { "content": "你从怀里摸出一样东西。", "delay": 2000 },
+    { "content": "你得到了{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}。", "delay": 1500 },
+    { "content": "你深吸一口气，迈出脚步。每一步都像踩在自己的记忆上——这里曾经是集市，那里曾经是茶馆，远处那棵老槐树还在，只是叶子落了大半。", "delay": 2500 },
+    { "content": "一个声音从身后传来。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“我回来了。”",
+      "target": "02_village",
+      "effects": { "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "“这里……变了很多。”",
+      "target": "02_village",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

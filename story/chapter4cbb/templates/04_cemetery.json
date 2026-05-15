@@ -1,0 +1,30 @@
+{
+  "id": "04_cemetery",
+  "title": "墓地",
+  "atmosphere": { "time": "黄昏", "weather": "阴冷", "mood": "肃穆" },
+  "texts": [
+    { "content": "村后的墓地比你记忆中大了许多。新的坟茔一排排地延伸出去，有的立了碑，有的只是一堆黄土，插着一根树枝当标记。", "delay": 0 },
+    { "content": "你在坟茔间穿行，辨认着那些熟悉的名字。有些名字你认识——邻居张大爷、卖豆腐的李婶、教书的王先生。有些名字你不认识，但他们的年纪让你心痛——十八岁、二十二岁、十九岁。", "delay": 3000 },
+    { "content": "你找到了几座坟，是你认识的人。你跪下来，用手拂去碑上的尘土。", "delay": 2500 },
+    { "content": "一个声音在你身后响起。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "“他们……是怎么走的？”",
+      "target": "07_night_reflection",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "“村里还有多少人活着？”",
+      "target": "05_meeting",
+      "effects": { "karma": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
