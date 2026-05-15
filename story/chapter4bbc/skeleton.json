@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_balance_gate", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_yin_path", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_yang_path", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_convergence", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_harmony_garden", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_scale_temple", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_cycle_pool", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_core", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_maintain_balance", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_choose_yin", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_choose_yang", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["balance_master", "harmony_keeper"] },
+    "slot_2": { "candidates": ["yin_spirit", "cycle_weaver"] },
+    "slot_3": { "candidates": ["yang_spirit", "middle_way_sage"] },
+    "slot_4": { "candidates": ["harmony_keeper", "balance_master"] },
+    "slot_5": { "candidates": ["unity_child", "harmony_keeper"] },
+    "slot_6": { "candidates": ["scale_keeper", "middle_way_sage"] },
+    "slot_7": { "candidates": ["cycle_weaver", "yin_spirit"] },
+    "slot_8": { "candidates": ["balance_master", "unity_child"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["yin_yang_stone", "harmony_bell"] },
+    "slot_b": { "candidates": ["balance_scale", "cycle_ring"] },
+    "slot_c": { "candidates": ["harmony_bell", "unity_crystal"] },
+    "slot_d": { "candidates": ["cycle_ring", "middle_way_scroll"] }
+  }
+}

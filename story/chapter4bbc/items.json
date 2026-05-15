@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "balance_scale",
+      "name": "天平",
+      "description": "一架古老的天平，两端微微晃动，仿佛在衡量着什么看不见的东西",
+      "effects": { "setFlag": "has_balance_scale" }
+    },
+    {
+      "id": "yin_yang_stone",
+      "name": "阴阳石",
+      "description": "黑白相间的石头，阴中有阳，阳中有阴，温润如玉",
+      "effects": { "setFlag": "has_yin_yang_stone" }
+    },
+    {
+      "id": "harmony_bell",
+      "name": "和谐铃",
+      "description": "精致的铜铃，摇动时发出清越之声，能让人心神安宁",
+      "effects": { "setFlag": "has_harmony_bell" }
+    },
+    {
+      "id": "cycle_ring",
+      "name": "循环之环",
+      "description": "没有起点也没有终点的环，象征着无始无终的循环",
+      "effects": { "setFlag": "has_cycle_ring" }
+    },
+    {
+      "id": "middle_way_scroll",
+      "name": "中道经卷",
+      "description": "泛黄的经卷上，记载着不落两边的智慧",
+      "effects": { "setFlag": "has_middle_way_scroll" }
+    },
+    {
+      "id": "unity_crystal",
+      "name": "合一水晶",
+      "description": "透明的水晶中蕴含着万千色彩，却又清澈如水",
+      "effects": { "setFlag": "has_unity_crystal" }
+    }
+  ]
+}
