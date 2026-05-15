@@ -2,7 +2,7 @@
 
 ## 目标
 
-将游戏从线性结构改为树状结构，让玩家的不同选择导致完全不同的后续章节，最终形成81种结局。
+将游戏从线性结构改为树状结构，让玩家的不同选择导致完全不同的后续章节。分支在Chapter 4达到上限（81种结局），之后章节保持81条平行线路继续发展。
 
 ## 整体结构
 
@@ -16,8 +16,16 @@ Chapter 2a  Chapter 2b  Chapter 2c
     ↓
 27个 Chapter 4 变体 (每个3结局)
     ↓
-81种最终结局
+81个 Chapter 5 变体 (每个1结局，指向Chapter 6)
+    ↓
+Chapter 6+ (保持81条平行线路)
 ```
+
+## 分支规则
+
+- **Chapter 1-4**: 分支扩展阶段，每章结局数 × 3
+- **Chapter 4**: 达到81种结局上限，停止分支扩展
+- **Chapter 5+**: 每个变体只有1个结局，指向下一章对应变体，保持81条平行线路
 
 ## 命名规范
 
@@ -39,6 +47,12 @@ Chapter 2a  Chapter 2b  Chapter 2c
 
 ### Chapter 4 变体
 - `chapter4aaa` 到 `chapter4ccc` (27个)
+
+### Chapter 5 变体
+- `chapter5aaaa` 到 `chapter5cccc` (81个)
+- 命名规则：`chapter5` + Chapter 4变体后缀 + 结局后缀
+- 例如：chapter4aaa 结局a → chapter5aaaa
+- 每个Chapter 5变体只有1个结局，指向Chapter 6对应变体
 
 ---
 
@@ -389,7 +403,11 @@ story/
 ├── chapter4aaa/           # 新建
 ├── chapter4aab/           # 新建
 ├── ...                    # 共27个
-└── chapter4ccc/           # 新建
+├── chapter4ccc/           # 新建
+├── chapter5aaaa/          # 新建
+├── chapter5aaab/          # 新建
+├── ...                    # 共81个
+└── chapter5cccc/          # 新建
 ```
 
 ## 实现步骤
@@ -410,7 +428,12 @@ story/
 - 创建 chapter4aaa 到 chapter4ccc
 - 每个变体12场景、8NPC、6物品
 
-### Phase 5: 测试
+### Phase 5: 创建 Chapter 5 变体 (81个)
+- 创建 chapter5aaaa 到 chapter5cccc
+- 更新Chapter 4结局指向Chapter 5
+- 每个变体10场景、8NPC、6物品
+
+### Phase 6: 测试
 - 验证所有JSON文件格式正确
 - 测试所有分支路径可正常跳转
 - 验证状态继承正常工作
@@ -431,5 +454,8 @@ story/
 - Chapter 2 变体：3 × (12场景 + 8NPC + 6物品) = 78个文件
 - Chapter 3 变体：9 × (12场景 + 8NPC + 6物品) = 234个文件
 - Chapter 4 变体：27 × (12场景 + 8NPC + 6物品) = 702个文件
+- Chapter 5 变体：81 × (10场景 + 8NPC + 6物品) = 1,134个文件
+
+**总计：约2,151个JSON文件**
 
 **总计：约1,017个新文件**
