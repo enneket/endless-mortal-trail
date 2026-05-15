@@ -1,0 +1,11 @@
+{
+  "id": "10_ending",
+  "title": "结局",
+  "text": "第15章结束。",
+  "choices": [
+    {
+      "text": "继续旅程",
+      "target": "chapter16caca:01_scene"
+    }
+  ]
+}

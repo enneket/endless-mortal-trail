@@ -1,0 +1,15 @@
+{
+  "id": "03_scene",
+  "title": "场景 3",
+  "text": "这是第14章第3个场景。",
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "04_scene"
+    },
+    {
+      "text": "探索周围",
+      "target": "04_scene"
+    }
+  ]
+}

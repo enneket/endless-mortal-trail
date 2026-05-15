@@ -1,0 +1,58 @@
+[
+  {
+    "id": "npc_1",
+    "name": "{{NPC_SLOT_1:name}}",
+    "role": "角色1",
+    "personality": "{{NPC_SLOT_1:personality}}",
+    "dialogue": "{{NPC_SLOT_1:dialogue}}"
+  },
+  {
+    "id": "npc_2",
+    "name": "{{NPC_SLOT_2:name}}",
+    "role": "角色2",
+    "personality": "{{NPC_SLOT_2:personality}}",
+    "dialogue": "{{NPC_SLOT_2:dialogue}}"
+  },
+  {
+    "id": "npc_3",
+    "name": "{{NPC_SLOT_3:name}}",
+    "role": "角色3",
+    "personality": "{{NPC_SLOT_3:personality}}",
+    "dialogue": "{{NPC_SLOT_3:dialogue}}"
+  },
+  {
+    "id": "npc_4",
+    "name": "{{NPC_SLOT_4:name}}",
+    "role": "角色4",
+    "personality": "{{NPC_SLOT_4:personality}}",
+    "dialogue": "{{NPC_SLOT_4:dialogue}}"
+  },
+  {
+    "id": "npc_5",
+    "name": "{{NPC_SLOT_5:name}}",
+    "role": "角色5",
+    "personality": "{{NPC_SLOT_5:personality}}",
+    "dialogue": "{{NPC_SLOT_5:dialogue}}"
+  },
+  {
+    "id": "npc_6",
+    "name": "{{NPC_SLOT_6:name}}",
+    "role": "角色6",
+    "personality": "{{NPC_SLOT_6:personality}}",
+    "dialogue": "{{NPC_SLOT_6:dialogue}}"
+  },
+  {
+    "id": "npc_7",
+    "name": "{{NPC_SLOT_7:name}}",
+    "role": "角色7",
+    "personality": "{{NPC_SLOT_7:personality}}",
+    "dialogue": "{{NPC_SLOT_7:dialogue}}"
+  },
+  {
+    "id": "npc_8",
+    "name": "{{NPC_SLOT_8:name}}",
+    "role": "角色8",
+    "personality": "{{NPC_SLOT_8:personality}}",
+    "dialogue": "{{NPC_SLOT_8:dialogue}}"
+  }
+]

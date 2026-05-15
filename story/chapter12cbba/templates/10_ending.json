@@ -16,7 +16,12 @@
       "delay": 1500
     }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "text": "继续旅程",
+      "target": "chapter13cbba:01_scene"
+    }
+  ],
   "onEnter": [],
   "onExit": []
 }

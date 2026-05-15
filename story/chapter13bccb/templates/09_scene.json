@@ -1,0 +1,11 @@
+{
+  "id": "09_scene",
+  "title": "场景 9",
+  "text": "这是第13章第9个场景。",
+  "choices": [
+    {
+      "text": "揭示真相",
+      "target": "10_ending"
+    }
+  ]
+}
