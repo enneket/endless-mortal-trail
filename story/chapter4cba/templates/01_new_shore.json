@@ -1,0 +1,21 @@
+{
+  "id": "01_new_shore",
+  "title": "新岸",
+  "text": "海风吹拂着你的脸庞，船缓缓靠岸。眼前是一片陌生的土地，远处是起伏的山峦，近处是繁忙的港口。这里就是新天地。\n\n港口主人走过来，打量着你：\"新来的？欢迎来到这片土地。这里机会很多，但也要靠自己去争取。\"\n\n他递给你一份定居证：\"拿着这个，去镇上报到吧。\"",
+  "choices": [
+    {
+      "text": "接过定居证，前往小镇",
+      "target": "02_town",
+      "effects": [
+        { "type": "add_item", "item": "settlement_deed" }
+      ]
+    },
+    {
+      "text": "先在港口附近看看",
+      "target": "03_market",
+      "effects": [
+        { "type": "add_item", "item": "settlement_deed" }
+      ]
+    }
+  ]
+}

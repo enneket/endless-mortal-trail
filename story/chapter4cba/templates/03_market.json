@@ -1,0 +1,21 @@
+{
+  "id": "03_market",
+  "title": "市场",
+  "text": "市场里人声鼎沸，各种商品琳琅满目。商人站在摊位前，热情地招呼着顾客。\n\n\"来看看！新到的货物，物美价廉！\"商人看到你，眼睛一亮：\"新来的？我这里什么都有，保证让你满意。\"\n\n旁边的定居者正在和商人讨价还价。他看到你，笑了笑：\"别被他忽悠了，货比三家才是正道。\"",
+  "choices": [
+    {
+      "text": "和商人交易",
+      "target": "06_festival",
+      "effects": [
+        { "type": "add_item", "item": "trade_goods" }
+      ]
+    },
+    {
+      "text": "和定居者聊聊",
+      "target": "06_festival",
+      "effects": [
+        { "type": "add_item", "item": "hope_token" }
+      ]
+    }
+  ]
+}
