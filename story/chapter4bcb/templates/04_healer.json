@@ -1,0 +1,31 @@
+{
+  "id": "04_healer",
+  "title": "医者",
+  "atmosphere": { "time": "午后", "weather": "微风", "mood": "安宁" },
+  "texts": [
+    { "content": "医者的诊所在村子东头。一棵老槐树下，几间土屋，门口挂着晒干的药草。", "delay": 0 },
+    { "content": "药香弥漫，让人心里安定下来。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你坐在那里，看着医者忙碌。他治的是身上的病，你治的是心里的病。", "delay": 2000 },
+    { "content": "\"你在灵境学到的，\"医者忽然说，\"不是法术，是慈悲。\"", "delay": 2000 },
+    { "content": "你愣住了。他说得对。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想跟你学医。\"",
+      "target": "06_evening",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我该走了。\"",
+      "target": "05_storyteller",
+      "effects": { "mood": "沉思" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "01_mortal_world",
+  "title": "凡尘",
+  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "恍惚" },
+  "texts": [
+    { "content": "你睁开眼睛，发现自己站在一条熟悉的路上。", "delay": 0 },
+    { "content": "泥土的气息，炊烟的味道，远处传来的鸡鸣声。这是凡间。", "delay": 2000 },
+    { "content": "你低头看了看自己的手。没有灵光，没有法力。只是一双普通的手。", "delay": 2000 },
+    { "content": "灵境的一切，像是一场梦。但你知道，那不是梦。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 },
+    { "content": "你深吸一口气。凡尘的路，要怎么走？", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"先找个地方住下来。\"",
+      "target": "02_village",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"去集市看看。\"",
+      "target": "03_market",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "08_visitor",
+  "title": "访客",
+  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "惊讶" },
+  "texts": [
+    { "content": "清晨，你被一阵敲门声惊醒。", "delay": 0 },
+    { "content": "打开门，门外站着一个人。你愣住了。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "\"你带了什么回来？\"他问。", "delay": 1500 },
+    { "content": "你想了想。你带回来的，不是法术，不是宝物。", "delay": 2000 },
+    { "content": "是一双看透了世事的眼睛，和一颗平静的心。", "delay": 2000 },
+    { "content": "\"这就够了。\"他说。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我明白了。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我还是不确定。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "迷茫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

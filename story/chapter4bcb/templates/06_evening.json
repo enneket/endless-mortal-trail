@@ -1,0 +1,31 @@
+{
+  "id": "06_evening",
+  "title": "黄昏",
+  "atmosphere": { "time": "黄昏", "weather": "晚霞满天", "mood": "宁静" },
+  "texts": [
+    { "content": "黄昏时分，你坐在村口的老树下。", "delay": 0 },
+    { "content": "晚霞染红了半边天。炊烟从屋顶升起，孩子们被喊回家吃饭。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你看着这一切，忽然明白了什么叫「岁月静好」。", "delay": 2000 },
+    { "content": "不是没有风浪，是风浪过后，还能坐在这里看晚霞。", "delay": 2000 },
+    { "content": "夜色渐渐降临。该找个地方过夜了。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"回医者那里住一晚。\"",
+      "target": "07_night_reflection",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"找个客栈。\"",
+      "target": "08_visitor",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "03_market",
+  "title": "集市",
+  "atmosphere": { "time": "正午", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "集市上人声鼎沸。叫卖声、讨价还价声、孩子的哭闹声，混成一片。", "delay": 0 },
+    { "content": "你站在人群中，忽然有一种奇怪的感觉：这些声音，比灵境的仙乐更动听。", "delay": 2000 },
+    { "content": "因为这些声音是活的。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "你摸了摸口袋里的{{ITEM_SLOT_B:name}}。{{ITEM_SLOT_B:description}}", "delay": 1500 },
+    { "content": "在灵境，你不曾需要这些。但在凡间，这就是生活。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"去看看医者。\"",
+      "target": "04_healer",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"去听说书。\"",
+      "target": "05_storyteller",
+      "effects": { "mood": "期待" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

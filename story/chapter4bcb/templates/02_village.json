@@ -1,0 +1,31 @@
+{
+  "id": "02_village",
+  "title": "村庄",
+  "atmosphere": { "time": "上午", "weather": "晴朗", "mood": "平静" },
+  "texts": [
+    { "content": "你走进一个小村庄。土墙、茅屋、晒着谷子的院子。", "delay": 0 },
+    { "content": "几个孩子在巷子里追逐，老人们坐在门口晒太阳。一切都那么平常。", "delay": 2000 },
+    { "content": "你忽然觉得，这种平常，才是最珍贵的。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "{{NPC_SLOT_2:name}}看着你，{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你接过{{ITEM_SLOT_A:name}}。{{ITEM_SLOT_A:description}}", "delay": 1500 },
+    { "content": "在凡间，一切都是实在的。一粒米，一文钱，都有它的分量。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想在这里住一阵子。\"",
+      "target": "04_healer",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"去找点事做。\"",
+      "target": "03_market",
+      "effects": { "mood": "踏实" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

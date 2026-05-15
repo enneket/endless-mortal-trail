@@ -1,0 +1,31 @@
+{
+  "id": "07_night_reflection",
+  "title": "夜思",
+  "atmosphere": { "time": "深夜", "weather": "月明", "mood": "沉思" },
+  "texts": [
+    { "content": "夜深了。月光从窗棂照进来，落在地上，像一层薄霜。", "delay": 0 },
+    { "content": "你睡不着。灵境的记忆像潮水一样涌来。", "delay": 2000 },
+    { "content": "那些修行的日子，那些遇见的人，那些学到的道理。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你握着手中的{{ITEM_SLOT_D:name}}。{{ITEM_SLOT_D:description}}", "delay": 1500 },
+    { "content": "\"我到底该怎么做？\"你问月亮。月亮没有回答。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"天亮了再说。\"",
+      "target": "08_visitor",
+      "effects": { "mood": "疲惫" },
+      "condition": null
+    },
+    {
+      "text": "\"我想通了。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

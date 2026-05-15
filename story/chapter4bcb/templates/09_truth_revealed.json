@@ -1,0 +1,38 @@
+{
+  "id": "09_truth_revealed",
+  "title": "明悟",
+  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "明悟" },
+  "texts": [
+    { "content": "阳光照进窗户，你忽然觉得，一切都清晰了。", "delay": 0 },
+    { "content": "灵境给你的，不是超凡的力量，而是看透世事的智慧。", "delay": 2000 },
+    { "content": "你明白了为什么渡途人要回归凡尘。", "delay": 1500 },
+    { "content": "因为真正的修行，不在灵境，在人间。", "delay": 2000 },
+    { "content": "你站在人生的路口。三条路，三种选择。", "delay": 2000 },
+    { "content": "\"用智慧好好生活。\"", "delay": 1500 },
+    { "content": "\"把智慧分享给更多人。\"", "delay": 1500 },
+    { "content": "\"忘记灵境，做个普通人。\"", "delay": 1500 },
+    { "content": "三条路，都通向同一个终点。你选哪一条？", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "\"我就在这里，好好过日子。\"",
+      "target": "10a_live_wisely",
+      "effects": { "wisdom": 3, "mood": "平静" },
+      "condition": null
+    },
+    {
+      "text": "\"我要把学到的告诉更多人。\"",
+      "target": "10b_share_wisdom",
+      "effects": { "wisdom": 3, "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "\"也许，忘记才是最好的。\"",
+      "target": "10c_forget",
+      "effects": { "wisdom": 3, "mood": "释然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "05_storyteller",
+  "title": "说书人",
+  "atmosphere": { "time": "午后", "weather": "晴朗", "mood": "热闹" },
+  "texts": [
+    { "content": "茶馆里，说书人正在讲故事。围了一圈人，听得入神。", "delay": 0 },
+    { "content": "\"话说那渡途人，历经千辛万苦，终于到了灵境……\"", "delay": 2000 },
+    { "content": "你愣住了。他在讲你的故事？", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "你摸了摸怀里的{{ITEM_SLOT_C:name}}。{{ITEM_SLOT_C:description}}", "delay": 1500 },
+    { "content": "故事里的渡途人，和真实的你，哪一个才是真的？", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想安静一会儿。\"",
+      "target": "06_evening",
+      "effects": { "mood": "恍惚" },
+      "condition": null
+    },
+    {
+      "text": "\"把我的故事告诉他。\"",
+      "target": "07_night_reflection",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
