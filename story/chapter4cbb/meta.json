@@ -1,0 +1,8 @@
+{
+  "id": "chapter4cbb",
+  "title": "归乡路",
+  "description": "返回家园后，渡途人面对曾经的故乡",
+  "sceneCount": 12,
+  "startScene": "01_homeland_gate",
+  "randomized": true
+}

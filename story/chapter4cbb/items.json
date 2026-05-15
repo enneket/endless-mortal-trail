@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "homeland_key",
+      "name": "故乡钥匙",
+      "description": "一把锈迹斑斑的钥匙，是你离开时贴身藏好的，能打开老家的门",
+      "type": "key",
+      "effect": "打开老家的门，面对过去",
+      "scenes": ["01_homeland_gate", "03_old_home"]
+    },
+    {
+      "id": "family_photo",
+      "name": "全家福",
+      "description": "一张泛黄的照片，上面是一家人在老槐树下的合影，每个人的脸上都带着笑",
+      "type": "personal",
+      "effect": "唤起对家人的记忆，坚定归乡的决心",
+      "scenes": ["01_homeland_gate", "04_cemetery"]
+    },
+    {
+      "id": "war_memories",
+      "name": "战争回忆",
+      "description": "一本残破的笔记，记录着战争中的所见所闻，有些页面被泪水浸湿",
+      "type": "record",
+      "effect": "记录真相，警示后人",
+      "scenes": ["04_cemetery", "09_truth_revealed"]
+    },
+    {
+      "id": "rebuilding_tools",
+      "name": "重建工具",
+      "description": "一把锤子和几枚钉子，虽然简陋，但足以修缮破损的房屋",
+      "type": "tool",
+      "effect": "修复破损的家园，重建生活",
+      "scenes": ["06_rebuilding", "10a_stay_rebuild"]
+    },
+    {
+      "id": "peace_ribbon",
+      "name": "和平丝带",
+      "description": "一条白色的丝带，是村里的孩子们编织的，象征着对和平的渴望",
+      "type": "symbol",
+      "effect": "象征和平与希望，连接人心",
+      "scenes": ["05_meeting", "10c_forgive"]
+    },
+    {
+      "id": "forgiveness_letter",
+      "name": "原谅信",
+      "description": "一封写给所有人的信，请求原谅战争中的一切，字迹歪歪扭扭，满是泪痕",
+      "type": "personal",
+      "effect": "请求原谅，化解心中的执念",
+      "scenes": ["07_night_reflection", "10c_forgive"]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "npcs": [
+    {
+      "id": "childhood_friend",
+      "name": "儿时玩伴",
+      "description": "曾经一起长大的朋友，岁月在脸上刻下了痕迹，但眼神里还藏着当年的影子",
+      "personality": "热情中带着谨慎，既想亲近又怕再次失去",
+      "dialogueStyle": "亲切而克制，常提起过去的回忆",
+      "relationship": "旧友",
+      "scenes": ["01_homeland_gate", "05_meeting"]
+    },
+    {
+      "id": "village_chief",
+      "name": "村长",
+      "description": "村里的老领导，头发已经全白，但腰板依然挺直",
+      "personality": "威严而公正，对归来者既欢迎又防备",
+      "dialogueStyle": "正式而带有长者口吻，常用村里的人和事举例",
+      "relationship": "权威",
+      "scenes": ["02_village", "05_meeting"]
+    },
+    {
+      "id": "old_neighbor",
+      "name": "老邻居",
+      "description": "曾经住在隔壁的老人，院子里的那棵枣树就是他种的",
+      "personality": "慈祥而唠叨，记得每一件小事",
+      "dialogueStyle": "絮絮叨叨，夹杂着叹息和感慨",
+      "relationship": "邻里",
+      "scenes": ["01_homeland_gate", "03_old_home"]
+    },
+    {
+      "id": "war_victim",
+      "name": "战争受害者",
+      "description": "在战争中失去了一切的人，眼中带着挥之不去的悲伤",
+      "personality": "沉默而敏感，偶尔会爆发出强烈的情绪",
+      "dialogueStyle": "简短而沉重，话语间带着苦涩",
+      "relationship": "同病相怜",
+      "scenes": ["04_cemetery", "06_rebuilding"]
+    },
+    {
+      "id": "returning_refugee",
+      "name": "归来的难民",
+      "description": "和你一样从外面回来的人，身上带着和你相似的疲惫",
+      "personality": "坚强而务实，专注于重建生活",
+      "dialogueStyle": "直接而实际，谈论如何活下去",
+      "relationship": "同路人",
+      "scenes": ["02_village", "06_rebuilding"]
+    },
+    {
+      "id": "government_official",
+      "name": "政府官员",
+      "description": "从城里来的官员，负责管理返乡事务，穿着整洁的制服",
+      "personality": "官僚而冷漠，按规矩办事",
+      "dialogueStyle": "公事公办，满口政策和条文",
+      "relationship": "管理者",
+      "scenes": ["05_meeting", "08_visitor"]
+    },
+    {
+      "id": "healer",
+      "name": "医者",
+      "description": "村里唯一的大夫，战后一直在救治伤员，眼圈发黑，疲惫不堪",
+      "personality": "慈悲而坚韧，把别人的伤痛扛在自己肩上",
+      "dialogueStyle": "温和而专业，用治病来比喻人生",
+      "relationship": "治愈者",
+      "scenes": ["04_cemetery", "07_night_reflection"]
+    },
+    {
+      "id": "mysterious_elder",
+      "name": "神秘老者",
+      "description": "一个似曾相识的老人，总在你不经意时出现，又悄然离去",
+      "personality": "深不可测，言语间似乎知晓一切",
+      "dialogueStyle": "隐晦而富有禅意，用寓言表达深意",
+      "relationship": "引路人",
+      "scenes": ["08_visitor", "09_truth_revealed"]
+    }
+  ]
+}

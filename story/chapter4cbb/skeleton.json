@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_homeland_gate", "npcSlots": ["slot_1"], "itemSlots": ["slot_a"] },
+    { "id": "02_village", "npcSlots": ["slot_2"], "itemSlots": [] },
+    { "id": "03_old_home", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_cemetery", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_meeting", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_rebuilding", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_night_reflection", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_visitor", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_stay_rebuild", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_leave_again", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_forgive", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["childhood_friend", "old_neighbor"] },
+    "slot_2": { "candidates": ["village_chief", "returning_refugee"] },
+    "slot_3": { "candidates": ["old_neighbor", "war_victim"] },
+    "slot_4": { "candidates": ["war_victim", "healer"] },
+    "slot_5": { "candidates": ["government_official", "childhood_friend"] },
+    "slot_6": { "candidates": ["returning_refugee", "healer"] },
+    "slot_7": { "candidates": ["healer", "mysterious_elder"] },
+    "slot_8": { "candidates": ["mysterious_elder", "government_official"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["homeland_key", "family_photo"] },
+    "slot_b": { "candidates": ["war_memories", "rebuilding_tools"] },
+    "slot_c": { "candidates": ["peace_ribbon", "family_photo"] },
+    "slot_d": { "candidates": ["forgiveness_letter", "peace_ribbon"] }
+  }
+}
