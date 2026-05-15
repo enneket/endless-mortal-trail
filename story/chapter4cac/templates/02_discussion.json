@@ -1,0 +1,29 @@
+{
+  "id": "02_discussion",
+  "title": "正式讨论",
+  "atmosphere": { "time": "夜晚", "weather": "灯火摇曳", "mood": "沉重" },
+  "texts": [
+    { "content": "你坐在了长桌的一端。双方代表各执一词，言辞激烈。空气中弥漫着火药味——不是来自战场，而是来自人心。", "delay": 0 },
+    { "content": "一方要求归还全部领土，另一方要求赔偿战争损失。每一个条件都像一把刀，割在对方的痛处。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "桌上摆着{{ITEM_A:name}}。{{ITEM_A:description}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "提出折中方案",
+      "target": "04_compromise",
+      "effects": { "wisdom": 2, "setFlag": "proposed_compromise" },
+      "condition": null
+    },
+    {
+      "text": "发现分歧无法弥合，转向危机处理",
+      "target": "05_crisis",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

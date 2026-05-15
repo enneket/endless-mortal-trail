@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "薄雾散去", "mood": "震撼" },
+  "texts": [
+    { "content": "天亮了。真相像一把刀，劈开了面前的迷雾。", "delay": 0 },
+    { "content": "这场谈判的背后，隐藏着一个巨大的秘密。双方的将领，早在十年前就已经秘密接触。他们打的仗，死的人，不过是一场棋局。", "delay": 3000 },
+    { "content": "而那些死去的士兵，那些破碎的家庭，那些流离失所的百姓——他们不过是棋盘上的棋子。", "delay": 3000 },
+    { "content": "你站在帐篷外，看着远方的战场。那些坟墓，那些废墟，那些哭泣的母亲——这一切，竟然只是一场戏。", "delay": 2500 },
+    { "content": "现在你必须做出选择。你可以接受这个现实，让和平继续；你可以揭露真相，让一切崩塌；你也可以选择沉默，让秘密永远埋藏。", "delay": 2500 },
+    { "content": "风从战场的方向吹来，带着硝烟和血腥的气味。你深吸一口气，迈出了脚步。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "接受现实，让和平继续",
+      "target": "10a_peace_achieved",
+      "effects": { "wisdom": 3, "setFlag": "accepted_truth" },
+      "condition": null
+    },
+    {
+      "text": "揭露真相，让一切崩塌",
+      "target": "10b_negotiations_fail",
+      "effects": { "courage": 3, "setFlag": "revealed_truth" },
+      "condition": null
+    },
+    {
+      "text": "选择沉默，让秘密永远埋藏",
+      "target": "10c_backdoor_deal",
+      "effects": { "karma": 3, "setFlag": "kept_silence" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

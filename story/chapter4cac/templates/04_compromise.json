@@ -1,0 +1,30 @@
+{
+  "id": "04_compromise",
+  "title": "寻求妥协",
+  "atmosphere": { "time": "深夜", "weather": "雨声淅沥", "mood": "微妙" },
+  "texts": [
+    { "content": "你开口了。你的声音不大，但帐篷里突然安静了下来。所有人都看着你，等着你说出下一句话。", "delay": 0 },
+    { "content": "\"我们都失去了太多。\"你说，\"但死去的人不会希望我们继续流血。\"", "delay": 2500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "桌上摆着{{ITEM_B:name}}。{{ITEM_B:description}}", "delay": 1500 },
+    { "content": "帐篷外的雨声渐渐小了。谈判桌上，有人微微点了点头。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "趁热打铁，推动突破",
+      "target": "06_breakthrough",
+      "effects": { "wisdom": 2, "karma": 1 },
+      "condition": null
+    },
+    {
+      "text": "意外发生，谈判陷入危机",
+      "target": "05_crisis",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

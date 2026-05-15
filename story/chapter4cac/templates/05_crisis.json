@@ -1,0 +1,29 @@
+{
+  "id": "05_crisis",
+  "title": "谈判危机",
+  "atmosphere": { "time": "深夜", "weather": "雷雨交加", "mood": "危机" },
+  "texts": [
+    { "content": "帐篷外突然传来急促的脚步声。一个传令兵冲了进来，浑身是血。\"报告！前线……前线又打起来了！\"", "delay": 0 },
+    { "content": "所有人都站了起来。谈判桌上刚刚建立的一点信任，瞬间崩塌。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "帐篷外的雷声震耳欲聋，闪电照亮了每个人的脸。恐惧、愤怒、绝望——所有的情绪都在这一刻爆发。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "力挽狂澜，阻止谈判破裂",
+      "target": "06_breakthrough",
+      "effects": { "courage": 3, "setFlag": "saved_negotiations" },
+      "condition": null
+    },
+    {
+      "text": "谈判已经无法继续",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

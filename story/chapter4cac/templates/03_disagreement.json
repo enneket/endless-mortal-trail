@@ -1,0 +1,29 @@
+{
+  "id": "03_disagreement",
+  "title": "激烈分歧",
+  "atmosphere": { "time": "夜晚", "weather": "暴雨将至", "mood": "对立" },
+  "texts": [
+    { "content": "你静静地观察着。桌子两边的人，眼神里都藏着刀子。每一句话都像在试探，每一个停顿都像在布局。", "delay": 0 },
+    { "content": "突然，一个代表拍案而起。\"你们杀了我们那么多人，现在来谈和平？\"他的声音在帐篷里回荡。", "delay": 3000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "帐篷外传来隆隆的雷声，暴雨将至。谈判桌上的气氛比暴风雨还要压抑。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "出面调停，尝试缓和局势",
+      "target": "04_compromise",
+      "effects": { "karma": 2, "setFlag": "mediated_conflict" },
+      "condition": null
+    },
+    {
+      "text": "局势失控，危机爆发",
+      "target": "05_crisis",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

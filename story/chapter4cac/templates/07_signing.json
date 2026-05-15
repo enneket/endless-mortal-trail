@@ -1,0 +1,29 @@
+{
+  "id": "07_signing",
+  "title": "条约签署",
+  "atmosphere": { "time": "黎明", "weather": "晴朗", "mood": "庄严" },
+  "texts": [
+    { "content": "天亮了。第一缕阳光穿过帐篷的缝隙，照在桌上那份条约上。墨迹未干，字字千钧。", "delay": 0 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "双方代表依次在条约上签字。每签一个名字，帐篷外就响起一阵欢呼。那些等待了太久的人们，终于看到了希望。", "delay": 3000 },
+    { "content": "你看着这一切，心中百感交集。二十年的战争，无数人的牺牲，终于在这一刻有了意义。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "参加庆祝仪式",
+      "target": "08_celebration",
+      "effects": { "karma": 2 },
+      "condition": null
+    },
+    {
+      "text": "在庆祝之前，还有一个真相",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

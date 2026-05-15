@@ -1,0 +1,29 @@
+{
+  "id": "08_celebration",
+  "title": "庆祝时刻",
+  "atmosphere": { "time": "清晨", "weather": "阳光明媚", "mood": "欢庆" },
+  "texts": [
+    { "content": "帐篷外，人们欢呼着，拥抱着，哭泣着。士兵们放下了武器，百姓们涌出了避难所。孩子们在废墟上奔跑，笑声回荡在战场上空。", "delay": 0 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "桌上摆着{{ITEM_D:name}}。{{ITEM_D:description}}", "delay": 1500 },
+    { "content": "你站在人群中，看着这一切。和平，终于来了。但你知道，这只是开始，而不是结束。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "和平已经实现",
+      "target": "10a_peace_achieved",
+      "effects": { "karma": 3 },
+      "condition": null
+    },
+    {
+      "text": "和平的背后还有秘密",
+      "target": "10c_backdoor_deal",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

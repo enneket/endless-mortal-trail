@@ -1,0 +1,30 @@
+{
+  "id": "06_breakthrough",
+  "title": "谈判突破",
+  "atmosphere": { "time": "凌晨", "weather": "雨过天晴", "mood": "希望" },
+  "texts": [
+    { "content": "你站了起来，走到帐篷中间。所有人的目光都集中在你身上。", "delay": 0 },
+    { "content": "\"看看外面。\"你指着帐篷外的天空，\"雨停了。天要亮了。我们还要让黑暗继续多久？\"", "delay": 2500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "桌上摆着{{ITEM_C:name}}。{{ITEM_C:description}}", "delay": 1500 },
+    { "content": "沉默。漫长的沉默。然后，有人伸出了手。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "进入条约签署阶段",
+      "target": "07_signing",
+      "effects": { "karma": 2, "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "还有最后的真相需要揭开",
+      "target": "09_truth_revealed",
+      "effects": { "experience": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
