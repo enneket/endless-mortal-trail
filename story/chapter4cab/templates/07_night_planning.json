@@ -1,0 +1,30 @@
+{
+  "id": "07_night_planning",
+  "title": "夜间策划",
+  "atmosphere": { "time": "深夜", "weather": "月黑风高", "mood": "凝重" },
+  "texts": [
+    { "content": "深夜，你被叫到了一间密室。里面只有几盏油灯，光线昏暗。桌上铺着一张地图，上面画满了标记。", "delay": 0 },
+    { "content": "房间里已经坐了几个人，他们的脸藏在阴影中。看到你进来，其中一个人站了起来。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "他递给你一样东西。{{ITEM_SLOT_E:description}}", "delay": 1500 },
+    { "content": "你看着地图上的红蓝箭头，心里渐渐有了一个大胆的想法。也许，这场仗还没有输。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "发起反攻",
+      "target": "08_counterattack",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "揭露真相",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

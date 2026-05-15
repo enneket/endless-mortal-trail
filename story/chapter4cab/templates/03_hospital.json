@@ -1,0 +1,30 @@
+{
+  "id": "03_hospital",
+  "title": "后方医院",
+  "atmosphere": { "time": "深夜", "weather": "闷热", "mood": "沉重" },
+  "texts": [
+    { "content": "医院是一间用帐篷搭起来的大通铺，里面躺满了伤员。呻吟声、哭喊声此起彼伏，空气中弥漫着血腥味和消毒水的味道。", "delay": 0 },
+    { "content": "你走进去，立刻被眼前的景象震住了。有的伤员失去了手臂，有的失去了腿，有的脸上缠满了绷带，只露出一双空洞的眼睛。", "delay": 3000 },
+    { "content": "一个穿着白大褂的人走了过来，手上还沾着血迹。他的眼睛里布满了血丝，但手却稳得很。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "他递给你一样东西。{{ITEM_SLOT_B:description}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "参加军事会议",
+      "target": "04_meeting",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "去训练新兵",
+      "target": "05_training",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

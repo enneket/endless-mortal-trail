@@ -1,0 +1,25 @@
+{
+  "id": "08_counterattack",
+  "title": "反攻",
+  "atmosphere": { "time": "黎明", "weather": "大雾弥漫", "mood": "紧张" },
+  "texts": [
+    { "content": "反攻的命令下达了。营地里一片忙碌，士兵们检查武器、整理装备，每个人的脸上都写满了紧张和期待。", "delay": 0 },
+    { "content": "你站在队伍中，看着周围的人。有老兵，有新兵，有伤愈归来的，有第一次上战场的。他们的命运，将在这场反攻中被重新书写。", "delay": 3000 },
+    { "content": "一个人走到你身边，拍了拍你的肩膀。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "他递给你一样东西。{{ITEM_SLOT_F:description}}", "delay": 1500 },
+    { "content": "号角声响起了。你深吸一口气，握紧了手中的武器。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "揭露真相",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

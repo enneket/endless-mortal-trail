@@ -1,0 +1,30 @@
+{
+  "id": "04_meeting",
+  "title": "军事会议",
+  "atmosphere": { "time": "清晨", "weather": "雾气弥漫", "mood": "紧张" },
+  "texts": [
+    { "content": "会议室是一间简陋的木屋，墙上挂着一张巨大的地图，上面画满了红蓝箭头。几个军官围坐在桌边，表情严肃。", "delay": 0 },
+    { "content": "你走进去的时候，所有人的目光都投向了你。空气仿佛凝固了一般。", "delay": 2000 },
+    { "content": "一个人站了起来，走到地图前。他的手指在地图上划过，停在了一个地方。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "他递给你一样东西。{{ITEM_SLOT_C:description}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "去训练新兵",
+      "target": "05_training",
+      "effects": { "courage": 1 },
+      "condition": null
+    },
+    {
+      "text": "调查可疑人员",
+      "target": "06_spy",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

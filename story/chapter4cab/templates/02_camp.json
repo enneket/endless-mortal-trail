@@ -1,0 +1,30 @@
+{
+  "id": "02_camp",
+  "title": "营地",
+  "atmosphere": { "time": "夜晚", "weather": "寒风刺骨", "mood": "低沉" },
+  "texts": [
+    { "content": "营地里点着几堆篝火，火光映照着一张张疲惫的面孔。士兵们三三两两地围坐着，有的在擦拭武器，有的在发呆，有的已经沉沉睡去。", "delay": 0 },
+    { "content": "你找了个角落坐下，浑身的骨头都在叫嚣。从前线撤退的这几天，你几乎没有合过眼。现在终于可以喘口气了。", "delay": 3000 },
+    { "content": "一个人影走了过来，在你身边坐下。篝火的光映在他的脸上，你看清了他的模样。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "他递给你一样东西。{{ITEM_SLOT_A:description}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "参加军事会议",
+      "target": "04_meeting",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "去训练新兵",
+      "target": "05_training",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

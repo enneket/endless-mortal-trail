@@ -1,0 +1,30 @@
+{
+  "id": "06_spy",
+  "title": "暗影",
+  "atmosphere": { "time": "黄昏", "weather": "阴云密布", "mood": "诡异" },
+  "texts": [
+    { "content": "你注意到基地里有一个人总是出现在不该出现的地方。他穿着勤务兵的衣服，但举止间却透着一股说不出的违和感。", "delay": 0 },
+    { "content": "你决定跟踪他。他穿过营地，走过仓库，最后来到一个偏僻的角落。他四下张望，确认没人后，从怀里掏出了一样东西。", "delay": 3000 },
+    { "content": "你悄悄靠近，看清了他的脸。他也发现了你。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "他递给你一样东西。{{ITEM_SLOT_D:description}}", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "参加夜间策划",
+      "target": "07_night_planning",
+      "effects": { "experience": 1 },
+      "condition": null
+    },
+    {
+      "text": "直接发起反攻",
+      "target": "08_counterattack",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

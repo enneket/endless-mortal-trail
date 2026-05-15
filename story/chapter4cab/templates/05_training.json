@@ -1,0 +1,29 @@
+{
+  "id": "05_training",
+  "title": "训练场",
+  "atmosphere": { "time": "正午", "weather": "烈日当头", "mood": "紧张" },
+  "texts": [
+    { "content": "训练场上，一群新兵正在操练。他们的动作生疏、笨拙，有的人甚至连枪都拿不稳。教官在一旁大声呵斥，声音都喊哑了。", "delay": 0 },
+    { "content": "你站在一旁看着，心里五味杂陈。这些新兵，有的看起来还不到十六岁，脸上还带着稚气。他们很快就要被送上战场了。", "delay": 3000 },
+    { "content": "一个人走了过来，站在你身边。他的目光也落在那些新兵身上，眼里满是复杂的情绪。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "调查可疑人员",
+      "target": "06_spy",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "参加夜间策划",
+      "target": "07_night_planning",
+      "effects": { "experience": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

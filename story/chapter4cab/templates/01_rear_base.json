@@ -1,0 +1,29 @@
+{
+  "id": "01_rear_base",
+  "title": "后方基地",
+  "atmosphere": { "time": "傍晚", "weather": "阴沉", "mood": "压抑" },
+  "texts": [
+    { "content": "你跟着溃退的队伍，终于到达了后方基地。这里比前线好不了多少——到处是伤兵、难民和疲惫不堪的士兵。空气中弥漫着药水味和汗臭味。", "delay": 0 },
+    { "content": "基地的围墙是用沙袋和木板临时搭建的，看上去摇摇欲坠。门口站着几个面无表情的哨兵，机械地检查着每一个进入的人。", "delay": 3000 },
+    { "content": "一个军官模样的人走了过来，上下打量着你。他的军装皱巴巴的，脸上写满了疲惫。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "前往营地休整",
+      "target": "02_camp",
+      "effects": { "experience": 1 },
+      "condition": null
+    },
+    {
+      "text": "去医院帮忙",
+      "target": "03_hospital",
+      "effects": { "courage": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

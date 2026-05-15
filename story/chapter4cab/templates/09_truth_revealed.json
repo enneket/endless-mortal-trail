@@ -1,0 +1,35 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "正午", "weather": "乌云压顶", "mood": "震惊" },
+  "texts": [
+    { "content": "你把收集到的所有情报汇总在一起，一个惊人的真相浮出了水面。这场战争，从一开始就是一场阴谋。", "delay": 0 },
+    { "content": "前线的溃败不是偶然，是有人故意放水。后方的补给被层层克扣，也不是疏忽，而是有组织的贪腐。甚至连那个间谍，都只是棋盘上的一颗棋子。", "delay": 3500 },
+    { "content": "你把证据摆在了指挥官面前。他看了很久，脸上的表情从震惊变成了愤怒，又从愤怒变成了疲惫。", "delay": 3000 },
+    { "content": "“我知道了。”他终于开口，声音沙哑。“这场仗，我们一直在跟自己人打。”", "delay": 2000 },
+    { "content": "你站在那里，不知道该说什么。真相是残酷的，但它毕竟是真相。", "delay": 2000 },
+    { "content": "现在，你必须做出选择。是继续战斗，还是放下武器，还是另寻出路？", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "重整旗鼓，继续战斗",
+      "target": "10a_regroup",
+      "effects": { "courage": 2 },
+      "condition": null
+    },
+    {
+      "text": "放下武器，选择投降",
+      "target": "10b_surrender",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "转入山林，开展游击战",
+      "target": "10c_guerilla",
+      "effects": { "experience": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
