@@ -1,0 +1,31 @@
+{
+  "id": "06_healing_spring",
+  "title": "治愈之泉",
+  "atmosphere": { "time": "傍晚", "weather": "霞光满天", "mood": "温暖" },
+  "texts": [
+    { "content": "湖水流入一处泉眼。泉水涌出的地方，光特别亮。", "delay": 0 },
+    { "content": "这就是治愈之泉。", "delay": 1500 },
+    { "content": "泉水不是普通的水，它带着光的温度，带着星辰的记忆。", "delay": 2000 },
+    { "content": "泉水边，有人在疗伤。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:name}}递给你一样东西。{{ITEM_SLOT_C:description}}", "delay": 2000 },
+    { "content": "\"把伤痛留在泉水里。\"{{NPC_SLOT_6:name}}说，\"它会帮你带走的。\"", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "将伤痛融入泉水",
+      "target": "08_core",
+      "effects": { "mood": "治愈", "virtue": 1 },
+      "condition": null
+    },
+    {
+      "text": "攀登黎明之塔",
+      "target": "07_night_light",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

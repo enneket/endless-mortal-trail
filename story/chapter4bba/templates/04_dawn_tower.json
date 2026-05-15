@@ -1,0 +1,31 @@
+{
+  "id": "04_dawn_tower",
+  "title": "黎明之塔",
+  "atmosphere": { "time": "正午", "weather": "光芒万丈", "mood": "庄严" },
+  "texts": [
+    { "content": "前方矗立着一座高塔。", "delay": 0 },
+    { "content": "塔身由光凝成，通体透明，高得望不到顶。", "delay": 2000 },
+    { "content": "塔的每一层都散发着不同颜色的光——底层是暖黄，中层是金橙，顶层是纯白。", "delay": 2500 },
+    { "content": "塔门前，有人在等你。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:name}}递给你一样东西。{{ITEM_SLOT_B:description}}", "delay": 2000 },
+    { "content": "\"登上塔顶，你就能看到一切。\"{{NPC_SLOT_4:name}}说。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "攀登高塔",
+      "target": "07_night_light",
+      "effects": { "mood": "坚毅" },
+      "condition": null
+    },
+    {
+      "text": "绕过塔，去后面的湖",
+      "target": "05_star_lake",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "01_light_gate",
+  "title": "光之门",
+  "atmosphere": { "time": "黎明", "weather": "光芒万丈", "mood": "震撼" },
+  "texts": [
+    { "content": "你追随那道光，走了很久，很久。", "delay": 0 },
+    { "content": "忽然，前方出现了一道门。不是木门，不是石门，是光凝成的门。", "delay": 2000 },
+    { "content": "门上没有锁，没有把手，只有一片柔和的光。", "delay": 2000 },
+    { "content": "你伸出手，触碰那道光。温暖从指尖传遍全身。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "\"穿过这道门，你就到了。\"{{NPC_SLOT_1:name}}说。", "delay": 2000 },
+    { "content": "你深吸一口气，迈步走了进去。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "走入光明",
+      "target": "02_golden_path",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "回头再看一眼来路",
+      "target": "03_crystal_garden",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

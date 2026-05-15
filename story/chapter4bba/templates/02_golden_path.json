@@ -1,0 +1,31 @@
+{
+  "id": "02_golden_path",
+  "title": "金色长路",
+  "atmosphere": { "time": "清晨", "weather": "万里晴空", "mood": "开阔" },
+  "texts": [
+    { "content": "门后是一条金色的路。", "delay": 0 },
+    { "content": "路面不是石头，不是泥土，是凝固的光。每一步踩上去，都会泛起淡淡的涟漪。", "delay": 2500 },
+    { "content": "路的两旁，开满了从未见过的花。花瓣透明，花蕊发光，像是液态的阳光凝成了花的形状。", "delay": 2500 },
+    { "content": "远处，有歌声传来。不是人声，是光在振动，是风在吟唱。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:name}}递给你一样东西。{{ITEM_SLOT_A:description}}", "delay": 2000 },
+    { "content": "\"带着它往前走。\"{{NPC_SLOT_2:name}}说，\"路还很长。\"", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "继续前行",
+      "target": "04_dawn_tower",
+      "effects": { "mood": "期待" },
+      "condition": null
+    },
+    {
+      "text": "在花丛中停留",
+      "target": "03_crystal_garden",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

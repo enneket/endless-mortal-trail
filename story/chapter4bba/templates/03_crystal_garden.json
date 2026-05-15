@@ -1,0 +1,31 @@
+{
+  "id": "03_crystal_garden",
+  "title": "水晶花园",
+  "atmosphere": { "time": "上午", "weather": "光芒流转", "mood": "惊奇" },
+  "texts": [
+    { "content": "你走进了一座花园。", "delay": 0 },
+    { "content": "花园里没有泥土，只有水晶。水晶做的树，水晶做的花，水晶做的草。", "delay": 2000 },
+    { "content": "每一棵水晶树都在发光，颜色各不相同——红的、蓝的、紫的、金的。", "delay": 2000 },
+    { "content": "风吹过水晶树叶，发出清脆的声响，像风铃，又像竖琴。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "\"这些水晶，每一棵都是一个灵魂的结晶。\"{{NPC_SLOT_3:name}}说。", "delay": 2500 },
+    { "content": "你伸手触碰一棵水晶树，指尖传来一阵温热。那是某个人的一生。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "继续探索花园",
+      "target": "05_star_lake",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "前往高塔",
+      "target": "04_dawn_tower",
+      "effects": { "mood": "好奇" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

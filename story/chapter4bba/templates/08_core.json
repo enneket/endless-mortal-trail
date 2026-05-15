@@ -1,0 +1,32 @@
+{
+  "id": "08_core",
+  "title": "光明核心",
+  "atmosphere": { "time": "子夜", "weather": "光芒汇聚", "mood": "肃穆" },
+  "texts": [
+    { "content": "你走到了光明之地的中心。", "delay": 0 },
+    { "content": "那里什么都没有。没有建筑，没有雕像，没有祭坛。只有一团光。", "delay": 2500 },
+    { "content": "光不大，比拳头还小。但它照亮了整片天地。", "delay": 2000 },
+    { "content": "这就是光明的核心。所有光的源头。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:name}}递给你一样东西。{{ITEM_SLOT_D:description}}", "delay": 2000 },
+    { "content": "\"你来对了地方。\"{{NPC_SLOT_8:name}}说，\"现在，你需要做一个选择。\"", "delay": 2500 },
+    { "content": "你看着那团光，心中忽然明白了一切。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "静观光明",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "触碰光明",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "震撼" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

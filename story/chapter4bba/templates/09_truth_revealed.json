@@ -1,0 +1,38 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相大白",
+  "atmosphere": { "time": "黎明", "weather": "光芒万丈", "mood": "澄明" },
+  "texts": [
+    { "content": "光包围了你。", "delay": 0 },
+    { "content": "不是外面的光，是你心里的光。", "delay": 2000 },
+    { "content": "你忽然明白了。", "delay": 1500 },
+    { "content": "光明不是某个地方。光明是你自己。", "delay": 2500 },
+    { "content": "你走了这么远的路，穿过黑暗，穿过迷雾，穿过恐惧，穿过绝望——", "delay": 2500 },
+    { "content": "不是为了到达光明。", "delay": 1500 },
+    { "content": "是为了发现——你本身就是光明。", "delay": 2500 },
+    { "content": "那团核心之光与你融为一体。你感到从未有过的安宁。", "delay": 2500 },
+    { "content": "天边，第一缕晨光出现了。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "化为光明本身",
+      "target": "10a_become_light",
+      "effects": { "wisdom": 3 },
+      "condition": null
+    },
+    {
+      "text": "携带光明回归人间",
+      "target": "10b_carry_light",
+      "effects": { "mood": "坚定" },
+      "condition": null
+    },
+    {
+      "text": "返回黑暗中去",
+      "target": "10c_return_dark",
+      "effects": { "virtue": 3 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

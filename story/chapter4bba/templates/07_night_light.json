@@ -1,0 +1,33 @@
+{
+  "id": "07_night_light",
+  "title": "夜中之光",
+  "atmosphere": { "time": "夜晚", "weather": "繁星满天", "mood": "神秘" },
+  "texts": [
+    { "content": "夜幕降临，但这里没有黑暗。", "delay": 0 },
+    { "content": "夜空中没有月亮，只有无数的星辰。每一颗都在发光，像无数只眼睛在注视着你。", "delay": 2500 },
+    { "content": "你站在塔顶，脚下是整片光明之地。", "delay": 2000 },
+    { "content": "远处，有人在编织什么。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "\"你在看什么？\"{{NPC_SLOT_7:name}}问。", "delay": 1500 },
+    { "content": "\"我在看光。\"你说。", "delay": 1500 },
+    { "content": "\"光有什么好看的？\"{{NPC_SLOT_7:name}}又问。", "delay": 1500 },
+    { "content": "你说不出。但你知道，你一直在看。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "走向光明的核心",
+      "target": "08_core",
+      "effects": { "mood": "虔诚" },
+      "condition": null
+    },
+    {
+      "text": "在星光下静坐",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

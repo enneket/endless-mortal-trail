@@ -1,0 +1,31 @@
+{
+  "id": "05_star_lake",
+  "title": "星辰之湖",
+  "atmosphere": { "time": "黄昏", "weather": "星光初现", "mood": "宁静" },
+  "texts": [
+    { "content": "你来到一片湖前。", "delay": 0 },
+    { "content": "湖水不是水，是液态的星光。湖面平静如镜，映照着整片天空。", "delay": 2500 },
+    { "content": "你低头看去，湖里有星辰在游动。不是倒影，是真的星辰，像鱼一样在水里游。", "delay": 2500 },
+    { "content": "湖边坐着一个人。", "delay": 1500 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "\"这片湖，叫做忘忧湖。\"{{NPC_SLOT_5:name}}说，\"喝了湖水，就会忘记所有忧愁。\"", "delay": 2500 },
+    { "content": "你蹲下身，捧起一捧星光。它在你掌心轻轻跳动，像是活的。", "delay": 2500 }
+  ],
+  "choices": [
+    {
+      "text": "饮下湖水",
+      "target": "06_healing_spring",
+      "effects": { "mood": "释然" },
+      "condition": null
+    },
+    {
+      "text": "继续沿湖行走",
+      "target": "07_night_light",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
