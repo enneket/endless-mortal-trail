@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    { "id": "01_suspicion", "npcSlots": ["slot_1"], "itemSlots": [] },
+    { "id": "02_investigation", "npcSlots": ["slot_2"], "itemSlots": ["slot_a"] },
+    { "id": "03_secret_room", "npcSlots": ["slot_3"], "itemSlots": ["slot_b"] },
+    { "id": "04_underground", "npcSlots": ["slot_4"], "itemSlots": [] },
+    { "id": "05_trap", "npcSlots": ["slot_5"], "itemSlots": ["slot_c"] },
+    { "id": "06_revelation", "npcSlots": ["slot_6"], "itemSlots": [] },
+    { "id": "07_confrontation", "npcSlots": ["slot_7"], "itemSlots": ["slot_d"] },
+    { "id": "08_choice", "npcSlots": ["slot_8"], "itemSlots": [] },
+    { "id": "09_truth_revealed", "npcSlots": [], "itemSlots": [] },
+    { "id": "10a_expose", "npcSlots": [], "itemSlots": [] },
+    { "id": "10b_hide", "npcSlots": [], "itemSlots": [] },
+    { "id": "10c_destroy", "npcSlots": [], "itemSlots": [] }
+  ],
+  "npcSlots": {
+    "slot_1": { "candidates": ["rebel_monk", "scholar"] },
+    "slot_2": { "candidates": ["secret_keeper", "government_officer"] },
+    "slot_3": { "candidates": ["old_abbot", "treasure_hunter"] },
+    "slot_4": { "candidates": ["ghost", "rebel_monk"] },
+    "slot_5": { "candidates": ["treasure_hunter", "secret_keeper"] },
+    "slot_6": { "candidates": ["scholar", "government_officer"] },
+    "slot_7": { "candidates": ["old_abbot", "ghost"] },
+    "slot_8": { "candidates": ["truth_incarnation", "old_abbot"] }
+  },
+  "itemSlots": {
+    "slot_a": { "candidates": ["ancient_scroll", "secret_letter"] },
+    "slot_b": { "candidates": ["secret_key", "torch"] },
+    "slot_c": { "candidates": ["compass", "amulet"] },
+    "slot_d": { "candidates": ["secret_letter", "ancient_scroll"] }
+  }
+}

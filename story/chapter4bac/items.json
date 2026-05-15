@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "ancient_scroll",
+      "name": "古卷",
+      "description": "记载秘密的经卷，纸张泛黄，字迹模糊",
+      "effects": { "setFlag": "has_ancient_scroll" }
+    },
+    {
+      "id": "secret_key",
+      "name": "钥匙",
+      "description": "密室钥匙，铜制，齿痕复杂",
+      "effects": { "setFlag": "has_secret_key" }
+    },
+    {
+      "id": "torch",
+      "name": "火把",
+      "description": "照明工具，松脂浸透，可燃许久",
+      "effects": { "setFlag": "has_torch" }
+    },
+    {
+      "id": "compass",
+      "name": "罗盘",
+      "description": "指引方向，指针微微颤动，似有感应",
+      "effects": { "setFlag": "has_compass" }
+    },
+    {
+      "id": "amulet",
+      "name": "护身符",
+      "description": "辟邪之物，高僧开光，金线绣成",
+      "effects": { "setFlag": "has_amulet" }
+    },
+    {
+      "id": "secret_letter",
+      "name": "密信",
+      "description": "揭露真相的信，墨迹未干，似有人刻意留下",
+      "effects": { "setFlag": "has_secret_letter" }
+    }
+  ]
+}
