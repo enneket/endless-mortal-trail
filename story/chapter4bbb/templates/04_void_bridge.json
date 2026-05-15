@@ -1,0 +1,30 @@
+{
+  "id": "04_void_bridge",
+  "title": "虚空之桥",
+  "atmosphere": { "time": "深夜", "weather": "虚空", "mood": "悬空" },
+  "texts": [
+    { "content": "你走上了一座桥。", "delay": 0 },
+    { "content": "桥的两端消失在黑暗中，桥下是无尽的虚空。你往下看，什么都看不见。", "delay": 2500 },
+    { "content": "但你并不害怕。虚空让你感到一种奇异的平静。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_4:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_4:name}}。{{NPC_SLOT_4:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_4:reveal}}", "delay": 2000 },
+    { "content": "你站在桥的中央，感受着虚空的存在。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"虚空的另一边是什么？\"",
+      "target": "07_silence_hall",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想跳下去。\"",
+      "target": "05_night_temple",
+      "effects": { "mood": "释然" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

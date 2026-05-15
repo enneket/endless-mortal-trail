@@ -1,0 +1,30 @@
+{
+  "id": "06_dream_pool",
+  "title": "梦境之池",
+  "atmosphere": { "time": "深夜", "weather": "梦境", "mood": "迷幻" },
+  "texts": [
+    { "content": "你来到了一个池塘边。", "delay": 0 },
+    { "content": "池水是黑色的，却清澈见底。水面上映着星辰，又像是映着你自己的记忆。", "delay": 2500 },
+    { "content": "你往水中看去，看到了自己的倒影。但倒影中的你，正在微笑。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_6:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_6:name}}。{{NPC_SLOT_6:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_6:reveal}}", "delay": 2000 },
+    { "content": "你伸出手，触碰水面。涟漪荡开，倒影碎裂，又重新聚拢。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这池水里藏着什么？\"",
+      "target": "07_silence_hall",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想潜入水中。\"",
+      "target": "08_core",
+      "effects": { "mood": "勇敢" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

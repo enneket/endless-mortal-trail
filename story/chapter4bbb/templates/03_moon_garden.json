@@ -1,0 +1,30 @@
+{
+  "id": "03_moon_garden",
+  "title": "月之花园",
+  "atmosphere": { "time": "深夜", "weather": "月光", "mood": "清冷" },
+  "texts": [
+    { "content": "你走进了一座花园。", "delay": 0 },
+    { "content": "月光从某个地方照进来，将一切染成银白色。花朵在月光下摇曳，影子在地面上舞动。", "delay": 2500 },
+    { "content": "这里的花，你从未见过。它们的花瓣是半透明的，像是用月光雕刻而成。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_3:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_3:name}}。{{NPC_SLOT_3:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_3:reveal}}", "delay": 2000 },
+    { "content": "你蹲下身，仔细看着一朵花。它在黑暗中散发着微弱的光。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这些花为什么能在黑暗中发光？\"",
+      "target": "06_dream_pool",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想摘一朵花带走。\"",
+      "target": "04_void_bridge",
+      "effects": { "mood": "珍惜" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "02_dark_path",
+  "title": "暗影小径",
+  "atmosphere": { "time": "深夜", "weather": "暗影流动", "mood": "幽深" },
+  "texts": [
+    { "content": "你沿着一条暗影构成的小径前行。", "delay": 0 },
+    { "content": "脚下没有地面，却能稳稳地行走。四周没有墙壁，却感到被包围。", "delay": 2000 },
+    { "content": "暗影在你身边流动，像水，像风，又像呼吸。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_2:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_2:name}}。{{NPC_SLOT_2:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_2:reveal}}", "delay": 2000 },
+    { "content": "你继续前行，暗影在你脚下铺展开来。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这条小径通向哪里？\"",
+      "target": "04_void_bridge",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我想在这里停留一会儿。\"",
+      "target": "05_night_temple",
+      "effects": { "mood": "宁静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "05_night_temple",
+  "title": "夜之神殿",
+  "atmosphere": { "time": "深夜", "weather": "星辰", "mood": "神圣" },
+  "texts": [
+    { "content": "你走进了一座神殿。", "delay": 0 },
+    { "content": "神殿的穹顶是敞开的，星辰在头顶闪烁。墙壁上刻满了你看不懂的符号，散发着微弱的光。", "delay": 2500 },
+    { "content": "空气中弥漫着一种古老的气息。这里比黑暗更古老，比星辰更久远。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_5:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_5:name}}。{{NPC_SLOT_5:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_5:reveal}}", "delay": 2000 },
+    { "content": "你跪在神殿中央，感受着来自远古的宁静。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这座神殿供奉的是什么？\"",
+      "target": "08_core",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    },
+    {
+      "text": "\"我想在这里冥想。\"",
+      "target": "06_dream_pool",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

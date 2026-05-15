@@ -1,0 +1,31 @@
+{
+  "id": "01_shadow_gate",
+  "title": "暗影之门",
+  "atmosphere": { "time": "深夜", "weather": "无月", "mood": "肃穆" },
+  "texts": [
+    { "content": "你站在一道巨大的暗影之门前。", "delay": 0 },
+    { "content": "门由纯粹的黑暗构成，没有轮廓，没有边界。它只是存在着，像一个通往虚无的入口。", "delay": 2000 },
+    { "content": "你深吸一口气，迈步走了进去。", "delay": 2000 },
+    { "content": "黑暗包裹了你。不是那种令人恐惧的黑暗，而是一种温柔的、包容的黑暗。", "delay": 2500 },
+    { "content": "你感到自己正在下沉，又像是在漂浮。方向失去了意义。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_1:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_1:name}}。{{NPC_SLOT_1:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_1:reveal}}", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"这里就是暗影深处吗？\"",
+      "target": "02_dark_path",
+      "effects": { "mood": "敬畏" },
+      "condition": null
+    },
+    {
+      "text": "\"我不害怕黑暗。\"",
+      "target": "03_moon_garden",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "07_silence_hall",
+  "title": "寂静大厅",
+  "atmosphere": { "time": "深夜", "weather": "绝对寂静", "mood": "空灵" },
+  "texts": [
+    { "content": "你走进了一个大厅。", "delay": 0 },
+    { "content": "这里没有声音。不是安静，而是绝对的寂静。你的心跳声消失了，呼吸声消失了，连思绪都变得安静。", "delay": 2500 },
+    { "content": "寂静像一层柔软的毯子，包裹着你。你从未感到如此安宁。", "delay": 2000 },
+    { "content": "{{NPC_SLOT_7:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_7:name}}。{{NPC_SLOT_7:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_7:reveal}}", "delay": 2000 },
+    { "content": "你闭上眼睛，让自己完全沉浸在这寂静之中。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"寂静的尽头是什么？\"",
+      "target": "08_core",
+      "effects": { "wisdom": 1 },
+      "condition": null
+    },
+    {
+      "text": "\"我愿意永远留在这里。\"",
+      "target": "09_truth_revealed",
+      "effects": { "mood": "平静" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

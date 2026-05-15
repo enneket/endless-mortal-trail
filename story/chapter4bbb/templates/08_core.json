@@ -1,0 +1,24 @@
+{
+  "id": "08_core",
+  "title": "暗影核心",
+  "atmosphere": { "time": "深夜", "weather": "暗影涌动", "mood": "震撼" },
+  "texts": [
+    { "content": "你来到了暗影的最深处。", "delay": 0 },
+    { "content": "这里没有黑暗，也没有光明。这里只有存在本身。", "delay": 2000 },
+    { "content": "你感到自己正在溶解，又像是在凝聚。你的边界变得模糊，你与暗影融为一体。", "delay": 2500 },
+    { "content": "{{NPC_SLOT_8:greeting}}", "delay": 1500 },
+    { "content": "是{{NPC_SLOT_8:name}}。{{NPC_SLOT_8:identity}}。", "delay": 1000 },
+    { "content": "{{NPC_SLOT_8:reveal}}", "delay": 2000 },
+    { "content": "你忽然明白了。暗影的最深处，不是虚无，而是万物的起源。", "delay": 2000 }
+  ],
+  "choices": [
+    {
+      "text": "\"我想看清真相。\"",
+      "target": "09_truth_revealed",
+      "effects": { "wisdom": 2 },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}

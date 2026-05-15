@@ -1,0 +1,36 @@
+{
+  "id": "09_truth_revealed",
+  "title": "真相",
+  "atmosphere": { "time": "深夜", "weather": "一切归一", "mood": "清醒" },
+  "texts": [
+    { "content": "你终于看清了真相。", "delay": 0 },
+    { "content": "暗影不是黑暗。暗影是万物的另一面。没有暗影，就没有光明。没有寂静，就没有声音。", "delay": 2500 },
+    { "content": "你走了这么远的路，经历了这么多的事。从村庄到森林，从荒野到深渊。", "delay": 2000 },
+    { "content": "每一步，都是为了走到这里。", "delay": 1500 },
+    { "content": "在你面前，出现了三条路。", "delay": 2000 },
+    { "content": "一条路通向暗影本身，一条路通向虚空，一条路通向黑暗中的光明。", "delay": 2000 },
+    { "content": "你必须做出最后的选择。", "delay": 1500 }
+  ],
+  "choices": [
+    {
+      "text": "化为暗影",
+      "target": "10a_become_shadow",
+      "effects": { "mood": "融合" },
+      "condition": null
+    },
+    {
+      "text": "拥抱虚空",
+      "target": "10b_embrace_void",
+      "effects": { "mood": "超脱" },
+      "condition": null
+    },
+    {
+      "text": "在黑暗中寻找光明",
+      "target": "10c_find_light",
+      "effects": { "mood": "顿悟" },
+      "condition": null
+    }
+  ],
+  "onEnter": [],
+  "onExit": []
+}
