@@ -42,9 +42,11 @@ export class Renderer {
 
   /**
    * 点击事件：仅在等翻页时响应点击前进。
+   * 打字过程中忽略所有点击。
    */
-  handleClick() {
-    // 打字过程中的点击会被忽略，不会跳过
+  handleClick(e) {
+    // 打字过程中忽略所有点击
+    if (this.isTyping) return;
   }
 
   // ---------------------------------------------------------------------------
@@ -114,13 +116,14 @@ export class Renderer {
    */
   _waitClick() {
     return new Promise(resolve => {
-      // 设置标记，表示正在等待翻页
       this._waitingForClick = true;
+      this._clickResolver = resolve;
       const handler = (e) => {
         if (!this._waitingForClick) return;
         e.stopPropagation();
         e.preventDefault();
         this._waitingForClick = false;
+        this._clickResolver = null;
         this.storyEl.removeEventListener('click', handler);
         resolve();
       };
@@ -207,6 +210,7 @@ export class Renderer {
    */
   async transitionToScene() {
     this.isTransitioning = true;
+    this.isTyping = true; // 防止过渡期间点击干扰
     this._cancelWait();
     this.storyEl.style.opacity = '0';
     await this.wait(PAGE_FADE_MS);
@@ -214,6 +218,7 @@ export class Renderer {
     this.storyEl.innerHTML = '';
     this.storyEl.style.opacity = '1';
     this.isTransitioning = false;
+    this.isTyping = false; // 交给 typeText 重置
   }
 
   // ---------------------------------------------------------------------------
