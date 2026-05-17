@@ -198,6 +198,21 @@ html, body {
   50% { opacity: 0; }
 }
 
+/* 翻页提示 */
+.continue-hint {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  animation: bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
+
 .hidden {
   display: none !important;
 }

@@ -9,8 +9,7 @@
 const PUNCTUATION = new Set(['，', '。', '！', '？', '、', '；', '：']);
 const CHAR_DELAY = 30;
 const PUNCTUATION_DELAY = 60;
-const FADE_OUT_MS = 300;
-const FADE_IN_MS = 200;
+const PAGE_FADE_MS = 300;
 
 export class Renderer {
   constructor() {
@@ -65,7 +64,7 @@ export class Renderer {
   // ---------------------------------------------------------------------------
 
   /**
-   * 逐段展示文本数组。
+   * 逐页展示文本数组：每段打字机效果，完成后等点击翻页。
    * @param {string[]} texts - 段落数组
    */
   async typeText(texts) {
@@ -73,30 +72,16 @@ export class Renderer {
     this.skipRequested = false;
 
     for (let i = 0; i < texts.length; i++) {
-      if (this.skipRequested) {
-        // 跳过模式：直接显示从当前段落开始的所有剩余段落
-        for (let j = i; j < texts.length; j++) {
-          const p = document.createElement('p');
-          p.textContent = texts[j];
-          p.classList.add('visible');
-          this.storyEl.appendChild(p);
-        }
-        break;
-      }
-
-      await this.wait(80);
+      // 清空上一页
+      this.storyEl.innerHTML = '';
 
       const p = document.createElement('p');
+      p.classList.add('visible');
       this.storyEl.appendChild(p);
 
       if (this.skipRequested) {
+        // 跳过：直接显示剩余所有段落（合并到一页）
         p.textContent = texts[i];
-        p.classList.add('visible');
-      } else {
-        await this.typewriteParagraph(p, texts[i]);
-      }
-
-      if (this.skipRequested) {
         for (let j = i + 1; j < texts.length; j++) {
           const p2 = document.createElement('p');
           p2.textContent = texts[j];
@@ -105,10 +90,65 @@ export class Renderer {
         }
         break;
       }
+
+      await this.typewriteParagraph(p, texts[i]);
+
+      if (this.skipRequested) {
+        // 打字过程中点了跳过：显示剩余段落
+        for (let j = i + 1; j < texts.length; j++) {
+          const p2 = document.createElement('p');
+          p2.textContent = texts[j];
+          p2.classList.add('visible');
+          this.storyEl.appendChild(p2);
+        }
+        break;
+      }
+
+      // 最后一段不需要等点击
+      if (i < texts.length - 1) {
+        this._showContinueHint();
+        await this._waitClick();
+        this._hideContinueHint();
+      }
     }
 
     this.isTyping = false;
     this.skipRequested = false;
+  }
+
+  /**
+   * 显示翻页提示。
+   */
+  _showContinueHint() {
+    let hint = this.storyEl.querySelector('.continue-hint');
+    if (!hint) {
+      hint = document.createElement('span');
+      hint.className = 'continue-hint';
+      hint.textContent = '▼';
+      this.storyEl.appendChild(hint);
+    }
+  }
+
+  /**
+   * 隐藏翻页提示。
+   */
+  _hideContinueHint() {
+    const hint = this.storyEl.querySelector('.continue-hint');
+    if (hint) hint.remove();
+  }
+
+  /**
+   * 等待用户点击翻页。
+   */
+  _waitClick() {
+    return new Promise(resolve => {
+      const handler = (e) => {
+        e.stopPropagation();
+        this.storyEl.removeEventListener('click', handler);
+        resolve();
+      };
+      this.storyEl.addEventListener('click', handler);
+    });
   }
 
   /**
@@ -204,11 +244,10 @@ export class Renderer {
       this.currentTimeout = null;
     }
     this.storyEl.style.opacity = '0';
-    await this.wait(FADE_OUT_MS);
+    await this.wait(PAGE_FADE_MS);
 
     this.storyEl.innerHTML = '';
     this.storyEl.style.opacity = '1';
-    await this.wait(FADE_IN_MS);
   }
 
   // ---------------------------------------------------------------------------
