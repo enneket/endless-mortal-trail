@@ -26,8 +26,6 @@ export class Renderer {
     /** @type {boolean} */
     this.isTyping = false;
     /** @type {boolean} */
-    this.skipRequested = false;
-    /** @type {boolean} */
     this.isTransitioning = false;
     /** @type {boolean} */
     this._waitingForClick = false;
@@ -43,13 +41,10 @@ export class Renderer {
   // ---------------------------------------------------------------------------
 
   /**
-   * 点击跳过：如果正在打字或等待翻页时不响应。
-   * 仅在打字过程中且不在等待翻页时设置 skipRequested。
+   * 点击事件：仅在等翻页时响应点击前进。
    */
   handleClick() {
-    if (this.isTyping && !this._waitingForClick) {
-      this.skipRequested = true;
-    }
+    // 打字过程中的点击会被忽略，不会跳过
   }
 
   // ---------------------------------------------------------------------------
@@ -74,7 +69,6 @@ export class Renderer {
    */
   async typeText(texts) {
     this.isTyping = true;
-    this.skipRequested = false;
 
     for (let i = 0; i < texts.length; i++) {
       this.storyEl.innerHTML = '';
@@ -83,28 +77,7 @@ export class Renderer {
       p.classList.add('visible');
       this.storyEl.appendChild(p);
 
-      if (this.skipRequested) {
-        p.textContent = texts[i];
-        for (let j = i + 1; j < texts.length; j++) {
-          const p2 = document.createElement('p');
-          p2.textContent = texts[j];
-          p2.classList.add('visible');
-          this.storyEl.appendChild(p2);
-        }
-        break;
-      }
-
       await this.typewriteParagraph(p, texts[i]);
-
-      if (this.skipRequested) {
-        for (let j = i + 1; j < texts.length; j++) {
-          const p2 = document.createElement('p');
-          p2.textContent = texts[j];
-          p2.classList.add('visible');
-          this.storyEl.appendChild(p2);
-        }
-        break;
-      }
 
       // 每段打完都等点击
       this._showContinueHint();
@@ -113,7 +86,6 @@ export class Renderer {
     }
 
     this.isTyping = false;
-    this.skipRequested = false;
   }
 
   /**
@@ -167,22 +139,13 @@ export class Renderer {
     el.appendChild(cursor);
 
     for (let i = 0; i < text.length; i++) {
-      if (this.skipRequested) {
-        // 跳过：一次性显示剩余文字
-        el.textContent = text;
-        el.classList.add('visible');
-        return;
-      }
-
       const char = text[i];
-      // 在光标前插入字符
       el.insertBefore(document.createTextNode(char), cursor);
 
       const delay = PUNCTUATION.has(char) ? PUNCTUATION_DELAY : CHAR_DELAY;
       await this.wait(delay);
     }
 
-    // 打字完成，移除光标并显示段落
     cursor.remove();
     el.classList.add('visible');
   }
@@ -244,7 +207,6 @@ export class Renderer {
    */
   async transitionToScene() {
     this.isTransitioning = true;
-    this.skipRequested = true;
     this._cancelWait();
     this.storyEl.style.opacity = '0';
     await this.wait(PAGE_FADE_MS);
