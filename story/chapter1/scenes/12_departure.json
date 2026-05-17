@@ -39,7 +39,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter2:01_arrival",
+      "target": "chapter2a:01_town_gate",
       "effects": {
         "experience": 3
       },
