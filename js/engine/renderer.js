@@ -7,8 +7,8 @@
  */
 
 const PUNCTUATION = new Set(['，', '。', '！', '？', '、', '；', '：']);
-const CHAR_DELAY = 60;
-const PUNCTUATION_DELAY = 120;
+const CHAR_DELAY = 30;
+const PUNCTUATION_DELAY = 60;
 const FADE_OUT_MS = 300;
 const FADE_IN_MS = 200;
 
@@ -84,7 +84,7 @@ export class Renderer {
         break;
       }
 
-      await this.wait(200);
+      await this.wait(80);
 
       const p = document.createElement('p');
       this.storyEl.appendChild(p);
