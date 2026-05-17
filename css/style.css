@@ -31,12 +31,13 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
 }
 
 .screen {
   width: 100%;
   max-width: 680px;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +208,7 @@ html, body {
   }
 
   .screen {
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 3.5rem;
   }
 
   .game-title {
@@ -245,7 +246,7 @@ html, body {
   }
 
   .screen {
-    padding: 1rem;
+    padding: 1rem 1rem 3rem;
   }
 
   .game-title {
