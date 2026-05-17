@@ -29,6 +29,8 @@ export class Renderer {
     this.skipRequested = false;
     /** @type {boolean} */
     this.isTransitioning = false;
+    /** @type {boolean} */
+    this._waitingForClick = false;
     /** @type {number | null} */
     this._waitId = null;
 
@@ -41,10 +43,11 @@ export class Renderer {
   // ---------------------------------------------------------------------------
 
   /**
-   * 点击跳过：如果正在打字，请求跳过。
+   * 点击跳过：如果正在打字或等待翻页时不响应。
+   * 仅在打字过程中且不在等待翻页时设置 skipRequested。
    */
   handleClick() {
-    if (this.isTyping) {
+    if (this.isTyping && !this._waitingForClick) {
       this.skipRequested = true;
     }
   }
@@ -103,7 +106,7 @@ export class Renderer {
         break;
       }
 
-      // 每段打完都等点击，包括最后一段
+      // 每段打完都等点击
       this._showContinueHint();
       await this._waitClick();
       this._hideContinueHint();
@@ -139,8 +142,13 @@ export class Renderer {
    */
   _waitClick() {
     return new Promise(resolve => {
+      // 设置标记，表示正在等待翻页
+      this._waitingForClick = true;
       const handler = (e) => {
+        if (!this._waitingForClick) return;
         e.stopPropagation();
+        e.preventDefault();
+        this._waitingForClick = false;
         this.storyEl.removeEventListener('click', handler);
         resolve();
       };
