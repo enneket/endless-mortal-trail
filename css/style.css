@@ -99,6 +99,8 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  margin-top: 1rem;
+  transition: opacity 0.3s ease;
 }
 
 /* 选项按钮 */

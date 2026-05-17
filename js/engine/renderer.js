@@ -164,6 +164,7 @@ export class Renderer {
    */
   showChoices(choices, onChoose) {
     this.choicesEl.innerHTML = '';
+    this.choicesEl.style.opacity = '0';
 
     choices.forEach((choice, index) => {
       const btn = document.createElement('button');
@@ -175,6 +176,12 @@ export class Renderer {
       });
       this.choicesEl.appendChild(btn);
     });
+
+    // 等待一下再淡入选项，避免和翻页动画冲突
+    setTimeout(() => {
+      this.choicesEl.style.transition = 'opacity 0.3s ease';
+      this.choicesEl.style.opacity = '1';
+    }, 100);
   }
 
   /**
