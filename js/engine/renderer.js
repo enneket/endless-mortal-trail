@@ -120,12 +120,12 @@ export class Renderer {
    * 显示翻页提示。
    */
   _showContinueHint() {
-    let hint = this.storyEl.querySelector('.continue-hint');
-    if (!hint) {
-      hint = document.createElement('span');
+    const p = this.storyEl.querySelector('p.visible');
+    if (p) {
+      const hint = document.createElement('span');
       hint.className = 'continue-hint';
-      hint.textContent = '▼';
-      this.storyEl.appendChild(hint);
+      hint.textContent = ' ▼';
+      p.appendChild(hint);
     }
   }
 
