@@ -72,7 +72,6 @@ export class Renderer {
     this.skipRequested = false;
 
     for (let i = 0; i < texts.length; i++) {
-      // 清空上一页
       this.storyEl.innerHTML = '';
 
       const p = document.createElement('p');
@@ -80,7 +79,6 @@ export class Renderer {
       this.storyEl.appendChild(p);
 
       if (this.skipRequested) {
-        // 跳过：直接显示剩余所有段落（合并到一页）
         p.textContent = texts[i];
         for (let j = i + 1; j < texts.length; j++) {
           const p2 = document.createElement('p');
@@ -94,7 +92,6 @@ export class Renderer {
       await this.typewriteParagraph(p, texts[i]);
 
       if (this.skipRequested) {
-        // 打字过程中点了跳过：显示剩余段落
         for (let j = i + 1; j < texts.length; j++) {
           const p2 = document.createElement('p');
           p2.textContent = texts[j];
@@ -104,12 +101,10 @@ export class Renderer {
         break;
       }
 
-      // 最后一段不需要等点击
-      if (i < texts.length - 1) {
-        this._showContinueHint();
-        await this._waitClick();
-        this._hideContinueHint();
-      }
+      // 每段打完都等点击，包括最后一段
+      this._showContinueHint();
+      await this._waitClick();
+      this._hideContinueHint();
     }
 
     this.isTyping = false;

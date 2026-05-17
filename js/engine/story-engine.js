@@ -129,16 +129,10 @@ export class StoryEngine {
       this.renderer.setTitle(scene.title);
     }
 
-    // 打字机展示文本（逐段播放，段间插入自定义延迟）
+    // 打字机展示文本（每段打完等点击翻页）
     if (scene.texts && scene.texts.length > 0) {
-      for (let i = 0; i < scene.texts.length; i++) {
-        const entry = scene.texts[i];
-        // 段间自定义延迟（第一段前的延迟由 typeText 内部处理）
-        if (i > 0 && entry.delay) {
-          await this.renderer.wait(entry.delay);
-        }
-        await this.renderer.typeText([entry.content]);
-      }
+      const contents = scene.texts.map(e => e.content);
+      await this.renderer.typeText(contents);
     }
 
     // 过滤并显示选项
