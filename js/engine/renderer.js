@@ -27,8 +27,10 @@ export class Renderer {
     this.isTyping = false;
     /** @type {boolean} */
     this.skipRequested = false;
+    /** @type {boolean} */
+    this.isTransitioning = false;
     /** @type {number | null} */
-    this.currentTimeout = null;
+    this._waitId = null;
 
     this._handleClickBound = this.handleClick.bind(this);
     this.storyEl.addEventListener('click', this._handleClickBound);
@@ -233,16 +235,15 @@ export class Renderer {
    * 淡出故事区域，清空内容，再淡入。
    */
   async transitionToScene() {
+    this.isTransitioning = true;
     this.skipRequested = true;
-    if (this.currentTimeout !== null) {
-      clearTimeout(this.currentTimeout);
-      this.currentTimeout = null;
-    }
+    this._cancelWait();
     this.storyEl.style.opacity = '0';
     await this.wait(PAGE_FADE_MS);
 
     this.storyEl.innerHTML = '';
     this.storyEl.style.opacity = '1';
+    this.isTransitioning = false;
   }
 
   // ---------------------------------------------------------------------------
@@ -270,17 +271,30 @@ export class Renderer {
   // ---------------------------------------------------------------------------
 
   /**
-   * 等待指定毫秒。
+   * 等待指定毫秒。返回可用于取消的 Promise。
    * @param {number} ms
    * @returns {Promise<void>}
    */
   wait(ms) {
     return new Promise(resolve => {
-      this.currentTimeout = setTimeout(() => {
-        this.currentTimeout = null;
+      const id = setTimeout(() => {
+        if (this._waitId === id) {
+          this._waitId = null;
+        }
         resolve();
       }, ms);
+      this._waitId = id;
     });
+  }
+
+  /**
+   * 取消当前等待。
+   */
+  _cancelWait() {
+    if (this._waitId !== null) {
+      clearTimeout(this._waitId);
+      this._waitId = null;
+    }
   }
 
   // ---------------------------------------------------------------------------
@@ -292,9 +306,6 @@ export class Renderer {
    */
   destroy() {
     this.storyEl.removeEventListener('click', this._handleClickBound);
-    if (this.currentTimeout !== null) {
-      clearTimeout(this.currentTimeout);
-      this.currentTimeout = null;
-    }
+    this._cancelWait();
   }
 }
