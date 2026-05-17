@@ -1,19 +1,40 @@
 {
   "id": "10a_explore",
   "title": "探索",
-  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "坚定" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "坚定"
+  },
   "texts": [
-    { "content": "“这片密林还有太多未知。”你对自己说。", "delay": 0 },
-    { "content": "你决定继续深入，去寻找密林更深处的秘密。", "delay": 1500 },
-    { "content": "古树上的符号在阳光下闪闪发光，仿佛在为你指引方向。", "delay": 2000 },
-    { "content": "你不知道前方还有什么在等待着你，但你知道，答案就在那里。", "delay": 2000 },
-    { "content": "——第三章·深山密林·完——", "delay": 1500 }
+    {
+      "content": "“这片密林还有太多未知。”你对自己说。",
+      "delay": 0
+    },
+    {
+      "content": "你决定继续深入，去寻找密林更深处的秘密。",
+      "delay": 1500
+    },
+    {
+      "content": "古树上的符号在阳光下闪闪发光，仿佛在为你指引方向。",
+      "delay": 2000
+    },
+    {
+      "content": "你不知道前方还有什么在等待着你，但你知道，答案就在那里。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·深山密林·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4aca:01_new_chapter",
-      "effects": { "experience": 3 },
+      "target": "chapter4aca:01_cave_entrance",
+      "effects": {
+        "experience": 3
+      },
       "condition": null
     }
   ],

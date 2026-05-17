@@ -1,21 +1,48 @@
 {
   "id": "10a_follow_light",
   "title": "追光",
-  "atmosphere": { "time": "黎明", "weather": "晴朗", "mood": "希望" },
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "晴朗",
+    "mood": "希望"
+  },
   "texts": [
-    { "content": "你朝着那道光走去。", "delay": 0 },
-    { "content": "光越来越亮，越来越近。", "delay": 2000 },
-    { "content": "你感到温暖，感到安心。", "delay": 2000 },
-    { "content": "当你走进那道光的时候，荒野消失了。", "delay": 2000 },
-    { "content": "你站在一片新的土地上，阳光明媚，鸟语花香。", "delay": 2000 },
-    { "content": "你知道，你找到了出路。", "delay": 1500 },
-    { "content": "——第三章·迷途荒野·完——", "delay": 1500 }
+    {
+      "content": "你朝着那道光走去。",
+      "delay": 0
+    },
+    {
+      "content": "光越来越亮，越来越近。",
+      "delay": 2000
+    },
+    {
+      "content": "你感到温暖，感到安心。",
+      "delay": 2000
+    },
+    {
+      "content": "当你走进那道光的时候，荒野消失了。",
+      "delay": 2000
+    },
+    {
+      "content": "你站在一片新的土地上，阳光明媚，鸟语花香。",
+      "delay": 2000
+    },
+    {
+      "content": "你知道，你找到了出路。",
+      "delay": 1500
+    },
+    {
+      "content": "——第三章·迷途荒野·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4bba:01_new_chapter",
-      "effects": { "experience": 3 },
+      "target": "chapter4bba:01_light_gate",
+      "effects": {
+        "experience": 3
+      },
       "condition": null
     }
   ],

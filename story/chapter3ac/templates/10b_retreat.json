@@ -1,19 +1,40 @@
 {
   "id": "10b_retreat",
   "title": "归途",
-  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "释然" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "释然"
+  },
   "texts": [
-    { "content": "“也许，该回去了。”你轻声说。", "delay": 0 },
-    { "content": "你转身，沿着来时的路往回走。密林在你身后渐渐远去。", "delay": 1500 },
-    { "content": "阳光透过枝叶洒在你身上，温暖而柔和。", "delay": 2000 },
-    { "content": "你带着密林的记忆，重新踏上了旅途。", "delay": 2000 },
-    { "content": "——第三章·深山密林·完——", "delay": 1500 }
+    {
+      "content": "“也许，该回去了。”你轻声说。",
+      "delay": 0
+    },
+    {
+      "content": "你转身，沿着来时的路往回走。密林在你身后渐渐远去。",
+      "delay": 1500
+    },
+    {
+      "content": "阳光透过枝叶洒在你身上，温暖而柔和。",
+      "delay": 2000
+    },
+    {
+      "content": "你带着密林的记忆，重新踏上了旅途。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·深山密林·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4acb:01_new_chapter",
-      "effects": { "experience": 2 },
+      "target": "chapter4acb:01_forest_exit",
+      "effects": {
+        "experience": 2
+      },
       "condition": null
     }
   ],

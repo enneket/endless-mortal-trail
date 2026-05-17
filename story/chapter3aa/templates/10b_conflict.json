@@ -1,20 +1,44 @@
 {
   "id": "10b_conflict",
   "title": "冲突",
-  "atmosphere": { "time": "黎明", "weather": "阴沉", "mood": "紧张" },
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "阴沉",
+    "mood": "紧张"
+  },
   "texts": [
-    { "content": "\"我不能替你们保守秘密。\"你说。", "delay": 0 },
-    { "content": "村长的脸色变了。村民们围了上来。", "delay": 1500 },
-    { "content": "\"你不能走。\"有人说。", "delay": 2000 },
-    { "content": "\"让他走吧。\"村长叹了口气。\"强留的瓜不甜。\"", "delay": 2000 },
-    { "content": "你被送出了村子。身后的路，很快就被杂草淹没了。", "delay": 2000 },
-    { "content": "——第三章·山中村落·完——", "delay": 1500 }
+    {
+      "content": "\"我不能替你们保守秘密。\"你说。",
+      "delay": 0
+    },
+    {
+      "content": "村长的脸色变了。村民们围了上来。",
+      "delay": 1500
+    },
+    {
+      "content": "\"你不能走。\"有人说。",
+      "delay": 2000
+    },
+    {
+      "content": "\"让他走吧。\"村长叹了口气。\"强留的瓜不甜。\"",
+      "delay": 2000
+    },
+    {
+      "content": "你被送出了村子。身后的路，很快就被杂草淹没了。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·山中村落·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4aab:01_new_chapter",
-      "effects": { "experience": 2 },
+      "target": "chapter4aab:01_threat",
+      "effects": {
+        "experience": 2
+      },
       "condition": null
     }
   ],

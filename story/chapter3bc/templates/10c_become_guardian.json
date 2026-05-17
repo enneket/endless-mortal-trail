@@ -35,7 +35,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4bcc:01_new_chapter",
+      "target": "chapter4bcc:01_guardian_duty",
       "effects": {
         "experience": 3
       },

@@ -1,19 +1,40 @@
 {
   "id": "10c_return",
   "title": "归途",
-  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "释然" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "释然"
+  },
   "texts": [
-    { "content": "“也许，回去才是对的。”你转身，看向来时的路。", "delay": 0 },
-    { "content": "你沿着原路返回。这一次，路上的风景变得不同了。", "delay": 1500 },
-    { "content": "你注意到很多来时忽略的细节：路边的野花、石缝中的溪水、远处的山峦。", "delay": 2000 },
-    { "content": "也许答案从来不在远方，而在回去的路上。", "delay": 2000 },
-    { "content": "——第三章·山间古道·完——", "delay": 1500 }
+    {
+      "content": "“也许，回去才是对的。”你转身，看向来时的路。",
+      "delay": 0
+    },
+    {
+      "content": "你沿着原路返回。这一次，路上的风景变得不同了。",
+      "delay": 1500
+    },
+    {
+      "content": "你注意到很多来时忽略的细节：路边的野花、石缝中的溪水、远处的山峦。",
+      "delay": 2000
+    },
+    {
+      "content": "也许答案从来不在远方，而在回去的路上。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·山间古道·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4abc:01_new_chapter",
-      "effects": { "experience": 1 },
+      "target": "chapter4abc:01_return_gate",
+      "effects": {
+        "experience": 1
+      },
       "condition": null
     }
   ],

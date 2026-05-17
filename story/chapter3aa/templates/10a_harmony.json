@@ -1,20 +1,44 @@
 {
   "id": "10a_harmony",
   "title": "共守",
-  "atmosphere": { "time": "黎明", "weather": "晴朗", "mood": "温暖" },
+  "atmosphere": {
+    "time": "黎明",
+    "weather": "晴朗",
+    "mood": "温暖"
+  },
   "texts": [
-    { "content": "\"我留下。\"你说。", "delay": 0 },
-    { "content": "村长看着你，眼里闪过一丝欣慰。", "delay": 1500 },
-    { "content": "\"好。\"他说，\"从今天起，你就是这村子里的人了。\"", "delay": 2000 },
-    { "content": "你决定留下来，和村民们一起守护这个隐秘的村落。", "delay": 2000 },
-    { "content": "也许你再也回不去了。但你知道，这是对的。", "delay": 2000 },
-    { "content": "——第三章·山中村落·完——", "delay": 1500 }
+    {
+      "content": "\"我留下。\"你说。",
+      "delay": 0
+    },
+    {
+      "content": "村长看着你，眼里闪过一丝欣慰。",
+      "delay": 1500
+    },
+    {
+      "content": "\"好。\"他说，\"从今天起，你就是这村子里的人了。\"",
+      "delay": 2000
+    },
+    {
+      "content": "你决定留下来，和村民们一起守护这个隐秘的村落。",
+      "delay": 2000
+    },
+    {
+      "content": "也许你再也回不去了。但你知道，这是对的。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·山中村落·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4aaa:01_new_chapter",
-      "effects": { "experience": 3 },
+      "target": "chapter4aaa:01_new_village",
+      "effects": {
+        "experience": 3
+      },
       "condition": null
     }
   ],

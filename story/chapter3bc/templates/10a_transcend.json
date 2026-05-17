@@ -35,7 +35,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4bca:01_new_chapter",
+      "target": "chapter4bca:01_heaven_gate",
       "effects": {
         "experience": 3
       },

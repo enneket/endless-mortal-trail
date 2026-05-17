@@ -1,19 +1,40 @@
 {
   "id": "10c_settle",
   "title": "守护",
-  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "安宁" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "薄雾",
+    "mood": "安宁"
+  },
   "texts": [
-    { "content": "“我累了。”你说，“这里挺好。”", "delay": 0 },
-    { "content": "你决定留在密林中，成为这片土地的守护者。", "delay": 1500 },
-    { "content": "你在古树旁搭起了简陋的住所，每天听风吹过树叶的声音。", "delay": 2000 },
-    { "content": "偶尔会有迷路的旅人经过，你会给他们指路，给他们水喝。", "delay": 2000 },
-    { "content": "——第三章·深山密林·完——", "delay": 1500 }
+    {
+      "content": "“我累了。”你说，“这里挺好。”",
+      "delay": 0
+    },
+    {
+      "content": "你决定留在密林中，成为这片土地的守护者。",
+      "delay": 1500
+    },
+    {
+      "content": "你在古树旁搭起了简陋的住所，每天听风吹过树叶的声音。",
+      "delay": 2000
+    },
+    {
+      "content": "偶尔会有迷路的旅人经过，你会给他们指路，给他们水喝。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·深山密林·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4acc:01_new_chapter",
-      "effects": { "experience": 1 },
+      "target": "chapter4acc:01_cabin",
+      "effects": {
+        "experience": 1
+      },
       "condition": null
     }
   ],

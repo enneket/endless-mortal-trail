@@ -35,7 +35,7 @@
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4bcb:01_new_chapter",
+      "target": "chapter4bcb:01_mortal_world",
       "effects": {
         "experience": 3
       },

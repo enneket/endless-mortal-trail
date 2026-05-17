@@ -1,20 +1,44 @@
 {
   "id": "10c_leave",
   "title": "离去",
-  "atmosphere": { "time": "清晨", "weather": "薄雾", "mood": "淡然" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "薄雾",
+    "mood": "淡然"
+  },
   "texts": [
-    { "content": "\"我什么都没看到。\"你说。\"我要走了。\"", "delay": 0 },
-    { "content": "村长看着你，点了点头。", "delay": 1500 },
-    { "content": "\"也好。\"他说，\"有些事，不知道比知道好。\"", "delay": 2000 },
-    { "content": "你转身离开了村子。身后的炊烟渐渐消散在雾中。", "delay": 2000 },
-    { "content": "你再也没有找到过那条路。", "delay": 2000 },
-    { "content": "——第三章·山中村落·完——", "delay": 1500 }
+    {
+      "content": "\"我什么都没看到。\"你说。\"我要走了。\"",
+      "delay": 0
+    },
+    {
+      "content": "村长看着你，点了点头。",
+      "delay": 1500
+    },
+    {
+      "content": "\"也好。\"他说，\"有些事，不知道比知道好。\"",
+      "delay": 2000
+    },
+    {
+      "content": "你转身离开了村子。身后的炊烟渐渐消散在雾中。",
+      "delay": 2000
+    },
+    {
+      "content": "你再也没有找到过那条路。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·山中村落·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4aac:01_new_chapter",
-      "effects": { "experience": 1 },
+      "target": "chapter4aac:01_departure",
+      "effects": {
+        "experience": 1
+      },
       "condition": null
     }
   ],

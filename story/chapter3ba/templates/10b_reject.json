@@ -1,20 +1,44 @@
 {
   "id": "10b_reject",
   "title": "离开",
-  "atmosphere": { "time": "清晨", "weather": "阴沉", "mood": "惆怅" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "阴沉",
+    "mood": "惆怅"
+  },
   "texts": [
-    { "content": "“我不能留在这里。”你说。", "delay": 0 },
-    { "content": "老方丈叹了口气，点了点头。", "delay": 1500 },
-    { "content": "“也好。”他说，“佛度有缘人，强求不得。”", "delay": 2000 },
-    { "content": "你转身离开了古寺。身后的钟声渐渐消散在山雾中。", "delay": 2000 },
-    { "content": "你再也没有找到过那条山路。", "delay": 2000 },
-    { "content": "——第三章·山间古刹·完——", "delay": 1500 }
+    {
+      "content": "“我不能留在这里。”你说。",
+      "delay": 0
+    },
+    {
+      "content": "老方丈叹了口气，点了点头。",
+      "delay": 1500
+    },
+    {
+      "content": "“也好。”他说，“佛度有缘人，强求不得。”",
+      "delay": 2000
+    },
+    {
+      "content": "你转身离开了古寺。身后的钟声渐渐消散在山雾中。",
+      "delay": 2000
+    },
+    {
+      "content": "你再也没有找到过那条山路。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·山间古刹·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4bab:01_new_chapter",
-      "effects": { "experience": 1 },
+      "target": "chapter4bab:01_mountain_road",
+      "effects": {
+        "experience": 1
+      },
       "condition": null
     }
   ],

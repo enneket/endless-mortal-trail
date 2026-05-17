@@ -1,19 +1,40 @@
 {
   "id": "10a_continue",
   "title": "前行",
-  "atmosphere": { "time": "清晨", "weather": "晴朗", "mood": "坚定" },
+  "atmosphere": {
+    "time": "清晨",
+    "weather": "晴朗",
+    "mood": "坚定"
+  },
   "texts": [
-    { "content": "“我要继续走下去。”你对自己说。", "delay": 0 },
-    { "content": "你选择了最远的那条路，头也不回地向前走去。", "delay": 1500 },
-    { "content": "晨光洒在路上，照亮了前方的未知。", "delay": 2000 },
-    { "content": "你不知道这条路会通向哪里，但你知道，停下来不是答案。", "delay": 2000 },
-    { "content": "——第三章·山间古道·完——", "delay": 1500 }
+    {
+      "content": "“我要继续走下去。”你对自己说。",
+      "delay": 0
+    },
+    {
+      "content": "你选择了最远的那条路，头也不回地向前走去。",
+      "delay": 1500
+    },
+    {
+      "content": "晨光洒在路上，照亮了前方的未知。",
+      "delay": 2000
+    },
+    {
+      "content": "你不知道这条路会通向哪里，但你知道，停下来不是答案。",
+      "delay": 2000
+    },
+    {
+      "content": "——第三章·山间古道·完——",
+      "delay": 1500
+    }
   ],
   "choices": [
     {
       "text": "继续旅途（待续）",
-      "target": "chapter4aba:01_new_chapter",
-      "effects": { "experience": 3 },
+      "target": "chapter4aba:01_unknown_road",
+      "effects": {
+        "experience": 3
+      },
       "condition": null
     }
   ],
